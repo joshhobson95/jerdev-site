@@ -44,7 +44,7 @@ function NavBarDesktop() {
           <NavLink to='/brands'>
             <li className="navbar__dropdownItem">Brands we Carry</li>
           </NavLink>
-            <NavLink to='/plants'>
+            <NavLink to='/thingswecarry'>
             <li className="navbar__dropdownItem">Things we Carry</li>
             </NavLink>
             <NavLink to='/delivery'>

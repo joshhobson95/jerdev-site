@@ -34,16 +34,6 @@ import NewGallery2Img from './components/AdminPortal/HomeGallery2/NewGallery2Img
 import DeleteGallery2Img from './components/AdminPortal/HomeGallery2/DeleteGallery2Img';
 import PreviewPost from './components/AdminPortal/BlogPosts/PreviewPost/PreviewPost';
 import SinglePreviewEdit from './components/AdminPortal/BlogPosts/PreviewPost/SinglePreviewEdit';
-import TypesofPlants from './components/TypesofPlants/TypesofPlants';
-import Bedding from './components/TypesofPlants/subpages/Bedding';
-import Annuals from './components/TypesofPlants/subpages/Annuals';
-import Perennials from './components/TypesofPlants/subpages/Perennials';
-import Roses from './components/TypesofPlants/subpages/Roses';
-import Trees from './components/TypesofPlants/subpages/Trees';
-import Landscaping from './components/TypesofPlants/subpages/Landscaping';
-import Pots from './components/TypesofPlants/subpages/Pots';
-import Art from './components/TypesofPlants/subpages/Art';
-import Fountains from './components/TypesofPlants/subpages/Fountains';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
 import Videos from './components/Videos/Videos'
@@ -55,7 +45,14 @@ import FAQ from './components/Warranty/FAQ';
 import NewPromotionsPost from './components/AdminPortal/PromotionsPosts/NewPromotionsPost/NewPromotionsPost';
 import Promotions from './components/Promotions/Promotions';
 import EditPromotionsPost from './components/AdminPortal/PromotionsPosts/EditPromotionsPost/EditPromotionsPost';
-
+import ThingsweCarry from './components/ThingsweCarry/ThingsweCarry';
+import Annuals from './components/ThingsweCarry/SubPages/Annuals/Annuals';
+import Perennials from './components/ThingsweCarry/SubPages/Perennials/Perennials';
+import Roses from './components/ThingsweCarry/SubPages/Roses/Roses';
+import Trees from './components/ThingsweCarry/SubPages/Trees/Trees';
+import Shrubs from './components/ThingsweCarry/SubPages/Shrubs/Shrubs';
+import Xeric from './components/ThingsweCarry/SubPages/Xeric/Xeric';
+import Hardgoods from './components/ThingsweCarry/SubPages/Hardgoods/Hardgoods';
 import './App.css';
 
 function App() {
@@ -83,17 +80,15 @@ function App() {
        <Route path='/clubs' element={<Clubs />}/>
        <Route path='/contact' element={<ContactUs />}/>
        <Route path='/brands' element={<Brands />}/>
-       <Route path='/plants' element={<TypesofPlants />}/>
-       <Route path='/bedding' element={<Bedding />}/>
-       <Route path='/annuals' element={<Annuals />}/>
-       <Route path='/perennials' element={<Perennials />}/>
-       <Route path='/roses' element={<Roses />}/>
-       <Route path='/trees' element={<Trees />}/>
-       <Route path='/landscaping' element={<Landscaping />}/>
-       <Route path='/pots' element={<Pots />}/>
-       <Route path='/gardenart' element={<Art />}/>
-       <Route path='/fountains' element={<Fountains/>}/>
-       <Route path='/employment' element={<WhyWorkHere />}/>
+        <Route path='/thingswecarry' element={<ThingsweCarry />}/>
+          <Route path='/annuals' element={<Annuals />}/>
+          <Route path='/perennials' element={<Perennials />}/>
+          <Route path='/roses' element={<Roses />}/>
+          <Route path='/trees' element={<Trees />}/>
+          <Route path='/shrubs' element={<Shrubs />}/>
+          <Route path='/xeric' element={<Xeric />}/>
+          <Route path='/hardgoods' element={<Hardgoods />}/>
+        <Route path='/employment' element={<WhyWorkHere />}/>
        <Route path='/videos' element={<Videos />}/>
        <Route path='/promotions' element={<Promotions/>}/>
        <Route path='/instagram' element={<Instagram />}/>
