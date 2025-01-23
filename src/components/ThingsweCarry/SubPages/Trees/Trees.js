@@ -307,28 +307,28 @@ return (
                 <h3>More Great Shade Trees</h3>       
                 <div>
                   <h4>Chinese Pistache</h4> 
-                  <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ChinesePistache.png' alt='Chinese Pistche Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ChinesePistache.png' alt='Chinese Pistche Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                   
                 </div>
                 <div>
                   <h4>Orange Sage</h4>
-                  <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/OrangeSage.png' alt='Orange Sage Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/OrangeSage.png' alt='Orange Sage Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
                 <div>
                   <h4>Golden Rain Tree</h4>
-                  <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/GoldenRainTree.png' alt='Golden Rain Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/GoldenRainTree.png' alt='Golden Rain Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
                 <div>
                   <h4>Bird of Paradise</h4>
-                  <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/BirdofParadise.png' alt='Mexican Bird of Paradise Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/BirdofParadise.png' alt='Mexican Bird of Paradise Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
                 <div>
                   <h4>Texas Redbud</h4>
-                  <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/redbud.jpg' alt='Texas Redbud Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/redbud.jpg' alt='Texas Redbud Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
                 <div>
                   <h4>Tree of Heaven</h4>
-                  <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Tree%20of%20Heaven.png' alt='Tree of Heaven in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Tree%20of%20Heaven.png' alt='Tree of Heaven in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
               </div>
 
@@ -338,7 +338,6 @@ return (
 
 <div className='fruit_trees_container'>
 <h2>New Mexico Fruit Trees</h2>
-
       <div>
         <h3>Ornamental Fruit Trees</h3>
         <p>Many fruit trees have been bred to be ornamental, reducing or eliminating fruit production to avoid the mess and inconvenience of fallen fruit. These ornamental varieties still maintain their beautiful spring blooms, preserving the aesthetic appeal of their fruit-bearing counterparts. Trees like the Bradford Pear have been selectively cultivated to produce small, insignificant fruit, achieving the same goal of minimizing unwanted fruit production. 
@@ -356,11 +355,11 @@ return (
   <img 
     className='o_tree_pic' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/floweringpear2.jpg' alt='Ornamental Pear at Jericho Nursery in Albuquerque, New Mexico' />
   <div className={`tree_exerb ${isOpearVisible ? 'visible2' : 'hidden2'}`}>
-    <h4>Bradford Pear</h4>
+    <h5>Bradford Pear</h5>
     <p>The Bradford Pear features abundant white blossoms in spring and brilliant red-orange foliage in fall, making it a standout ornamental tree.</p>
-    <h4>Chanticleer Pear</h4>
+    <h5>Chanticleer Pear</h5>
     <p>Chanticleer Pear is a compact, upright tree with glossy green leaves, snowy spring blooms, and stunning late-season leaf colors.</p>
-    <h4>Cleveland Select Pear</h4>
+    <h5>Cleveland Select Pear</h5>
     <p>The Cleveland Select Pear offers a symmetrical shape, dazzling spring flowers, and vibrant purple-red foliage in autumn.</p>
   </div>
 </div>
@@ -375,11 +374,11 @@ return (
     alt='Crabapple at Jericho Nursery in Albuquerque, New Mexico' 
   />
   <div className={`tree_exerb ${isCrabappleVisible ? 'visible2' : 'hidden2'}`}>
-    <h4>Prairie Fire Crabapple</h4>
+    <h5>Prairie Fire Crabapple</h5>
     <p>Known for its striking deep pink blossoms in spring, the Prairie Fire crabapple offers a stunning display of color. Glossy red fruits persist into winter, while its foliage shifts from bronze-green in summer to rich red in fall, ensuring visual interest year-round.</p>
-    <h4>Sugar Tyme Crabapple</h4>
+    <h5>Sugar Tyme Crabapple</h5>
     <p>With fragrant white flowers in spring and bright red fruits that linger into winter, the Sugar Tyme crabapple is both beautiful and versatile. Its disease-resistant foliage remains lush and green throughout summer, making it a low-maintenance favorite for any garden.</p>
-    <h4>Centurion Crabapple</h4>
+    <h5>Centurion Crabapple</h5>
     <p>Featuring vibrant rosy-red blooms in spring, the Centurion crabapple adds charm with its upright shape and long-lasting red fruits. Its glossy green leaves and exceptional heat tolerance make it a perfect addition to warmer landscapes.</p>
   </div>
 </div>
@@ -397,11 +396,11 @@ return (
   />
 
   <div className={`tree_exerb ${isOcherryVisible ? 'visible2' : 'hidden2'}`}>
-    <h4>Kwanzan Cherry</h4>
+    <h5>Kwanzan Cherry</h5>
     <p>The Kwanzan cherry dazzles with its double pink blossoms in spring, forming an elegant canopy of color. Rich golden-orange fall foliage adds warmth to the landscape before the tree enters dormancy.</p>
-    <h4>Autumn Flowering Cherry</h4>
+    <h5>Autumn Flowering Cherry</h5>
     <p>This ornamental cherry blooms twice a year, showcasing delicate pale pink flowers in both spring and fall. Its compact form and graceful branching make it an excellent choice for adding beauty to smaller gardens.</p>
-    <h4>Okame Cherry</h4>
+    <h5>Okame Cherry</h5>
     <p>Bright pink blossoms emerge early in spring on the Okame cherry, creating a bold contrast against its dark bark. This compact, heat-tolerant tree is as resilient as it is ornamental, with a rounded form perfect for gardens of any size.</p>
   </div>
 </div>
@@ -419,11 +418,11 @@ return (
   />
 
   <div className={`tree_exerb ${isSandCherryVisible ? 'visible2' : 'hidden2'}`}>
-    <h4>Purpleleaf Sand Cherry</h4>
+    <h5>Purpleleaf Sand Cherry</h5>
     <p>Renowned for its deep purple foliage, the Purpleleaf Sand Cherry produces soft pink flowers in spring that create a striking contrast. This drought-tolerant tree maintains its vibrant color through summer, adding dramatic interest to any landscape.</p>
-    <h4>Cistena Sand Cherry</h4>
+    <h5>Cistena Sand Cherry</h5>
     <p>The Cistena Sand Cherry features rich reddish-purple leaves and small, fragrant pink flowers in spring. Its compact size and drought tolerance make it an ideal choice for warm, sunny spaces.</p>
-    <h4>Western Sand Cherry</h4>
+    <h5>Western Sand Cherry</h5>
     <p>Delicate white flowers cover the Western Sand Cherry in spring, followed by edible dark purple fruits in summer. Its hardy nature and unique foliage make it a standout ornamental tree or shrub.</p>
   </div>
 </div>
@@ -441,11 +440,11 @@ return (
   />
 
   <div className={`tree_exerb ${isDogwoodVisible ? 'visible2' : 'hidden2'}`}>
-    <h4>Kousa Dogwood</h4>
+    <h5>Kousa Dogwood</h5>
     <p>The Kousa dogwood offers creamy white blooms in late spring and bright red berries in summer, adding texture and color to the garden. Its layered branching and mottled bark provide year-round interest.</p>
-    <h4>Cherokee Brave Dogwood</h4>
+    <h5>Cherokee Brave Dogwood</h5>
     <p>Reddish-pink flowers with a soft white center brighten the Cherokee Brave dogwood in spring, while its glossy green leaves turn burgundy in fall. It’s both a stunning and resilient addition to the landscape.</p>
-    <h4>Pagoda Dogwood</h4>
+    <h5>Pagoda Dogwood</h5>
     <p>Graceful, tiered branches give the Pagoda dogwood its name, with creamy white flowers in spring and blue-black berries in summer. Its distinctive shape and vibrant foliage make it a true focal point.</p>
   </div>
 </div>
@@ -463,11 +462,11 @@ return (
   />
 
   <div className={`tree_exerb ${isOplumVisible ? 'visible2' : 'hidden2'}`}>
-    <h4>Thundercloud Plum</h4>
+    <h5>Thundercloud Plum</h5>
     <p>Deep purple foliage and pale pink flowers define the Thundercloud plum, creating a dramatic contrast in the landscape. This fast-growing ornamental tree thrives in sunny locations, adding bold color throughout the seasons.</p>
-    <h4>Newport Plum</h4>
+    <h5>Newport Plum</h5>
     <p>With light pink blossoms in spring and rich purple leaves through summer, the Newport plum is both elegant and hardy. Its compact size and striking appearance make it ideal for smaller gardens.</p>
-    <h4>Crimson Pointe Plum</h4>
+    <h5>Crimson Pointe Plum</h5>
     <p>The Crimson Pointe plum grows in a narrow, columnar shape, perfect for vertical accents. Pale pink flowers in spring and dark purple foliage create a unique and sophisticated aesthetic.</p>
   </div>
 </div>
@@ -487,11 +486,11 @@ return (
              src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/peach.jpg' 
              alt='Peach Trees at Jericho Nursery in Albuquerque, New Mexico'/>
         <div className={`tree_exerb ${isPeachVisible ? 'visible2' : 'hidden2'}`}>
-          <h4>Redhaven</h4>
+          <h5>Redhaven</h5>
           <p>Redhaven peaches are known for their firm, sweet fruit and bright yellow skin with a red blush. It’s a great variety for canning, freezing, and fresh eating.</p>
-          <h4>Elberta</h4>
+          <h5>Elberta</h5>
           <p>Elberta peaches are large and flavorful, with a classic sweet-tart taste and a yellow color with a red blush. They are excellent for pies, jams, and fresh eating.</p>
-          <h4>Contender</h4>
+          <h5>Contender</h5>
           <p>Contender peaches are hardy and produce juicy, sweet fruit with a slight tartness, perfect for fresh consumption or canning. They thrive in colder climates.</p>
         </div>
       </div>
@@ -502,11 +501,11 @@ return (
              src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cherry.jpg' 
              alt='Cherry Trees at Jericho Nursery in Albuquerque, New Mexico'/>
         <div className={`tree_exerb ${isCherryVisible ? 'visible2' : 'hidden2'}`}>
-          <h4>Bing</h4>
+          <h5>Bing</h5>
           <p>Bing cherries are sweet, dark red cherries with a firm texture, perfect for fresh eating, desserts, and preserving.</p>
-          <h4>Rainier</h4>
+          <h5>Rainier</h5>
           <p>Rainier cherries are yellow with a red blush and have a sweet, mild flavor. They are ideal for fresh eating and making jams.</p>
-          <h4>Montmorency</h4>
+          <h5>Montmorency</h5>
           <p>Montmorency cherries are tart and perfect for pies, jams, and baking. Their bright red color makes them a standout in desserts.</p>
         </div>
       </div>
@@ -517,11 +516,11 @@ return (
              src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/plum.jpg' 
              alt='Plum Trees at Jericho Nursery in Albuquerque, New Mexico'/>
         <div className={`tree_exerb ${isPlumVisible ? 'visible2' : 'hidden2'}`}>
-          <h4>Santa Rosa</h4>
+          <h5>Santa Rosa</h5>
           <p>Santa Rosa plums are sweet with a slightly tart edge, producing large, juicy fruit. They are perfect for fresh eating and making preserves.</p>
-          <h4>Methley</h4>
+          <h5>Methley</h5>
           <p>Methley plums are early-season, producing sweet, round fruit with a reddish skin and firm texture.</p>
-          <h4>Stanley</h4>
+          <h5>Stanley</h5>
           <p>Stanley plums are purple, oval-shaped, and sweet, often used for prunes or fresh consumption.</p>
         </div>
       </div>
@@ -532,11 +531,11 @@ return (
              src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/apple.jpg' 
              alt='Apple Trees at Jericho Nursery in Albuquerque, New Mexico'/>
         <div className={`tree_exerb ${isAppleVisible ? 'visible2' : 'hidden2'}`}>
-          <h4>Fuji</h4>
+          <h5>Fuji</h5>
           <p>Fuji apples are large, crisp, and sweet with a slightly floral flavor. They are excellent for eating fresh and in salads.</p>
-          <h4>Honeycrisp</h4>
+          <h5>Honeycrisp</h5>
           <p>Honeycrisp apples are known for their sweet and juicy flavor, making them a favorite for fresh eating and baking.</p>
-          <h4>Granny Smith</h4>
+          <h5>Granny Smith</h5>
           <p>Granny Smith apples are tart and firm, making them ideal for baking, pies, and cooking.</p>
         </div>
       </div>
@@ -547,11 +546,11 @@ return (
              src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/pear.jpg' 
              alt='Pear Trees at Jericho Nursery in Albuquerque, New Mexico'/>
         <div className={`tree_exerb ${isPearVisible ? 'visible2' : 'hidden2'}`}>
-          <h4>Bartlett</h4>
+          <h5>Bartlett</h5>
           <p>Bartlett pears are known for their sweet, juicy texture and are a classic variety for fresh eating, canning, and making jams.</p>
-          <h4>D'Anjou</h4>
+          <h5>D'Anjou</h5>
           <p>D'Anjou pears are sweet and firm, perfect for eating fresh, or used in baking and salads.</p>
-          <h4>Kieffer</h4>
+          <h5>Kieffer</h5>
           <p>Kieffer pears have a crisp texture and are excellent for canning, preserving, and making pear butter.</p>
         </div>
       </div>
@@ -562,9 +561,9 @@ return (
              src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fig.jpg' 
              alt='Fig Trees at Jericho Nursery in Albuquerque, New Mexico'/>
         <div className={`tree_exerb ${isFigVisible ? 'visible2' : 'hidden2'}`}>
-          <h4>Brown Turkey</h4>
+          <h5>Brown Turkey</h5>
           <p>Brown Turkey figs produce large, sweet fruit with a brownish-purple skin, excellent for fresh eating or drying.</p>
-          <h4>Celeste</h4>
+          <h5>Celeste</h5>
           <p>Celeste figs are small and sweet, known for their rich, deep flavor and ideal for preserving or drying.</p>
         </div>
       </div>
@@ -575,9 +574,9 @@ return (
              src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/pom.jpg' 
              alt='Pomegranates at Jericho Nursery in Albuquerque, New Mexico'/>
         <div className={`tree_exerb ${isPomVisible ? 'visible2' : 'hidden2'}`}>
-          <h4>Wonderful</h4>
+          <h5>Wonderful</h5>
           <p>Wonderful pomegranates are large, with deep red fruit and sweet-tart seeds, perfect for juicing or eating fresh.</p>
-          <h4>Russian 26</h4>
+          <h5>Russian 26</h5>
           <p>Russian 26 pomegranates are hardy, producing smaller but flavorful fruit ideal for colder climates.</p>
         </div>
       </div>
@@ -588,44 +587,43 @@ return (
              src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/nectarine.jpg' 
              alt='Nectarine Trees at Jericho Nursery in Albuquerque, New Mexico'/>
         <div className={`tree_exerb ${isNectarineVisible ? 'visible2' : 'hidden2'}`}>
-          <h4>Fantasia</h4>
+          <h5>Fantasia</h5>
           <p>Fantasia nectarines are large, sweet, and perfect for fresh eating or making preserves.</p>
-          <h4>Arctic Star</h4>
+          <h5>Arctic Star</h5>
           <p>Arctic Star nectarines are sweet and juicy with a white flesh, ideal for colder climates.</p>
         </div>
       </div>
     </div>
-
-
-
 </div>
 </div>
 </div>
 
 
-  <h2>New Mexico Pine Trees</h2>
+
 <div className='pine_trees_container'>
+  <h2>New Mexico Conifers</h2>
     <div className='tree_example_each'>
     <h3>Pine</h3>
-    <img className='tree_example_circle_image' src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Impatiens_walleriana_-_flower_view_02.jpg/1024px-Impatiens_walleriana_-_flower_view_02.jpg'alt='Impatients at Jericho Nursery in Albuquerque, New Mexico'/>
+    <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Pinon.jpg'alt='Pinion at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='tree_example_each'>
     <h3>Juniper</h3>
-    <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/coleus.jpg' alt='Coleus at Jericho Nursery in Albuquerque, New Mexico'/>
+    <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg' alt='Juniper at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='tree_example_each'>
     <h3>Spruce</h3>
-    <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/lantana.jpg' alt='Lantana at Jericho Nursery in Albuquerque, New Mexico'/>
+    <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/blueSpruce.jpg' alt='Spruce at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='tree_example_each'>
     <h3>Cypress</h3>
-    <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/blackeyedsusan.jpg' alt='Black Eyed Susan at Jericho Nursery in Albuquerque, New Mexico'/>
+    <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Cypress.jpg' alt='Cypress at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='tree_example_each'>
     <h3>Fir</h3>
-    <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/blackeyedsusan.jpg' alt='Black Eyed Susan at Jericho Nursery in Albuquerque, New Mexico'/>
+    <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Fir.jpg' alt='Fir at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
   </div>
+
 
 
 
@@ -637,7 +635,9 @@ return (
 
     <div className='trees_body_bottom_text'>
       <h2>Awh Nuts!</h2>
-      <p>Just South of Bernallio is some of the biggest nut farms in the country. The dry and arid climate of the Albuqueruque area is great for Pecans, Pistachios and Almonds. Additionally, Peaches, Pears, Plums, Apples and many other fruit trees do great in this area. You can even try your luck with more exotic options from the Mediterrian such as Figs and Olives, which do equally as well here in sunny New Mexico. We even have trees originating from Africa, the Juju Bee fruit tree is sometimes offered at Jericho Nursery. The small oval fruit taste a bit like a mix between an apple and a pear, with a slightly grainy texture; a fun new experience if you have never tried them!</p>
+      <p>Nut trees thrive in Albuquerque and throughout New Mexico due to the state's unique climate, which offers long, sunny days and moderate temperatures. The dry air and well-drained soil in the region create ideal conditions for growing various types of nut trees, such as pistachios, almonds, and walnuts. These trees are well-suited to New Mexico’s arid environment, as they require minimal rainfall once established and are able to withstand periods of drought. Additionally, the warm summer temperatures and cool nights help enhance nut production. South of Los Lunas, large nut farms have become a significant part of the local agriculture industry, particularly known for their pistachio orchards, contributing to the state's growing reputation as a producer of high-quality nuts.</p>
+      <br></br>
+      <p>Pinions, the seeds of the Piñon pine, are another beloved and iconic nut in New Mexico. These small, flavorful nuts are a staple of the state's culinary traditions and are highly coveted for their rich, earthy taste and crunchy texture. Piñon trees thrive in the state's high-altitude regions, where they grow in rocky, dry soils, often in the foothills of the mountains. The unique combination of hot summers and cold winters, along with the dry climate, creates the perfect environment for these trees to flourish. Every autumn, locals eagerly harvest piñon nuts, which are used in everything from traditional dishes to modern recipes. Because of their scarcity and the labor-intensive process of gathering them, piñons are considered a regional delicacy, often sold at local markets and festivals. The deep cultural connection to piñons makes them a symbol of New Mexico's heritage, and their harvest is an eagerly anticipated event for many in the state.</p>
     </div>
     <h3>Pecan</h3>
     <h3>Almond</h3>

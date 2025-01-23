@@ -90,8 +90,6 @@ margin: 1rem;
 
 
 
-
-
 .shade_trees_container{
     display: flex;
     flex-direction: column;
@@ -105,8 +103,7 @@ margin: 1rem;
 }
 .pine_trees_container{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
 }
 .tree_exerb {
@@ -148,10 +145,6 @@ margin: 1rem;
   }
 
 
-
-
-
- 
   .other_trees h3{
     font-size: 18pt;
     font-weight: 700;
@@ -168,13 +161,6 @@ margin: 1rem;
 }
 
 
-  .other_trees img{
-    height: 25vw;
-    width: 25vw;
-    object-fit: cover;
-    border-radius: 100%;
-  }
-
 
   .o_tree_pic{
     width: 30vw;
@@ -183,9 +169,6 @@ margin: 1rem;
     border-radius: 100%;
   }
 
-  .true_fruit_tree_container p{
-    font-size: 10pt;
-  }
 
   .ornanmental_fruit_tree_container{
     margin-top: 4rem;
@@ -197,19 +180,38 @@ margin: 1rem;
     margin: 2rem;
   }
 
+
+  .fruit_trees_container h5{
+    font-size: 16pt;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+ 
+
+
+  @media (min-width:700px) {
+
+    .tree_example_circle_image{
+        height: 25vw;
+        width: 25vw;
+    }
+    .o_tree_pic{
+        height: 25vw;
+        width: 25vw;
+    }
+
+  }
+
+
 @media (min-width:825px) {
     .trees_welcome h1{
         font-size: 50pt;
     }
-    .tree_example_circle_image{
-        width: 15vw;
-        height: 15vw;
-    }
     .trees_body_top_text h2{
-        font-size: 32pt;
+        font-size: 24pt;
     }
     .trees_body_bottom_text h2{
-        font-size: 32pt;
+        font-size: 24pt;
     }
     .trees_body p{
         font-size: 16pt;
@@ -218,9 +220,20 @@ margin: 1rem;
         font-size: 16pt;
     }
     .tree_examples h3{
-        font-size: 32pt;
-        padding-bottom: 3rem;
+        font-size: 24pt;
     }
+    .tree_example_circle_image{
+        margin: 1rem;
+    }
+    .o_tree_pic{
+        margin: 1rem;
+    }
+    .fruit_trees_container h4{
+        font-size: 24pt;
+    }
+    .fruit_trees_container h5{
+        font-size: 24pt;
+      }
    
 }
 
@@ -229,23 +242,37 @@ margin: 1rem;
     .trees_welcome h1{
         font-size: 60pt;
     }
-    .trees_welcome p{
-        font-size: 22pt;
+    .trees_body_top_text h1{
+        font-size: 38pt;
     }
-    .tree_example_each{
+    .reasons_for_planting_trees li{
+        font-size: 18pt;
         margin: 1.5rem;
     }
-    .tree_example_each h6{
-        font-size: 20pt;
+    .tree_examples h2{
+        font-size: 36pt;
     }
+    .tree_examples h3{
+        font-size: 30pt;
+    }
+    .tree_example_each h4{
+        font-size: 24pt;
+    }
+    .trees_body p{
+        font-size: 18pt;
+        line-height: 1.8;
+        margin: 0.5rem 1rem;
+    }
+    .other_trees h4{
+        font-size: 28pt;
+    }
+    .fruit_trees_container h4{
+        font-size: 28pt;
+    }
+
 }
 
-@media (min-width:1400px) {
-    .tree_example_circle_image{
-        width: 12vw;
-        height: 12vw;
-    }
-}
+
 @media (min-width:1600px) {
     .trees_body_top_text{
         margin: 3rem 8rem;
@@ -253,53 +280,20 @@ margin: 1rem;
     .trees_body_bottom_text{
         margin: 3rem 8rem;
     }
-}
-
-@media (min-width:1700px) {
-    .tree_example_circle_image{
-        width: 10vw;
-        height: 10vw;
-    }
-    .tree_examples_inner{
-        margin: 2rem;
+    .trees_body p{
+        margin: 1rem 8rem;
     }
     .tree_examples h3{
-        padding-bottom: 1rem;
+        font-size: 36pt;
     }
-    .trees_body p{
-        font-size: 18pt;
+    .other_trees h4{
+        font-size: 36pt;
     }
-    .trees_body h2{
-        font-size: 38pt;
-    }
-    .trees_body h3{
-        font-size: 40pt;
-        padding-bottom: 0rem;
-        margin-bottom: 0rem;
-    }
-
-
-}
-
-
-@media (min-width:2000px) {
-    .trees_body_top_text{
-        margin: 4rem 10rem;
-    }
-    .trees_body_bottom_text{
-        margin: 4rem 10rem;
-    }
-    .tree_examples_inner{
-        margin: 6rem;
-    }
-    .tree_example_each{
-        margin: 2rem;
-    }
-
-}
-@media (min-width:2200px) {
-    .tree_examples_inner{
-        margin: 8rem;
+    .fruit_trees_container h4{
+        font-size: 36pt;
     }
 }
+
+
+
 
