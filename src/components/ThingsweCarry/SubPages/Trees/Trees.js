@@ -122,7 +122,7 @@ return (
 <div className='shade_trees_container'>
 
  {/* Ash Trees */}
-        <div className='tree_example_each' onClick={toggleAshVisibility} style={{ cursor: 'pointer' }}>
+        <div className={`tree_example_each ${isAshVisible ? 'visible2' : 'hidden2'}`} onClick={toggleAshVisibility} style={{ cursor: 'pointer' }}>
                 <h3>Ash Trees</h3>
                 <img
                   className='tree_example_circle_image'

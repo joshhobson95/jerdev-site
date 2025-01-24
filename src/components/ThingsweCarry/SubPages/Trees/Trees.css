@@ -187,6 +187,41 @@ margin: 1rem;
     text-decoration: underline;
   }
  
+  .tree_example_circle_image{
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .tree_example_circle_image:hover{
+    border: #242424 4px solid;
+    transform: scale(1.05);
+    background-color: #f0f8ff;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  .tree_example_circle_image:active {
+    transform: scale(1);
+  }
+
+  .tree_example_each.visible2 img{
+    border: #242424 4px solid;
+    transform: scale(1.05);
+
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+
+  .o_tree_pic{
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .o_tree_pic:hover{
+    border: #242424 4px solid;
+    transform: scale(1.05);
+    background-color: #f0f8ff;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  .o_tree_pic:active {
+    transform: scale(1);
+  }
 
 
   @media (min-width:700px) {
@@ -284,16 +319,30 @@ margin: 1rem;
         margin: 1rem 8rem;
     }
     .tree_examples h3{
-        font-size: 36pt;
+        font-size: 32pt;
     }
     .other_trees h4{
-        font-size: 36pt;
+        font-size: 32pt;
     }
     .fruit_trees_container h4{
         font-size: 36pt;
     }
+    .tree_example_circle_image{
+        height: 20vw;
+        width: 20vw;
+    }
+    .o_tree_pic{
+        height: 20vw;
+        width: 20vw; 
+    }
+   
 }
 
+/* Re add standard page CSS */
+
+
+@media (min-width:1800px) {
 
 
 
+}
