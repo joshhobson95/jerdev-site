@@ -1,0 +1,43 @@
+.Ornamental{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#4FA673, #DBBA4B , #FB492C87 ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    color: white; 
+}
+.o_tree_pic{
+    border-radius: 100%;
+    width: 35vw;
+    height: 35vw;
+    object-fit: cover;
+    margin: 1rem;
+}
+.ornamental_tree_example_each h2{
+    font-size: 18pt;
+    font-weight: 700;
+  }
+
+.ornamental_top_text{
+    margin: 1rem;
+    line-height: 1.6;
+}
+.ornamental_top_text h2{
+    font-size: 30pt;
+}
+.ornamental_tree_example_each{
+    margin: 1rem;
+}
+.ornamental_tree_example_each p{
+text-align: left;
+line-height: 1.6;
+margin-bottom: 1rem;
+}
+.ornamental_tree_example_each h3{
+    font-size: 16pt;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+

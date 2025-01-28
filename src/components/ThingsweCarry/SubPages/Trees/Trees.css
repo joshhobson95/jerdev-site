@@ -42,307 +42,39 @@
     text-align: left;
     line-height: 1.6;
 }
-
-.reasons_for_planting_trees li{
-list-style-type: disc;
-margin: 1rem;
-}
-
-.tree_examples{
+.tree_categories{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 2rem;
-    text-align: center;
-}
-.tree_examples_inner{
-    display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    
+    justify-content: space-around;
+    margin: 3rem;
 }
-.tree_examples h2{
-    font-size: 26pt;
+.tree_categories a {
     margin: 2rem;
+}
+.tree_categories h2{
+    font-size: 24pt;
+    font-weight: 800;
+    text-align: center;
+    background-color: #242424;
     padding: 1rem;
-    text-decoration: underline;
-    background-color: #87bb5f;
-    border-radius: 15px;
-}
-.tree_examples p{
-    text-align: left;
-}
-
-.tree_example_circle_image{
-    border-radius: 100%;
-    width: 30vw;
-    height: 30vw;
-    object-fit: cover;
-}
-
-.trees_body_top_text{
-    margin: 2rem;
+    border-radius: 16px;
 }
 .trees_body_top_text h1{
-    font-size: 30pt;
-    font-weight: 600;
-}
-
-
-
-.shade_trees_container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.fruit_trees_container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.pine_trees_container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.tree_exerb {
-    visibility: hidden;
-    opacity: 0;
-    height: 0;
-    overflow: hidden;
-    transition: visibility 0s 0.5s, opacity 0.5s ease-in, height 0.5s ease-in;
-  }
-  
-  .tree_exerb.visible2 {
-    visibility: visible;
-    opacity: 1;
-    height: auto;
-    transition: opacity 0.5s ease-in, height 0.5s ease-in;
-  }
-
-  .tree_example_each h3{
-    font-size: 18pt;
-    font-weight: 700;
-  }
-
-  .tree_example_each h4{
-    font-size: 16pt;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-
-
-  .fruit_trees_container h3{
-    font-size: 18pt;
-    font-weight: 700;
-    text-decoration: underline;
-    margin: 1.5rem;
-  }
-  .fruit_trees_container h4{
-    font-size: 18pt;
-    font-weight: 700;
-  }
-
-
-  .other_trees h3{
-    font-size: 18pt;
-    font-weight: 700;
-    text-decoration: underline;
-  }
-  .other_trees h4{
-    font-size: 16pt;
-    font-weight: 700;
-  }
-
-.other_shade_tree_example_each{
+    font-size: 32pt;
     margin: 1rem;
-    margin-bottom: 3rem;
 }
 
 
 
-  .o_tree_pic{
-    width: 30vw;
-    height: 30vw;
-    object-fit: cover;
-    border-radius: 100%;
-  }
-
-
-  .ornanmental_fruit_tree_container{
-    margin-top: 4rem;
-  }
-  .ornamental_fruit_tree_example_each{
-    margin: 2rem;
-  }
-  .fruit_tree_example_each{
-    margin: 2rem;
-  }
-
-
-  .fruit_trees_container h5{
-    font-size: 16pt;
-    font-weight: 500;
-    text-decoration: underline;
-  }
- 
-  .tree_example_circle_image{
-    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
-  }
-  .tree_example_circle_image:hover{
-    border: #242424 4px solid;
-    transform: scale(1.05);
-    background-color: #f0f8ff;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-  }
-  .tree_example_circle_image:active {
-    transform: scale(1);
-  }
-
-  .tree_example_each.visible2 img{
-    border: #242424 4px solid;
-    transform: scale(1.05);
-
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-  }
-
-
-
-
-  .o_tree_pic{
-    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
-  }
-  .o_tree_pic:hover{
-    border: #242424 4px solid;
-    transform: scale(1.05);
-    background-color: #f0f8ff;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-  }
-  .o_tree_pic:active {
-    transform: scale(1);
-  }
-
-
-  @media (min-width:700px) {
-
-    .tree_example_circle_image{
-        height: 25vw;
-        width: 25vw;
-    }
-    .o_tree_pic{
-        height: 25vw;
-        width: 25vw;
-    }
-
-  }
-
-
-@media (min-width:825px) {
-    .trees_welcome h1{
-        font-size: 50pt;
-    }
-    .trees_body_top_text h2{
-        font-size: 24pt;
-    }
-    .trees_body_bottom_text h2{
-        font-size: 24pt;
-    }
-    .trees_body p{
-        font-size: 16pt;
-    }
-    .trees_body h6{
-        font-size: 16pt;
-    }
-    .tree_examples h3{
-        font-size: 24pt;
-    }
-    .tree_example_circle_image{
-        margin: 1rem;
-    }
-    .o_tree_pic{
-        margin: 1rem;
-    }
-    .fruit_trees_container h4{
-        font-size: 24pt;
-    }
-    .fruit_trees_container h5{
-        font-size: 24pt;
-      }
-   
-}
 
 
 @media (min-width:1025px) {
     .trees_welcome h1{
         font-size: 60pt;
     }
-    .trees_body_top_text h1{
-        font-size: 38pt;
+    .trees_welcome p{
+        font-size: 22pt;
     }
-    .reasons_for_planting_trees li{
-        font-size: 18pt;
-        margin: 1.5rem;
-    }
-    .tree_examples h2{
-        font-size: 36pt;
-    }
-    .tree_examples h3{
-        font-size: 30pt;
-    }
-    .tree_example_each h4{
-        font-size: 24pt;
-    }
-    .trees_body p{
-        font-size: 18pt;
-        line-height: 1.8;
-        margin: 0.5rem 1rem;
-    }
-    .other_trees h4{
-        font-size: 28pt;
-    }
-    .fruit_trees_container h4{
-        font-size: 28pt;
-    }
-
 }
 
 
-@media (min-width:1600px) {
-    .trees_body_top_text{
-        margin: 3rem 8rem;
-    }
-    .trees_body_bottom_text{
-        margin: 3rem 8rem;
-    }
-    .trees_body p{
-        margin: 1rem 8rem;
-    }
-    .tree_examples h3{
-        font-size: 32pt;
-    }
-    .other_trees h4{
-        font-size: 32pt;
-    }
-    .fruit_trees_container h4{
-        font-size: 36pt;
-    }
-    .tree_example_circle_image{
-        height: 20vw;
-        width: 20vw;
-    }
-    .o_tree_pic{
-        height: 20vw;
-        width: 20vw; 
-    }
-   
-}
-
-/* Re add standard page CSS */
-
-
-@media (min-width:1800px) {
-
-
-
-}

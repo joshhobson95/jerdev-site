@@ -53,6 +53,10 @@ import Trees from './components/ThingsweCarry/SubPages/Trees/Trees';
 import Shrubs from './components/ThingsweCarry/SubPages/Shrubs/Shrubs';
 import Xeric from './components/ThingsweCarry/SubPages/Xeric/Xeric';
 import Hardgoods from './components/ThingsweCarry/SubPages/Hardgoods/Hardgoods';
+import Shade from './components/ThingsweCarry/SubPages/Trees/Shade/Shade'
+import Fruit from './components/ThingsweCarry/SubPages/Trees/Fruit/Fruit'
+import Ornamental from './components/ThingsweCarry/SubPages/Trees/Ornamental/Ornamental'
+import Conifer from './components/ThingsweCarry/SubPages/Trees/Conifer/Conifer'
 import './App.css';
 
 function App() {
@@ -85,6 +89,10 @@ function App() {
           <Route path='/perennials' element={<Perennials />}/>
           <Route path='/roses' element={<Roses />}/>
           <Route path='/trees' element={<Trees />}/>
+              <Route path='/shadetrees' element={<Shade />}/>
+              <Route path='/ornamentaltrees' element={<Ornamental/>}/>
+              <Route path='/fruittrees' element={<Fruit />}/>
+              <Route path='/conifers' element={<Conifer />}/>
           <Route path='/shrubs' element={<Shrubs />}/>
           <Route path='/xeric' element={<Xeric />}/>
           <Route path='/hardgoods' element={<Hardgoods />}/>
