@@ -163,9 +163,24 @@ function Ornamental() {
                 <p>The Crimson Pointe plum grows in a narrow, columnar shape, perfect for vertical accents. Pale pink flowers in spring and dark purple foliage create a unique and sophisticated aesthetic.</p>
             </div>
             </div>
+
+
+            <div className='other_trees'>
+                <h1>Honorable Mentions</h1>                 
+                <div>
+                  <h2>Bird of Paradise</h2>
+                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/BirdofParadise.png' alt='Mexican Bird of Paradise Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
-      
-    </div>
+                <div>
+                  <h2>Oklahoma Redbud</h2>
+                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/redbud.jpg' alt='Texas Redbud Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                </div>
+              </div> 
+
+
+
+    </div>      
+</div>
   )
 }
 

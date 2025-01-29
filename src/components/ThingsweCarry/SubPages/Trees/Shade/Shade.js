@@ -178,12 +178,30 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
                   <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
                 </div>
               </div>
+{/* Willow Trees */}                 
+          <div className='tree_example_each' onClick={toggleWillowVisibility} style={{ cursor: 'pointer' }}>
+                <h2>Willow Trees</h2>
+                <img
+                  className='tree_example_circle_image'
+                  src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/willow.jpg'
+                  alt='Cottonwood Trees in New Mexico'
+                  />
+                <div className={`tree_exerb ${isWillowVisible ? 'visible2' : 'hidden2'}`}>
+     
+                  <h3>Globe Willow</h3>
+                  <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
+                  <h3>Weeping Willow</h3>
+                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
+                  <h3>White Willow</h3>
+                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
+                </div>
+            </div>
 {/* Elm Trees */}                 
           <div className='tree_example_each' onClick={toggleElmVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Elm Trees</h2>
                 <img
                   className='tree_example_circle_image'
-                  src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/AmericanElm.png'
+                  src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ElmTree.jpg'
                   alt='Cottonwood Trees in New Mexico'
                   />
                 <div className={`tree_exerb ${isElmVisible ? 'visible2' : 'hidden2'}`}>
@@ -212,26 +230,7 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
                   <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
                 </div>
               </div>
-{/* Willow Trees */}                 
-          <div className='tree_example_each' onClick={toggleWillowVisibility} style={{ cursor: 'pointer' }}>
-                <h2>Willow Trees</h2>
-                <img
-                  className='tree_example_circle_image'
-                  src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/willow.jpg'
-                  alt='Cottonwood Trees in New Mexico'
-                  />
-                <div className={`tree_exerb ${isWillowVisible ? 'visible2' : 'hidden2'}`}>
-                  <h3>Coyote Willow</h3>
-                  <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
-                  <h3>Globe Willow</h3>
-                  <h3>Desert Willow</h3>
-                  <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
-                  <h3>Weeping Willow</h3>
-                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
-                  <h3>White Willow</h3>
-                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
-                </div>
-            </div>
+
             
             <div className='other_trees'>
                 <h1>More Great Shade Trees</h1>       
@@ -248,15 +247,7 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
                   <h2>Golden Rain Tree</h2>
                   <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/GoldenRainTree.png' alt='Golden Rain Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
-                <h3>Move to Ornamental vv</h3>
-                <div>
-                  <h2>Bird of Paradise</h2>
-                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/BirdofParadise.png' alt='Mexican Bird of Paradise Tree in Albuquerque New Mexico sold at Jericho Nursery' />
-                </div>
-                <div>
-                  <h2>Oklahoma Redbud</h2>
-                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/redbud.jpg' alt='Texas Redbud Tree in Albuquerque New Mexico sold at Jericho Nursery' />
-                </div>
+               
               </div>    
 </div>
 

@@ -154,9 +154,39 @@ function Fruit() {
                 </div>
                 </div>
             <div className='nut_tree_container'>
+                <h1>Nut Trees</h1>
                 <p>Nut trees thrive in Albuquerque and throughout New Mexico due to the state's unique climate, which offers long, sunny days and moderate temperatures. The dry air and well-drained soil in the region create ideal conditions for growing various types of nut trees, such as pistachios, almonds, and walnuts. These trees are well-suited to New Mexico’s arid environment, as they require minimal rainfall once established and are able to withstand periods of drought. Additionally, the warm summer temperatures and cool nights help enhance nut production. South of Los Lunas, large nut farms have become a significant part of the local agriculture industry, particularly known for their pistachio orchards, contributing to the state's growing reputation as a producer of high-quality nuts.</p>
                 <br></br>
                 <p>Pinions, the seeds of the Piñon pine, are another beloved and iconic nut in New Mexico. These small, flavorful nuts are a staple of the state's culinary traditions and are highly coveted for their rich, earthy taste and crunchy texture. Piñon trees thrive in the state's high-altitude regions, where they grow in rocky, dry soils, often in the foothills of the mountains. The unique combination of hot summers and cold winters, along with the dry climate, creates the perfect environment for these trees to flourish. Every autumn, locals eagerly harvest piñon nuts, which are used in everything from traditional dishes to modern recipes. Because of their scarcity and the labor-intensive process of gathering them, piñons are considered a regional delicacy, often sold at local markets and festivals. The deep cultural connection to piñons makes them a symbol of New Mexico's heritage, and their harvest is an eagerly anticipated event for many in the state.</p>
+
+                <div className='fruit_tree_example_each' onClick={togglePomVisibility} style={{ cursor: 'pointer' }}>
+                    <h2>Almonds</h2>
+                    <img className='tree_example_circle_image' 
+                        src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/pom.jpg' 
+                        alt='Pomegranates at Jericho Nursery in Albuquerque, New Mexico'/>
+                    <div className={`tree_exerb ${isPomVisible ? 'visible2' : 'hidden2'}`}>
+                    <h3>Wonderful</h3>
+                    <p>Wonderful pomegranates are large, with deep red fruit and sweet-tart seeds, perfect for juicing or eating fresh.</p>
+                    <h3>Russian 26</h3>
+                    <p>Russian 26 pomegranates are hardy, producing smaller but flavorful fruit ideal for colder climates.</p>
+                    </div>
+                </div>
+                <div className='fruit_tree_example_each' onClick={togglePomVisibility} style={{ cursor: 'pointer' }}>
+                    <h2>Pecans</h2>
+                    <img className='tree_example_circle_image' 
+                        src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/pom.jpg' 
+                        alt='Pomegranates at Jericho Nursery in Albuquerque, New Mexico'/>
+                    <div className={`tree_exerb ${isPomVisible ? 'visible2' : 'hidden2'}`}>
+                    <h3>Wonderful</h3>
+                    <p>Wonderful pomegranates are large, with deep red fruit and sweet-tart seeds, perfect for juicing or eating fresh.</p>
+                    <h3>Russian 26</h3>
+                    <p>Russian 26 pomegranates are hardy, producing smaller but flavorful fruit ideal for colder climates.</p>
+                    </div>
+                </div>
+
+
+
+
             </div>
 
 

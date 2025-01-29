@@ -9,8 +9,7 @@
     color: white; 
 }
 .o_tree_pic{
-    border-radius: 100%;
-    width: 35vw;
+    width: 75vw;
     height: 35vw;
     object-fit: cover;
     margin: 1rem;
@@ -23,6 +22,7 @@
 .ornamental_top_text{
     margin: 1rem;
     line-height: 1.6;
+    text-align: left;
 }
 .ornamental_top_text h2{
     font-size: 30pt;
@@ -41,3 +41,112 @@ margin-bottom: 1rem;
     text-decoration: underline;
   }
 
+
+
+
+  @media (min-width:825px) {
+
+    .ornamental_top_text p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+    .trees_welcome h1{
+        font-size: 60pt;
+    }
+    .trees_welcome p{
+        font-size: 22pt;
+    }
+
+    .ornamental_tree_example_each h2{
+        font-size: 26pt;
+    }
+    .ornamental_tree_example_each h3{
+        font-size: 22pt;
+    }
+    .ornamental_tree_exerb p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+
+}
+
+
+
+@media (min-width:1025px) {
+    .ornamental_top_text{
+        margin: 2rem 4rem;
+    }
+    .trees_welcome h1{
+        font-size: 60pt;
+    }
+    .ornamental_top_text h2{
+        font-size: 40pt;
+    }
+    .ornamental_tree_example_each h2{
+        font-size: 30pt;
+    }
+    .ornamental_tree_example_each{
+        margin: 2rem;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .o_tree_pic{
+        width: 65vw;
+        height: 25vw;
+    }
+    .ornamental_tree_example_each{
+        margin: 2rem 4rem;
+    }
+
+
+}
+
+@media (min-width:1500px) {
+    .ornamental_top_text h2{
+        font-size: 44pt;
+    }
+
+    .ornamental_top_text{
+        margin: 2rem 6rem;
+    }
+
+
+    .o_tree_pic{
+        width: 65vw;
+        height: 22vw;
+    }
+    .ornamental_top_text h2{
+        font-size: 44pt;
+    }
+    .ornamental_top_text p{
+        font-size: 18pt;
+        margin: 2rem 4rem;
+    }
+    .ornamental_tree_example_each h2{
+        font-size: 36pt;
+    }
+    .ornamental_tree_example_each h3{
+        font-size: 26pt;
+    }
+    .shade_top_text{
+        margin: 2rem 6rem;
+    }
+}
+
+@media (min-width:1650px) {
+    .ornamental_top_text{
+        margin: 2rem 10rem;
+    }
+}
+
+@media (min-width:1900px) {
+    .o_tree_pic{
+        width: 60vw;
+        height: 20vw;
+    }
+    .ornamental_top_text{
+        margin: 2rem 12rem;
+    }
+}

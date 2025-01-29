@@ -12,7 +12,7 @@ return (
 <div className='Trees'>
 
   <div className='trees_welcome'>
-    <h1>Trees</h1>
+    <h1>New Mexico Trees</h1>
   </div>
 
 
@@ -32,18 +32,31 @@ return (
     </div>
 
     <div className='tree_categories'>
+
+      <div className='tree_catergories_inner'>
       <NavLink to='/shadetrees'>
       <h2>Shade Trees</h2>
+      <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/shade.jpg' alt='Shade Trees in Albuqueruque, New Mexico and surrounding areas'/>
       </NavLink>
+      </div>
+      <div className='tree_catergories_inner'>
       <NavLink to='/ornamentaltrees'>
       <h2>Ornamental Trees</h2>
+      <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/floweringcherry.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
       </NavLink>
+      </div>
+      <div className='tree_catergories_inner'>
       <NavLink to='/fruittrees'>
-      <h2>Fruit Trees Trees</h2>
+      <h2>Fruit Trees</h2>
+      <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit.jpg' alt='Fruit and Nut Trees in Albuqueruque, New Mexico and surrounding areas'/>
       </NavLink>
+      </div>
+      <div className='tree_catergories_inner'>
       <NavLink to='/conifers'>
       <h2>Conifer Trees</h2>
+      <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Pines.jpg' alt='Conifers and Pine Trees in Albuqueruque, New Mexico and surrounding areas'/>
       </NavLink>
+      </div>
     </div>
 
  

@@ -8,27 +8,27 @@
     flex-direction: column;   
     color: white; 
 }
-.fruit_tree_example_each h2{
+.conifer_tree_example_each h2{
     font-size: 18pt;
     font-weight: 700;
   }
 
-.fruit_top_text{
+.conifer_top_text{
     margin: 1rem;
     line-height: 1.6;
 }
-.fruit_top_text h2{
+.conifer_top_text h2{
     font-size: 30pt;
 }
-.fruit_tree_example_each{
+.conifer_tree_example_each{
     margin: 1rem;
 }
-.fruit_tree_example_each p{
+.conifer_tree_example_each p{
 text-align: left;
 line-height: 1.6;
 margin-bottom: 1rem;
 }
-.fruit_tree_example_each h3{
+.conifer_tree_example_each h3{
     font-size: 16pt;
     font-weight: 500;
     text-decoration: underline;

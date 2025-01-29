@@ -158,12 +158,18 @@
     }
   }
   @media (min-width:1800px) {
-  
+    .top_body_main{
+      padding-top: 5vh;
+    }
+    .plant_category img{
+      width: 15vw;
+      height: 15vw;
+    }
     .plant_category{
-      margin: 4rem 15rem;
+      margin: 3rem 12rem;
     }
     .plant_category h3{
-      font-size: 40pt;
+      font-size: 36pt;
     }
     .plant_category p{
       font-size: 18pt;
@@ -173,11 +179,11 @@
   
   @media (min-width:2000px) {
     .plant_category img{
-      width: 17vw;
-      height: 17vw;
+      width: 14vw;
+      height: 14vw;
     }
     .plant_category{
-      margin: 5rem 25rem;
+      margin: 3rem 25rem;
     }
   
   }

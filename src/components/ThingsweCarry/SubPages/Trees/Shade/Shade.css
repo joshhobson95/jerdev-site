@@ -89,6 +89,14 @@
     margin: 2rem;
   }
 
+  .tree_example_circle_image{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tree_example_circle_image:hover{
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
+}
+
 
   @media (min-width:825px) {
     .trees_welcome h1{
@@ -131,19 +139,27 @@
     .tree_example_each{
         margin: 2rem;
     }
+    .shade_top_text{
+        margin: 2rem 4rem;
+    }
 }
 
 @media (min-width:1200px) {
     .tree_example_circle_image{
         width: 65vw;
-        height: 20vw;
+        height: 25vw;
     }
     .tree_example_each{
         margin: 2rem 4rem;
     }
+
 }
 
 @media (min-width:1500px) {
+    .tree_example_circle_image{
+        width: 65vw;
+        height: 22vw;
+    }
     .shade_top_text h2{
         font-size: 44pt;
     }
@@ -166,12 +182,24 @@
     .tree_exerb p{
         font-size: 18pt;
     }
+    .shade_top_text{
+        margin: 2rem 6rem;
+    }
+}
+
+@media (min-width:1650px) {
+    .shade_top_text{
+        margin: 2rem 10rem;
+    }
 }
 
 @media (min-width:1900px) {
     .tree_example_circle_image{
         width: 60vw;
         height: 20vw;
+    }
+    .shade_top_text{
+        margin: 2rem 12rem;
     }
 }
 
