@@ -7,7 +7,7 @@ import logo4 from '../../Assets/soilmender.jpg'
 import logo5 from '../../Assets/505outside.jpg'
 import soil from '../../Assets/soilutionslogo.png'
 import suregreen from '../../Assets/suregreen.png'
-import { Helmet } from 'react-helmet'
+
 
 function Partners() {
 
@@ -26,15 +26,7 @@ function Partners() {
 
 
     <div className='Partners'>
-<Helmet>
-        <title>Our Partners - Jericho Nursery</title>
-        <meta name="description" content="Discover our trusted partners who collaborate with Jericho Nursery to bring you the best gardening products and services." />
-        <meta property="og:title" content="Partners of Jericho - Jericho Nursery" />
-        <meta property="og:description" content="Discover our trusted partners who collaborate with Jericho Nursery to bring you the best gardening products and services." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
-        <meta property="og:type" content="website" />
 
-</Helmet>
             <div className='partners_welcome'>
             <h1>Partners of Jericho</h1>
                 <p>

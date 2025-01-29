@@ -2,9 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import './Seminars.css'
 import SeminarIcon from '../../SVGs/SeminarIcon';
 import seminar_pic from '../../Assets/seminar_pic_new.png'
-import { Helmet } from "react-helmet";
-
-
 
 
 function Seminars() {
@@ -38,14 +35,7 @@ function Seminars() {
 
   return (
     <div className='Seminars'>
-<Helmet>
-        <title>Gardening Workshops - Jericho Nursery</title>
-        <meta name="description" content="Join our gardening workshops at Jericho Nursery to enhance your gardening skills, learn new techniques, and connect with fellow gardeners." />
-        <meta property="og:title" content="Gardening Workshops - Enhance Your Gardening Skills" />
-        <meta property="og:description" content="Join our gardening workshops at Jericho Nursery to enhance your gardening skills, learn new techniques, and connect with fellow gardeners." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
-        <meta property="og:type" content="website" />
-</Helmet>
+
         <div className='seminars_welcome'>
             <h1>Workshops</h1>
         <p>

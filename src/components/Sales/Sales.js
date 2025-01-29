@@ -1,8 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import './Sales.css'
 import axios from 'axios';
-import { Helmet } from 'react-helmet';
-
 
 function Sales() {
 
@@ -43,12 +41,7 @@ const [salesData, setSalesData] = useState([])
   return (
     <div className='sales'>
 
-<Helmet>
-        <title>Shop This Week's Deals at Jericho Nursery</title>
-        <meta name="description" content="Explore our collection of high-quality plants at Jericho Nursery. Find the perfect plants to beautify your garden or home." />
-        <meta property="og:title" content="Shop High-Quality Plants at Jericho Nursery" />
-        <meta property="og:description" content="Explore our collection of high-quality plants at Jericho Nursery. Find the perfect plants to beautify your garden or home." />
-</Helmet>
+
 
         <div className='sales_welcome'>
         <h1>This Week's Specials </h1>

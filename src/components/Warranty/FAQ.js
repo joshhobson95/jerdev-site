@@ -2,7 +2,6 @@ import React from 'react'
 import './FAQ.css'
 import warrantybush from '../../Assets/warrantybush.png'
 import planting from '../../Assets/planting.png'
-import { Helmet } from 'react-helmet'
 
 
 
@@ -13,15 +12,6 @@ function FAQ() {
   return (
 
     <div className='FAQ'>
-      <Helmet>
-      <title>Grower's Assurance - Planting Guide and Warranty | Jericho Nursery</title>
-<meta name="description" content="Explore Jericho Nursery's comprehensive Planting Guide and Warranty, ensuring your gardening experience is supported by expert advice and quality assurance." />
-<meta property="og:title" content="Grower's Assurance - Planting Guide and Warranty | Jericho Nursery" />
-<meta property="og:description" content="Explore Jericho Nursery's comprehensive Planting Guide and Warranty, ensuring your gardening experience is supported by expert advice and quality assurance." />
-<meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/swgarden.jpg" />
-<meta property="og:type" content="website" />
-
-</Helmet>
 
 
 <div className='faq_welcome'>

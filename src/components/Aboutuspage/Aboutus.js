@@ -9,7 +9,6 @@ import Quality from '../../SVGs/Quality'
 import Selection from '../../SVGs/Selection'
 import Quote from '../../SVGs/Quote'
 import Quote2 from '../../SVGs/Quote2'
-import { Helmet } from 'react-helmet'
 import Bios from './Bios'
 
 
@@ -22,14 +21,7 @@ function Aboutus() {
 
   return (
     <div className='AboutUs'>
-<Helmet>
-        <title>About Us - Jericho Nursery</title>
-        <meta name="description" content="Learn about Jericho Nursery, your trusted source for quality plants, gardening supplies, and expert advice. Discover our commitment to providing exceptional service and fostering a love for gardening." />
-        <meta property="og:title" content="About Us - Jericho Nursery" />
-        <meta property="og:description" content="Learn about Jericho Nursery, your trusted source for quality plants, gardening supplies, and expert advice. Discover our commitment to providing exceptional service and fostering a love for gardening." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
-        <meta property="og:type" content="website" />
-</Helmet>
+
 
           <div className='aboutus_welcome'>
             <h1> About Us here at Jericho</h1>

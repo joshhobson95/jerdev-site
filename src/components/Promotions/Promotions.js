@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import './Promotions.css'
 import axios from 'axios';
-import { Helmet } from 'react-helmet';
 
 
 function Promotions() {
@@ -43,12 +42,6 @@ const [promotionsData, setPromotionsData] = useState([])
   return (
     <div className='promotions'>
 
-<Helmet>
-        <title>Discover New Arrivals at Jericho Nursery</title>
-        <meta name="description" content="Check out the latest products at Jericho Nursery. Discover new plants and gardening essentials to enhance your outdoor spaces." />
-        <meta property="og:title" content="New Arrivals at Jericho Nursery" />
-        <meta property="og:description" content="Explore the newest additions to our collection at Jericho Nursery. Find the perfect plants and gardening products to elevate your garden or home." />
-</Helmet>
 
 
         <div className='promotions_welcome'>
