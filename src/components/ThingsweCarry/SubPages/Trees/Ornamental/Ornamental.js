@@ -34,7 +34,7 @@ function Ornamental() {
             <div className='ornanmental_tree_container'>
 
                 <div className='ornamental_top_text'>
-                <h2>Ornamental Trees Header</h2>
+                <h2>Ornamental 'Fruit' Trees Header</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue. </p>
                 </div>
 
@@ -166,7 +166,7 @@ function Ornamental() {
 
 
             <div className='other_trees'>
-                <h1>Honorable Mentions</h1>                 
+                <h1>More Zone 7 Ornamental Trees</h1>                 
                 <div>
                   <h2>Bird of Paradise</h2>
                   <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/BirdofParadise.png' alt='Mexican Bird of Paradise Tree in Albuquerque New Mexico sold at Jericho Nursery' />

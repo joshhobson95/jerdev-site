@@ -62,10 +62,10 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
 <div className='shade_trees_container'>
 
   <div className='shade_top_text'>
-    <h2>Shade Trees Header</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue. </p>
-    <p>Mention these are trees we sell</p>
-    <p>some trees are not allowed to be sold in ABQ or highly discouraged</p>
+    <h2>Best Choices for Zone 7 Shade Trees</h2>  
+     <p>Shade trees are a valuable addition to any landscape, providing relief from the sun, reducing energy costs, and enhancing curb appeal. In Albuquerque and across New Mexico’s Zone 7, selecting the right tree means considering heat tolerance, drought resistance, and adaptability to our unique climate. Hardy options like elms and sycamores offer long-lasting shade and durability, while faster-growing choices like cottonwoods and willows provide quick relief in open spaces. For those looking to add a touch of uniqueness, trees like the mimosa or locust can be an ambitious yet rewarding choice. No matter the season, planting a tree is an investment in the future—offering beauty, comfort, and environmental benefits for years to come. Whether you're looking to transform your yard or add greenery to a business property, now is always the perfect time to plant a shade tree.</p>
+
+
   </div>
 
 <div className='tree_examples'>
@@ -233,7 +233,9 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
 
             
             <div className='other_trees'>
-                <h1>More Shade Trees</h1>       
+            <h1>Standout Shade Trees</h1>  
+            <p>Unlike maples, elms, or willows, which have numerous varieties and subspecies, these trees stand on their own without an extensive family of closely related types. While they may not have as many botanical siblings, they make up for it with unique charm, resilience, and exceptional shade coverage. Each tree in this category brings something special—whether it’s striking seasonal color, interesting foliage, or a distinct silhouette that sets it apart in any landscape. If you're looking for a shade tree that stands out while still providing excellent coverage, these are excellent choices.</p>
+
                 <div>
                   <h2>Chinese Pistache</h2> 
                   <img className='tree_example_circle_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/PistacheNew.png' alt='Chinese Pistche Tree in Albuquerque New Mexico sold at Jericho Nursery' />
@@ -246,6 +248,10 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
                 <div>
                   <h2>Golden Rain Tree</h2>
                   <img className='tree_example_circle_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/GoldenRainTree.png' alt='Golden Rain Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                </div>
+                <div>
+                  <h2>Ginkgo Tree</h2>
+                  <img className='tree_example_circle_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ginko.jpg' alt='Ginkgo Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
                
               </div>    

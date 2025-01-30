@@ -86,7 +86,8 @@
   }
 
   .other_trees{
-    margin-bottom: 4rem;
+    margin: 4rem 0rem;
+
   }
   .other_trees h2{
     font-size: 24pt;
@@ -135,6 +136,10 @@
         font-size: 22pt;
     }
     .shade_top_text p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+    .other_trees p{
         font-size: 16pt;
         margin: 1rem;
     }
