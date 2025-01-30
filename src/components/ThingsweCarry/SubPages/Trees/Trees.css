@@ -88,6 +88,10 @@
     transform: scale(1.05); /* Slight zoom */
     box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
 }
+.plant_image_container{
+    display: flex;
+    justify-content: center;
+}
 
 
 
