@@ -30,7 +30,7 @@ function Conifer() {
 
     <div className='conifer_tree_container'>
       <div className='conifer_top_text'> 
-              <h2>Conifer and Non-Deciduous</h2>
+              <h2>Coniferous Trees</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
           </div>
       <div className='tree_examples'>          
@@ -93,7 +93,7 @@ function Conifer() {
 
             <div className='conifer_tree_example_each' onClick={toggleCedarVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Cedar</h2>
-                <img className='tree_example_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Fir.jpg' alt='Cedar at Jericho Nursery in Albuquerque, New Mexico' />
+                <img className='tree_example_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cedar.jpg' alt='Cedar at Jericho Nursery in Albuquerque, New Mexico' />
                 <div className={`tree_exerb ${isCedarVisible ? 'visible2' : 'hidden2'}`}>
                     <h3>Cedar Species 1</h3>
                     <p>Detailed description of Cedar Species 1 goes here...</p>
