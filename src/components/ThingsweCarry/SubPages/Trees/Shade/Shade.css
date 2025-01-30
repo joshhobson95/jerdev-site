@@ -41,18 +41,17 @@
     text-align: left;
 }
 
-.tree_example_circle_image{
+.tree_example_image{
     width: 75vw;
     height: 35vw;
     object-fit: cover;
     margin: 1rem;
 }
-.tree_example_circle_image_s{
+.tree_example_image_s{
     width: 75vw;
     height: 35vw;
     object-fit: cover;
     margin: 1rem;
-    
 }
 
 
@@ -70,9 +69,7 @@
     height: auto;
     transition: opacity 0.5s ease-in, height 0.5s ease-in;
   }
-  .tree_exerb h4{
-    margin: 1rem;
-  }
+
   .tree_exerb p{
     margin-bottom: 1rem;
   }
@@ -87,7 +84,6 @@
 
   .other_trees{
     margin: 4rem 0rem;
-
   }
   .other_trees h2{
     font-size: 24pt;
@@ -106,10 +102,10 @@
   }
 
 
-  .tree_example_circle_image{
+  .tree_example_image{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.tree_example_circle_image:hover{
+.tree_example_image:hover{
     transform: scale(1.05); /* Slight zoom */
     box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
 }
@@ -117,11 +113,11 @@
 
 
 @media (min-width:750px) {
-    .tree_example_circle_image{
+    .tree_example_image{
         width: 70vw;
         height: 30vw;
     }
-    .tree_example_circle_image_s{
+    .tree_example_image_s{
         width: 70vw;
         height: 30vw;
     }
@@ -156,7 +152,7 @@
     .other_trees h2{
         font-size: 26pt;
     }
-    .tree_example_circle_image{
+    .tree_example_image{
         margin: 1.5rem;
     }
 
@@ -183,11 +179,11 @@
 }
 
 @media (min-width:1200px) {
-    .tree_example_circle_image{
+    .tree_example_image{
         width: 65vw;
         height: 25vw;
     }
-    .tree_example_circle_image_s{
+    .tree_example_image_s{
         width: 65vw;
         height: 25vw;
     }
@@ -198,7 +194,7 @@
 }
 
 @media (min-width:1500px) {
-    .tree_example_circle_image{
+    .tree_example_image{
         width: 65vw;
         height: 22vw;
     }
@@ -239,7 +235,7 @@
 }
 
 @media (min-width:1900px) {
-    .tree_example_circle_image{
+    .tree_example_image{
         width: 55vw;
         height: 17vw;
     }

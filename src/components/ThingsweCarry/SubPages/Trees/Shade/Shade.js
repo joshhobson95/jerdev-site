@@ -73,13 +73,13 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
  <div className={`tree_example_each ${isAshVisible ? 'visible2' : 'hidden2'}`} onClick={toggleAshVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Ash Trees</h2>
                 <img
-                  className='tree_example_circle_image'
+                  className='tree_example_image'
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ash.png'
                   alt='Ash Trees in New Mexico'
                   />
                 <div className={`tree_exerb ${isAshVisible ? 'visible2' : 'hidden2'}`}>
                   <h3>Arizona Ash</h3>
-                  <p>Arizona ash, a hardy and drought-tolerant tree, thrives in arid climates, offering a broad canopy of light green leaves that turn yellow in fall.</p>
+                  <p>The Kousa dogwood offers creamy white blooms in late spring and bright red berries in summer, adding texture and color to the garden. Its layered branching and mottled bark provide year-round interest.</p>
                   <h3>Black Ash</h3>
                   <p>Black ash, native to the northeastern United States, is distinguished by its dark bark and compound leaves that turn golden-yellow in autumn.</p>
                   <h3>Green Ash</h3>
@@ -93,7 +93,7 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
           <div className='tree_example_each' onClick={toggleCottonwoodVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Cottonwood Trees</h2>
                 <img
-                  className='tree_example_circle_image'
+                  className='tree_example_image'
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cottonwood.jpg'
                   alt='Cottonwood Trees in New Mexico'
                   />
@@ -110,7 +110,7 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
           <div className='tree_example_each' onClick={toggleMapleVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Maple Trees</h2>
                 <img
-                  className='tree_example_circle_image'
+                  className='tree_example_image'
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Maple.jpg'
                   alt='Cottonwood Trees in New Mexico'
                   />
@@ -133,7 +133,7 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
           <div className='tree_example_each' onClick={toggleMimosaVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Mimosa Trees</h2>
                 <img
-                  className='tree_example_circle_image'
+                  className='tree_example_image'
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/mimosa%20(2).jpg'
                   alt='Cottonwood Trees in New Mexico'
                   />
@@ -148,7 +148,7 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
           <div className='tree_example_each' onClick={toggleLocustVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Locust Trees</h2>
                 <img
-                  className='tree_example_circle_image'
+                  className='tree_example_image'
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/honeylocust2.png'
                   alt='Cottonwood Trees in New Mexico'
                   />
@@ -165,7 +165,7 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
           <div className='tree_example_each' onClick={toggleSycamoreVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Sycamore Trees</h2>
                 <img
-                  className='tree_example_circle_image'
+                  className='tree_example_image'
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Sycamore.jpg'
                   alt='Cottonwood Trees in New Mexico'
                   />
@@ -182,7 +182,7 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
           <div className='tree_example_each' onClick={toggleWillowVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Willow Trees</h2>
                 <img
-                  className='tree_example_circle_image'
+                  className='tree_example_image'
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/willow.jpg'
                   alt='Cottonwood Trees in New Mexico'
                   />
@@ -200,7 +200,7 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
           <div className='tree_example_each' onClick={toggleElmVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Elm Trees</h2>
                 <img
-                  className='tree_example_circle_image'
+                  className='tree_example_image'
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ElmTree.jpg'
                   alt='Cottonwood Trees in New Mexico'
                   />
@@ -217,7 +217,7 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
           <div className='tree_example_each' onClick={toggleOakVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Oak Trees</h2>
                 <img
-                  className='tree_example_circle_image'
+                  className='tree_example_image'
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/oakleaf.jpg'
                   alt='Cottonwood Trees in New Mexico'
                   />
@@ -238,20 +238,20 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
 
                 <div>
                   <h2>Chinese Pistache</h2> 
-                  <img className='tree_example_circle_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/PistacheNew.png' alt='Chinese Pistche Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/PistacheNew.png' alt='Chinese Pistche Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                   
                 </div>
                 <div>
                   <h2>Orange Sage</h2>
-                  <img className='tree_example_circle_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/OrangeSage.png' alt='Orange Sage Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/OrangeSage.png' alt='Orange Sage Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
                 <div>
                   <h2>Golden Rain Tree</h2>
-                  <img className='tree_example_circle_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/GoldenRainTree.png' alt='Golden Rain Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/GoldenRainTree.png' alt='Golden Rain Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
                 <div>
                   <h2>Ginkgo Tree</h2>
-                  <img className='tree_example_circle_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ginko.jpg' alt='Ginkgo Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ginko.jpg' alt='Ginkgo Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
                
               </div>    

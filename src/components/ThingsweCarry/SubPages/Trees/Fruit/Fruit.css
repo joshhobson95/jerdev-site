@@ -8,33 +8,97 @@
     flex-direction: column;   
     color: white; 
 }
-.fruit_tree_example_each h2{
-    font-size: 18pt;
-    font-weight: 700;
-  }
 
+.Fruit p{
+    line-height: 1.6;
+    text-align: left;
+}
 .fruit_top_text{
     margin: 1rem;
     line-height: 1.6;
 }
 .fruit_top_text h2{
     font-size: 30pt;
+    margin: 2rem;
 }
+
 .fruit_tree_example_each{
     margin: 1rem;
 }
-.fruit_tree_example_each p{
-text-align: left;
-line-height: 1.6;
-margin-bottom: 1rem;
+
+.fruit_tree_example_each h2{
+    font-size: 24pt;
+    font-weight: 700;
+
 }
 .fruit_tree_example_each h3{
     font-size: 16pt;
     font-weight: 500;
     text-decoration: underline;
   }
-.nut_tree_container{
-    margin: 1rem;
-    line-height: 1.6;
+
+@media (min-width:825px) {
+    .fruit_top_text p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+    .fruit_tree_example_each h2{
+        font-size: 26pt;
+    }
+    .fruit_tree_example_each h3{
+        font-size: 22pt;
+    }
 }
 
+@media (min-width:1025px) {
+    .fruit_top_text h2{
+        font-size: 40pt;
+    }
+    .fruit_tree_example_each h2{
+        font-size: 30pt;
+    }
+    .fruit_tree_example_each{
+        margin: 2rem;
+    }
+    .fruit_top_text{
+        margin: 2rem 4rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .fruit_tree_example_each{
+        margin: 2rem 4rem;
+    }
+}
+
+@media (min-width:1500px) {
+    .fruit_top_text h2{
+        font-size: 44pt;
+    }
+    .fruit_top_text p{
+        font-size: 18pt;
+        margin: 2rem 4rem;
+    }
+    .fruit_tree_example_each h2{
+        font-size: 36pt;
+    }
+    .fruit_tree_example_each h3{
+        font-size: 26pt;
+    }
+    .fruit_top_text{
+        margin: 2rem 6rem;
+    }
+}
+
+@media (min-width:1650px) {
+    .fruit_top_text{
+        margin: 2rem 10rem;
+    }
+}
+
+@media (min-width:1900px) {
+    .fruit_top_text{
+        margin: 2rem 24rem;
+    }
+
+}

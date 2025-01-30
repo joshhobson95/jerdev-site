@@ -73,9 +73,27 @@ function Seminars() {
                     <span>Thank you to all who attended</span> */}
 
                   <h3>Fall Workshops:</h3> 
-
+              <div className="workshop_inner">
                    <li>Garden Workshop Q&A w/ Rick and Jen Hobson</li>
                     <span>(Saturday October 12th, 2:00 pm)</span>
+                    <button className="workshop_signup_new">
+                    <a href="https://link.lightworkdigital.com/widget/form/vLlzQeIgoQN6azYxdwJB">Sign Up</a>
+                    </button>
+              </div>
+              <div className="workshop_inner">
+                   <li>Garden Workshop Q&A w/ Rick and Jen Hobson</li>
+                    <span>(Saturday October 12th, 2:00 pm)</span>
+                    <button className="workshop_signup_new">
+                    <a href="https://link.lightworkdigital.com/widget/form/vLlzQeIgoQN6azYxdwJB">Sign Up</a>
+                    </button>
+              </div>
+              <div className="workshop_inner">
+                   <li>Garden Workshop Q&A w/ Rick and Jen Hobson</li>
+                    <span>(Saturday October 12th, 2:00 pm)</span>
+        
+                    <a href="https://link.lightworkdigital.com/widget/form/vLlzQeIgoQN6azYxdwJB">Sign Up</a>
+              
+              </div>
 
                     
                    <li>Soilutions</li>

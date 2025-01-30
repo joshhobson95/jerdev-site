@@ -23,27 +23,25 @@ function Ornamental() {
 
 
   return (
-    <div className='Ornamental'>
-
+<div className='Ornamental'>
     <div className='trees_welcome'>
         <h1>New Mexico Ornamental Trees</h1>
     </div>
 
 
 
-            <div className='ornanmental_tree_container'>
-
-                <div className='ornamental_top_text'>
+        <div className='ornanmental_tree_container'>
+            <div className='ornamental_top_text'>
                 <h2>Ornamental 'Fruit' Trees Header</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue. </p>
-                </div>
+            </div>
 
-
-            <div 
-            className='ornamental_tree_example_each' 
-            onClick={toggleOpearVisibility} 
-            style={{ cursor: 'pointer' }}
-            >
+        <div className='tree_examples'>
+        <div 
+        className='ornamental_tree_example_each' 
+        onClick={toggleOpearVisibility} 
+        style={{ cursor: 'pointer' }}
+        >
             <h2>Ornamental Pears</h2>
             <img 
                 className='o_tree_pic' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/floweringpear2.jpg' alt='Ornamental Pear at Jericho Nursery in Albuquerque, New Mexico' />
@@ -55,7 +53,7 @@ function Ornamental() {
                 <h3>Cleveland Select Pear</h3>
                 <p>The Cleveland Select Pear offers a symmetrical shape, dazzling spring flowers, and vibrant purple-red foliage in autumn.</p>
             </div>
-            </div>
+        </div>
             <div 
             className='ornamental_tree_example_each' 
             onClick={toggleCrabappleVisibility} 
@@ -166,7 +164,8 @@ function Ornamental() {
 
 
             <div className='other_trees'>
-                <h1>More Zone 7 Ornamental Trees</h1>                 
+                <h1>More Zone 7 Ornamental Trees</h1>   
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat turpis eget nisi gravida mollis. Mauris tempor nunc sed justo pretium consequat. Integer consectetur id dolor nec semper. Cras in mauris dui. Duis condimentum, eros eu convallis sagittis, massa est mattis neque, sed fringilla nisi dolor sed lacus. Fusce a maximus massa. Sed risus risus, hendrerit ut finibus nec, mattis at nunc. Sed sagittis eleifend erat sit amet suscipit. Ut aliquam vel mi sit amet elementum. Fusce vitae dignissim nunc, vitae iaculis risus. Suspendisse id metus dictum, condimentum elit sed, porta augue. Suspendisse congue arcu vitae eros mattis, nec sodales tortor tristique. Etiam sed finibus elit. </p>              
                 <div>
                   <h2>Bird of Paradise</h2>
                   <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/BirdofParadise.png' alt='Mexican Bird of Paradise Tree in Albuquerque New Mexico sold at Jericho Nursery' />
@@ -175,7 +174,8 @@ function Ornamental() {
                   <h2>Oklahoma Redbud</h2>
                   <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/redbud.jpg' alt='Texas Redbud Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
-              </div> 
+              </div>
+         </div> 
 
 
 
