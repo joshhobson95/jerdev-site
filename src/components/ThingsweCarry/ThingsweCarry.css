@@ -52,12 +52,19 @@
   }
   
   .plant_category {
-    margin: 4rem;
+    margin: 3.5rem;
   }
   .plant_category:hover{
     background-color: #92207f21;
     border-radius: 14px;
   }
+
+  .plant_image_container{
+    display: flex;
+    justify-content: center;
+}
+
+
   
   .plant_category h3 {
     font-size: 26pt;
@@ -92,6 +99,9 @@
     filter: drop-shadow(0 4px 4px rgba(0,0,0,.4));
   }
   
+
+
+
   
   @media (min-width:700px) {
     .plant_category img{

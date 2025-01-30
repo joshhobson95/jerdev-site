@@ -29,6 +29,8 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    margin: 3rem;
 }
 
 .tree_example_each{
@@ -44,6 +46,13 @@
     height: 35vw;
     object-fit: cover;
     margin: 1rem;
+}
+.tree_example_circle_image_s{
+    width: 75vw;
+    height: 35vw;
+    object-fit: cover;
+    margin: 1rem;
+    
 }
 
 
@@ -71,12 +80,22 @@
 
 
   .tree_example_each h2{
-    font-size: 18pt;
+    font-size: 24pt;
     font-weight: 700;
+
+  }
+
+  .other_trees{
+    margin-bottom: 4rem;
   }
   .other_trees h2{
-    font-size: 18pt;
+    font-size: 24pt;
     font-weight: 700;
+ 
+  }
+  .other_trees h1{
+    font-size: 30pt;
+    margin: 2rem;
   }
 
   .tree_example_each h3{
@@ -84,10 +103,7 @@
     font-weight: 500;
     text-decoration: underline;
   }
-  .other_trees h1{
-    font-size: 30pt;
-    margin: 2rem;
-  }
+
 
   .tree_example_circle_image{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -97,6 +113,19 @@
     box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
 }
 
+
+
+@media (min-width:750px) {
+    .tree_example_circle_image{
+        width: 70vw;
+        height: 30vw;
+    }
+    .tree_example_circle_image_s{
+        width: 70vw;
+        height: 30vw;
+    }
+
+}
 
   @media (min-width:825px) {
     .trees_welcome h1{
@@ -122,6 +151,10 @@
     .other_trees h2{
         font-size: 26pt;
     }
+    .tree_example_circle_image{
+        margin: 1.5rem;
+    }
+
 }
 @media (min-width:1025px) {
     .trees_welcome h1{
@@ -146,6 +179,10 @@
 
 @media (min-width:1200px) {
     .tree_example_circle_image{
+        width: 65vw;
+        height: 25vw;
+    }
+    .tree_example_circle_image_s{
         width: 65vw;
         height: 25vw;
     }
@@ -191,15 +228,24 @@
     .shade_top_text{
         margin: 2rem 10rem;
     }
+    .tree_exerb{
+        margin: 0rem 10rem; 
+    }
 }
 
 @media (min-width:1900px) {
     .tree_example_circle_image{
-        width: 60vw;
-        height: 20vw;
+        width: 55vw;
+        height: 17vw;
     }
     .shade_top_text{
-        margin: 2rem 12rem;
+        margin: 2rem 24rem;
+    }
+    .tree_exerb{
+        margin: 0rem 24rem; 
+    }
+    .tree_examples{
+        margin-top: 10vh;
     }
 }
 

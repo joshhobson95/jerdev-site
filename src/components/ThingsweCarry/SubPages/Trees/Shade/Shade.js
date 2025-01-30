@@ -233,19 +233,19 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
 
             
             <div className='other_trees'>
-                <h1>More Great Shade Trees</h1>       
+                <h1>More Shade Trees</h1>       
                 <div>
                   <h2>Chinese Pistache</h2> 
-                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ChinesePistache.png' alt='Chinese Pistche Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_circle_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/PistacheNew.png' alt='Chinese Pistche Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                   
                 </div>
                 <div>
                   <h2>Orange Sage</h2>
-                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/OrangeSage.png' alt='Orange Sage Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_circle_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/OrangeSage.png' alt='Orange Sage Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
                 <div>
                   <h2>Golden Rain Tree</h2>
-                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/GoldenRainTree.png' alt='Golden Rain Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_circle_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/GoldenRainTree.png' alt='Golden Rain Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
                
               </div>    

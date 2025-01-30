@@ -130,9 +130,7 @@ margin-bottom: 1rem;
     .ornamental_tree_example_each h3{
         font-size: 26pt;
     }
-    .shade_top_text{
-        margin: 2rem 6rem;
-    }
+
 }
 
 @media (min-width:1650px) {
