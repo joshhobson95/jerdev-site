@@ -80,11 +80,15 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
                 <div className={`tree_exerb ${isAshVisible ? 'visible2' : 'hidden2'}`}>
                   <h3>Arizona Ash</h3>
                   <p>The Kousa dogwood offers creamy white blooms in late spring and bright red berries in summer, adding texture and color to the garden. Its layered branching and mottled bark provide year-round interest.</p>
-                  <h3>Black Ash</h3>
-                  <p>Black ash, native to the northeastern United States, is distinguished by its dark bark and compound leaves that turn golden-yellow in autumn.</p>
-                  <h3>Green Ash</h3>
-                  <p>Green ash is a versatile and adaptable tree, known for its bright green foliage and smooth, gray bark. It tolerates a wide range of soil conditions.</p>
                   <h3>Raywood Ash</h3>
+                  <p>Raywood ash has striking deep purple-red fall foliage, with a dense canopy and ornamental value, thriving in well-drained soils.</p>
+                  <h3>Berrinda Ash</h3>
+                  <p>The Kousa dogwood offers creamy white blooms in late spring and bright red berries in summer, adding texture and color to the garden. Its layered branching and mottled bark provide year-round interest.</p>
+                  <h3>Green Ash</h3>
+                  <p>The Kousa dogwood offers creamy white blooms in late spring and bright red berries in summer, adding texture and color to the garden. Its layered branching and mottled bark provide year-round interest.</p>
+                  <h3>Littleleaf Ash</h3>
+                  <p>Raywood ash has striking deep purple-red fall foliage, with a dense canopy and ornamental value, thriving in well-drained soils.</p>
+                  <h3>Mountain Ash</h3>
                   <p>Raywood ash has striking deep purple-red fall foliage, with a dense canopy and ornamental value, thriving in well-drained soils.</p>
                 </div>
               </div>
@@ -98,9 +102,9 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
                   alt='Cottonwood Trees in New Mexico'
                   />
                 <div className={`tree_exerb ${isCottonwoodVisible ? 'visible2' : 'hidden2'}`}>
-                  <h3>Eastern Cottonwood</h3>
+                  <h3>Fremont Cottonwood</h3>
                   <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
-                  <h3>Black Cottonwood</h3>
+                  <h3>Plains Cottonwood</h3>
                   <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
                   <h3>Rio Grande Cottonwood</h3>
                   <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
@@ -159,6 +163,8 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
                   <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
                   <h3>New Mexico Locust</h3>
                   <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
+                  <h3>Idaho Locust</h3>
+                  <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
                 </div>
               </div>
 {/* Sycamore Trees */}    
@@ -207,10 +213,11 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
                 <div className={`tree_exerb ${isElmVisible ? 'visible2' : 'hidden2'}`}>
                   <h3>American Elm</h3>
                   <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
+                  <h3>Lacebark Elm</h3>
+                  <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
                   <h3>Cedar Elm</h3>
                   <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
-                  <h3>Serbian Elm</h3>
-                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
+
                 </div>
               </div>
 {/* Oak Trees */}                 
@@ -253,6 +260,24 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
                   <h2>Ginkgo Tree</h2>
                   <img className='tree_example_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ginko.jpg' alt='Ginkgo Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
+                <h2>New Mexico Olive</h2>
+                <h2>Catclaw Acacia</h2>
+                <h2>Mesquite</h2>
+                <h2>Hoptree</h2>
+                <h2>Buckthorn</h2>
+                <h2>Mexican Buckeye</h2>
+                <h2>Smoke Tree</h2>
+                <h2>Wahsington Hawthorne</h2>
+                <h2>Western Hackberry</h2>
+                <h2>Hawthrone</h2>
+                <h2>Texas Umbrella Tree</h2>
+                <h2>American Yellowwood</h2>
+                <h2>Empress Tree</h2>
+                <h2>European Hornbeam</h2>
+                <h2>Littleleaf Linden</h2>
+                <h2>Japanese Pagoda</h2>
+                <h2>American Linden</h2>
+                <h2>Japanese Zelkova</h2>
                
               </div>    
 </div>

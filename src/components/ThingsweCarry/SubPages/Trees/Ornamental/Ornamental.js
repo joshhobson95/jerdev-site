@@ -52,6 +52,8 @@ function Ornamental() {
                 <p>Chanticleer Pear is a compact, upright tree with glossy green leaves, snowy spring blooms, and stunning late-season leaf colors.</p>
                 <h3>Cleveland Select Pear</h3>
                 <p>The Cleveland Select Pear offers a symmetrical shape, dazzling spring flowers, and vibrant purple-red foliage in autumn.</p>
+                <h3>Callery Pear</h3>
+                <p>The Cleveland Select Pear offers a symmetrical shape, dazzling spring flowers, and vibrant purple-red foliage in autumn.</p>
             </div>
         </div>
             <div 
@@ -138,6 +140,11 @@ function Ornamental() {
                 <h3>Pagoda Dogwood</h3>
                 <p>Graceful, tiered branches give the Pagoda dogwood its name, with creamy white flowers in spring and blue-black berries in summer. Its distinctive shape and vibrant foliage make it a true focal point.</p>
             </div>
+
+                <div>
+                  <h2>Redbuds</h2>
+                  <img className='tree_example_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/redbud.jpg' alt='Texas Redbud Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                </div>
             </div>
 
             <div 
@@ -168,12 +175,15 @@ function Ornamental() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat turpis eget nisi gravida mollis. Mauris tempor nunc sed justo pretium consequat. Integer consectetur id dolor nec semper. Cras in mauris dui. Duis condimentum, eros eu convallis sagittis, massa est mattis neque, sed fringilla nisi dolor sed lacus. Fusce a maximus massa. Sed risus risus, hendrerit ut finibus nec, mattis at nunc. Sed sagittis eleifend erat sit amet suscipit. Ut aliquam vel mi sit amet elementum. Fusce vitae dignissim nunc, vitae iaculis risus. Suspendisse id metus dictum, condimentum elit sed, porta augue. Suspendisse congue arcu vitae eros mattis, nec sodales tortor tristique. Etiam sed finibus elit. </p>              
                 <div>
                   <h2>Bird of Paradise</h2>
-                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/BirdofParadise.png' alt='Mexican Bird of Paradise Tree in Albuquerque New Mexico sold at Jericho Nursery' />
+                  <img className='tree_example_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/BirdofParadise.png' alt='Mexican Bird of Paradise Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
-                <div>
-                  <h2>Oklahoma Redbud</h2>
-                  <img className='tree_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/redbud.jpg' alt='Texas Redbud Tree in Albuquerque New Mexico sold at Jericho Nursery' />
-                </div>
+                <h2>American Plum</h2>
+                <h2>Chokecherry</h2>
+                <h2>Chinese Date</h2>
+                <h2>Soapberry</h2>
+                <h2>Arizona Walnut</h2>
+                <h2>Kentucky Coffee Tree</h2>
+         
               </div>
          </div> 
 

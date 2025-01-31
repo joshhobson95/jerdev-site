@@ -51,10 +51,12 @@ function Conifer() {
                 <h2>Juniper</h2>
                 <img className='tree_example_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg' alt='Juniper at Jericho Nursery in Albuquerque, New Mexico' />
                 <div className={`tree_exerb ${isJuniperVisible ? 'visible2' : 'hidden2'}`}>
-                    <h3>Juniper Species 1</h3>
-                    <p>Detailed description of Juniper Species 1 goes here...</p>
-                    <h3>Juniper Species 2</h3>
-                    <p>Detailed description of Juniper Species 2 goes here...</p>
+                    <h3>Alligator Juniper</h3>
+                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
+                    <h3>Rocky Mountain Juniper</h3>
+                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
+                    <h3>One-seed Juniper</h3>
+                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
                 </div>
             </div>
 
@@ -62,10 +64,10 @@ function Conifer() {
                 <h2>Spruce</h2>
                 <img className='tree_example_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/blueSpruce.jpg' alt='Spruce at Jericho Nursery in Albuquerque, New Mexico' />
                 <div className={`tree_exerb ${isSpruceVisible ? 'visible2' : 'hidden2'}`}>
-                    <h3>Spruce Species 1</h3>
-                    <p>Detailed description of Spruce Species 1 goes here...</p>
-                    <h3>Spruce Species 2</h3>
-                    <p>Detailed description of Spruce Species 2 goes here...</p>
+                    <h3>Blue Spruce</h3>
+                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
+                    <h3>Engelmann Spruce</h3>
+                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
                 </div>
             </div>
 
@@ -73,10 +75,12 @@ function Conifer() {
                 <h2>Cypress</h2>
                 <img className='tree_example_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Cypress.jpg' alt='Cypress at Jericho Nursery in Albuquerque, New Mexico' />
                 <div className={`tree_exerb ${isCypressVisible ? 'visible2' : 'hidden2'}`}>
-                    <h3>Cypress Species 1</h3>
-                    <p>Detailed description of Cypress Species 1 goes here...</p>
-                    <h3>Cypress Species 2</h3>
-                    <p>Detailed description of Cypress Species 2 goes here...</p>
+                    <h3>Italian Cypress</h3>
+                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
+                    <h3>Leyland Cypress</h3>
+                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
+                    <h3>Arizona Cypress</h3>
+                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
                 </div>
             </div>
 
@@ -84,10 +88,10 @@ function Conifer() {
                 <h2>Fir</h2>
                 <img className='tree_example_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Fir.jpg' alt='Fir at Jericho Nursery in Albuquerque, New Mexico' />
                 <div className={`tree_exerb ${isFirVisible ? 'visible2' : 'hidden2'}`}>
-                    <h3>Fir Species 1</h3>
-                    <p>Detailed description of Fir Species 1 goes here...</p>
-                    <h3>Fir Species 2</h3>
-                    <p>Detailed description of Fir Species 2 goes here...</p>
+                    <h3>Douglas Fir</h3>
+                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
+                    <h3>White Fir</h3>
+                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
                 </div>
             </div>
 
@@ -95,10 +99,10 @@ function Conifer() {
                 <h2>Cedar</h2>
                 <img className='tree_example_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cedar.jpg' alt='Cedar at Jericho Nursery in Albuquerque, New Mexico' />
                 <div className={`tree_exerb ${isCedarVisible ? 'visible2' : 'hidden2'}`}>
-                    <h3>Cedar Species 1</h3>
-                    <p>Detailed description of Cedar Species 1 goes here...</p>
-                    <h3>Cedar Species 2</h3>
-                    <p>Detailed description of Cedar Species 2 goes here...</p>
+                    <h3>Atlas Cedar</h3>
+                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
+                    <h3>Deodar Cedar</h3>
+                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
                 </div>
             </div>
         </div>
