@@ -53,10 +53,13 @@ import Trees from './components/ThingsweCarry/SubPages/Trees/Trees';
 import Shrubs from './components/ThingsweCarry/SubPages/Shrubs/Shrubs';
 import Xeric from './components/ThingsweCarry/SubPages/Xeric/Xeric';
 import Hardgoods from './components/ThingsweCarry/SubPages/Hardgoods/Hardgoods';
-import Shade from './components/ThingsweCarry/SubPages/Trees/Shade/Shade'
-import Fruit from './components/ThingsweCarry/SubPages/Trees/Fruit/Fruit'
-import Ornamental from './components/ThingsweCarry/SubPages/Trees/Ornamental/Ornamental'
-import Conifer from './components/ThingsweCarry/SubPages/Trees/Conifer/Conifer'
+import Shade from './components/ThingsweCarry/SubPages/Trees/Shade/Shade';
+import Fruit from './components/ThingsweCarry/SubPages/Trees/Fruit/Fruit';
+import Ornamental from './components/ThingsweCarry/SubPages/Trees/Ornamental/Ornamental';
+import Conifer from './components/ThingsweCarry/SubPages/Trees/Conifer/Conifer';
+import Flowering from './components/ThingsweCarry/SubPages/Shrubs/Flowering/Flowering';
+import Deciduous from './components/ThingsweCarry/SubPages/Shrubs/Deciduous/Deciduous';
+import Evergreen from './components/ThingsweCarry/SubPages/Shrubs/Evergreen/Evergreen';
 import './App.css';
 
 function App() {
@@ -94,6 +97,9 @@ function App() {
               <Route path='/fruittrees' element={<Fruit />}/>
               <Route path='/conifers' element={<Conifer />}/>
           <Route path='/shrubs' element={<Shrubs />}/>
+              <Route path='/floweringshrubs' element={<Flowering/>}/>
+              <Route path='/deciduousshrubs' element={<Deciduous/>} />
+              <Route path='/evergreenshrubs' element={<Evergreen/>}/>
           <Route path='/xeric' element={<Xeric />}/>
           <Route path='/hardgoods' element={<Hardgoods />}/>
         <Route path='/employment' element={<WhyWorkHere />}/>

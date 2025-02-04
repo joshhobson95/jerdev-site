@@ -7,7 +7,7 @@ function Shrubs() {
     <div className='Shrubs'>
 
         <div className='shrubs_welcome'>
-            <h1>Shrubs</h1>
+            <h1>New Mexico Shrubs</h1>
         </div>
 
           <div className='shrubs_body'>
@@ -20,19 +20,19 @@ function Shrubs() {
             <div className='shrub_categories'>
         
               <div className='shrub_catergories_inner'>
-              <NavLink to='/shadetrees'>
+              <NavLink to='/floweringshrubs'>
               <h2>Flowering Shrubs</h2>
               <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/floweringShrub.jpg' alt='Shade Trees in Albuqueruque, New Mexico and surrounding areas'/>
               </NavLink>
               </div>
               <div className='shrub_catergories_inner'>
-              <NavLink to='/ornamentaltrees'>
+              <NavLink to='/deciduousshrubs'>
               <h2>Deciduous Shrubs</h2>
               <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/deciduousShrub.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
               </NavLink>
               </div>
               <div className='shrub_catergories_inner'>
-              <NavLink to='/fruittrees'>
+              <NavLink to='/evergreenshrubs'>
               <h2>Evergreen Shrubs</h2>
               <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreenShrub2.jpg' alt='Fruit and Nut Trees in Albuqueruque, New Mexico and surrounding areas'/>
               </NavLink>

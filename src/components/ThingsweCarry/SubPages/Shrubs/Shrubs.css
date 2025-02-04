@@ -42,11 +42,13 @@
 .shrubs_top_text {
     margin: 1rem;
     line-height: 1.6;
+    text-align: left;
 }
 
 .shrubs_top_text h2 {
     font-size: 30pt;
     margin: 2rem;
+    text-align: center;
 }
 
 .shrub_categories{

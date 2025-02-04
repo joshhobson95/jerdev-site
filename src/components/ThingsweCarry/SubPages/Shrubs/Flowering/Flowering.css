@@ -1,0 +1,255 @@
+.Flowering{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#95562E, #DB4B4B, #15F6C0a8  ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    color: white;
+}
+
+
+.Flowering p{
+    line-height: 1.6;
+    text-align: left;
+}
+
+.flowering_top_text{
+    margin: 1rem;
+    line-height: 1.6;
+}
+.flowering_top_text h2{
+    font-size: 30pt;
+    margin: 2rem;
+
+}
+
+.flowering_examples{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.flowering_example_each{
+    margin: 1rem;
+}
+
+.flowering_examples p{
+    text-align: left;
+}
+
+.flowering_example_image{
+    width: 75vw;
+    height: 35vw;
+    object-fit: cover;
+    margin: 1rem;
+}
+.flowering_example_image_s{
+    width: 75vw;
+    height: 35vw;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+
+.flowering_exerb {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: visibility 0s 0.5s, opacity 0.5s ease-in, height 0.5s ease-in;
+  }
+  
+  .flowering_exerb.visible2 {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    transition: opacity 0.5s ease-in, height 0.5s ease-in;
+  }
+
+  .flowering_exerb p{
+    margin-bottom: 1rem;
+  }
+
+
+
+  .flowering_example_each h2{
+    font-size: 24pt;
+    font-weight: 700;
+
+  }
+
+  .other_flowerings{
+    margin: 4rem 0rem;
+  }
+  .other_flowerings h2{
+    font-size: 24pt;
+    font-weight: 700;
+ 
+  }
+  .other_flowerings h1{
+    font-size: 30pt;
+    margin: 2rem;
+  }
+
+  .flowering_example_each h3{
+    font-size: 16pt;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+
+
+  .flowering_example_image{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.flowering_example_image:hover{
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
+}
+
+
+
+@media (min-width:750px) {
+    .flowering_example_image{
+        width: 70vw;
+        height: 30vw;
+    }
+    .flowering_example_image_s{
+        width: 70vw;
+        height: 30vw;
+    }
+
+}
+
+  @media (min-width:825px) {
+    .flowerings_welcome h1{
+        font-size: 60pt;
+    }
+    .flowerings_welcome p{
+        font-size: 22pt;
+    }
+    .flowering_top_text p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+    .other_flowerings p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+    .flowering_example_each h2{
+        font-size: 26pt;
+    }
+    .flowering_example_each h3{
+        font-size: 22pt;
+    }
+    .flowering_exerb p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+    .other_flowerings h2{
+        font-size: 26pt;
+    }
+    .flowering_example_image{
+        margin: 1.5rem;
+    }
+
+}
+@media (min-width:1025px) {
+    .flowerings_welcome h1{
+        font-size: 60pt;
+    }
+    .flowering_top_text h2{
+        font-size: 40pt;
+    }
+    .flowering_example_each h2{
+        font-size: 30pt;
+    }
+    .other_flowerings h2{
+        font-size: 30pt;
+    }
+    .flowering_example_each{
+        margin: 2rem;
+    }
+    .flowering_top_text{
+        margin: 2rem 4rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .flowering_example_image{
+        width: 65vw;
+        height: 25vw;
+    }
+    .flowering_example_image_s{
+        width: 65vw;
+        height: 25vw;
+    }
+    .flowering_example_each{
+        margin: 2rem 4rem;
+    }
+
+}
+
+@media (min-width:1500px) {
+    .flowering_example_image{
+        width: 65vw;
+        height: 22vw;
+    }
+    .flowering_top_text h2{
+        font-size: 44pt;
+    }
+    .other_flowerings h1{
+        font-size: 44pt;
+    }
+    .flowering_top_text p{
+        font-size: 18pt;
+        margin: 2rem 4rem;
+    }
+    .flowering_example_each h2{
+        font-size: 36pt;
+    }
+    .other_flowerings h2{
+        font-size: 36pt;
+    }
+    .flowering_example_each h3{
+        font-size: 26pt;
+    }
+    .flowering_exerb p{
+        font-size: 18pt;
+    }
+    .flowering_top_text{
+        margin: 2rem 6rem;
+    }
+}
+
+@media (min-width:1650px) {
+    .flowering_top_text{
+        margin: 2rem 10rem;
+    }
+    .flowering_exerb{
+        margin: 0rem 10rem; 
+    }
+}
+
+@media (min-width:1900px) {
+    .flowering_example_image{
+        width: 55vw;
+        height: 17vw;
+    }
+    .flowering_top_text{
+        margin: 2rem 24rem;
+    }
+    .flowering_exerb{
+        margin: 0rem 24rem; 
+    }
+    .flowering_examples{
+        margin-top: 10vh;
+    }
+}
+
+  
+
