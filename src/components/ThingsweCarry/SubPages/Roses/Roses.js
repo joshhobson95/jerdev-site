@@ -26,6 +26,7 @@ function Roses() {
   <h3>Rose Varieties</h3>
   <p>Although we may not have each of them every year, we always order our Roses from Week's Roses- who grow some of the most breath taking Roses in the United States. Some of our favorite Week's Roses are listed below:</p>
 
+  <div className='rose_examples_outer'>
   <div className='rose_examples_inner'>
     <div className='plant_example_each'>
     <h6>Fouth of July</h6>
@@ -76,13 +77,14 @@ function Roses() {
     <img className='rose_example_circle_image' src='https://h2.commercev3.net/cdn.weeksroses.com/images/400/1283.jpg' alt='Black Eyed Susan at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
   </div>
+  </div>
 
-    {/* <div className='roses_body_bottom_text'>
-      <h2>Grafted</h2>
+    <div className='roses_body_bottom_text'>
+      <h2>Our Rose List 2025</h2>
       <p>
-      <p>Check out the Weeks Roses 2025 Flip Book Catalouge here: <a href='https://online.flipbuilder.com/rlawg/friw/'>https://online.flipbuilder.com/rlawg/friw/</a></p>
+      Quisque ornare nibh in tristique porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus condimentum magna vel sem euismod rutrum eget id tortor. Morbi rutrum a urna at sollicitudin. Aliquam fermentum mi id posuere rhoncus. Integer ut condimentum mauris. Suspendisse dignissim faucibus ornare. Morbi ex mi, placerat eget ipsum eget, dignissim fringilla tortor. 
       </p>
-    </div> */}
+    </div>
 
 
   </div>

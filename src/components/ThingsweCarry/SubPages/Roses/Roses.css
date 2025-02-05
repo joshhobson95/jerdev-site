@@ -53,13 +53,27 @@
     margin: 2rem;
     text-align: center;
 }
-.rose_examples_inner{
+.rose_examples_outer{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+}
+.rose_examples_inner{
+    display: flex;
+    width: 80vw;
+    overflow-x: auto; 
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    border-radius: 16px;
+    padding: 1rem;
+ 
     
     
 }
+
+
+
+
 .plant_examples h3{
     font-size: 26pt;
     margin: 3rem;
@@ -188,6 +202,9 @@
         margin: 4rem 10rem;
     }
     .roses_body_bottom_text{
+        margin: 4rem 10rem;
+    }
+    .roses_body p{
         margin: 4rem 10rem;
     }
     .plant_examples_inner{

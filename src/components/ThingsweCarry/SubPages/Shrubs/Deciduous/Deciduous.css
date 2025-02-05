@@ -1,0 +1,255 @@
+.Deciduous{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#95562E, #DB4B4B, #15F6C0a8  ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    color: white;
+}
+
+
+.Deciduous p{
+    line-height: 1.6;
+    text-align: left;
+}
+
+.deciduous_top_text{
+    margin: 1rem;
+    line-height: 1.6;
+}
+.deciduous_top_text h2{
+    font-size: 30pt;
+    margin: 2rem;
+
+}
+
+.deciduous_examples{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.deciduous_example_each{
+    margin: 1rem;
+}
+
+.deciduous_examples p{
+    text-align: left;
+}
+
+.deciduous_example_image{
+    width: 75vw;
+    height: 35vw;
+    object-fit: cover;
+    margin: 1rem;
+}
+.deciduous_example_image_s{
+    width: 75vw;
+    height: 35vw;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+
+.deciduous_exerb {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: visibility 0s 0.5s, opacity 0.5s ease-in, height 0.5s ease-in;
+  }
+  
+  .deciduous_exerb.visible2 {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    transition: opacity 0.5s ease-in, height 0.5s ease-in;
+  }
+
+  .deciduous_exerb p{
+    margin-bottom: 1rem;
+  }
+
+
+
+  .deciduous_example_each h2{
+    font-size: 24pt;
+    font-weight: 700;
+
+  }
+
+  .other_deciduous{
+    margin: 4rem 0rem;
+  }
+  .other_deciduous h2{
+    font-size: 24pt;
+    font-weight: 700;
+ 
+  }
+  .other_deciduous h1{
+    font-size: 30pt;
+    margin: 2rem;
+  }
+
+  .deciduous_example_each h3{
+    font-size: 16pt;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+
+
+  .deciduous_example_image{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.deciduous_example_image:hover{
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
+}
+
+
+
+@media (min-width:750px) {
+    .deciduous_example_image{
+        width: 70vw;
+        height: 30vw;
+    }
+    .deciduous_example_image_s{
+        width: 70vw;
+        height: 30vw;
+    }
+
+}
+
+  @media (min-width:825px) {
+    .deciduous_welcome h1{
+        font-size: 60pt;
+    }
+    .deciduous_welcome p{
+        font-size: 22pt;
+    }
+    .deciduous_top_text p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+    .other_deciduous p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+    .deciduous_example_each h2{
+        font-size: 26pt;
+    }
+    .deciduous_example_each h3{
+        font-size: 22pt;
+    }
+    .deciduous_exerb p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+    .other_deciduous h2{
+        font-size: 26pt;
+    }
+    .deciduous_example_image{
+        margin: 1.5rem;
+    }
+
+}
+@media (min-width:1025px) {
+    .deciduous_welcome h1{
+        font-size: 60pt;
+    }
+    .deciduous_top_text h2{
+        font-size: 40pt;
+    }
+    .deciduous_example_each h2{
+        font-size: 30pt;
+    }
+    .other_deciduous h2{
+        font-size: 30pt;
+    }
+    .deciduous_example_each{
+        margin: 2rem;
+    }
+    .deciduous_top_text{
+        margin: 2rem 4rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .deciduous_example_image{
+        width: 65vw;
+        height: 25vw;
+    }
+    .deciduous_example_image_s{
+        width: 65vw;
+        height: 25vw;
+    }
+    .deciduous_example_each{
+        margin: 2rem 4rem;
+    }
+
+}
+
+@media (min-width:1500px) {
+    .deciduous_example_image{
+        width: 65vw;
+        height: 22vw;
+    }
+    .deciduous_top_text h2{
+        font-size: 44pt;
+    }
+    .other_deciduous h1{
+        font-size: 44pt;
+    }
+    .deciduous_top_text p{
+        font-size: 18pt;
+        margin: 2rem 4rem;
+    }
+    .deciduous_example_each h2{
+        font-size: 36pt;
+    }
+    .other_deciduous h2{
+        font-size: 36pt;
+    }
+    .deciduous_example_each h3{
+        font-size: 26pt;
+    }
+    .deciduous_exerb p{
+        font-size: 18pt;
+    }
+    .deciduous_top_text{
+        margin: 2rem 6rem;
+    }
+}
+
+@media (min-width:1650px) {
+    .deciduous_top_text{
+        margin: 2rem 10rem;
+    }
+    .deciduous_exerb{
+        margin: 0rem 10rem; 
+    }
+}
+
+@media (min-width:1900px) {
+    .deciduous_example_image{
+        width: 55vw;
+        height: 17vw;
+    }
+    .deciduous_top_text{
+        margin: 2rem 24rem;
+    }
+    .deciduous_exerb{
+        margin: 0rem 24rem; 
+    }
+    .deciduous_examples{
+        margin-top: 10vh;
+    }
+}
+
+  
+
