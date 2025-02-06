@@ -116,7 +116,7 @@
     transform: rotate(180deg);
   }
   
-.material-symbols-outlined {
+/* .material-symbols-outlined {
     display: flex;
     justify-content: center;
     font-size: 40pt;
@@ -131,7 +131,7 @@
 .material-symbols-outlined:hover{
     transform: scale(1.05);
 }
-
+ */
 
 
 
