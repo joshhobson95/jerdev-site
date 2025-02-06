@@ -32,7 +32,7 @@ function ThingsweCarry() {
     <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Lavendar.jpg' alt='Perrenial plants available at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_text'>
-     <h3>Perrenials</h3>
+     <h3>Perennials</h3>
       <p>Perennials are plants that live for more than two years, returning each season with new growth. Unlike annuals, they don’t need to be replanted every year. Popular perennials in Albuquerque include lavender and echinacea, which thrive in the local climate, bringing enduring beauty to your garden year after year. </p>
     </div>
   </div>

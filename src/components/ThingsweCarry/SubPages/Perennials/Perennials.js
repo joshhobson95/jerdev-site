@@ -6,7 +6,7 @@ function Perennials() {
   return (
     <div className='Perennials'>
         <div className='perennials_welcome'>
-            <h1>Perrenials</h1>
+            <h1>Perennials</h1>
         </div>
 
 
