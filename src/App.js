@@ -60,6 +60,11 @@ import Conifer from './components/ThingsweCarry/SubPages/Trees/Conifer/Conifer';
 import Flowering from './components/ThingsweCarry/SubPages/Shrubs/Flowering/Flowering';
 import Deciduous from './components/ThingsweCarry/SubPages/Shrubs/Deciduous/Deciduous';
 import Evergreen from './components/ThingsweCarry/SubPages/Shrubs/Evergreen/Evergreen';
+import XericBedding from './components/ThingsweCarry/SubPages/Xeric/XericBedding/XericBedding';
+import XericGrasses from './components/ThingsweCarry/SubPages/Xeric/XericGrasses/XericGrasses';
+import XericTrees from './components/ThingsweCarry/SubPages/Xeric/XericTrees/XericTrees';
+import XericShrubs from './components/ThingsweCarry/SubPages/Xeric/XericShrubs/XericShrubs';
+import Cacti from './components/ThingsweCarry/SubPages/Xeric/Cacti/Cacti'
 import './App.css';
 
 function App() {
@@ -101,6 +106,11 @@ function App() {
               <Route path='/deciduousshrubs' element={<Deciduous/>} />
               <Route path='/evergreenshrubs' element={<Evergreen/>}/>
           <Route path='/xeric' element={<Xeric />}/>
+               <Route path='/xerictrees' element={<XericTrees/>}/>
+              <Route path='/xericshrubs' element={<XericShrubs/>} />
+              <Route path='/cacti' element={<Cacti/>}/>
+              <Route path='/xericbedding' element={<XericBedding/>}/>
+              <Route path='/xericgrasses' element={<XericGrasses/>}/>
           <Route path='/hardgoods' element={<Hardgoods />}/>
         <Route path='/employment' element={<WhyWorkHere />}/>
        <Route path='/videos' element={<Videos />}/>

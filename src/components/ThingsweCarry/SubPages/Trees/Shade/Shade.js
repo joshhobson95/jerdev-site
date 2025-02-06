@@ -51,7 +51,9 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
 
 
   return (
+    
 <div className='Shade'>
+  
 
     <div className='trees_welcome'>
         <h1>New Mexico Shade Trees</h1>
@@ -72,11 +74,17 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
  {/* Ash Trees */}
  <div className={`tree_example_each ${isAshVisible ? 'visible2' : 'hidden2'}`} onClick={toggleAshVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Ash Trees</h2>
+                
                 <img
                   className='tree_example_image'
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ash.png'
                   alt='Ash Trees in New Mexico'
                   />
+       
+              <span className={`material-symbols-outlined ${isAshVisible ? 'rotate' : ''}`}>
+                expand_circle_down
+              </span>
+                
                 <div className={`tree_exerb ${isAshVisible ? 'visible2' : 'hidden2'}`}>
                   <h3>Arizona Ash</h3>
                   <p>The Kousa dogwood offers creamy white blooms in late spring and bright red berries in summer, adding texture and color to the garden. Its layered branching and mottled bark provide year-round interest.</p>
@@ -205,6 +213,7 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
 {/* Elm Trees */}                 
           <div className='tree_example_each' onClick={toggleElmVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Elm Trees</h2>
+                
                 <img
                   className='tree_example_image'
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ElmTree.jpg'
