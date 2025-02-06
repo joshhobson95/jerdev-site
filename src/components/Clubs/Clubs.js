@@ -17,6 +17,7 @@ function Clubs() {
         <div className='clubs_body_main'>
 
             <h1>Consider Joining!</h1>
+            <p>test test test</p>
 
 
 

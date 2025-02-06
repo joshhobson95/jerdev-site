@@ -75,6 +75,7 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
  <div className={`tree_example_each ${isAshVisible ? 'visible2' : 'hidden2'}`} onClick={toggleAshVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Ash Trees</h2>
                 
+                
                 <img
                   className='tree_example_image'
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ash.png'
