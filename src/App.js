@@ -16,7 +16,6 @@ import Partners from './components/Partners/Partners';
 import Aboutus from './components/Aboutuspage/Aboutus';
 import Seminars from './components/Seminar/Seminars';
 import Clubs from './components/Clubs/Clubs';
-import Map from './components/Map/Map';
 import ContactUs from './components/ContactUs/ContactUs';
 import Brands from './components/Brands/Brands';
 import WhyWorkHere from './components/WhyWorkHere/WhyWorkHere';
@@ -58,14 +57,15 @@ import Fruit from './components/ThingsweCarry/SubPages/Trees/Fruit/Fruit';
 import Ornamental from './components/ThingsweCarry/SubPages/Trees/Ornamental/Ornamental';
 import Conifer from './components/ThingsweCarry/SubPages/Trees/Conifer/Conifer';
 import Flowering from './components/ThingsweCarry/SubPages/Shrubs/Flowering/Flowering';
-import Deciduous from './components/ThingsweCarry/SubPages/Shrubs/Deciduous/Deciduous';
-import Evergreen from './components/ThingsweCarry/SubPages/Shrubs/Evergreen/Evergreen';
+import Deciduous from './components/ThingsweCarry/SubPages/Shrubs/Hedges/Hedges';
+import ConiferousShrubs from './components/ThingsweCarry/SubPages/Shrubs/ConiferousShrubs/ConiferousShrubs';
 import XericBedding from './components/ThingsweCarry/SubPages/Xeric/XericBedding/XericBedding';
 import XericGrasses from './components/ThingsweCarry/SubPages/Xeric/XericGrasses/XericGrasses';
 import XericTrees from './components/ThingsweCarry/SubPages/Xeric/XericTrees/XericTrees';
 import XericShrubs from './components/ThingsweCarry/SubPages/Xeric/XericShrubs/XericShrubs';
 import Cacti from './components/ThingsweCarry/SubPages/Xeric/Cacti/Cacti'
 import './App.css';
+
 
 function App() {
 
@@ -84,7 +84,6 @@ function App() {
        <Route path='/giftcard' element={<GiftCard />}/>
        <Route path='/radio' element={<Radio />}/>
        <Route path='/blog' element={<Blog />}/>
-       {/* <Route path='/map'  element={<Map />}/> */}
        <Route path='/singleblog/:blogid' element={<SingleBlog />}/>
        <Route path='/partners' element={<Partners />}/>
        <Route path='/aboutus' element={<Aboutus />}/>
@@ -103,8 +102,8 @@ function App() {
               <Route path='/conifers' element={<Conifer />}/>
           <Route path='/shrubs' element={<Shrubs />}/>
               <Route path='/floweringshrubs' element={<Flowering/>}/>
-              <Route path='/deciduousshrubs' element={<Deciduous/>} />
-              <Route path='/evergreenshrubs' element={<Evergreen/>}/>
+              <Route path='/hedges' element={<Deciduous/>} />
+              <Route path='/coniferousshrubs' element={<ConiferousShrubs/>}/>
           <Route path='/xeric' element={<Xeric />}/>
                <Route path='/xerictrees' element={<XericTrees/>}/>
               <Route path='/xericshrubs' element={<XericShrubs/>} />

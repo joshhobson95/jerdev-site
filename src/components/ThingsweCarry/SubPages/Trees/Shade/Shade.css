@@ -21,7 +21,6 @@
 .shade_top_text h2{
     font-size: 30pt;
     margin: 2rem;
-
 }
 
 .tree_examples{
@@ -48,8 +47,8 @@
     margin: 1rem;
 }
 .tree_example_image_s{
-    width: 75vw;
-    height: 35vw;
+    width: 65vw;
+    height: 25vw;
     object-fit: cover;
     margin: 1rem;
 }
@@ -86,7 +85,7 @@
     margin: 4rem 0rem;
   }
   .other_trees h2{
-    font-size: 24pt;
+    font-size: 18pt;
     font-weight: 700;
  
   }
@@ -94,6 +93,18 @@
     font-size: 30pt;
     margin: 2rem;
   }
+
+  .other_trees_top{
+    margin: 1rem;
+    margin-bottom: 6rem;
+  }
+
+  .other_trees_example_each{
+    margin: 4rem;
+  }
+
+
+
 
   .tree_example_each h3{
     font-size: 16pt;
@@ -110,28 +121,27 @@
     box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
 }
 
-
-  
   .rotate {
     transform: rotate(180deg);
   }
   
-/* .material-symbols-outlined {
+  .tree_exmaple_inner_container{
     display: flex;
     justify-content: center;
-    font-size: 40pt;
-    margin-left: 8px;
-    transition: transform 0.3s ease;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-.material-symbols-outlined:hover{
-    transform: scale(1.05);
-}
- */
+    flex-direction: column;
+    align-items: center;
+  }
+  .material-symbols-outlined{
+    transition: 0.5s ease;
+  }
+  .material-symbols-outlined:hover{
+    color:  rgba(255, 187, 0, 0.7);
+  }
+  
+  
+
+
+  
 
 
 
@@ -142,8 +152,8 @@
         height: 30vw;
     }
     .tree_example_image_s{
-        width: 70vw;
-        height: 30vw;
+        width: 60vw;
+        height: 20vw;
     }
 
 }
@@ -200,6 +210,9 @@
     .shade_top_text{
         margin: 2rem 4rem;
     }
+    .other_trees_top{
+        margin: 2rem 4rem;
+    }
 }
 
 @media (min-width:1200px) {
@@ -208,8 +221,8 @@
         height: 25vw;
     }
     .tree_example_image_s{
-        width: 65vw;
-        height: 25vw;
+        width: 55vw;
+        height: 20vw;
     }
     .tree_example_each{
         margin: 2rem 4rem;
@@ -221,6 +234,10 @@
     .tree_example_image{
         width: 65vw;
         height: 22vw;
+    }
+    .tree_example_image_s{
+        width: 52vw;
+        height: 18vw;
     }
     .shade_top_text h2{
         font-size: 44pt;
@@ -247,10 +264,16 @@
     .shade_top_text{
         margin: 2rem 6rem;
     }
+    .other_trees_top{
+        margin: 2rem 6rem;
+    }
 }
 
 @media (min-width:1650px) {
     .shade_top_text{
+        margin: 2rem 10rem;
+    }
+    .other_trees_top{
         margin: 2rem 10rem;
     }
     .tree_exerb{
@@ -263,7 +286,14 @@
         width: 57vw;
         height: 17vw;
     }
+    .tree_example_image_s{
+        width: 45vw;
+        height: 15vw;
+    }
     .shade_top_text{
+        margin: 2rem 24rem;
+    }
+    .other_trees_top{
         margin: 2rem 24rem;
     }
     .tree_exerb{

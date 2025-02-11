@@ -75,16 +75,16 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
  <div className={`tree_example_each ${isAshVisible ? 'visible2' : 'hidden2'}`} onClick={toggleAshVisibility} style={{ cursor: 'pointer' }}>
                 <h2>Ash Trees</h2>
                 
-                
+            <div className='tree_exmaple_inner_container'>
                 <img
                   className='tree_example_image'
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ash.png'
-                  alt='Ash Trees in New Mexico'
-                  />
-       
+                  alt='Ash Trees in New Mexico'         
+                  />    
               <span className={`material-symbols-outlined ${isAshVisible ? 'rotate' : ''}`}>
                 expand_circle_down
               </span>
+            </div>
                 
                 <div className={`tree_exerb ${isAshVisible ? 'visible2' : 'hidden2'}`}>
                   <h3>Arizona Ash</h3>
@@ -100,7 +100,7 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
                   <h3>Mountain Ash</h3>
                   <p>Raywood ash has striking deep purple-red fall foliage, with a dense canopy and ornamental value, thriving in well-drained soils.</p>
                 </div>
-              </div>
+            </div>
 
 {/* Cottonwood Trees */}
           <div className='tree_example_each' onClick={toggleCottonwoodVisibility} style={{ cursor: 'pointer' }}>
@@ -250,23 +250,25 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
 
             
             <div className='other_trees'>
+          <div className='other_trees_top'>
             <h1>Standout Shade Trees</h1>  
             <p>Unlike maples, elms, or willows, which have numerous varieties and subspecies, these trees stand on their own without an extensive family of closely related types. While they may not have as many botanical siblings, they make up for it with unique charm, resilience, and exceptional shade coverage. Each tree in this category brings something special—whether it’s striking seasonal color, interesting foliage, or a distinct silhouette that sets it apart in any landscape. If you're looking for a shade tree that stands out while still providing excellent coverage, these are excellent choices.</p>
+          </div>
 
-                <div>
+                <div className='other_trees_example_each'>
                   <h2>Chinese Pistache</h2> 
                   <img className='tree_example_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/PistacheNew.png' alt='Chinese Pistche Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                   
                 </div>
-                <div>
+                <div className='other_trees_example_each'>
                   <h2>Orange Sage</h2>
                   <img className='tree_example_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/OrangeSage.png' alt='Orange Sage Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
-                <div>
+                <div className='other_trees_example_each'>
                   <h2>Golden Rain Tree</h2>
                   <img className='tree_example_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/GoldenRainTree.png' alt='Golden Rain Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>
-                <div>
+                <div className='other_trees_example_each'>
                   <h2>Ginkgo Tree</h2>
                   <img className='tree_example_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ginko.jpg' alt='Ginkgo Tree in Albuquerque New Mexico sold at Jericho Nursery' />
                 </div>

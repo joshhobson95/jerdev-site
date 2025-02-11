@@ -26,15 +26,15 @@ function Shrubs() {
               </NavLink>
               </div>
               <div className='shrub_catergories_inner'>
-              <NavLink to='/deciduousshrubs'>
-              <h2>Deciduous Shrubs</h2>
-              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/deciduousShrub.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
+              <NavLink to='/hedges'>
+              <h2>Hedges and Topiaries</h2>
+              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/hedge.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
               </NavLink>
               </div>
               <div className='shrub_catergories_inner'>
-              <NavLink to='/evergreenshrubs'>
-              <h2>Evergreen Shrubs</h2>
-              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreenShrub2.jpg' alt='Fruit and Nut Trees in Albuqueruque, New Mexico and surrounding areas'/>
+              <NavLink to='/coniferousshrubs'>
+              <h2>Coniferous Shrubs</h2>
+              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/conifershrubs.jpg' alt='Fruit and Nut Trees in Albuqueruque, New Mexico and surrounding areas'/>
               </NavLink>
               </div>
             </div>
