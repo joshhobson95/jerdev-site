@@ -38,6 +38,7 @@
 
 .tree_examples p{
     text-align: left;
+    
 }
 
 .tree_example_image{
@@ -78,8 +79,8 @@
   .tree_example_each h2{
     font-size: 24pt;
     font-weight: 700;
-
   }
+
 
   .other_trees{
     margin: 4rem 0rem;
@@ -137,14 +138,67 @@
   .material-symbols-outlined:hover{
     color:  rgba(255, 187, 0, 0.7);
   }
+
+
+
+
+
+  .tree_image{
+    width: 75vw;
+    height: 35vw;
+    object-fit: cover;
+    margin: 1rem;
+  }
+  .tree_card h2{
+    font-size: 30pt;
+    font-weight: 700;
+  }
+  .tree_card h3{
+    font-size: 22pt;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  .tree_card p{
+    font-size: 14pt;
+    margin-bottom: 1rem;
+
+  }
+
+
+
+.tree_info {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.tree_card:hover .tree_info:not(.expanded) {
+  max-height: 120px; /* Show only a preview on hover */
+}
+.tree_card img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tree_card img:hover{
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
+}
+
+.tree_info.expanded {
+  max-height: none; /* Show full content when clicked */
+}
+
+
+.fade_span {
+    opacity: 0;
+    animation: fadeInOut 5s ease-in-out;
+  }
   
-  
-
-
-  
-
-
-
+  @keyframes fadeInOut {
+    0% { opacity: 0; }
+    30% { opacity: 1; } /* Fully visible */
+    70% { opacity: 1; } /* Stay visible */
+    100% { opacity: 0; }
+  }
 
 @media (min-width:750px) {
     .tree_example_image{
@@ -155,6 +209,10 @@
         width: 60vw;
         height: 20vw;
     }
+    .tree_image{
+        width: 70vw;
+        height: 30vw;
+      }
 
 }
 
@@ -224,6 +282,10 @@
         width: 55vw;
         height: 20vw;
     }
+    .tree_image{
+        width: 65vw;
+        height: 25vw;
+      }
     .tree_example_each{
         margin: 2rem 4rem;
     }
@@ -239,6 +301,10 @@
         width: 52vw;
         height: 18vw;
     }
+    .tree_image{
+        width: 65vw;
+        height: 22vw;
+      }
     .shade_top_text h2{
         font-size: 44pt;
     }

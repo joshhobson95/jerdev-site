@@ -81,6 +81,8 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
                   src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ash.png'
                   alt='Ash Trees in New Mexico'         
                   />    
+                  <span class="fade_span">Click to Expand</span>
+
               <span className={`material-symbols-outlined ${isAshVisible ? 'rotate' : ''}`}>
                 expand_circle_down
               </span>
@@ -101,6 +103,27 @@ const [isWillowVisible, setIsWillowVisible] = useState(false);
                   <p>Raywood ash has striking deep purple-red fall foliage, with a dense canopy and ornamental value, thriving in well-drained soils.</p>
                 </div>
             </div>
+
+
+            {/* ////////////////////////////////////////////////// */}
+
+            <div className='tree_card' onClick={toggleCottonwoodVisibility} style={{ cursor: 'pointer' }}>
+  <h2>Cottonwood Trees</h2>
+  <img
+    className='tree_image'
+    src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cottonwood.jpg'
+    alt='Cottonwood Trees in New Mexico'
+  />
+  <div className={`tree_info ${isCottonwoodVisible ? 'expanded' : 'collapsed'}`}>
+    <h3>Fremont Cottonwood</h3>
+    <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
+    <h3>Plains Cottonwood</h3>
+    <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
+    <h3>Rio Grande Cottonwood</h3>
+    <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
+  </div>
+</div>
+
 
 {/* Cottonwood Trees */}
           <div className='tree_example_each' onClick={toggleCottonwoodVisibility} style={{ cursor: 'pointer' }}>
