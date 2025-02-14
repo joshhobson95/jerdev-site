@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Conifer.css'
-
+import PlantCard from '../../PlantCard/PlantCard';
 
 function Conifer() {
 
@@ -28,6 +28,8 @@ function Conifer() {
     <h1>New Mexico Conifers</h1>
   </div>
 
+
+
     <div className='conifer_tree_container'>
       <div className='conifer_top_text'> 
               <h2>Know your Conifers</h2>
@@ -38,12 +40,8 @@ function Conifer() {
                 <h2>Pine</h2>
                 <img className='tree_example_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Pinon.jpg'alt='Pinion at Jericho Nursery in Albuquerque, New Mexico'/>
                 <div className={`tree_exerb ${isPineVisible ? 'visible2' : 'hidden2'}`}>
-                    <h3>Pinyon Pine</h3>
-                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
-                    <h3>Ponderosa Pine</h3>
-                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
-                    <h3>Mugo Pine</h3>
-                    <p>Quisque vulputate, eros a finibus commodo, felis libero interdum risus, vel efficitur lacus ex id elit. Praesent vel tincidunt elit, in sagittis eros. Curabitur vel dapibus magna, ut elementum ex. Aenean nec augue sit amet arcu bibendum accumsan. Nullam commodo tortor nec tortor rutrum, nec placerat enim tristique. Morbi vitae leo ac arcu tempus volutpat non vel ipsum. Ut vehicula velit quis velit congue, id elementum massa viverra.</p>
+                <PlantCard />
+                    
                  </div>
               </div>
 
