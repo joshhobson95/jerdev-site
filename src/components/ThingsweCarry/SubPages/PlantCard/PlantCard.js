@@ -1,7 +1,6 @@
 import React from 'react'
 import './PlantCard.css'
-import fullsun from '../../../../Assets/icons/FullSun.png'
-import highwater from '../../../../Assets/icons/HighWater.png'
+
 
 
 function PlantCard() {
@@ -20,22 +19,27 @@ function PlantCard() {
         </div>
         <div className='plant_card_bottom'>
           <div className='card_icon_sub_section'>
-           <img className='sun_icon' src={fullsun}/> <p>Full Sun</p>
+           <img className='sun_icon' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png'/> <p>Full Sun</p>
           </div>
           <div className='card_icon_sub_section'>
-            <img className='water_icon' src={highwater}/>
+            <img className='water_icon' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/HighWater.png'/>
             <p>High Water</p>
           </div>
-          <div className='card_icon_sub_section'>
+          <div className='card_icon_sub_section_size'>
             
-            <p>Mature Size:
+          <p>Zone Hardiness:
+            <br></br>
+             6, 7, 8</p>
+             </div>
+
+          <div className='card_icon_sub_section='>
+
+          <p>Mature Size:
           <br></br>
               10'x10'
             </p>
-          </div>
-          <div className='card_icon_sub_section'>
            
-            <p>Zone Hardiness: 6, 7, 8</p>
+    
           </div>
  
 

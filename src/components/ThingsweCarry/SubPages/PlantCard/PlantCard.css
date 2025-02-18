@@ -45,15 +45,138 @@
     padding: 0.5rem;
 }
 .water_icon{
-    width: 2rem;
+    width: 2.25rem;
     padding: 0.5rem;
 }
 
 .card_icon_sub_section{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .plant_card_bottom p{
     text-align: center;
+}
+
+@media (min-width: 650px) {
+    .plant_card{
+        width: 60vw;
+    }
+    .plant_card_image{
+        height: 37vw;
+        width: 37vw;
+    }
+
+}
+
+@media (min-width: 750px) {
+    .plant_card{
+        width: 40vw;
+    }
+    .plant_card_image{
+        height: 25vw;
+        width: 25vw;
+    }
+}
+
+@media (min-width:1025px) {
+    .plant_card{
+        width: 30vw;
+    }
+    .plant_card_image{
+        height: 20vw;
+        width: 20vw;
+    }
+}
+
+@media (min-width:1200px) {
+    .plant_card{
+        width: 25vw;
+    }
+    .plant_card_image{
+        height: 17vw;
+        width: 17vw;
+    }
+}
+
+@media (min-width:1300px) {
+    .plant_card{
+        width: 24vw;
+    }
+    .plant_card_image{
+        height: 15vw;
+        width: 15vw;
+    }
+    .plant_card h2{
+        font-size: 22pt;
+    }
+    .plant_card h3{
+        font-size: 13pt;
+    }
+    .plant_card_paragraph p{
+        font-size: 16pt;
+        line-height: 1.3;
+    }
+    .plant_card_bottom p{
+        font-size: 15pt;
+        line-height: 1.1;
+    }
+}
+
+@media (min-width:1500px) {
+    .plant_card{
+        width: 23vw;
+    }
+    .plant_card_bottom{
+        margin-top: 2rem;
+        gap: 15px;
+    }
+    .water_icon{
+        padding: 0.25rem;
+    }
+}
+
+@media (min-width:1600px) {
+    .plant_card{
+        width: 22vw;
+    }
+}
+
+@media (min-width:1800px) {
+    .plant_card{
+        width: 20vw;
+    }
+    .plant_card_image{
+        height: 14vw;
+        width: 14vw;
+    }
+    .plant_card h2{
+        font-size: 24pt;
+    }
+    .plant_card h3{
+        font-size: 14pt;
+    }
+    
+}
+
+@media (min-width:2000px) {
+    .plant_card{
+        width: 18vw;
+    }
+    .plant_card_image{
+        height: 12vw;
+        width: 12vw;
+        
+    }
+}
+@media (min-width:2200px) {
+    .plant_card{
+        width: 16vw;
+    }
+    .plant_card_image{
+        height: 11vw;
+        width: 11vw;
+        
+    }
 }

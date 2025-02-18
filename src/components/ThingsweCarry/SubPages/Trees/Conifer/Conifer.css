@@ -62,6 +62,10 @@
         font-size: 16pt;
         margin: 1rem;
     }
+    .catalog_cards{
+     flex-direction: row;
+    }
+    
 }
 
 @media (min-width:1025px) {
@@ -70,6 +74,15 @@
     }
     .conifer_top_text{
         margin: 2rem 4rem;
+    }
+    .header_background_image{
+        display: flex;
+        justify-content: center;
+        height: 15vw;
+    }
+    .conifer_top_text h2{
+        padding: 3rem;
+        margin: 0rem;
     }
 }
 
