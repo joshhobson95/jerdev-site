@@ -1,26 +1,35 @@
 .plant_card{
     height: auto;
-    width: 25vw;
+    width: 65vw;
     background-color: #242424;
     border-radius:  16px;
     padding: 2rem 1.5rem;
     box-shadow: 0 0 10px #000000;
+    margin: 0.5rem;
 }
-.plant_card img{
-    height: 15vw;
-    width: 15vw;
+.plant_card_image{
+    height: 40vw;
+    width: 40vw;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: inset 0 0 10px #000000;
-    
-    
+    padding-bottom: 0.5rem;   
 }
-
 
 .plant_card h2{
-    font-size: 22pt;
+    font-size: 18pt;
     font-weight: 600;
 }
+.plant_card h3{
+    font-size: 12pt;
+    font-weight: 100;
+    padding: 0.1rem;
+}
+
+.plant_card_paragraph{
+    margin: 1rem 0.1rem;
+    font-size: 12pt;
+}
+
 
 .plant_card_bottom{
   margin-top: 2rem;
@@ -29,6 +38,22 @@
   grid-template-rows: repeat(3, auto);  
   gap: 10px; 
 }
+
+
+.sun_icon{
+    width: 2rem;
+    padding: 0.5rem;
+}
+.water_icon{
+    width: 2rem;
+    padding: 0.5rem;
+}
+
+.card_icon_sub_section{
+    display: flex;
+    align-items: center;
+}
+
 .plant_card_bottom p{
     text-align: center;
 }
