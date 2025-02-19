@@ -32,6 +32,7 @@
     "react-dom": "^18.2.0",
     "react-google-recaptcha": "^3.1.0",
     "react-helmet": "^6.1.0",
+    "react-horizontal-scrolling-menu": "^8.2.0",
     "react-quill": "^2.0.0",
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
@@ -39,6 +40,7 @@
     "sequelize": "^6.31.1",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.7.5",
+    "swiper": "^11.2.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

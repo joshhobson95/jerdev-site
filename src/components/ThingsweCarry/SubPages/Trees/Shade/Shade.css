@@ -11,7 +11,7 @@
 
 .Shade p{
     line-height: 1.6;
-    text-align: left;
+
 }
 
 .shade_top_text{
@@ -36,10 +36,7 @@
     margin: 1rem;
 }
 
-.tree_examples p{
-    text-align: left;
-    
-}
+
 
 .tree_example_image{
     width: 75vw;

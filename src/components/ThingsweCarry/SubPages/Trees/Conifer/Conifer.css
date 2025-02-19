@@ -17,18 +17,33 @@
 .conifer_top_text{
     margin: 1rem;
     line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .conifer_top_text h2{
     font-size: 30pt;
     margin: 2rem;
     background-color: #242424a9;
 }
+
+
 .header_background_image{
     background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/austrainPine.jpg');
     object-fit: cover;
     background-size: cover;
+    width: 80vw;
+    padding: 1rem;
 }
+
+.conifer_top_text p{
+    font-size: 14pt;
+    margin: 2rem 1rem;
+}
+
 
 
 .tree_catalog_sub_section{
@@ -48,11 +63,6 @@
 }
 
 
-.catalog_cards{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 
 
@@ -62,28 +72,44 @@
         font-size: 16pt;
         margin: 1rem;
     }
-    .catalog_cards{
-     flex-direction: row;
+
+    .conifer_top_text h2{
+        padding: 2rem;
     }
+    .tree_catalog_title{
+        font-size: 32pt;
+    }
+
+
     
 }
 
 @media (min-width:1025px) {
     .conifer_top_text h2{
         font-size: 40pt;
+        padding: 1rem;
     }
     .conifer_top_text{
         margin: 2rem 4rem;
     }
+    .conifer_top_text p{
+        line-height: 1.6;
+        margin: 2rem;
+    }
     .header_background_image{
-        display: flex;
-        justify-content: center;
-        height: 15vw;
+        width: 60vw;
+    }    
+}
+
+
+@media (min-width:1300px) {
+    .conifer_top_text p{
+        font-size: 18pt;
     }
-    .conifer_top_text h2{
-        padding: 3rem;
-        margin: 0rem;
+    .header_background_image{
+        width: 50vw;
     }
+
 }
 
 @media (min-width:1500px) {
@@ -96,6 +122,9 @@
     }
     .conifer_top_text{
         margin: 2rem 6rem;
+    }
+    .header_background_image{
+        width: 45vw;
     }
 }
 
