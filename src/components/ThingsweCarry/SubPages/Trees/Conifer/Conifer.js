@@ -1,7 +1,7 @@
 import React from "react";
 import './Conifer.css'
 import PlantSlider from "../../PlantSlider/PlantSlider";
-import plants from '../../PlantData/Plants'
+import coniferdata from '../../PlantData/ConiferData'
 
 function Conifer() {
 
@@ -36,7 +36,7 @@ function Conifer() {
     <div className='tree_catalog_sub_section'>
       <h2 className='tree_catalog_title'>Pine</h2>
           <div className='catalog_cards'>
-            <PlantSlider  plants={plants.conifers.pines}/>
+            <PlantSlider  plants={coniferdata.pines}/>
 
     
 
@@ -49,7 +49,8 @@ function Conifer() {
         <div className='tree_catalog_sub_section'>
             <h2 className='tree_catalog_title'>Juniper</h2>
             <div className='catalog_cards'>
-            <PlantSlider  plants={plants.conifers.junipers}/>
+            <PlantSlider  plants={coniferdata.junipers}/>
+  
 
                
       
@@ -59,6 +60,7 @@ function Conifer() {
         <div className='tree_catalog_sub_section'>
             <h2 className='tree_catalog_title'>Cedar</h2>
             <div className='catalog_cards'>
+            <PlantSlider  plants={coniferdata.cedars}/>
          
             
           </div>

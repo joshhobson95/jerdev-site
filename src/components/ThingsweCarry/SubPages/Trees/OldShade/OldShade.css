@@ -1,0 +1,371 @@
+.Shade{
+    height: auto;
+    padding-top: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(#4FA673, #DBBA4B , #FB492C87 ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    color: white; 
+}
+
+.Shade p{
+    line-height: 1.6;
+
+}
+
+.shade_top_text{
+    margin: 1rem;
+    line-height: 1.6;
+}
+.shade_top_text h2{
+    font-size: 30pt;
+    margin: 2rem;
+}
+
+.tree_examples{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.tree_example_each{
+    margin: 1rem;
+}
+
+
+
+.tree_example_image{
+    width: 75vw;
+    height: 35vw;
+    object-fit: cover;
+    margin: 1rem;
+}
+.tree_example_image_s{
+    width: 65vw;
+    height: 25vw;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+
+.tree_exerb {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: visibility 0s 0.5s, opacity 0.5s ease-in, height 0.5s ease-in;
+  }
+  
+  .tree_exerb.visible2 {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    transition: opacity 0.5s ease-in, height 0.5s ease-in;
+  }
+
+  .tree_exerb p{
+    margin-bottom: 1rem;
+  }
+
+
+
+  .tree_example_each h2{
+    font-size: 24pt;
+    font-weight: 700;
+  }
+
+
+  .other_trees{
+    margin: 4rem 0rem;
+  }
+  .other_trees h2{
+    font-size: 18pt;
+    font-weight: 700;
+ 
+  }
+  .other_trees h1{
+    font-size: 30pt;
+    margin: 2rem;
+  }
+
+  .other_trees_top{
+    margin: 1rem;
+    margin-bottom: 6rem;
+  }
+
+  .other_trees_example_each{
+    margin: 4rem;
+  }
+
+
+
+
+  .tree_example_each h3{
+    font-size: 16pt;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+
+
+  .tree_example_image{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tree_example_image:hover{
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
+}
+
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+  .tree_exmaple_inner_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .material-symbols-outlined{
+    transition: 0.5s ease;
+  }
+  .material-symbols-outlined:hover{
+    color:  rgba(255, 187, 0, 0.7);
+  }
+
+
+
+
+
+  .tree_image{
+    width: 75vw;
+    height: 35vw;
+    object-fit: cover;
+    margin: 1rem;
+  }
+  .tree_card h2{
+    font-size: 30pt;
+    font-weight: 700;
+  }
+  .tree_card h3{
+    font-size: 22pt;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  .tree_card p{
+    font-size: 14pt;
+    margin-bottom: 1rem;
+
+  }
+
+
+
+.tree_info {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.tree_card:hover .tree_info:not(.expanded) {
+  max-height: 120px; /* Show only a preview on hover */
+}
+.tree_card img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tree_card img:hover{
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
+}
+
+.tree_info.expanded {
+  max-height: none; /* Show full content when clicked */
+}
+
+
+.fade_span {
+    opacity: 0;
+    animation: fadeInOut 5s ease-in-out;
+  }
+  
+  @keyframes fadeInOut {
+    0% { opacity: 0; }
+    30% { opacity: 1; } /* Fully visible */
+    70% { opacity: 1; } /* Stay visible */
+    100% { opacity: 0; }
+  }
+
+@media (min-width:750px) {
+    .tree_example_image{
+        width: 70vw;
+        height: 30vw;
+    }
+    .tree_example_image_s{
+        width: 60vw;
+        height: 20vw;
+    }
+    .tree_image{
+        width: 70vw;
+        height: 30vw;
+      }
+
+}
+
+  @media (min-width:825px) {
+    .trees_welcome h1{
+        font-size: 60pt;
+    }
+    .trees_welcome p{
+        font-size: 22pt;
+    }
+    .shade_top_text p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+    .other_trees p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+    .tree_example_each h2{
+        font-size: 26pt;
+    }
+    .tree_example_each h3{
+        font-size: 22pt;
+    }
+    .tree_exerb p{
+        font-size: 16pt;
+        margin: 1rem;
+    }
+    .other_trees h2{
+        font-size: 26pt;
+    }
+    .tree_example_image{
+        margin: 1.5rem;
+    }
+
+}
+@media (min-width:1025px) {
+    .trees_welcome h1{
+        font-size: 60pt;
+    }
+    .shade_top_text h2{
+        font-size: 40pt;
+    }
+    .tree_example_each h2{
+        font-size: 30pt;
+    }
+    .other_trees h2{
+        font-size: 30pt;
+    }
+    .tree_example_each{
+        margin: 2rem;
+    }
+    .shade_top_text{
+        margin: 2rem 4rem;
+    }
+    .other_trees_top{
+        margin: 2rem 4rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .tree_example_image{
+        width: 65vw;
+        height: 25vw;
+    }
+    .tree_example_image_s{
+        width: 55vw;
+        height: 20vw;
+    }
+    .tree_image{
+        width: 65vw;
+        height: 25vw;
+      }
+    .tree_example_each{
+        margin: 2rem 4rem;
+    }
+
+}
+
+@media (min-width:1500px) {
+    .tree_example_image{
+        width: 65vw;
+        height: 22vw;
+    }
+    .tree_example_image_s{
+        width: 52vw;
+        height: 18vw;
+    }
+    .tree_image{
+        width: 65vw;
+        height: 22vw;
+      }
+    .shade_top_text h2{
+        font-size: 44pt;
+    }
+    .other_trees h1{
+        font-size: 44pt;
+    }
+    .shade_top_text p{
+        font-size: 18pt;
+        margin: 2rem 4rem;
+    }
+    .tree_example_each h2{
+        font-size: 36pt;
+    }
+    .other_trees h2{
+        font-size: 36pt;
+    }
+    .tree_example_each h3{
+        font-size: 26pt;
+    }
+    .tree_exerb p{
+        font-size: 18pt;
+    }
+    .shade_top_text{
+        margin: 2rem 6rem;
+    }
+    .other_trees_top{
+        margin: 2rem 6rem;
+    }
+}
+
+@media (min-width:1650px) {
+    .shade_top_text{
+        margin: 2rem 10rem;
+    }
+    .other_trees_top{
+        margin: 2rem 10rem;
+    }
+    .tree_exerb{
+        margin: 0rem 10rem; 
+    }
+}
+
+@media (min-width:1900px) {
+    .tree_example_image{
+        width: 57vw;
+        height: 17vw;
+    }
+    .tree_example_image_s{
+        width: 45vw;
+        height: 15vw;
+    }
+    .shade_top_text{
+        margin: 2rem 24rem;
+    }
+    .other_trees_top{
+        margin: 2rem 24rem;
+    }
+    .tree_exerb{
+        margin: 0rem 24rem; 
+    }
+    .tree_examples{
+        margin-top: 10vh;
+    }
+}
+
+  
+

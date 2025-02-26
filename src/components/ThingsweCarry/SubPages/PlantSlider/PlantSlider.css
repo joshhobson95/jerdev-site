@@ -1,29 +1,37 @@
 .mySwiper {
     width: 100%; /* Make the swiper container take the full width of the parent */
     overflow: hidden; /* Prevent content overflow */
+
   }
-  
-  .swiper-button-next,
-  .swiper-button-prev {
-    background-color: rgba(0, 0, 0, 0.5); /* Button background color */
-    color: white; /* Button color */
-    padding: 10px;
-    border-radius: 50%;
-    z-index: 10;
+  .plant-slider-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .swiper-button-next {
-    right: 10px; /* Position to the right */
+    right: 10px;
   }
   
   .swiper-button-prev {
-    left: 10px; /* Position to the left */
+    left: 10px; 
   }
   
   .plant-slide {
     display: flex;
     justify-content: center;
-    width: 300px; /* Set a fixed width for the plant cards */
-    box-sizing: border-box; /* Include padding and borders in the width calculation */
+    box-sizing: border-box; 
+    min-width: 350px;
+    max-width: 100%;
   }
   

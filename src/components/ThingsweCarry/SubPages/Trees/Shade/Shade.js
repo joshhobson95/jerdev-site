@@ -1,328 +1,134 @@
-import React, { useState } from 'react';
+import React from "react";
 import './Shade.css'
-
-
-
+import PlantSlider from "../../PlantSlider/PlantSlider";
+import shadedata from "../../PlantData/ShadeData";
 
 function Shade() {
 
-
-  
-const [isAshVisible, setIsAshVisible] = useState(false);
-const [isCottonwoodVisible, setIsCottonwoodVisible] = useState(false);
-const [isMapleVisible, setIsMapleVisible] = useState(false);
-const [isMimosaVisible, setIsMimosaVisible] = useState(false);
-const [isLocustVisible, setIsLocustVisible] = useState(false);
-const [isSycamoreVisible, setIsSycamoreVisible] = useState(false);
-const [isElmVisible, setIsElmVisible] = useState(false);
-const [isOakVisible, setIsOakVisible] = useState(false);
-const [isWillowVisible, setIsWillowVisible] = useState(false);
-
- const toggleAshVisibility = () => {
-    setIsAshVisible(!isAshVisible);
-  };
-  const toggleCottonwoodVisibility = () => {
-    setIsCottonwoodVisible(!isCottonwoodVisible);
-  };
-  const toggleMapleVisibility = () => {
-    setIsMapleVisible(!isMapleVisible);
-  };
-
-  const toggleMimosaVisibility = () => {
-    setIsMimosaVisible(!isMimosaVisible);
-  };
-  const toggleLocustVisibility = () => {
-    setIsLocustVisible(!isLocustVisible);
-  };
-  const toggleSycamoreVisibility = () => {
-    setIsSycamoreVisible(!isSycamoreVisible);
-  };
-  const toggleElmVisibility = () => {
-    setIsElmVisible(!isElmVisible);
-  };
-  const toggleOakVisibility = () => {
-    setIsOakVisible(!isOakVisible);
-  };
-  const toggleWillowVisibility = () => {
-    setIsWillowVisible(!isWillowVisible);
-  };
 
 
 
 
   return (
-    
-<div className='Shade'>
-  
-
-    <div className='trees_welcome'>
-        <h1>New Mexico Shade Trees</h1>
-    </div>
+<div className='Shade'> 
 
 
-   
-<div className='shade_trees_container'>
 
-  <div className='shade_top_text'>
-    <h2>Best Choices for Zone 7 Shade Trees</h2>  
-     <p>Shade trees are a valuable addition to any landscape, providing relief from the sun, reducing energy costs, and enhancing curb appeal. In Albuquerque and across New Mexico’s Zone 7, selecting the right tree means considering heat tolerance, drought resistance, and adaptability to our unique climate. Hardy options like elms and sycamores offer long-lasting shade and durability, while faster-growing choices like cottonwoods and willows provide quick relief in open spaces. For those looking to add a touch of uniqueness, trees like the mimosa or locust can be an ambitious yet rewarding choice. No matter the season, planting a tree is an investment in the future—offering beauty, comfort, and environmental benefits for years to come. Whether you're looking to transform your yard or add greenery to a business property, now is always the perfect time to plant a shade tree.</p>
+    <div className='shade_tree_container'>
+      <div className='shade_top_text'> 
 
+        <div className='shade_header_background_image'>
+              <h2>New Mexico Shade Trees</h2> 
+        </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
 
-  </div>
+              <span>List or Icon</span>
 
-<div className='tree_examples'>
- {/* Ash Trees */}
- <div className={`tree_example_each ${isAshVisible ? 'visible2' : 'hidden2'}`} onClick={toggleAshVisibility} style={{ cursor: 'pointer' }}>
-                <h2>Ash Trees</h2>
-                
-            <div className='tree_exmaple_inner_container'>
-                <img
-                  className='tree_example_image'
-                  src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ash.png'
-                  alt='Ash Trees in New Mexico'         
-                  />    
-                  <span class="fade_span">Click to Expand</span>
-
-              <span className={`material-symbols-outlined ${isAshVisible ? 'rotate' : ''}`}>
-                expand_circle_down
-              </span>
-            </div>
-                
-                <div className={`tree_exerb ${isAshVisible ? 'visible2' : 'hidden2'}`}>
-                  <h3>Arizona Ash</h3>
-                  <p>The Kousa dogwood offers creamy white blooms in late spring and bright red berries in summer, adding texture and color to the garden. Its layered branching and mottled bark provide year-round interest.</p>
-                  <h3>Raywood Ash</h3>
-                  <p>Raywood ash has striking deep purple-red fall foliage, with a dense canopy and ornamental value, thriving in well-drained soils.</p>
-                  <h3>Berrinda Ash</h3>
-                  <p>The Kousa dogwood offers creamy white blooms in late spring and bright red berries in summer, adding texture and color to the garden. Its layered branching and mottled bark provide year-round interest.</p>
-                  <h3>Green Ash</h3>
-                  <p>The Kousa dogwood offers creamy white blooms in late spring and bright red berries in summer, adding texture and color to the garden. Its layered branching and mottled bark provide year-round interest.</p>
-                  <h3>Littleleaf Ash</h3>
-                  <p>Raywood ash has striking deep purple-red fall foliage, with a dense canopy and ornamental value, thriving in well-drained soils.</p>
-                  <h3>Mountain Ash</h3>
-                  <p>Raywood ash has striking deep purple-red fall foliage, with a dense canopy and ornamental value, thriving in well-drained soils.</p>
-                </div>
-            </div>
-
-
-            {/* ////////////////////////////////////////////////// */}
-
-            <div className='tree_card' onClick={toggleCottonwoodVisibility} style={{ cursor: 'pointer' }}>
-  <h2>Cottonwood Trees</h2>
-  <img
-    className='tree_image'
-    src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cottonwood.jpg'
-    alt='Cottonwood Trees in New Mexico'
-  />
-  <div className={`tree_info ${isCottonwoodVisible ? 'expanded' : 'collapsed'}`}>
-    <h3>Fremont Cottonwood</h3>
-    <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
-    <h3>Plains Cottonwood</h3>
-    <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
-    <h3>Rio Grande Cottonwood</h3>
-    <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
-  </div>
-</div>
-
-
-{/* Cottonwood Trees */}
-          <div className='tree_example_each' onClick={toggleCottonwoodVisibility} style={{ cursor: 'pointer' }}>
-                <h2>Cottonwood Trees</h2>
-                <img
-                  className='tree_example_image'
-                  src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cottonwood.jpg'
-                  alt='Cottonwood Trees in New Mexico'
-                  />
-                <div className={`tree_exerb ${isCottonwoodVisible ? 'visible2' : 'hidden2'}`}>
-                  <h3>Fremont Cottonwood</h3>
-                  <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
-                  <h3>Plains Cottonwood</h3>
-                  <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
-                  <h3>Rio Grande Cottonwood</h3>
-                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
-                </div>
-              </div>
-{/* Maple Trees */}
-          <div className='tree_example_each' onClick={toggleMapleVisibility} style={{ cursor: 'pointer' }}>
-                <h2>Maple Trees</h2>
-                <img
-                  className='tree_example_image'
-                  src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Maple.jpg'
-                  alt='Cottonwood Trees in New Mexico'
-                  />
-                <div className={`tree_exerb ${isMapleVisible ? 'visible2' : 'hidden2'}`}>
-                  <h3>Boxelder Maple (Native)</h3>
-                  <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
-                  <h3>Bigtooth Maple (Native)</h3>
-                  <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
-                  <h3>Big Leaf Maple</h3>
-                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
-                  <h3>Japanese Maple</h3>
-                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
-                  <h3>Silver Maple</h3>
-                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
-                  <h3>Tatarian Maple</h3>
-                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
-                </div>
-              </div>
-{/* Mimosa Trees */}
-          <div className='tree_example_each' onClick={toggleMimosaVisibility} style={{ cursor: 'pointer' }}>
-                <h2>Mimosa Trees</h2>
-                <img
-                  className='tree_example_image'
-                  src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/mimosa%20(2).jpg'
-                  alt='Cottonwood Trees in New Mexico'
-                  />
-                <div className={`tree_exerb ${isMimosaVisible ? 'visible2' : 'hidden2'}`}>
-                  <h3>Mimosoa Silk Tree</h3>
-                  <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
-                  <h3>Chocolate Mimosa Silk Tree</h3>
-                  <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
-                </div>
-              </div>
-{/* Locust Trees */}
-          <div className='tree_example_each' onClick={toggleLocustVisibility} style={{ cursor: 'pointer' }}>
-                <h2>Locust Trees</h2>
-                <img
-                  className='tree_example_image'
-                  src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/honeylocust2.png'
-                  alt='Cottonwood Trees in New Mexico'
-                  />
-                <div className={`tree_exerb ${isLocustVisible ? 'visible2' : 'hidden2'}`}>
-                  <h3>Honey Locust</h3>
-                  <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
-                  <h3>Black Locust</h3>
-                  <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
-                  <h3>New Mexico Locust</h3>
-                  <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
-                  <h3>Idaho Locust</h3>
-                  <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
-                </div>
-              </div>
-{/* Sycamore Trees */}    
-          <div className='tree_example_each' onClick={toggleSycamoreVisibility} style={{ cursor: 'pointer' }}>
-                <h2>Sycamore Trees</h2>
-                <img
-                  className='tree_example_image'
-                  src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Sycamore.jpg'
-                  alt='Cottonwood Trees in New Mexico'
-                  />
-                <div className={`tree_exerb ${isSycamoreVisible ? 'visible2' : 'hidden2'}`}>
-                  <h3>Arizona Sycamore</h3>
-                  <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
-                  <h3>Mexican Sycamore</h3>
-                  <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
-                  <h3>American Sycamore</h3>
-                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
-                </div>
-              </div>
-{/* Willow Trees */}                 
-          <div className='tree_example_each' onClick={toggleWillowVisibility} style={{ cursor: 'pointer' }}>
-                <h2>Willow Trees</h2>
-                <img
-                  className='tree_example_image'
-                  src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/willow.jpg'
-                  alt='Cottonwood Trees in New Mexico'
-                  />
-                <div className={`tree_exerb ${isWillowVisible ? 'visible2' : 'hidden2'}`}>
-     
-                  <h3>Globe Willow</h3>
-                  <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
-                  <h3>Weeping Willow</h3>
-                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
-                  <h3>White Willow</h3>
-                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
-                </div>
-            </div>
-{/* Elm Trees */}                 
-          <div className='tree_example_each' onClick={toggleElmVisibility} style={{ cursor: 'pointer' }}>
-                <h2>Elm Trees</h2>
-                
-                <img
-                  className='tree_example_image'
-                  src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ElmTree.jpg'
-                  alt='Cottonwood Trees in New Mexico'
-                  />
-                <div className={`tree_exerb ${isElmVisible ? 'visible2' : 'hidden2'}`}>
-                  <h3>American Elm</h3>
-                  <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
-                  <h3>Lacebark Elm</h3>
-                  <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
-                  <h3>Cedar Elm</h3>
-                  <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
-
-                </div>
-              </div>
-{/* Oak Trees */}                 
-          <div className='tree_example_each' onClick={toggleOakVisibility} style={{ cursor: 'pointer' }}>
-                <h2>Oak Trees</h2>
-                <img
-                  className='tree_example_image'
-                  src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/oakleaf.jpg'
-                  alt='Cottonwood Trees in New Mexico'
-                  />
-                <div className={`tree_exerb ${isOakVisible ? 'visible2' : 'hidden2'}`}>
-                  <h3>Bur Oak</h3>
-                  <p>The Eastern Cottonwood, native to North America, has broad, heart-shaped leaves and is known for its rapid growth.</p>
-                  <h3>Gray Oak</h3>
-                  <p>Black Cottonwood is a large tree with white, soft wood and has wide leaves that turn yellow in the fall.</p>
-                  <h3>Gambel Oak</h3>
-                  <p>Native to the southwestern U.S., this cottonwood has a tall stature and is often found along rivers and wetlands.</p>
-                </div>
-              </div>
-
-            
-            <div className='other_trees'>
-          <div className='other_trees_top'>
-            <h1>Standout Shade Trees</h1>  
-            <p>Unlike maples, elms, or willows, which have numerous varieties and subspecies, these trees stand on their own without an extensive family of closely related types. While they may not have as many botanical siblings, they make up for it with unique charm, resilience, and exceptional shade coverage. Each tree in this category brings something special—whether it’s striking seasonal color, interesting foliage, or a distinct silhouette that sets it apart in any landscape. If you're looking for a shade tree that stands out while still providing excellent coverage, these are excellent choices.</p>
+      
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
           </div>
 
-                <div className='other_trees_example_each'>
-                  <h2>Chinese Pistache</h2> 
-                  <img className='tree_example_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/PistacheNew.png' alt='Chinese Pistche Tree in Albuquerque New Mexico sold at Jericho Nursery' />
-                  
-                </div>
-                <div className='other_trees_example_each'>
-                  <h2>Orange Sage</h2>
-                  <img className='tree_example_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/OrangeSage.png' alt='Orange Sage Tree in Albuquerque New Mexico sold at Jericho Nursery' />
-                </div>
-                <div className='other_trees_example_each'>
-                  <h2>Golden Rain Tree</h2>
-                  <img className='tree_example_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/GoldenRainTree.png' alt='Golden Rain Tree in Albuquerque New Mexico sold at Jericho Nursery' />
-                </div>
-                <div className='other_trees_example_each'>
-                  <h2>Ginkgo Tree</h2>
-                  <img className='tree_example_image_s' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ginko.jpg' alt='Ginkgo Tree in Albuquerque New Mexico sold at Jericho Nursery' />
-                </div>
-                <h2>New Mexico Olive</h2>
-                <h2>Catclaw Acacia</h2>
-                <h2>Mesquite</h2>
-                <h2>Hoptree</h2>
-                <h2>Buckthorn</h2>
-                <h2>Mexican Buckeye</h2>
-                <h2>Smoke Tree</h2>
-                <h2>Wahsington Hawthorne</h2>
-                <h2>Western Hackberry</h2>
-                <h2>Hawthrone</h2>
-                <h2>Texas Umbrella Tree</h2>
-                <h2>American Yellowwood</h2>
-                <h2>Empress Tree</h2>
-                <h2>European Hornbeam</h2>
-                <h2>Littleleaf Linden</h2>
-                <h2>Japanese Pagoda</h2>
-                <h2>American Linden</h2>
-                <h2>Japanese Zelkova</h2>
+
+
+<div className='tree_catalog_body'>
+
+
+    <div className='tree_catalog_sub_section'>
+      <h2 className='tree_catalog_title'>Ash Trees</h2>
+          <div className='catalog_cards'>
+            <PlantSlider  plants={shadedata.ash}/>
+
+    
+
+
+ 
+            </div>
+          </div>
+
+
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Cottonwood Trees</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={shadedata.cottonwood}/>
+        
+
                
-              </div>    
-</div>
+      
+   
+          </div>
+        </div>
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Elm Trees</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={shadedata.elm}/>
+            
+         
+            
+          </div>
+        </div>
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Willow Trees</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={shadedata.willow}/>
+            
+         
+            
+          </div>
+        </div>
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Maple Trees</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={shadedata.maple}/>
+            
+         
+            
+          </div>
+        </div>
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Sycamore Trees</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={shadedata.sycamore}/>
+            
+         
+            
+          </div>
+        </div>
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Oak Trees</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={shadedata.oak}/>
+            
+         
+            
+          </div>
+        </div>
 
 
 
-</div>
+
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Other Shade Tree Varieties</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={shadedata.other}/>
+            
+         
+            
+          </div>
+        </div>
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Unique Shade Picks</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={shadedata.unique}/>
+            
+         
+            
+          </div>
+        </div>
+
+  </div>
+  </div>      
 </div>
   )
 }
 
 export default Shade
-
