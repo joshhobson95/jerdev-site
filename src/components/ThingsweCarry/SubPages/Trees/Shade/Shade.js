@@ -103,6 +103,16 @@ function Shade() {
           </div>
         </div>
 
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Honey Locust Trees</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={shadedata.honeylocust}/>
+            
+         
+            
+          </div>
+        </div>
+
 
 
 

@@ -22,7 +22,7 @@ function PlantCard({ plant }) {
           <p>{plant.waterRequirement}</p>
         </div>
         <div className="card_icon_sub_section_size">
-          <p>Zone Hardiness:<br />{plant.hardinessZones.join(", ")}</p>
+          <p>Zone Hardiness:<br />{plant.hardinessZones}</p>
         </div>
         <div className="card_icon_sub_section">
           <p>Mature Size:<br />{plant.matureSize}</p>
