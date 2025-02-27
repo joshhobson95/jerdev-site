@@ -49,6 +49,7 @@ function Ornamental() {
         <div className='tree_catalog_sub_section'>
             <h2 className='tree_catalog_title'>Ornamental Cherries</h2>
             <div className='catalog_cards'>
+            <PlantSlider  plants={ornamentaldata.cherries}/>
 
 
                
@@ -59,6 +60,7 @@ function Ornamental() {
         <div className='tree_catalog_sub_section'>
             <h2 className='tree_catalog_title'>Ornamental Plums</h2>
             <div className='catalog_cards'>
+            <PlantSlider  plants={ornamentaldata.plums}/>
   
          
             
@@ -67,6 +69,7 @@ function Ornamental() {
         <div className='tree_catalog_sub_section'>
             <h2 className='tree_catalog_title'>Crabapples</h2>
             <div className='catalog_cards'>
+            <PlantSlider  plants={ornamentaldata.crabapples}/>
    
             
           </div>
@@ -74,6 +77,7 @@ function Ornamental() {
         <div className='tree_catalog_sub_section'>
             <h2 className='tree_catalog_title'>Redbuds</h2>
             <div className='catalog_cards'>
+            <PlantSlider  plants={ornamentaldata.redbuds}/>
        
          
             
@@ -82,20 +86,12 @@ function Ornamental() {
         <div className='tree_catalog_sub_section'>
             <h2 className='tree_catalog_title'>More Flowering Trees</h2>
             <div className='catalog_cards'>
+            <PlantSlider  plants={ornamentaldata.unique}/>
        
          
             
           </div>
         </div>
-        <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Unique Picks</h2>
-            <div className='catalog_cards'>
-         
-         
-            
-          </div>
-        </div>
-
   </div>
   </div>      
 </div>

@@ -405,7 +405,7 @@ const shadedata = {
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/quercus-gambel-web-01.jpg",
             description: "The Gambel Oak, also known as the Rocky Mountain Oak, is a small to medium-sized deciduous tree that forms dense thickets, providing excellent habitat for wildlife. It is highly drought-tolerant and thrives in the arid conditions of Albuquerque. This oak produces small acorns that serve as a food source for birds and mammals. (Burn?)",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/PartSun.png",
-            sunRequirement: "Partial Shade",
+            sunRequirement: "Partial Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
             waterRequirement: "Low Water",
             hardinessZones: "4-8",
