@@ -11,20 +11,20 @@ const PlantSlider = ({ title, plants }) => {
     <section>
       <h2>{title}</h2>
       <Swiper
-        spaceBetween={450}
+        spaceBetween={30}
         freeMode={true}
         navigation={true}
         modules={[FreeMode, Navigation]}
         className="mySwiper"
         centeredSlides={true}
-
+        initialSlide={plants.length/2}
         breakpoints={{
-          320: { slidesPerView: 1, spaceBetween: 20 },
-          480: { slidesPerView: 2, spaceBetween: 25 },
-          768: { slidesPerView: 3, spaceBetween: 30 },
-          1024: { slidesPerView: 3, spaceBetween: 35 }, // Reduce to 3 per row
-          1280: { slidesPerView: 4, spaceBetween: 40 }, // Limit to 4 per row
-          1600: { slidesPerView: 5, spaceBetween: 50 }, // Only go up to 5 per row
+          320: { slidesPerView: 1, spaceBetween: 15 },
+          480: { slidesPerView: 1, spaceBetween: 15 },
+          768: { slidesPerView: 2, spaceBetween: 20 },
+          1024: { slidesPerView: 2, spaceBetween: 20 }, 
+          1280: { slidesPerView: 3, spaceBetween: 25 }, 
+          1600: { slidesPerView: 4, spaceBetween: 25 }, 
         }}
       >
         {plants.map((plant) => (

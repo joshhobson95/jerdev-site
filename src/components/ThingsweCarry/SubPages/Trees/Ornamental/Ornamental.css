@@ -10,55 +10,42 @@
 }
 
 .Ornamental p{
-    line-height: 1.6;
     text-align: left;
 }
+
 .ornamental_top_text{
     margin: 1rem;
     line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+
 .ornamental_top_text h2{
     font-size: 30pt;
     margin: 2rem;
+    background-color: #242424a9;
 }
 
-.ornamental_tree_example_each{
-    margin: 1rem;
-}
 
-.o_tree_pic{
-    width: 75vw;
-    height: 35vw;
+.header_background_image{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/austrainPine.jpg');
     object-fit: cover;
-    margin: 1rem;
+    background-size: cover;
+    width: 80vw;
+    padding: 1rem;
 }
 
-.ornamental_tree_example_each h2{
-    font-size: 24pt;
-    font-weight: 700;
-
-}
-.ornamental_tree_example_each h3{
-    font-size: 16pt;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-
-.o_tree_pic{
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.o_tree_pic:hover{
-    transform: scale(1.05); /* Slight zoom */
-    box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
+.ornamental_top_text p{
+    font-size: 14pt;
+    margin: 2rem 1rem;
 }
 
 
-@media (min-width:750px) {
-    .o_tree_pic{
-        width: 70vw;
-        height: 30vw;
-    }
-}
+
+
 
 
 @media (min-width:825px) {
@@ -66,47 +53,47 @@
         font-size: 16pt;
         margin: 1rem;
     }
-    .ornamental_tree_example_each h2{
-        font-size: 26pt;
+
+    .ornamental_top_text h2{
+        padding: 2rem;
     }
-    .ornamental_tree_example_each h3{
-        font-size: 22pt;
+    .tree_catalog_title{
+        font-size: 32pt;
     }
-    .o_tree_pic{
-        margin: 1.5rem;
-    }
+
+
+    
 }
 
 @media (min-width:1025px) {
     .ornamental_top_text h2{
         font-size: 40pt;
-    }
-    .ornamental_tree_example_each h2{
-        font-size: 30pt;
-    }
-    .ornamental_tree_example_each{
-        margin: 2rem;
+        padding: 1rem;
     }
     .ornamental_top_text{
         margin: 2rem 4rem;
     }
+    .ornamental_top_text p{
+        line-height: 1.6;
+        margin: 2rem;
+    }
+    .header_background_image{
+        width: 60vw;
+    }    
 }
 
-@media (min-width:1200px) {
-    .o_tree_pic{
-        width: 65vw;
-        height: 25vw;
+
+@media (min-width:1300px) {
+    .ornamental_top_text p{
+        font-size: 18pt;
     }
-    .ornamental_tree_example_each{
-        margin: 2rem 4rem;
+    .header_background_image{
+        width: 50vw;
     }
+
 }
 
 @media (min-width:1500px) {
-    .o_tree_pic{
-        width: 65vw;
-        height: 22vw;
-    }
     .ornamental_top_text h2{
         font-size: 44pt;
     }
@@ -114,14 +101,11 @@
         font-size: 18pt;
         margin: 2rem 4rem;
     }
-    .ornamental_tree_example_each h2{
-        font-size: 36pt;
-    }
-    .ornamental_tree_example_each h3{
-        font-size: 26pt;
-    }
     .ornamental_top_text{
         margin: 2rem 6rem;
+    }
+    .header_background_image{
+        width: 45vw;
     }
 }
 
@@ -132,12 +116,7 @@
 }
 
 @media (min-width:1900px) {
-    .o_tree_pic{
-        width: 57vw;
-        height: 17vw;
-    }
     .ornamental_top_text{
         margin: 2rem 24rem;
     }
-
 }
