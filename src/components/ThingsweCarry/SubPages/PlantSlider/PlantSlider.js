@@ -17,7 +17,7 @@ const PlantSlider = ({ title, plants }) => {
         modules={[FreeMode, Navigation]}
         className="mySwiper"
         centeredSlides={true}
-        initialSlide={plants.length/2}
+        // initialSlide={plants.length/2}
         breakpoints={{
           320: { slidesPerView: 1, spaceBetween: 15 },
           480: { slidesPerView: 1, spaceBetween: 15 },
