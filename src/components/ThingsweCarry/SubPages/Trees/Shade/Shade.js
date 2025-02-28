@@ -1,7 +1,7 @@
 import React from "react";
 import './Shade.css'
 import PlantSlider from "../../PlantSlider/PlantSlider";
-import shadedata from "../../PlantData/ShadeData";
+import shadedata from "../../PlantData/Trees/ShadeData";
 
 function Shade() {
 

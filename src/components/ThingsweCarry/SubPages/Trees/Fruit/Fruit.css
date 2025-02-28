@@ -20,7 +20,18 @@
 .fruit_top_text h2{
     font-size: 30pt;
     margin: 2rem;
+    background-color: #242424a9;
 }
+
+
+.fruit_header_background_image{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/austrainPine.jpg');
+    object-fit: cover;
+    background-size: cover;
+    width: 80vw;
+    padding: 1rem;
+}
+
 
 .fruit_tree_example_each{
     margin: 1rem;

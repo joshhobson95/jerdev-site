@@ -22,12 +22,12 @@ function Shrubs() {
               <div className='shrub_catergories_inner'>
               <NavLink to='/floweringshrubs'>
               <h2>Flowering Shrubs</h2>
-              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/floweringShrub.jpg' alt='Shade Trees in Albuqueruque, New Mexico and surrounding areas'/>
+              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flowering/potentilla.jpg' alt='Shade Trees in Albuqueruque, New Mexico and surrounding areas'/>
               </NavLink>
               </div>
               <div className='shrub_catergories_inner'>
-              <NavLink to='/hedges'>
-              <h2>Hedges and Topiaries</h2>
+              <NavLink to='/broadleafevergreens'>
+              <h2>Broaleaf Evergreens</h2>
               <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/hedge.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
               </NavLink>
               </div>

@@ -57,7 +57,7 @@ import Fruit from './components/ThingsweCarry/SubPages/Trees/Fruit/Fruit';
 import Ornamental from './components/ThingsweCarry/SubPages/Trees/Ornamental/Ornamental';
 import Conifer from './components/ThingsweCarry/SubPages/Trees/Conifer/Conifer';
 import Flowering from './components/ThingsweCarry/SubPages/Shrubs/Flowering/Flowering';
-import Deciduous from './components/ThingsweCarry/SubPages/Shrubs/Hedges/Hedges';
+import Broadleaf from './components/ThingsweCarry/SubPages/Shrubs/Broadleaf/Broadleaf';
 import ConiferousShrubs from './components/ThingsweCarry/SubPages/Shrubs/ConiferousShrubs/ConiferousShrubs';
 import XericBedding from './components/ThingsweCarry/SubPages/Xeric/XericBedding/XericBedding';
 import XericGrasses from './components/ThingsweCarry/SubPages/Xeric/XericGrasses/XericGrasses';
@@ -102,7 +102,7 @@ function App() {
               <Route path='/conifers' element={<Conifer />}/>
           <Route path='/shrubs' element={<Shrubs />}/>
               <Route path='/floweringshrubs' element={<Flowering/>}/>
-              <Route path='/hedges' element={<Deciduous/>} />
+              <Route path='/broadleafevergreens' element={<Broadleaf/>} />
               <Route path='/coniferousshrubs' element={<ConiferousShrubs/>}/>
           <Route path='/xeric' element={<Xeric />}/>
                <Route path='/xerictrees' element={<XericTrees/>}/>

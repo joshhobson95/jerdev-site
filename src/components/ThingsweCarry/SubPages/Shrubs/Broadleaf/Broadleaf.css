@@ -1,4 +1,4 @@
-.Conifer{
+.Broadleaf{
     height: auto;
     padding-top: 5vh;
     width: 100vw;
@@ -9,12 +9,12 @@
     color: white; 
 }
 
-.Conifer p{
+.Broadleaf p{
     line-height: 1.6;
     text-align: left;
 }
 
-.conifer_top_text{
+.broadleaf_top_text{
     margin: 1rem;
     line-height: 1.6;
     display: flex;
@@ -24,29 +24,29 @@
 }
 
 
-.conifer_top_text h2{
+.broadleaf_top_text h2{
     font-size: 30pt;
     margin: 2rem;
     background-color: #242424a9;
 }
 
 
-.conifer_header_background_image{
-    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/austrainPine.jpg');
+.broadleaf_header_background_image{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flowering/IndianHawthorne.png');
     object-fit: cover;
     background-size: cover;
     width: 80vw;
     padding: 1rem;
 }
 
-.conifer_top_text p{
+.broadleaf_top_text p{
     font-size: 14pt;
     margin: 2rem 1rem;
 }
 
 
 
-.tree_catalog_sub_section{
+.shrub_catalog_sub_section{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -55,7 +55,7 @@
     margin: 1.5rem 0rem ;
 }
 
-.tree_catalog_title{
+.shrub_catalog_title{
     font-size: 26pt;
     font-weight: 700;
     margin-bottom: 2rem;
@@ -68,15 +68,15 @@
 
 
 @media (min-width:825px) {
-    .conifer_top_text p{
+    .broadleaf_top_text p{
         font-size: 16pt;
         margin: 1rem;
     }
 
-    .conifer_top_text h2{
+    .broadleaf_top_text h2{
         padding: 2rem;
     }
-    .tree_catalog_title{
+    .shrub_catalog_title{
         font-size: 32pt;
     }
 
@@ -85,14 +85,14 @@
 }
 
 @media (min-width:1025px) {
-    .conifer_top_text h2{
+    .broadleaf_top_text h2{
         font-size: 40pt;
         padding: 1rem;
     }
-    .conifer_top_text{
+    .broadleaf_top_text{
         margin: 2rem 4rem;
     }
-    .conifer_top_text p{
+    .broadleaf_top_text p{
         line-height: 1.6;
         margin: 2rem;
     }
@@ -103,7 +103,7 @@
 
 
 @media (min-width:1300px) {
-    .conifer_top_text p{
+    .broadleaf_top_text p{
         font-size: 18pt;
     }
     .header_background_image{
@@ -113,14 +113,14 @@
 }
 
 @media (min-width:1500px) {
-    .conifer_top_text h2{
+    .broadleaf_top_text h2{
         font-size: 44pt;
     }
-    .conifer_top_text p{
+    .broadleaf_top_text p{
         font-size: 18pt;
         margin: 2rem 4rem;
     }
-    .conifer_top_text{
+    .broadleaf_top_text{
         margin: 2rem 6rem;
     }
     .header_background_image{
@@ -129,13 +129,13 @@
 }
 
 @media (min-width:1650px) {
-    .conifer_top_text{
+    .broadleaf_top_text{
         margin: 2rem 10rem;
     }
 }
 
 @media (min-width:1900px) {
-    .conifer_top_text{
+    .broadleaf_top_text{
         margin: 2rem 24rem;
     }
 }
