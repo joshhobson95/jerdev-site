@@ -70,13 +70,27 @@ const shadedata = {
         matureSize: "45' x 35'",
         native: false
       },
+      {
+        id: 6,
+        name: "Autumn Purple Ash",
+        scientificName: "Fraxinus americana 'Junginger'",
+        image: "https://jfschmidt.com/wp-content/uploads/2023/03/fraxinus-autumnpurple-web-01.jpg",
+        description: " ***This rare tree features three inch, fragrant, white camellia-like flowers with an orange center. Dark green foliage contrasts with the bright summer flowers on this small tree. The standard of comparison for White Ash. Beautiful fall colors of various hues in different years vary from mottled yellow orange to orange red and deep purple.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
+        waterRequirement: "Moderate Water",
+        hardinessZones: "3-9",
+        matureSize: "45' x 35'",
+        native: false
+      },
     
     ],
   
     cottonwood: [
         {
-            id: 6,
-            name: "Rio Grande Cottonwood",
+            id: 7,
+            name: "Rio Grande Cottonless Cottonwood",
             scientificName: "Populus deltoides",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cottonwood.jpg",
             description: " The Rio Grande Cottonwood is a large deciduous tree native to the southwestern U.S. It is commonly found along rivers and wetlands and is known for its broad, heart-shaped leaves that turn bright yellow in the fall. This tree grows quickly and provides extensive shade with its large canopy. All Cottonwoods sold in New Mexico must be seedless, as to not drop pesky cotton in the late summer.",
@@ -89,7 +103,7 @@ const shadedata = {
             native: true
           },
       {
-        id: 7,
+        id: 8,
         name: "Mountain Cottonwood",
         scientificName: "Populus angustifolia",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cottonwood.jpg",
@@ -103,7 +117,7 @@ const shadedata = {
         native: true
       },
       {
-        id: 8,
+        id: 9,
         name: "Fremont Cottonwood",
         scientificName: "Populus fremontii",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cottonwood.jpg",
@@ -117,7 +131,7 @@ const shadedata = {
         native: true
       },
       {
-        id: 9,
+        id: 10,
         name: "Black Cottonwood",
         scientificName: "Populus trichocarpa",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cottonwood.jpg",
@@ -130,25 +144,39 @@ const shadedata = {
         matureSize: "70' x 50'",
         native: true
       },
+      {
+        id: 11,
+        name: "Jeronimus Sargent Cottonwood",
+        scientificName: "Populus sargentii 'Jeronimus'",
+        image: "https://jfschmidt.com/wp-content/uploads/2023/03/populus-jeronimus-web-01.jpg",
+        description: "***Selected for its more uniform upright growth and branch habit, this male form of Sargent Cottonwood grows well in the western plains states. Distinctly upright in its younger years, trees can become more rounded with age. Triangle-shaped light green leaves are rather glossy and remain clean through the growing season. Older trees develop a thick rough bark.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/HighWater.png",
+        waterRequirement: "High Water",
+        hardinessZones: "4-9",
+        matureSize: "70' x 50'",
+        native: true
+      },
     ],
   
     elm: [
       {
-        id: 10,
-        name: "American Elm",
-        scientificName: "Ulmus americana",
-        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ElmTree.jpg",
-        description: " The American Elm is a large, deciduous tree native to eastern North America. It is known for its graceful, arching branches that form a high, broad canopy, providing ample shade.Historically, the American Elm was a dominant shade tree in urban areas, although its population has declined due to Dutch elm disease. Despite this, it remains a popular tree for landscaping due to its beauty and fast growth.",
+        id: 12,
+        name: "Frontier Elm",
+        scientificName: "Ulmus 'Frontier'",
+        image: "https://jfschmidt.com/wp-content/uploads/2023/03/ulmus-frontier-web-01.jpg",
+        description: "***‘Frontier’ features beautiful reddish-purple to burgundy fall color which is particularly long lasting. A U.S. National Arboretum introduction, it is a hybrid of U. minor and U. parvifolia.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
         waterRequirement: "Moderate Water",
-        hardinessZones: "3-9",
-        matureSize: "70' x 50'",
-        native: false
+        hardinessZones: "6-9",
+        matureSize: "50' x 40'",
+        native: true
       },
       {
-        id: 11,
+        id: 13,
         name: "Lacebark Elm",
         scientificName: "Ulmus parvifolia",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -162,7 +190,7 @@ const shadedata = {
         native: false
       },
       {
-        id: 12,
+        id: 14,
         name: "Cedar Elm",
         scientificName: "Ulmus crassifolia",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -175,12 +203,26 @@ const shadedata = {
         matureSize: "50' x 40'",
         native: true
       },
+      {
+        id: 15,
+        name: "American Elm",
+        scientificName: "Ulmus americana",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ElmTree.jpg",
+        description: " The American Elm is a large, deciduous tree native to eastern North America. It is known for its graceful, arching branches that form a high, broad canopy, providing ample shade.Historically, the American Elm was a dominant shade tree in urban areas, although its population has declined due to Dutch elm disease. Despite this, it remains a popular tree for landscaping due to its beauty and fast growth.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
+        waterRequirement: "Moderate Water",
+        hardinessZones: "3-9",
+        matureSize: "70' x 50'",
+        native: false
+      },
       
     ],
 
     willow: [
         {
-            id: 13,
+            id: 16,
             name: "Globe Willow",
             scientificName: "Salix matsudana",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -195,7 +237,7 @@ const shadedata = {
           },
           
           {
-            id: 14,
+            id: 17,
             name: "Weeping Willow",
             scientificName: "Salix babylonica",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/willow.jpg",
@@ -210,7 +252,7 @@ const shadedata = {
           },
           
           {
-            id: 15,
+            id: 18,
             name: "White Willow",
             scientificName: "Salix alba",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -228,7 +270,7 @@ const shadedata = {
 
       maple: [
         {
-            id: 16,
+            id: 19,
             name: "Boxelder Maple",
             scientificName: "Acer negundo",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/acer-sensationbox-web-01.jpg",
@@ -243,7 +285,7 @@ const shadedata = {
           },
           
           {
-            id: 17,
+            id: 20,
             name: "Bigtooth Maple",
             scientificName: "Acer grandidentatum",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/acer-bigtooth-web-01.jpg",
@@ -258,11 +300,11 @@ const shadedata = {
           },
           
           {
-            id: 18,
-            name: "Big Leaf Maple",
-            scientificName: "Acer macrophyllum",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/03/acer-bigleaf-web-01.jpg",
-            description: "The Big Leaf Maple is a large tree native to the western United States, known for its broad, large leaves that can grow up to 12 inches long. The tree thrives in moist, shaded areas but can adapt to more arid conditions once established. In Albuquerque, the Big Leaf Maple requires consistent watering, especially during dry spells, but can tolerate full sun if given enough moisture. ",
+            id: 21,
+            name: "Autumn Blaze Maple",
+            scientificName: "Acer x freemanii 'Jeffersred'",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/03/acer-autumnblaze-web-01.jpg",
+            description: "*** ",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/HighWater.png",
@@ -272,7 +314,7 @@ const shadedata = {
             native: false
           },
           {
-            id: 19,
+            id: 22,
             name: "Japanese Maple",
             scientificName: "Acer palmatum",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Maple.jpg",
@@ -288,7 +330,7 @@ const shadedata = {
           
           
           {
-            id: 20,
+            id: 23,
             name: "Tatarian Maple",
             scientificName: "Acer tataricum",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/acer-tatarian-web-01.jpg",
@@ -302,11 +344,25 @@ const shadedata = {
             native: false
           },
           {
-            id: 21,
+            id: 24,
             name: "Red Maple",
             scientificName: "Acer rubrum",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/acer-red-web-01.jpg",
             description: "The Red Maple thrives in Albuquerque when grown in partial sun, adding a stunning orange-red fall foliage to any backyard or landscape. While not as delicate as the Japanese Maple, this tree can also burn up in the intense New Mexico sun, so ensure to keep out of direct sunlight. It requires regular watering, particularly in dry periods, but can tolerate some drought once established.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/PartSun.png",
+            sunRequirement: "Partial Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
+            waterRequirement: "Moderate Water",
+            hardinessZones: "3-9",
+            matureSize: "40' x 30'",
+            native: true
+          },
+          {
+            id: 25,
+            name: "Hot Wings Maple",
+            scientificName: "Acer rubrum",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/03/acer-red-web-01.jpg",
+            description: "****",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/PartSun.png",
             sunRequirement: "Partial Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
@@ -321,7 +377,7 @@ const shadedata = {
 
       sycamore: [
         {
-            id: 22,
+            id: 26,
             name: "Arizona Sycamore",
             scientificName: "Platanus wrightii",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Sycamore.jpg",
@@ -336,7 +392,7 @@ const shadedata = {
           },
           
           {
-            id: 23,
+            id: 27,
             name: "Mexican Sycamore",
             scientificName: "Platanus mexicana",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Sycamore.jpg",
@@ -351,7 +407,7 @@ const shadedata = {
           },
           
           {
-            id: 24,
+            id: 28,
             name: "American Sycamore",
             scientificName: "Platanus occidentalis",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Sycamore.jpg",
@@ -369,8 +425,8 @@ const shadedata = {
 
       oak: [
         {
-            id: 25,
-            name: "Bur Oak",
+            id: 29,
+            name: "Burr Oak",
             scientificName: "Quercus macrocarpa",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/quercus-bur-web-01.jpg",
             description: "The Bur Oak is a hardy, long-lived deciduous tree renowned for its thick, deeply furrowed bark and large acorns with distinctive fringed caps. One of the most drought-tolerant oaks, it’s well-suited to New Mexico’s climate. However, like many oaks, the Bur Oak can struggle in Albuquerque’s intense sun, often burning until it is larger and well-established. Native to the state, it thrives better in the cooler East Mountains or Santa Fe, much like Aspens. ",
@@ -384,7 +440,7 @@ const shadedata = {
           },
           
           {
-            id: 26,
+            id: 30,
             name: "Chinquapin Oak",
             scientificName: "Quercus muehlenbergii",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/quercus-chinkapin-web-01.jpg",
@@ -399,7 +455,7 @@ const shadedata = {
           },
           
           {
-            id: 27,
+            id: 31,
             name: "Gambel Oak",
             scientificName: "Quercus gambelii",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/quercus-gambel-web-01.jpg",
@@ -417,7 +473,7 @@ const shadedata = {
 
       honeylocust: [
         {
-            id: 28,
+            id: 32,
             name: "Sunburst Honey Locust",
             scientificName: "Gleditsia triacanthos var. inermis 'Sunburst'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/gleditsia-sunburst-web-01.jpg",
@@ -432,7 +488,7 @@ const shadedata = {
           },
           
           {
-            id: 29,
+            id: 33,
             name: "Skyline Honey Locust",
             scientificName: "Gleditsia triacanthos var. inermis 'Skyline'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/gleditsia-skyline-web-01.jpg",
@@ -447,7 +503,7 @@ const shadedata = {
           },
           
           {
-            id: 30,
+            id: 34,
             name: "Shademaster Honey Locust",
             scientificName: "Gleditsia triacanthos var. inermis 'Shademaster'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/gleditsia-shademaster-web-01.jpg",
@@ -465,11 +521,11 @@ const shadedata = {
 
       other: [
         {
-            id: 31,
-            name: "Chaste Tree",
+            id: 35,
+            name: "Shoal Creek Chaste Tree",
             scientificName: "Vitex agnus-castus",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
-            description: "The Chaste Tree is an ornamental tree with fragrant lavender-blue flowers that bloom from late spring to fall. Attracting pollinators like bees and butterflies, it’s perfect for pollinator-friendly gardens. Drought-tolerant and thriving in Albuquerque’s full sun and well-drained soil, it can be pruned into a small tree, adding color and texture to xeriscape landscapes.",
+            description: "***",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
@@ -479,22 +535,22 @@ const shadedata = {
             native: false
           },
           {
-            id: 32,
+            id: 36,
             name: "Chinese Pistache",
             scientificName: "Pistacia chinensis",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/pistacia-chinese-web-01.jpg",
             description: "The Chinese Pistache is a small to medium-sized tree known for its vibrant fall colors, ranging from yellow to red to purple. It thrives in Albuquerque’s dry climate, flourishing in full sun and tolerating moderate drought once established. Its rounded canopy provides excellent shade, making it a popular choice for urban streetscapes and parks.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
-            waterRequirement: "Moderate Water",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+            waterRequirement: "Low Water",
             hardinessZones: "6-9",
             matureSize: "30' x 25'",
             native: false
           },
           
           {
-            id: 33,
+            id: 37,
             name: "Western Hackberry",
             scientificName: "Celtis reticulata",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -509,7 +565,7 @@ const shadedata = {
           },
           
           {
-            id: 34,
+            id: 38,
             name: "Smoketree",
             scientificName: "Cotinus coggygria",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -524,7 +580,7 @@ const shadedata = {
           },
           
           {
-            id: 35,
+            id: 39,
             name: "Golden Rain Tree",
             scientificName: "Koelreuteria paniculata",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/koelreuteria-goldenrain-web-01.jpg",
@@ -538,23 +594,10 @@ const shadedata = {
             native: false
           },
           
-          {
-            id: 36,
-            name: "Washington Hawthorne",
-            scientificName: "Crataegus phaenopyrum",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
-            description: "The Washington Hawthorne is a small to medium-sized tree with stunning spring blossoms and vibrant red berries that persist into winter. Its glossy, dark green leaves turn yellow to red in the fall. Drought-tolerant and adaptable to poor soils, it’s ideal for privacy screens or specimen trees in Albuquerque’s climate.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
-            waterRequirement: "Moderate Water",
-            hardinessZones: "4-8",
-            matureSize: "25' x 25'",
-            native: false
-          },
+
           
           {
-            id: 37,
+            id: 40,
             name: "Catalpa",
             scientificName: "Catalpa spp.",
             image: "https://jfschmidt.com/wp-content/uploads/2024/05/catalpa-umbrella-web-01.jpg",
@@ -568,7 +611,7 @@ const shadedata = {
             native: false
           },
           {
-            id: 38,
+            id: 41,
             name: "Chitalpa",
             scientificName: "Chitalpa tashkentensis",
             image: "https://jfschmidt.com/wp-content/uploads/2023/06/chitalpa-nationalarboretum-web-01.jpg",
@@ -586,7 +629,7 @@ const shadedata = {
 
       unique: [
         {
-            id: 39,
+            id: 42,
             name: "Velvet Mesquite",
             scientificName: "Prosopis velutina",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/velvetmesquite.jpg",
@@ -601,7 +644,7 @@ const shadedata = {
           },
           
           {
-            id: 40,
+            id: 43,
             name: "Quaking Aspen",
             scientificName: "Populus tremuloides",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/populus-quaking-web-01.jpg",
@@ -616,7 +659,7 @@ const shadedata = {
           },
           
           {
-            id: 42,
+            id: 44,
             name: "Osage Orange",
             scientificName: "Maclura pomifera",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/maclura-wichita-web-01.jpg",
@@ -631,7 +674,7 @@ const shadedata = {
           },
           
           {
-            id: 43,
+            id: 45,
             name: "Kentucky Coffeetree",
             scientificName: "Gymnocladus dioicus",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/gymnocladus-kentuckycoffee-web-01.jpg",
@@ -646,11 +689,81 @@ const shadedata = {
           },
           
           {
-            id: 44,
+            id: 46,
             name: "Japanese Pagoda Tree",
             scientificName: "Styphnolobium japonicum",
             image: "https://jfschmidt.com/wp-content/uploads/2023/01/styphnolobium-millstonejapanese-web-01.jpg",
             description: "The Japanese Pagoda Tree is a graceful tree known for its compound leaves and clusters of creamy-white flowers in late summer. It thrives in full sun and is highly resistant to pollution, making it ideal for urban landscaping. Its distinctive seed pods and drought tolerance add to its appeal.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "4-8",
+            matureSize: "40' x 35'",
+            native: false
+          },
+          {
+            id: 47,
+            name: "Russian Hawthorne",
+            scientificName: "",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/01/styphnolobium-millstonejapanese-web-01.jpg",
+            description: "***",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "4-8",
+            matureSize: "40' x 35'",
+            native: false
+          },
+          {
+            id: 48,
+            name: "Washington Hawthorne",
+            scientificName: "",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/01/styphnolobium-millstonejapanese-web-01.jpg",
+            description: "***",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "4-8",
+            matureSize: "40' x 35'",
+            native: false
+          },
+          {
+            id: 49,
+            name: "Fruitless Mulberry",
+            scientificName: "",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/01/styphnolobium-millstonejapanese-web-01.jpg",
+            description: "",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "4-8",
+            matureSize: "40' x 35'",
+            native: false
+          },
+          {
+            id: 50,
+            name: "Purple Robe Locust",
+            scientificName: "",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/01/styphnolobium-millstonejapanese-web-01.jpg",
+            description: "",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "4-8",
+            matureSize: "40' x 35'",
+            native: false
+          },
+          {
+            id: 51,
+            name: "Arizona Rosewood",
+            scientificName: "",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/01/styphnolobium-millstonejapanese-web-01.jpg",
+            description: "",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",

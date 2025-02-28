@@ -65,9 +65,9 @@ function Flowering() {
           </div>
         </div>
         <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Spanish Broom</h2>
+            <h2 className='shrub_catalog_title'>Sages</h2>
             <div className='catalog_cards'>
-            <PlantSlider  plants={floweringshrubdata.spanishbrooms}/>
+            <PlantSlider  plants={floweringshrubdata.sages}/>
 
           </div>
         </div>
@@ -80,16 +80,7 @@ function Flowering() {
             
           </div>
         </div>
-        <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Mahogony</h2>
-            <div className='catalog_cards'>
-            <PlantSlider  plants={floweringshrubdata.mahogonies}/>
-      
 
-         
-            
-          </div>
-        </div>
         <div className='shrub_catalog_sub_section'>
             <h2 className='shrub_catalog_title'>Crape Myrtle</h2>
             <div className='catalog_cards'>
@@ -118,14 +109,24 @@ function Flowering() {
           </div>
         </div>
         <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Rosewood</h2>
+            <h2 className='shrub_catalog_title'>Drought Tolerant Options</h2>
             <div className='catalog_cards'>
-            <PlantSlider  plants={floweringshrubdata.rosewoods}/>
+            <PlantSlider  plants={floweringshrubdata.xerics}/>
      
          
             
           </div>
         </div>
+        <div className='shrub_catalog_sub_section'>
+            <h2 className='shrub_catalog_title'>More Great Flowering Shrubs</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={floweringshrubdata.others}/>
+     
+         
+            
+          </div>
+        </div>
+
 
   </div>
   </div>      

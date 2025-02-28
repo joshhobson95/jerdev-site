@@ -39,12 +39,25 @@ const ornamentaldata = {
             waterRequirement: "Moderate Water",
             hardinessZones: "4-8",
             matureSize: "40' x 30'",
+        },
+        {
+            id: 4,
+            name: "Aristocrat Flowering Pear",
+            scientificName: "Pyrus calleryana",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Pinon.jpg",
+            description: "The Cleveland Select Pear is an ornamental tree known for its attractive white blossoms in spring and vibrant fall color. It is a variety of the Callery pear, prized for its compact, upright growth habit, making it ideal for small yards and urban landscapes. The tree is adaptable and thrives in full sun with well-drained soil. While it’s drought-tolerant once established, it may benefit from moderate watering during Albuquerque’s hot summer months. Its glossy leaves and clean silhouette make it a popular choice for ornamental landscaping.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
+            waterRequirement: "Moderate Water",
+            hardinessZones: "4-8",
+            matureSize: "40' x 30'",
         }
     ],
   
     cherries: [
         {
-            id: 4,
+            id: 5,
             name: "Kwanzan Cherry",
             scientificName: "Prunus serrulata 'Kwanzan'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/prunus-kwanzan-web-01.jpg",
@@ -57,7 +70,7 @@ const ornamentaldata = {
             matureSize: "25' x 25'"
         },   
         {
-            id: 5,
+            id: 6,
             name: "Autumn Flowering Cherry",
             scientificName: "Prunus subhirtella 'Autumnalis'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/prunus-autumnflowering-web-01.jpg",
@@ -71,7 +84,7 @@ const ornamentaldata = {
         },
         
         {
-            id: 6,
+            id: 7,
             name: "Okame Cherry",
             scientificName: "Prunus 'Okame'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/prunus-okame-web-01.jpg",
@@ -82,30 +95,41 @@ const ornamentaldata = {
             waterRequirement: "Moderate Water",
             hardinessZones: "6-9",
             matureSize: "20' x 25''"
-        },
-        
-        
-        
+        },       
         {
-            id: 7,
-            name: "Chokecherry",
-            scientificName: "Prunus virginiana",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/03/prunus-canadaredimproved-web-02.jpg",
-            description: "Chokecherry is a hardy deciduous tree known for its showy white flowers in the spring and dark red to black berries in late summer. It's a drought-tolerant tree that grows well in the harsh conditions of Albuquerque, making it a good choice for xeriscaping. The berries are not edible to humans but are an important food source for birds. This tree is also known for its attractive fall foliage, which turns yellow and red.",
+            id: 8,
+            name: "Canada Red Chokecherry",
+            scientificName: "Chitalpa tashkentensis",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/06/chitalpa-nationalarboretum-web-01.jpg",
+            description: "Chitalpa, a hybrid of Chilopsis (Desert Willow) and Catalpa, features trumpet-shaped flowers in shades of pink, white, and lavender. Drought-tolerant once established, it thrives in full sun and is ideal for xeriscaping. Its long, slender seed pods add ornamental value, combining the best features of both parent species.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
             waterRequirement: "Low Water",
-            hardinessZones: "2-7",
-            matureSize: "15' x 15'",
-          }
+            hardinessZones: "6-9",
+            matureSize: "15' x 20'",
+            native: false
+          },
           
     ],
   
     plums: [
         {
-            id: 8,
+            id: 9,
             name: "Thundercloud Plum",
+            scientificName: "Prunus cerasifera 'Thundercloud'",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/03/prunus-thundercloud-web-01.jpg",
+            description: "The Thundercloud Plum is a stunning ornamental tree with dark purple leaves and pinkish-white spring blooms. Thriving in full sun, this tree is well-suited for New Mexico’s hot, dry conditions, requiring moderate water to stay healthy. It makes a striking addition to both residential and commercial landscapes, adding vibrant color and texture in neighborhoods like the NE Heights or Corrales, where its small size and beautiful foliage are highly valued.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
+            waterRequirement: "Moderate Water",
+            hardinessZones: "4-9",
+            matureSize: "20' x 20'"
+        },
+        {
+            id: 10,
+            name: "Krauter’s Vesuvius Flowering Plum",
             scientificName: "Prunus cerasifera 'Thundercloud'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/prunus-thundercloud-web-01.jpg",
             description: "The Thundercloud Plum is a stunning ornamental tree with dark purple leaves and pinkish-white spring blooms. Thriving in full sun, this tree is well-suited for New Mexico’s hot, dry conditions, requiring moderate water to stay healthy. It makes a striking addition to both residential and commercial landscapes, adding vibrant color and texture in neighborhoods like the NE Heights or Corrales, where its small size and beautiful foliage are highly valued.",
@@ -118,7 +142,7 @@ const ornamentaldata = {
         },
         
         {
-            id: 9,
+            id: 11,
             name: "American Plum",
             scientificName: "Prunus americana",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -132,7 +156,7 @@ const ornamentaldata = {
         },
         
         {
-            id: 10,
+            id: 12,
             name: "Newport Plum",
             scientificName: "Prunus cerasifera 'Newport'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/prunus-newport-web-01.jpg",
@@ -146,7 +170,7 @@ const ornamentaldata = {
         },
         
         {
-            id: 11,
+            id: 13,
             name: "Purple Leaf Plum?",
             scientificName: "Prunus cerasifera 'Thundercloud'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -162,7 +186,7 @@ const ornamentaldata = {
     ],
     crabapples: [
         {
-            id: 12,
+            id: 14,
             name: "Prairifire Crabapple",
             scientificName: "Malus 'Prairifire'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/malus-prairifire-web-01.jpg",
@@ -175,7 +199,7 @@ const ornamentaldata = {
             matureSize: "15' x 25'"
         },
         {
-            id: 13,
+            id: 15,
             name: "Sugar Tyme",
             scientificName: "Malus 'Sugar Tyme'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/malus-sugartyme-web-01.jpg",
@@ -188,8 +212,21 @@ const ornamentaldata = {
             matureSize: "15' x 15'"
         },
         {
-            id: 14,
+            id: 16,
             name: "Indian Magic Crabapple",
+            scientificName: "Malus 'Indian Magic'",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/03/malus-indianmagic-web-01.jpg",
+            description: "Indian Magic Crabapple is a more drought tolerant option for a flowering tree in New Mexico. Known for its stellar fall colors and fruits that start bright red and change to a golden orange throughout the year, this crabapple would be perfect for a splash of color in any yard. Just watch out as their fruits are toxis to dogs, cats and other pets.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "4-8",
+            matureSize: "15' x 15'"
+        },
+        {
+            id: 17,
+            name: "Royal Raindrops Crabapple",
             scientificName: "Malus 'Indian Magic'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/malus-indianmagic-web-01.jpg",
             description: "Indian Magic Crabapple is a more drought tolerant option for a flowering tree in New Mexico. Known for its stellar fall colors and fruits that start bright red and change to a golden orange throughout the year, this crabapple would be perfect for a splash of color in any yard. Just watch out as their fruits are toxis to dogs, cats and other pets.",
@@ -203,7 +240,7 @@ const ornamentaldata = {
       ],
     redbuds: [
         {
-            id: 15,
+            id: 18,
             name: "Oklahoma Redbud",
             scientificName: "Cercis reniformis 'Oklahoma'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/cercis-oklahoma-web-01.jpg",
@@ -216,7 +253,7 @@ const ornamentaldata = {
             matureSize: "15' x 15'"
         },
         {
-            id: 16,
+            id: 19,
             name: "Mexican Redbud",
             scientificName: "Cercis canadensis var. mexicana",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -229,7 +266,7 @@ const ornamentaldata = {
             matureSize: "12' x 12'"
         },
         {
-            id: 17,
+            id: 20,
             name: "Eastern Redbud",
             scientificName: "Cercis canadensis",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/cercis-eastern-web-01.jpg",
@@ -242,7 +279,7 @@ const ornamentaldata = {
             matureSize: "20' x 25'"
         },
         {
-            id: 18,
+            id: 21,
             name: "Western/Texas Redbud",
             scientificName: "Cercis canadensis var. texensis",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -258,7 +295,7 @@ const ornamentaldata = {
 
       unique: [
         {
-            id: 19,
+            id: 22,
             name: "Mexican Bird of Paradise",
             scientificName: "Caesalpinia mexicana",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -272,7 +309,7 @@ const ornamentaldata = {
           },
           
         {
-            id: 20,
+            id: 23,
             name: "Japanese Wisteria",
             scientificName: "Wisteria floribunda",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -285,7 +322,7 @@ const ornamentaldata = {
             matureSize: "30' x 10'"
         },
         {
-            id: 21,
+            id: 24,
             name: "Southern Magnolia",
             scientificName: "Magnolia grandiflora",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -299,7 +336,7 @@ const ornamentaldata = {
           },
           
           {
-            id: 22,
+            id: 25,
             name: "Mimosa",
             scientificName: "Albizia julibrissin",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -312,7 +349,7 @@ const ornamentaldata = {
             matureSize: "20' x 40'"
           },
           {
-            id: 23,
+            id: 26,
             name: "Chaste Tree/Vitex",
             scientificName: "Vitex agnus-castus",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
@@ -326,7 +363,7 @@ const ornamentaldata = {
             native: false
           },
           {
-            id: 24,
+            id: 27,
             name: "Chitalpa",
             scientificName: "Chitalpa tashkentensis",
             image: "https://jfschmidt.com/wp-content/uploads/2023/06/chitalpa-nationalarboretum-web-01.jpg",
@@ -338,7 +375,39 @@ const ornamentaldata = {
             hardinessZones: "6-9",
             matureSize: "15' x 20'",
             native: false
-          }
+          },
+          
+          {
+            id: 28,
+            name: "Autumn Brillance Serviceberry",
+            scientificName: "Chitalpa tashkentensis",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/06/chitalpa-nationalarboretum-web-01.jpg",
+            description: "Chitalpa, a hybrid of Chilopsis (Desert Willow) and Catalpa, features trumpet-shaped flowers in shades of pink, white, and lavender. Drought-tolerant once established, it thrives in full sun and is ideal for xeriscaping. Its long, slender seed pods add ornamental value, combining the best features of both parent species.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "6-9",
+            matureSize: "15' x 20'",
+            native: false
+          },
+
+          {
+            id: 29,
+            name: "New Mexico Privet",
+            scientificName: "Chitalpa tashkentensis",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/06/chitalpa-nationalarboretum-web-01.jpg",
+            description: "Chitalpa, a hybrid of Chilopsis (Desert Willow) and Catalpa, features trumpet-shaped flowers in shades of pink, white, and lavender. Drought-tolerant once established, it thrives in full sun and is ideal for xeriscaping. Its long, slender seed pods add ornamental value, combining the best features of both parent species.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "6-9",
+            matureSize: "15' x 20'",
+            native: false
+          },
+
+
           
       ],
   
