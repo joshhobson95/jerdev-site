@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import './Shade.css'
 import PlantSlider from "../../PlantSlider/PlantSlider";
 import shadedata from "../../PlantData/Trees/ShadeData";
@@ -6,7 +6,11 @@ import shadedata from "../../PlantData/Trees/ShadeData";
 function Shade() {
 
 
+  const [visibleAttribution, setVisibleAttribution] = useState();
 
+  const toggleVisible = () => {
+    setVisibleAttribution(!visibleAttribution)
+  }
 
 
   return (
@@ -136,7 +140,204 @@ function Shade() {
         </div>
 
   </div>
-  </div>      
+  </div>  
+
+  <div className="attribution-container">
+      <button className="attribution-button" onClick={toggleVisible}>
+        {visibleAttribution ? "Hide Image Attributions" : "View Image Attributions"}
+      </button>
+      
+      {visibleAttribution && (
+        <div className="attribution-content">
+          
+          <div className="single_attribution">
+          <span><strong>Arizona Ash Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Fraxinus-velutina-20080402.JPG</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Miwasatoshi" target="_blank" rel="noopener noreferrer">
+                Miwasatoshi
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Fraxinus-velutina-20080402.JPG" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 4.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+          <div className="single_attribution">
+          <span><strong>Narrowleaf Cottonwood Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Populus angustifolia 1.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Stan_Shebs" target="_blank" rel="noopener noreferrer">
+                Stan Shebs
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Populus_angustifolia_1.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 3.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+        <div className="single_attribution">
+          <span><strong>Cedar Elm Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Populus angustifolia 1.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Kenraiz" target="_blank" rel="noopener noreferrer">
+              Krzysztof Ziarnek, Kenraiz
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Ulmus_crassifolia_kz01.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 4.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+        <div className="single_attribution">
+          <span><strong>White Willow Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Salix alba leaves.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:MPF" target="_blank" rel="noopener noreferrer">       
+              No machine-readable author provided. MPF assumed (based on copyright claims).
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Salix_alba_leaves.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 3.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+
+        <div className="single_attribution">
+          <span><strong>Mexican Sycamore Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Platanus mexicana in Hackfalls Arboretum (1).jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Tournasol7" target="_blank" rel="noopener noreferrer">       
+              Krzysztof Golik
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Platanus_mexicana_in_Hackfalls_Arboretum_(1).jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 4.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+
+        <div className="single_attribution">
+          <span><strong>Chinese Pistache Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Pistacia chinensis 02.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Tournasol7" target="_blank" rel="noopener noreferrer">       
+              Krzysztof Golik
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Pistacia_chinensis_02.jpg/640px-Pistacia_chinensis_02.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 4.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+
+        <div className="single_attribution">
+          <span><strong>Western Hackberry Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Celtis reticulata 2.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Stan_Shebs" target="_blank" rel="noopener noreferrer">       
+              Stan Shebs
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Celtis_reticulata_2.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 3.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+    
+    
+    
+
+
+
+        </div>
+      )}
+      </div> 
+
 </div>
   )
 }

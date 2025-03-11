@@ -114,17 +114,37 @@ function Fruit() {
           </div>
         </div>
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Nut Trees</h2>
+            <h2 className='tree_catalog_title'>Unique Fruit Trees</h2>
             <div className='catalog_cards'>
-            <PlantSlider plants={fruitdata.nuts}/>
+            <PlantSlider plants={fruitdata.others}/>
+      
+            
+          </div>
+        </div>
+
+        <h2>Nut Trees</h2>
+
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Almond Trees</h2>
+            <div className='catalog_cards'>
+            <PlantSlider plants={fruitdata.almonds}/>
       
             
           </div>
         </div>
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Other Fruit Trees</h2>
+            <h2 className='tree_catalog_title'>Pecan Trees</h2>
             <div className='catalog_cards'>
-            <PlantSlider plants={fruitdata.others}/>
+            <PlantSlider plants={fruitdata.pecans}/>
+      
+            
+          </div>
+        </div>
+
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Pistachio Trees</h2>
+            <div className='catalog_cards'>
+            <PlantSlider plants={fruitdata.pistachios}/>
       
             
           </div>

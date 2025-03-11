@@ -65,6 +65,38 @@ function Conifer() {
             
           </div>
         </div>
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Spruce</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={coniferdata.spruces}/>
+         
+            
+          </div>
+        </div>
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Fir</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={coniferdata.firs}/>
+         
+            
+          </div>
+        </div>
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Cypress</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={coniferdata.cypress}/>
+         
+            
+          </div>
+        </div>
+        <div className='tree_catalog_sub_section'>
+            <h2 className='tree_catalog_title'>Arborvitaes</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={coniferdata.arborvitaes}/>
+         
+            
+          </div>
+        </div>
 
   </div>
   </div>      
