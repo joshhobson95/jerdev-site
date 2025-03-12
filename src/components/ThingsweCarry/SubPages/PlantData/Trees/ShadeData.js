@@ -744,7 +744,7 @@ const shadedata = {
             name: "Purple Robe Locust",
             scientificName: "Robinia pseudoacacia",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/robinia-purplerobe-web-01.jpg",
-            description: "With robust purple blooms in the spring, this tree will surely be listed in our ornamental trees section as well. But with a towering height of up to 50 feet with a 30 foot spread, the Purple Robe Locust is a great option for shade as well. It is very well adapted to dry, hot climates making it perfect for New Mexico gardens, yards and parks. Unlike Honey Locusts  on this list (Gleditsias), this tree is a true member of the locust genus, (Robinias).",
+            description: "With robust purple blooms in the spring, this tree will surely be listed in our ornamental trees section as well. But with a towering height of up to 50 feet with a 30-foot spread, the Purple Robe Locust is a great option for shade as well. It is very well adapted to dry, hot climates making it perfect for New Mexico gardens, yards, and parks. Unlike Honey Locusts on this list (Gleditsias), this tree is a true member of the locust genus, (Robinias).",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
