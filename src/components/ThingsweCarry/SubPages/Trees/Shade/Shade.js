@@ -289,7 +289,7 @@ function Shade() {
             </li>
             <li>
               <strong>Source:</strong>{" "}
-              <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Pistacia_chinensis_02.jpg/640px-Pistacia_chinensis_02.jpg" target="_blank" rel="noopener noreferrer">
+              <a href="https://commons.wikimedia.org/wiki/File:Pistacia_chinensis_02.jpg" target="_blank" rel="noopener noreferrer">
                 Wikimedia Commons
               </a>
             </li>

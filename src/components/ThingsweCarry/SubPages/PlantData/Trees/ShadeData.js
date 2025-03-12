@@ -5,7 +5,7 @@ const shadedata = {
         name: "Arizona Ash",
         scientificName: "Fraxinus velutina",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Fraxinus-velutina-20080402.JPG/640px-Fraxinus-velutina-20080402.JPG",
-        description: "The Arizona Ash is a fast-growing deciduous tree native to the southwestern United States and parts of Mexico. It typically reaches heights of 40 to 50 feet with a canopy spread of 30 to 40 feet. The tree features a rounded canopy with deep green leaves that turn bright golden-yellow in the fall.",
+        description: "The Arizona Ash is a fast-growing deciduous tree native to the southwestern United States and parts of Mexico. A male tree produces small flowers in the spring and a female produces winged fruit resembling a maple as shown above. The tree features a rounded canopy with deep green leaves that turn bright golden-yellow in the fall.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
@@ -19,7 +19,7 @@ const shadedata = {
         name: "Raywood Ashe",
         scientificName: "Fraxinus oxycarpa",
         image: "https://jfschmidt.com/wp-content/uploads/2023/03/fraxinus-raywood-web-01.jpg",
-        description: "The Raywood Ash is a beautiful deciduous tree known for its rich red-purple foliage in the fall. It grows rapidly and is often used for shade in residential and urban areas. This tree can reach impressive heights and provides a dense canopy, offering excellent shade in the warmer months.",
+        description: "The Raywood Ash is a beautiful deciduous tree known for its rich red-purple foliage in the fall. It grows rapidly and is often used for shade in residential and urban areas. This tree can reach impressive heights and provides a dense canopy, offering excellent shade in the warmer months. The Raywood Ash is highly sought after here at Jericho Nursery.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
@@ -33,7 +33,7 @@ const shadedata = {
         name: "Urbanite Ash",
         scientificName: "Fraxinus americana",
         image: "https://jfschmidt.com/wp-content/uploads/2023/03/fraxinus-urbanite-web-01.jpg",
-        description: "Urbanite Ash is a fast-growing deciduous tree that is highly valued for its uniform shape and strong, upright growth. This tree is particularly suited for urban environments due to its tolerance to pollution and compact soil. It's an excellent choice for street plantings and urban parks, where space is limited but shade is needed.",
+        description: "Urbanite Ash is a fast-growing deciduous tree highly valued for its uniform shape and strong, upright growth. Due to its tolerance to pollution and compact soil, this tree is particularly suited for urban environments, such as downtown Albuquerque. It's an excellent choice for street plantings and urban parks, where space is limited but shade is needed.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
@@ -47,7 +47,7 @@ const shadedata = {
         name: "Patmore Ash",
         scientificName: "Fraxinus pennsylvanica",
         image: "https://jfschmidt.com/wp-content/uploads/2023/03/fraxinus-patmore-web-01.jpg",
-        description: "Patmore Ash, a rounded and seedless variety of the Green Ash, is particularly well-suited for colder climates and is often planted in urban and suburban areas for its resilience and excellent shade. It has a strong, upright structure and a broad canopy, making it ideal for providing shade and as a windbreak.",
+        description: "Patmore Ash, a rounded and seedless variety of the Green Ash, is particularly well-suited for colder climates and is often planted in urban and suburban areas for its resilience and excellent shade. Planted anywhere from NE heights to the South Valley, it has a strong, upright structure and a broad canopy, making it ideal for providing shade and as a windbreak.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
@@ -61,7 +61,7 @@ const shadedata = {
         name: "Green Ash",
         scientificName: "Fraxinus pennsylvanica",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ash.png",
-        description: " The Green Ash is a hardy deciduous tree native to North America. It is known for its rapid growth and adaptability to a wide range of soil conditions. The tree has a broad canopy with rich green leaves that turn yellow in the fall, providing beautiful seasonal color. Green Ash is often used for shade and can grow well in both urban and rural settings.",
+        description: "The Green Ash is a hardy deciduous tree native to North America. It is known for its rapid growth and adaptability to a wide range of soil conditions. The tree has a broad canopy with rich green leaves that turn yellow in the fall, providing beautiful seasonal color. Green Ash is often used for shade and can grow well in both urban and rural settings.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
@@ -75,13 +75,13 @@ const shadedata = {
         name: "Autumn Purple Ash",
         scientificName: "Fraxinus americana 'Junginger'",
         image: "https://jfschmidt.com/wp-content/uploads/2023/03/fraxinus-autumnpurple-web-01.jpg",
-        description: "Beatiful fall foliage, cold hardiness and carefree growth makes the Autumn Purple Ash an easy pick for a no hassel shade tree. In fact this variety of ash can do well from coast to coast in an array of different soil types and climates. The Autumn Purple Ash holds its fall color longer than almost any other tree in North America.",
+        description: "Beautiful fall foliage, cold hardiness, and carefree growth make the Autumn Purple Ash an easy pick for a no-hassle shade tree. In fact, this variety of ash can do well from coast to coast in an array of different soil types and climates making it perfect for the wide range of temperatures we see here in New Mexico. The Autumn Purple Ash holds its fall color longer than almost any other tree in North America.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
         waterRequirement: "Moderate Water",
         hardinessZones: "3-9",
-        matureSize: "50' x 40'",
+        matureSize: "40' x 40'",
         native: false
       },
     
@@ -93,13 +93,13 @@ const shadedata = {
             name: "Rio Grande Cottonless Cottonwood",
             scientificName: "Populus deltoides",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/RGcottonwood.jpg",
-            description: " The Rio Grande Cottonwood is a large deciduous tree native to the southwestern U.S. It is commonly found along rivers and wetlands and is known for its broad, heart-shaped leaves that turn bright yellow in the fall. This tree grows quickly and provides extensive shade with its large canopy. All Cottonwoods sold in New Mexico must be seedless, as to not drop pesky cotton in the late summer.",
+            description: "The Rio Grande Cottonwood is a large deciduous tree native to the southwestern U.S. and New Mexico. Often found along the Rio Grande River and the Boqsue here in Albuquerque, it is known for its quick growth, towering heights, and heart-shaped foliage that turns yellow in the fall. It is one of the largest native trees in North America. Cottonwoods sold in Albuquerque must be a seedless or cottonless variety, to cut down on pesky cotton that rains down from these giants in late summer.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/HighWater.png",
             waterRequirement: "High Water",
             hardinessZones: "5-9",
-            matureSize: "50' x 40'",
+            matureSize: "70' x 50'",
             native: true
           },
       {
@@ -107,13 +107,13 @@ const shadedata = {
         name: "Narrowleaf Cottonwood",
         scientificName: "Populus angustifolia",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Populus_angustifolia_1.jpg/640px-Populus_angustifolia_1.jpg",
-        description: "The Narrowleaf Cottonwood (Populus angustifolia) is a fast-growing deciduous tree native to the western United States, including New Mexico. It thrives along rivers and streams, reaching heights of 40-60 feet with a narrow, upright form. Its slender, lance-shaped leaves have finely serrated edges and turn golden yellow in the fall. Adapted to moist soils, it provides habitat for wildlife and stabilizes riverbanks. While drought-tolerant once established, it prefers full sun and consistent water.",
+        description: "The Narrowleaf Cottonwood is a fast-growing deciduous tree native to the western United States, including New Mexico. It thrives along rivers and streams, reaching heights of 40-60 feet with a narrow, upright form. Its slender, lance-shaped leaves have finely serrated edges and turn golden yellow in the fall. Adapted to moist soils, it provides habitat for wildlife and stabilizes riverbanks. While drought-tolerant once established, it prefers full sun and consistent water.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/HighWater.png",
         waterRequirement: "High Water",
         hardinessZones: "4-8",
-        matureSize: "40' x 20'",
+        matureSize: "50' x 35'",
         native: true
       },
       {
@@ -121,13 +121,13 @@ const shadedata = {
         name: "Fremont Cottonwood",
         scientificName: "Populus fremontii",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Fr%C3%A9mont%27s_cottonwood_%28Populus_fremontii%29_foliage_at_Cottonwood_Springs_%2851144884356%29.jpg/640px-Fr%C3%A9mont%27s_cottonwood_%28Populus_fremontii%29_foliage_at_Cottonwood_Springs_%2851144884356%29.jpg",
-        description: "The Fremont Cottonwood is a large, fast-growing deciduous tree native to the southwestern U.S. It thrives in riparian habitats, particularly along streams and rivers, and is known for its broad, heart-shaped leaves. It is often used for large-scale landscaping projects, especially in areas where water is abundant.",
+        description: "The Fremont Cottonwood is a large, fast-growing deciduous tree native to the southwestern U.S and New Mexico. It thrives in riparian habitats, particularly along streams and rivers, and is known for its broad, heart-shaped leaves. Even though this tree is not as ecologically important as its Rio Grande counterpart, it is considered more heat and drought-tolerant and does not rely on seasonal flooding like the Rio Grand Cottonwood.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/HighWater.png",
         waterRequirement: "High Water",
         hardinessZones: "6-9",
-        matureSize: "50' x 40'",
+        matureSize: "70' x 50'",
         native: true
       },
       {
@@ -135,13 +135,13 @@ const shadedata = {
         name: "Black Cottonwood",
         scientificName: "Populus trichocarpa",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cottonwood.jpg",
-        description: "The Black Cottonwood is a very large, deciduous tree native to the western U.S. and Canada. It is known for its rapid growth and its towering height, often reaching over 100 feet. The tree has a broad, spreading canopy with heart-shaped leaves. It thrives in moist, riparian areas but can also tolerate drier conditions once established.",
+        description: "The Black Cottonwood is a very large, deciduous tree native to the western U.S. and Canada. Its preferred habitat exists in the cool wet riverbanks of the Pacific Northwest allowing it to grow a bit bigger than other cottonwoods. Its namesake offers darker leaves and a dark gray trunk color and grows just a bit faster than other cottonwoods. It is known to have sticky and fragrant buds with a balsam scent, historically used in medicine.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/HighWater.png",
         waterRequirement: "High Water",
         hardinessZones: "4-9",
-        matureSize: "70' x 50'",
+        matureSize: "90' x 60'",
         native: true
       },
       {
@@ -155,7 +155,7 @@ const shadedata = {
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/HighWater.png",
         waterRequirement: "High Water",
         hardinessZones: "4-9",
-        matureSize: "70' x 50'",
+        matureSize: "60' x 40'",
         native: true
       },
     ],
@@ -172,7 +172,7 @@ const shadedata = {
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
         waterRequirement: "Moderate Water",
         hardinessZones: "6-9",
-        matureSize: "50' x 40'",
+        matureSize: "40' x 30'",
         native: true
       },
       {
@@ -186,7 +186,7 @@ const shadedata = {
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
         waterRequirement: "Moderate Water",
         hardinessZones: "5-9",
-        matureSize: "30' x 25'",
+        matureSize: "35' x 30'",
         native: false
       },
       {
@@ -200,7 +200,7 @@ const shadedata = {
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
         waterRequirement: "Moderate Water",
         hardinessZones: "6-9",
-        matureSize: "50' x 40'",
+        matureSize: "40' x 30'",
         native: true
       },
       {
@@ -214,7 +214,7 @@ const shadedata = {
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
         waterRequirement: "Moderate Water",
         hardinessZones: "3-9",
-        matureSize: "70' x 50'",
+        matureSize: "70' x 45'",
         native: false
       },
       
@@ -232,7 +232,7 @@ const shadedata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "4-9",
-            matureSize: "50' x 40'",
+            matureSize: "30' x 25'",
             native: false
           },
           
@@ -247,7 +247,7 @@ const shadedata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/HighWater.png",
             waterRequirement: "High Water",
             hardinessZones: "4-9",
-            matureSize: "40' x 35'",
+            matureSize: "60' x 40'",
             native: false
           },
           
@@ -280,7 +280,7 @@ const shadedata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "2-9",
-            matureSize: "40' x 30'",
+            matureSize: "40' x 40'",
             native: true
           },
           
@@ -295,7 +295,7 @@ const shadedata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "4-8",
-            matureSize: "25' x 20'",
+            matureSize: "35' x 25'",
             native: true
           },
           
@@ -310,7 +310,7 @@ const shadedata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/HighWater.png",
             waterRequirement: "High Water",
             hardinessZones: "5-9",
-            matureSize: "50' x 40'",
+            matureSize: "45' x 35'",
             native: false
           },
           {
@@ -326,9 +326,7 @@ const shadedata = {
             hardinessZones: "5-8",
             matureSize: "15' x 20'",
             native: false
-          },
-          
-          
+          },       
           {
             id: 23,
             name: "Tatarian Maple",
@@ -340,7 +338,7 @@ const shadedata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "3-7",
-            matureSize: "20' x 25'",
+            matureSize: "25' x 20'",
             native: false
           },
           {
@@ -368,7 +366,7 @@ const shadedata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "3-9",
-            matureSize: "40' x 30'",
+            matureSize: "25' x 15'",
             native: true
           }
           
@@ -450,7 +448,7 @@ const shadedata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
             waterRequirement: "Low Water",
             hardinessZones: "4-8",
-            matureSize: "50' x 50'",
+            matureSize: "50' x 35'",
             native: true
           },
           
@@ -621,7 +619,7 @@ const shadedata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
             waterRequirement: "Low Water",
             hardinessZones: "6-9",
-            matureSize: "15' x 20'",
+            matureSize: "25' x 25'",
             native: false
           }
           
@@ -707,35 +705,35 @@ const shadedata = {
             name: "Russian Hawthorne",
             scientificName: "Crataegus ambigua",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Crataegus-ambigua-2.jpg",
-            description: "***",
+            description: "The Russian Hawthorn is a unique small deciduous tree native to Eastern Europe and Asia. Almost shrub like in appearance, the Russian Hawthorn blooms tons of small white flowers in early spring, that transition to red ornamental berries as the year goes on. It is cold hardy and close to being a xeric plant, using very little water.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
             waterRequirement: "Low Water",
-            hardinessZones: "4-8",
-            matureSize: "40' x 35'",
+            hardinessZones: "4-9",
+            matureSize: "15' x 15'",
             native: false
           },
           {
             id: 48,
             name: "Washington Hawthorne",
-            scientificName: "",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/01/styphnolobium-millstonejapanese-web-01.jpg",
-            description: "***",
+            scientificName: "Crataegus phaenopyrum",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/washingtonHawthorn.jpg",
+            description: "A small, low-branching tree, the Washington Hawthorn serves as a great ornamental tree, but can also develop a dense and dome shaped canopy that can be desireable for small amounts of shade in a pinch. White flowers in the spring transition to beatiful red berries that are coveted by wildlife. This is the most heat tolerant Hawthorn.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
             waterRequirement: "Low Water",
             hardinessZones: "4-8",
-            matureSize: "40' x 35'",
+            matureSize: "25' x 20'",
             native: false
           },
           {
             id: 49,
             name: "Fruitless Mulberry",
-            scientificName: "",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/01/styphnolobium-millstonejapanese-web-01.jpg",
-            description: "",
+            scientificName: "Morus alba",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Mulberry.jpg",
+            description: "Mulberry trees can be found all over the state and are recognizable by their broad, waxy and dark green leaves and huge canopies. Mulberries are actually edible but produce so much pollen Albuqueruque ordiance prevent them from being planted. Enter the Fruitless Mulberry. Originally developed for silk production in the United States, the Fruitless Mulberry produces no pollen or fruit, allowing us to enjoy them under Albuqueruque ordinance.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
@@ -747,30 +745,29 @@ const shadedata = {
           {
             id: 50,
             name: "Purple Robe Locust",
-            scientificName: "",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/01/styphnolobium-millstonejapanese-web-01.jpg",
-            description: "",
+            scientificName: "Robinia pseudoacacia",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/03/robinia-purplerobe-web-01.jpg",
+            description: "With robust purple blooms in the spring, this tree will surely be listed in our ornamental trees section as well. But with a towering height of up to 50 feet with a 30 foot spread, the Purple Robe Locust is a great option for shade as well. It is very well adapted to dry, hot climates making it perfect for New Mexico climates.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
             waterRequirement: "Low Water",
             hardinessZones: "4-8",
-            matureSize: "40' x 35'",
+            matureSize: "40' x 25'",
             native: false
           },
           {
             id: 51,
-            name: "Arizona Rosewood",
-            scientificName: "",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/01/styphnolobium-millstonejapanese-web-01.jpg",
-            description: "",
+            name: "Mimosa",
+            scientificName: "Albizia julibrissin",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/mimosa2.jpg",
+            description: "Mimosa, with its unique, pink, fluffy flowers, is an attractive tree that thrives in warmer, sunnier climates. In New Mexico, it’s an exotic addition to gardens but can be a bit finicky due to the state's variable climate. Though it is drought-tolerant once established, Mimosa prefers well-drained soil and moderate water, especially during the hot, dry summer months. While it's not as cold-hardy as other trees, it can perform well in areas with milder winters or protected microclimates. Its fast-growing nature and striking blooms make it a popular choice for xeriscaping in the right conditions.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
-            waterRequirement: "Low Water",
-            hardinessZones: "4-8",
-            matureSize: "40' x 35'",
-            native: false
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
+            waterRequirement: "Moderate Water",
+            hardinessZones: '6-9',
+            matureSize: "30' x 40'"
           },
           
       ],
