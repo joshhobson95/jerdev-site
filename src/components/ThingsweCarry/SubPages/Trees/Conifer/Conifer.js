@@ -1,10 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import './Conifer.css'
 import PlantSlider from "../../PlantSlider/PlantSlider";
 import coniferdata from '../../PlantData/Trees/ConiferData'
 
 function Conifer() {
 
+
+
+  const [visibleAttribution, setVisibleAttribution] = useState();
+
+  const toggleVisible = () => {
+    setVisibleAttribution(!visibleAttribution)
+  }
 
 
 
@@ -99,7 +106,72 @@ function Conifer() {
         </div>
 
   </div>
-  </div>      
+  </div>
+
+    <div className="attribution-container">
+      <button className="attribution-button" onClick={toggleVisible}>
+        {visibleAttribution ? "Hide Image Attributions" : "View Image Attributions"}
+      </button>
+      
+      {visibleAttribution && (
+      <div className="attribution-content">
+
+        <div className="single_attribution">
+          <span><strong>Mexican Sycamore Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Platanus mexicana in Hackfalls Arboretum (1).jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Tournasol7" target="_blank" rel="noopener noreferrer">       
+              Krzysztof Golik
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Platanus_mexicana_in_Hackfalls_Arboretum_(1).jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 4.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+        
+        <div className="single_attribution">
+          <span><strong>Mexican Sycamore Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Platanus mexicana in Hackfalls Arboretum (1).jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Tournasol7" target="_blank" rel="noopener noreferrer">       
+              Krzysztof Golik
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Platanus_mexicana_in_Hackfalls_Arboretum_(1).jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 4.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+
+
+      </div>
+      )}
+      </div>       
 </div>
   )
 }
