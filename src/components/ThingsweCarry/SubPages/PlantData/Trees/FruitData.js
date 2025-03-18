@@ -61,7 +61,7 @@ apples: [
         
       },
       {
-        id: 4,
+        id: 5,
         name: "Rainer Cherry",
         scientificName: "Prunus avium 'Rainier'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/cherry-212601_1920.jpg",
@@ -75,7 +75,7 @@ apples: [
         native: false
       },
       {
-        id: 4,
+        id: 6,
         name: "Monmorency Cherry",
         scientificName: "Prunus cerasus 'Montmorency'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/cherry.jpg",
@@ -92,7 +92,7 @@ apples: [
   
     peaches: [
       {
-        id: 4,
+        id: 7,
         name: "Redhaven Peach",
         scientificName: "Prunus persica 'Redhaven'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/peaches-3529802_1920.jpg",
@@ -106,7 +106,7 @@ apples: [
         native: false
       },
       {
-        id: 4,
+        id: 8,
         name: "Elberta Peach",
         scientificName: "Prunus persica 'Elberta'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/peach-2632182_1920.jpg",
@@ -120,7 +120,7 @@ apples: [
         native: false
       },
       {
-        id: 4,
+        id: 9,
         name: "Contender Peach",
         scientificName: "Prunus persica 'Contender'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/peach.jpg",
@@ -136,7 +136,7 @@ apples: [
     ],
     nectarines: [
         {
-          id: 4,
+          id: 10,
           name: "Fantasia Nectarine",
           scientificName: "Prunus persica var. nucipersica 'Fantasia'",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/nectarines-196805_1920.jpg",
@@ -150,7 +150,7 @@ apples: [
           native: false
         },
         {
-          id: 4,
+          id: 11,
           name: "Artic Star Nectarine",
           scientificName: "Prunus persica var. nucipersica 'Arctic Star'",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/nectarine.jpg",
@@ -166,7 +166,7 @@ apples: [
       ],
       apricots: [
         {
-            id: 4,
+            id: 12,
             name: "Tilton Apricot",
             scientificName: "Prunus armeniaca 'Tilton'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/apricots-6396505_1920.jpg",
@@ -180,7 +180,7 @@ apples: [
             native: false
           },
         {
-            id: 4,
+            id: 13,
             name: "Surecrop Apricot",
             scientificName: "Prunus armeniaca 'Surecrop'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/apricots-6396524_1920.jpg",
@@ -194,7 +194,7 @@ apples: [
             native: false
           },
         {
-            id: 4,
+            id: 14,
             name: "Blenhiem Apricot",
             scientificName: "Prunus armeniaca 'Blenheim'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/apricots-824626_1920.jpg",
@@ -211,7 +211,7 @@ apples: [
       ],
       plums: [
         {
-            id: 4,
+            id: 15,
             name: "Santa Rosa Plum",
             scientificName: "Prunus salicina 'Santa Rosa'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/plum-4344623_1920.jpg",
@@ -225,7 +225,7 @@ apples: [
             native: false
           },
         {
-            id: 4,
+            id: 16,
             name: "Methley Plum",
             scientificName: "Prunus salicina 'Methley'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/methleyplum.jpg",
@@ -239,7 +239,7 @@ apples: [
             native: false
           },
           {
-            id: 4,
+            id: 17,
             name: "Stanley Plum",
             scientificName: "Prunus domestica 'Stanley'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/plums-3628167_1920.jpg",
@@ -256,7 +256,7 @@ apples: [
       ],
       pears: [
         {
-            id: 4,
+            id: 18,
             name: "Bartlett Pear",
             scientificName: "Pyrus communis 'Bartlett'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/pear-2297977_1920.jpg",
@@ -270,7 +270,7 @@ apples: [
             native: false
           },
         {
-            id: 4,
+            id: 19,
             name: "D'Anjou Pear",
             scientificName: "Pyrus communis 'D'Anjou'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/pear-3560106_1920.jpg",
@@ -284,7 +284,7 @@ apples: [
             native: false
           },
           {
-            id: 4,
+            id: 20,
             name: "Kieffer Pear",
             scientificName: "Pyrus communis 'Kieffer'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/pear.jpg",
@@ -301,7 +301,7 @@ apples: [
       ],
       figs: [
         {
-          id: 4,
+          id: 21,
           name: "Celeste Fig",
           scientificName: "Ficus carica 'Celeste'",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/figs-7421496_1920.jpg",
@@ -315,7 +315,7 @@ apples: [
           native: false
         },
         {
-            id: 4,
+            id: 22,
             name: "Brown Turkey Fig",
             scientificName: "Ficus carica 'Brown Turkey'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/fig.jpg",
@@ -332,7 +332,7 @@ apples: [
       ],
       pomegranates: [
         {
-            id: 4,
+            id: 23,
             name: "Wonderful Pomegranates",
             scientificName: "Punica granatum 'Wonderful'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/pomegranate-2825556_1920.jpg",
@@ -346,7 +346,7 @@ apples: [
             native: false
           },
         {
-            id: 4,
+            id: 24,
             name: "Russain 26 Pomegranates",
             scientificName: "Punica granatum 'Russian 26'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/fruit-3036563_1920.jpg",
@@ -362,7 +362,7 @@ apples: [
       ],
       almonds: [
         {
-            id: 4,
+            id: 25,
             name: "Mission Almonds",
             scientificName: "Prunus dulcis 'Mission'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/almond-tree-5951352_1920.jpg",
@@ -376,7 +376,7 @@ apples: [
             native: false
           },
         {
-            id: 4,
+            id: 26,
             name: "Bounty Almond",
             scientificName: "Prunus dulcis 'Bounty'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/almond-5530630_1920.jpg",
@@ -390,7 +390,7 @@ apples: [
             native: false
           },
         {
-            id: 4,
+            id: 27,
             name: "All-In-One Almond",
             scientificName: "Prunus dulcis 'All-in-One'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/almonds-2667060_1920.jpg",
@@ -406,7 +406,7 @@ apples: [
       ],
       pecans: [
         {
-            id: 4,
+            id: 28,
             name: "Western Schley Pecans",
             scientificName: "Carya illinoinensis 'Western Schley'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/nuts-315687_1920.jpg",
@@ -420,7 +420,7 @@ apples: [
             native: false
           },
         {
-            id: 4,
+            id: 29,
             name: "Wichita Pecan",
             scientificName: "Carya illinoinensis 'Wichita'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/nuts-316146_1920.jpg",
@@ -434,7 +434,7 @@ apples: [
             native: false
           },
         {
-            id: 4,
+            id: 30,
             name: "Cheyenne Pecan",
             scientificName: "Carya illinoinensis 'Cheyenne'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/pecan-tree-186328_1920.jpg",
@@ -450,7 +450,7 @@ apples: [
       ],
       pistachios: [
         {
-            id: 4,
+            id: 31,
             name: "Kerman Pistachios",
             scientificName: "Pistacia vera 'Kerman'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/pistachios-1540123_1920.jpg",
@@ -464,7 +464,7 @@ apples: [
             native: false
           },
         {
-            id: 4,
+            id: 32,
             name: "Peters Pistachios",
             scientificName: "Pistacia vera 'Peters'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/pistachios-1540134_1920.jpg",
@@ -478,7 +478,7 @@ apples: [
             native: false
           },
         {
-            id: 4,
+            id: 33,
             name: "Kaleh Ghouchi Pistachios",
             scientificName: "Pistacia vera 'Kalehgouchi'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/pistachio-1137886_1920.jpg",
@@ -494,7 +494,7 @@ apples: [
       ],
       others: [
         {
-            id: 4,
+            id: 34,
             name: "JuJubes (Chinese Date)",
             scientificName: "Ziziphus jujuba",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/autumn-3400000_1920.jpg",
@@ -508,7 +508,7 @@ apples: [
             native: false
           },
         {
-            id: 4,
+            id: 35,
             name: "Persimmons",
             scientificName: "Diospyros spp.",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/persimmons-6735325_1920.jpg",
@@ -522,7 +522,7 @@ apples: [
             native: false
           },
         {
-            id: 4,
+            id: 36,
             name: "Grapes",
             scientificName: "(Vitis vinifera)",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/vines-1747224_1920.jpg",

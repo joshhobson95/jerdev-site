@@ -25,7 +25,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "4-8",
-            matureSize: "30' x 15'"
+            matureSize: "30' x 15'",
+            native: false
         },
         {
             id: 3,
@@ -39,6 +40,7 @@ const ornamentaldata = {
             waterRequirement: "Moderate Water",
             hardinessZones: "4-8",
             matureSize: "40' x 30'",
+            native: false
         },
         {
             id: 4,
@@ -52,6 +54,7 @@ const ornamentaldata = {
             waterRequirement: "Moderate Water",
             hardinessZones: "4-8",
             matureSize: "40' x 30'",
+            native: false
         }
     ],
   
@@ -67,7 +70,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "5-8",
-            matureSize: "25' x 25'"
+            matureSize: "25' x 25'",
+            native: false
         },   
         {
             id: 6,
@@ -80,7 +84,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "5-8",
-            matureSize: "25' x 25'"
+            matureSize: "25' x 25'",
+            native: false
         },
         
         {
@@ -94,7 +99,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "6-9",
-            matureSize: "20' x 25''"
+            matureSize: "20' x 25''",
+            native: false
         },       
         {
             id: 8,
@@ -108,7 +114,7 @@ const ornamentaldata = {
             waterRequirement: "Low Water",
             hardinessZones: "6-9",
             matureSize: "15' x 20'",
-            native: false
+            native: true
           },
           
     ],
@@ -125,7 +131,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "4-9",
-            matureSize: "20' x 20'"
+            matureSize: "20' x 20'",
+            native: false
         },
         {
             id: 10,
@@ -138,7 +145,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "4-9",
-            matureSize: "20' x 20'"
+            matureSize: "20' x 20'",
+            native: false
         },
         
         {
@@ -152,7 +160,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "4-9",
-            matureSize: "15' x 15'"
+            matureSize: "15' x 15'",
+            native: true
         },
         
         {
@@ -166,7 +175,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "4-7",
-            matureSize: "10' x 20'"
+            matureSize: "10' x 20'",
+            native: false
         },
         
         // {
@@ -196,7 +206,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "4-8",
-            matureSize: "15' x 25'"
+            matureSize: "15' x 25'",
+            native: false
         },
         {
             id: 15,
@@ -209,7 +220,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "4-8",
-            matureSize: "15' x 15'"
+            matureSize: "15' x 15'",
+            native: false
         },
         {
             id: 16,
@@ -222,7 +234,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
             waterRequirement: "Low Water",
             hardinessZones: "4-8",
-            matureSize: "15' x 15'"
+            matureSize: "15' x 15'",
+            native: false
         },
         {
             id: 17,
@@ -235,7 +248,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
             waterRequirement: "Low Water",
             hardinessZones: "4-8",
-            matureSize: "15' x 15'"
+            matureSize: "15' x 15'",
+            native: false
         },
       ],
     redbuds: [
@@ -250,7 +264,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "4-9",
-            matureSize: "20' x 25'"
+            matureSize: "20' x 25'",
+            native: false
         },
         {
             id: 19,
@@ -263,7 +278,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
             waterRequirement: "Low Water",
             hardinessZones: "6-9",
-            matureSize: "15' x 15'"
+            matureSize: "15' x 15'",
+            native: true
         },
         {
             id: 20,
@@ -276,7 +292,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "6-9",
-            matureSize: "20' x 25'"
+            matureSize: "20' x 25'",
+            native: false
         },
 
         {
@@ -290,7 +307,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "6-9",
-            matureSize: "20' x 15'"
+            matureSize: "20' x 15'",
+            native: false
         }
       ],
 
@@ -306,7 +324,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
             waterRequirement: "Xeric",
             hardinessZones: "7-10",
-            matureSize: "10' x 10'"
+            matureSize: "10' x 10'",
+            native: true
           },
           
         {
@@ -320,7 +339,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: "4-9",
-            matureSize: "30' x 10'"
+            matureSize: "30' x 10'",
+            native: false
         },
         {
             id: 24,
@@ -333,7 +353,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/HighWater.png",
             waterRequirement: "High Water",
             hardinessZones: "6-10",
-            matureSize: "20' x 30'"
+            matureSize: "20' x 30'",
+            native: false
           },
           
           {
@@ -347,7 +368,8 @@ const ornamentaldata = {
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
             hardinessZones: '6-9',
-            matureSize: "30' x 40'"
+            matureSize: "30' x 40'",
+            native: false
           },
           {
             id: 26,
@@ -404,7 +426,7 @@ const ornamentaldata = {
             waterRequirement: "Xeric",
             hardinessZones: "6-9",
             matureSize: "15' x 20'",
-            native: false
+            native: true
           },
 
 

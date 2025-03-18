@@ -2,10 +2,10 @@ import React from "react";
 import './Flowering.css'
 import PlantSlider from "../../PlantSlider/PlantSlider";
 import floweringshrubdata from "../../PlantData/Shrubs/FloweringShrubData";
+
+
+
 function Flowering() {
-
-
-
 
 
   return (

@@ -1,11 +1,10 @@
 import React from "react";
 import './Broadleaf.css'
 import PlantSlider from "../../PlantSlider/PlantSlider";
-import coniferdata from '../../PlantData/Trees/ConiferData'
+import broadleafevergreens from "../../PlantData/Shrubs/BroadleafEvergreenData";
+
 
 function Broadleaf() {
-
-
 
 
 
@@ -30,93 +29,69 @@ function Broadleaf() {
 
 
 
-<div className='tree_catalog_body'>
+<div className='shrub_catalog_body'>
 
 
-    <div className='tree_catalog_sub_section'>
-      <h2 className='tree_catalog_title'>Boxwoods</h2>
+    <div className='shrub_catalog_sub_section'>
+      <h2 className='shrub_catalog_title'>Boxwoods</h2>
           <div className='catalog_cards'>
-            <PlantSlider  plants={coniferdata.pines}/>
+            <PlantSlider  plants={broadleafevergreens.boxwoods}/>
 
     
 
-
- 
             </div>
           </div>
 
 
-        <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Euonomys</h2>
+        <div className='shrub_catalog_sub_section'>
+            <h2 className='shrub_catalog_title'>Euonomys</h2>
             <div className='catalog_cards'>
-            <PlantSlider  plants={coniferdata.junipers}/>
+            <PlantSlider  plants={broadleafevergreens.euonomys}/>
   
-
-               
-      
+          
    
           </div>
         </div>
-        <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Photinia</h2>
+        <div className='shrub_catalog_sub_section'>
+            <h2 className='shrub_catalog_title'>Photinia</h2>
             <div className='catalog_cards'>
-            <PlantSlider  plants={coniferdata.cedars}/>
+            <PlantSlider  plants={broadleafevergreens.photinias}/>
          
             
           </div>
         </div>
-        <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Rosewood</h2>
+        <div className='shrub_catalog_sub_section'>
+            <h2 className='shrub_catalog_title'>Nandina</h2>
             <div className='catalog_cards'>
-            <PlantSlider  plants={coniferdata.cedars}/>
+            <PlantSlider  plants={broadleafevergreens.nandinas}/>
          
             
           </div>
         </div>
-        <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Nandina</h2>
+        <div className='shrub_catalog_sub_section'>
+            <h2 className='shrub_catalog_title'>Cotoneaster</h2>
             <div className='catalog_cards'>
-            <PlantSlider  plants={coniferdata.cedars}/>
+            <PlantSlider  plants={broadleafevergreens.cotoneasters}/>
+      
          
             
           </div>
         </div>
-        <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Mahogony</h2>
+
+        <div className='shrub_catalog_sub_section'>
+            <h2 className='shrub_catalog_title'>Burning Bush</h2>
             <div className='catalog_cards'>
-            <PlantSlider  plants={coniferdata.cedars}/>
+            <PlantSlider  plants={broadleafevergreens.burningbush}/>
+  
          
             
           </div>
         </div>
-        <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Cotoneaster</h2>
+        <div className='shrub_catalog_sub_section'>
+            <h2 className='shrub_catalog_title'>Other Great Broadleaf Evergreens</h2>
             <div className='catalog_cards'>
-            <PlantSlider  plants={coniferdata.cedars}/>
-         
-            
-          </div>
-        </div>
-        <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Privet</h2>
-            <div className='catalog_cards'>
-            <PlantSlider  plants={coniferdata.cedars}/>
-         
-            
-          </div>
-        </div>
-        <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Sage</h2>
-            <div className='catalog_cards'>
-            <PlantSlider  plants={coniferdata.cedars}/>
-         
-            
-          </div>
-        </div>
-        <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Burning Bush</h2>
-            <div className='catalog_cards'>
-            <PlantSlider  plants={coniferdata.cedars}/>
+            <PlantSlider  plants={broadleafevergreens.others}/>
+  
          
             
           </div>
