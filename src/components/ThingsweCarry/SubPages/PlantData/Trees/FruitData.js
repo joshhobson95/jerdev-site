@@ -8,10 +8,11 @@ apples: [
         description: "The Fuji Apple tree thrives in New Mexico’s sunny climate with well-draining soil and moderate watering. It produces crisp, sweet apples in fall but requires a pollinator like Gala or Granny Smith. While heat-tolerant, some afternoon shade helps in hotter areas. A great choice for home orchards, it rewards gardeners with delicious fruit.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
-        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
-        waterRequirement: "Low Water",
-        hardinessZones: [4, 5, 6, 7],
-        matureSize: "15' x 30'",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
+        waterRequirement: "Moderate Water",
+        hardinessZones: "6-9",
+        matureSize: "15' x 15'",
+        native: false
       },
       {
         id: 2,
@@ -23,8 +24,9 @@ apples: [
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
         waterRequirement: "Moderate Water",
-        hardinessZones: [4, 5, 6, 7],
-        matureSize: "15' x 30' tall",
+        hardinessZones: "3-8",
+        matureSize: "15' x 12' ",
+        native: false
       },
       {
         id: 3,
@@ -36,8 +38,9 @@ apples: [
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
         waterRequirement: "Moderate Water",
-        hardinessZones: [4, 5, 6, 7],
-        matureSize: "15' x 30' tall",
+        hardinessZones: "5-9",
+        matureSize: "15' x 15' ",
+        native: false
       },
     ],
   
@@ -52,8 +55,10 @@ apples: [
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
         waterRequirement: "Moderate Water",
-        hardinessZones: [4, 5, 6, 7],
-        matureSize: "10' x 20'",
+        hardinessZones: "5-8",
+        matureSize: "12' x 12'",
+        native: false
+        
       },
       {
         id: 4,
@@ -65,8 +70,9 @@ apples: [
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
         waterRequirement: "Moderate Water",
-        hardinessZones: [4, 5, 6, 7],
-        matureSize: "10' x 20'",
+        hardinessZones: "5-8",
+        matureSize: "20' x 15'",
+        native: false
       },
       {
         id: 4,
@@ -78,8 +84,9 @@ apples: [
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
         waterRequirement: "Moderate Water",
-        hardinessZones: [4, 5, 6, 7],
-        matureSize: "10' x 20'",
+        hardinessZones: "5-9",
+        matureSize: "15' x 20'",
+        native: false
       },
     ],
   
@@ -94,8 +101,9 @@ apples: [
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
         waterRequirement: "Moderate Water",
-        hardinessZones: [4, 5, 6, 7],
-        matureSize: "10' x 20'",
+        hardinessZones: '5-8',
+        matureSize: "12' x 12'",
+        native: false
       },
       {
         id: 4,
@@ -107,8 +115,9 @@ apples: [
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
         waterRequirement: "Moderate Water",
-        hardinessZones: [4, 5, 6, 7],
-        matureSize: "10' x 20'",
+        hardinessZones: "5-9",
+        matureSize: "12' x12'",
+        native: false
       },
       {
         id: 4,
@@ -120,8 +129,9 @@ apples: [
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
         waterRequirement: "Moderate Water",
-        hardinessZones: [4, 5, 6, 7],
-        matureSize: "10' x 20'",
+        hardinessZones: "4-8",
+        matureSize: "12' x 12'",
+        native: false
       },
     ],
     nectarines: [
@@ -135,8 +145,9 @@ apples: [
           sunRequirement: "Full Sun",
           waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
           waterRequirement: "Moderate Water",
-          hardinessZones: [4, 5, 6, 7],
-          matureSize: "10' x 20'",
+          hardinessZones: "5-9",
+          matureSize: "12' x 12'",
+          native: false
         },
         {
           id: 4,
@@ -148,8 +159,9 @@ apples: [
           sunRequirement: "Full Sun",
           waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
           waterRequirement: "Moderate Water",
-          hardinessZones: [4, 5, 6, 7],
-          matureSize: "10' x 20'",
+          hardinessZones: "7-10",
+          matureSize: "12' x 12'",
+          native: false
         },
       ],
       apricots: [
@@ -163,8 +175,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "5-9",
+            matureSize: "20' x 20'",
+            native: false
           },
         {
             id: 4,
@@ -176,8 +189,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "4-9",
+            matureSize: "15' x 15'",
+            native: false
           },
         {
             id: 4,
@@ -189,8 +203,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "5-8",
+            matureSize: "15' x 15'",
+            native: false
           },
 
       ],
@@ -205,8 +220,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "5-9",
+            matureSize: "20' x 15'",
+            native: false
           },
         {
             id: 4,
@@ -218,8 +234,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "5-9",
+            matureSize: "15' x 15'",
+            native: false
           },
           {
             id: 4,
@@ -231,8 +248,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "5-7",
+            matureSize: "15' x 15'",
+            native: false
           },
 
       ],
@@ -247,8 +265,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "5-9",
+            matureSize: "17' x 17'",
+            native: false
           },
         {
             id: 4,
@@ -260,8 +279,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "5-9",
+            matureSize: "15' x 15'",
+            native: false
           },
           {
             id: 4,
@@ -273,8 +293,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "5-9",
+            matureSize: "20' x 12'",
+            native: false
           },
 
       ],
@@ -289,8 +310,9 @@ apples: [
           sunRequirement: "Full Sun",
           waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
           waterRequirement: "Moderate Water",
-          hardinessZones: [4, 5, 6, 7],
-          matureSize: "10' x 20'",
+          hardinessZones: "6-9",
+          matureSize: "8' x 8'",
+          native: false
         },
         {
             id: 4,
@@ -302,8 +324,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "7-9",
+            matureSize: "25' x 20'",
+            native: false
           },
        
       ],
@@ -318,8 +341,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "7-10",
+            matureSize: "10' x 7'",
+            native: false
           },
         {
             id: 4,
@@ -331,8 +355,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "6-11",
+            matureSize: "12' x 9'",
+            native: false
           },
       ],
       almonds: [
@@ -346,8 +371,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "7-9",
+            matureSize: "12' x 12'",
+            native: false
           },
         {
             id: 4,
@@ -359,8 +385,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "7-9",
+            matureSize: "12' x 12'",
+            native: false
           },
         {
             id: 4,
@@ -372,8 +399,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "5-9",
+            matureSize: "15' x 10'",
+            native: false
           },
       ],
       pecans: [
@@ -387,8 +415,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "5-9",
+            matureSize: "70' x 70'",
+            native: false
           },
         {
             id: 4,
@@ -400,8 +429,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "6-9",
+            matureSize: "60' x 50'",
+            native: false
           },
         {
             id: 4,
@@ -413,8 +443,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "6-9",
+            matureSize: "50' x 50'",
+            native: false
           },
       ],
       pistachios: [
@@ -428,8 +459,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "8-10",
+            matureSize: "25' x 15'",
+            native: false
           },
         {
             id: 4,
@@ -441,12 +473,13 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "8-11",
+            matureSize: "25' x 25'",
+            native: false
           },
         {
             id: 4,
-            name: "Kalehghouchi Pistachios",
+            name: "Kaleh Ghouchi Pistachios",
             scientificName: "Pistacia vera 'Kalehgouchi'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/pistachio-1137886_1920.jpg",
             description: "The Kalehgouchi Pistachio tree is a hardy pistachio variety that’s well-suited for New Mexico’s hot, arid conditions. It produces medium-sized, flavorful pistachios and requires both male and female trees for successful pollination. Kalehgouchi pistachios are especially prized for their resistance to cold, making them a good option for areas with cooler winters. Like other pistachios, they require full sun, well-draining soil, and deep watering, especially in the first few years after planting. This variety is a great choice for northern parts of New Mexico and for gardeners who want a hardy, productive pistachio tree.",
@@ -454,8 +487,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "7-10",
+            matureSize: "25' x 20'",
+            native: false
           },
       ],
       others: [
@@ -469,8 +503,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "6-10",
+            matureSize: "20' x 10'",
+            native: false
           },
         {
             id: 4,
@@ -482,8 +517,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "4-9",
+            matureSize: "50' x 30'",
+            native: false
           },
         {
             id: 4,
@@ -495,8 +531,9 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
             waterRequirement: "Moderate Water",
-            hardinessZones: [4, 5, 6, 7],
-            matureSize: "10' x 20'",
+            hardinessZones: "4-10",
+            matureSize: "50-100 sq ft",
+            native: false
           },
       ],
   
