@@ -345,6 +345,19 @@ const xericshrubs =
             matureSize: "20' x 20'",
             native: false
           },
+          {
+            id: 1,
+            name: "Dwarf Fragrant Sumac",
+            scientificName: "Rhus aromatica 'Gro-Low'",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flowering/forsythia.jpg",
+            description: "Dwarf Fragrant Sumac is a low-growing, deciduous shrub that thrives in New Mexico’s dry, sunny landscapes. Known for its fragrant, lemon-scented foliage and bright red to orange berries that attract birds, this compact shrub is perfect for ground cover or low hedges. Its dark green leaves turn vibrant shades of red, orange, and yellow in the fall, adding seasonal interest. Dwarf Fragrant Sumac is drought-tolerant and thrives in full sun and well-drained soils, making it an excellent choice for xeriscaping or low-maintenance gardens. Its resilience and attractive foliage provide year-round beauty with minimal care.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+            waterRequirement: "Low Water",
+            hardinessZones: [4, 5, 6, 7],
+            matureSize: "15' x 30'",
+          },
         {
             id: 35,
             name: "Upright Rosemarry",

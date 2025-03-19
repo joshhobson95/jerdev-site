@@ -238,19 +238,6 @@ const floweringshrubdata = {
         },
         {
           id: 1,
-          name: "Sensation Lilac",
-          scientificName: "Pinus edulis",
-          image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flowering/lilac.jpg",
-          description: "The Sensation Lilac is a standout for its bi-color flowers, featuring rich purple petals with a contrasting white edge. This variety offers a unique twist on the classic lilac, with a strong, sweet fragrance that fills the garden in spring. Thriving in full sun, Sensation is a hardy and low-maintenance shrub that requires minimal pruning, making it a perfect choice for adding color and fragrance to New Mexico landscapes with ease.",
-          sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-          sunRequirement: "Full Sun",
-          waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
-          waterRequirement: "Low Water",
-          hardinessZones: [4, 5, 6, 7],
-          matureSize: "15' x 30'",
-        },
-        {
-          id: 1,
           name: "Alba Lilac",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flowering/lilac.jpg",
@@ -598,7 +585,7 @@ const floweringshrubdata = {
           id: 1,
           name: "Apache Plume",
           scientificName: "Fallugia paradoxa",
-          image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flowering/forsythia.jpg",
+          image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flowering/apache-plume-1937218_1920.jpg",
           description: "Apache Plume is a striking shrub native to the Southwestern United States, valued for its elegant, feathery plumes that appear in late spring and early summer. These plumes are followed by small white flowers that provide a delicate contrast to its gray-green, aromatic foliage. Well-suited for New Mexico’s dry, rocky landscapes, Apache Plume thrives in full sun and well-drained soils, making it an excellent choice for xeriscape gardens. This drought-tolerant shrub attracts pollinators and offers year-round interest with its unique form and beautiful seed heads, which persist into the winter.",
           sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
           sunRequirement: "Full Sun",
@@ -676,19 +663,7 @@ const floweringshrubdata = {
         matureSize: "10' x 10'",
         native: true
         },
-        {
-          id: 1,
-          name: "Dwarf Fragrant Sumac",
-          scientificName: "Rhus aromatica 'Gro-Low'",
-          image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flowering/forsythia.jpg",
-          description: "Dwarf Fragrant Sumac is a low-growing, deciduous shrub that thrives in New Mexico’s dry, sunny landscapes. Known for its fragrant, lemon-scented foliage and bright red to orange berries that attract birds, this compact shrub is perfect for ground cover or low hedges. Its dark green leaves turn vibrant shades of red, orange, and yellow in the fall, adding seasonal interest. Dwarf Fragrant Sumac is drought-tolerant and thrives in full sun and well-drained soils, making it an excellent choice for xeriscaping or low-maintenance gardens. Its resilience and attractive foliage provide year-round beauty with minimal care.",
-          sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-          sunRequirement: "Full Sun",
-          waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
-          waterRequirement: "Low Water",
-          hardinessZones: [4, 5, 6, 7],
-          matureSize: "15' x 30'",
-        },
+  
   
       ],
       
