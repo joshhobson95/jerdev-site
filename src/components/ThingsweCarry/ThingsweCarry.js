@@ -73,6 +73,17 @@ function ThingsweCarry() {
     </div>
   </div>
 </NavLink>
+<NavLink to='/vines'>
+  <div className='plant_category'>
+  <div className='plant_image_container'>
+    <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Vines/trumpetVine.jpg' alt='Vines available at Jericho Nursery in Albuquerque, New Mexico' />
+    </div>
+    <div className='plant_text'>
+     <h3>Vines</h3>
+      <p>Explore all the extras at Jericho Nursery beyond just plants! Discover our extensive selection of pottery and unique yard art to add charm and character to your outdoor space. Transform your landscape with our premium flagstone and boulders, perfect for accenting your new trees and shrubs. Have questions about pest problems? Our experts are here to help you find the right pesticide, herbicide, or fungicide to meet your specific needs. And that's just the beginning – there's so much more waiting for you at Jericho Nursery!</p>
+    </div>
+  </div>
+</NavLink>
 
 <NavLink to='/xeric'>
   <div className='plant_category'>
@@ -86,17 +97,7 @@ function ThingsweCarry() {
   </div>
 </NavLink>
 
-<NavLink to='/hardgoods'>
-  <div className='plant_category'>
-  <div className='plant_image_container'>
-    <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/pottery.jpg' alt='Hardgoods and pottery available at Jericho Nursery in Albuquerque, New Mexico' />
-    </div>
-    <div className='plant_text'>
-     <h3>Hardgoods</h3>
-      <p>Explore all the extras at Jericho Nursery beyond just plants! Discover our extensive selection of pottery and unique yard art to add charm and character to your outdoor space. Transform your landscape with our premium flagstone and boulders, perfect for accenting your new trees and shrubs. Have questions about pest problems? Our experts are here to help you find the right pesticide, herbicide, or fungicide to meet your specific needs. And that's just the beginning – there's so much more waiting for you at Jericho Nursery!</p>
-    </div>
-  </div>
-</NavLink>
+
 
   </div>
 </div>

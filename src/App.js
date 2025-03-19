@@ -51,7 +51,7 @@ import Roses from './components/ThingsweCarry/SubPages/Roses/Roses';
 import Trees from './components/ThingsweCarry/SubPages/Trees/Trees';
 import Shrubs from './components/ThingsweCarry/SubPages/Shrubs/Shrubs';
 import Xeric from './components/ThingsweCarry/SubPages/Xeric/Xeric';
-import Hardgoods from './components/ThingsweCarry/SubPages/Hardgoods/Hardgoods';
+import Vines from './components/ThingsweCarry/SubPages/Vines/Vines';
 import Shade from './components/ThingsweCarry/SubPages/Trees/Shade/Shade';
 import Fruit from './components/ThingsweCarry/SubPages/Trees/Fruit/Fruit';
 import Ornamental from './components/ThingsweCarry/SubPages/Trees/Ornamental/Ornamental';
@@ -60,7 +60,6 @@ import Flowering from './components/ThingsweCarry/SubPages/Shrubs/Flowering/Flow
 import Broadleaf from './components/ThingsweCarry/SubPages/Shrubs/Broadleaf/Broadleaf';
 import ConiferousShrubs from './components/ThingsweCarry/SubPages/Shrubs/ConiferousShrubs/ConiferousShrubs';
 import XericBedding from './components/ThingsweCarry/SubPages/Xeric/XericBedding/XericBedding';
-import XericGrasses from './components/ThingsweCarry/SubPages/Xeric/XericGrasses/XericGrasses';
 import XericTrees from './components/ThingsweCarry/SubPages/Xeric/XericTrees/XericTrees';
 import XericShrubs from './components/ThingsweCarry/SubPages/Xeric/XericShrubs/XericShrubs';
 import Cacti from './components/ThingsweCarry/SubPages/Xeric/Cacti/Cacti'
@@ -109,8 +108,7 @@ function App() {
               <Route path='/xericshrubs' element={<XericShrubs/>} />
               <Route path='/cacti' element={<Cacti/>}/>
               <Route path='/xericbedding' element={<XericBedding/>}/>
-              <Route path='/xericgrasses' element={<XericGrasses/>}/>
-          <Route path='/hardgoods' element={<Hardgoods />}/>
+          <Route path='/vines' element={<Vines />}/>
         <Route path='/employment' element={<WhyWorkHere />}/>
        <Route path='/videos' element={<Videos />}/>
        <Route path='/promotions' element={<Promotions/>}/>

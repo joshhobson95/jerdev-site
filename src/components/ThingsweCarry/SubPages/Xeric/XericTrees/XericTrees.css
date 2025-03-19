@@ -17,240 +17,125 @@
 .xeric_top_text{
     margin: 1rem;
     line-height: 1.6;
-}
-.xeric_top_text h2{
-    font-size: 30pt;
-    margin: 2rem;
-
-}
-
-.xeric_tree_examples{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
     align-items: center;
-    margin: 3rem;
 }
 
-.xeric_tree_example_each{
-    margin: 1rem;
+
+.xeric_top_text h2{
+    font-size: 30pt;
+    margin: 2rem;
+    background-color: #242424a9;
 }
 
-.xeric_tree_examples p{
-    text-align: left;
-}
 
-.xeric_tree_example_image{
-    width: 75vw;
-    height: 35vw;
+.xeric_header_background_image{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/xerics/flowering/IndianHawthorne.png');
     object-fit: cover;
-    margin: 1rem;
+    background-size: cover;
+    width: 80vw;
+    padding: 1rem;
+}
+
+.xeric_top_text p{
+    font-size: 14pt;
+    margin: 2rem 1rem;
 }
 
 
-.xeric_tree_exerb {
-    visibility: hidden;
-    opacity: 0;
-    height: 0;
-    overflow: hidden;
-    transition: visibility 0s 0.5s, opacity 0.5s ease-in, height 0.5s ease-in;
-  }
-  
-  .xeric_tree_exerb.visible2 {
-    visibility: visible;
-    opacity: 1;
-    height: auto;
-    transition: opacity 0.5s ease-in, height 0.5s ease-in;
-  }
 
-  .xeric_tree_exerb p{
-    margin-bottom: 1rem;
-  }
-
-
-
-  .xeric_tree_example_each h2{
-    font-size: 24pt;
-    font-weight: 700;
-
-  }
-
-
-  .xeric_tree_example_each h3{
-    font-size: 16pt;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-
-
-  .xeric_tree_example_image{
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.xeric_tree_example_image:hover{
-    transform: scale(1.05); /* Slight zoom */
-    box-shadow: 0 0 15px rgba(255, 187, 0, 0.7); /* Glowing effect */
-}
-
-
-  
-  .rotate {
-    transform: rotate(180deg);
-  }
-  
-/* .material-symbols-outlined {
+.xeric_catalog_sub_section{
     display: flex;
     justify-content: center;
-    font-size: 40pt;
-    margin-left: 8px;
-    transition: transform 0.3s ease;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-.material-symbols-outlined:hover{
-    transform: scale(1.05);
-}
- */
-
-
-
-
-@media (min-width:750px) {
-    .xeric_tree_example_image{
-        width: 70vw;
-        height: 30vw;
-    }
-    .xeric_tree_example_image_s{
-        width: 70vw;
-        height: 30vw;
-    }
-
+    flex-direction: column;
+    background-color: #a1a1a181;
+    padding: 1.5rem;
+    margin: 1.5rem 0rem ;
 }
 
-  @media (min-width:825px) {
-    .xeric_trees_welcome h1{
-        font-size: 60pt;
-    }
-    .xeric_trees_welcome p{
-        font-size: 22pt;
-    }
-    .xeric_top_text p{
+.xeric_catalog_title{
+    font-size: 26pt;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+@media (min-width:825px) {
+    .broadleaf_top_text p{
         font-size: 16pt;
         margin: 1rem;
     }
-    .other_xeric_trees p{
-        font-size: 16pt;
-        margin: 1rem;
+
+    .broadleaf_top_text h2{
+        padding: 2rem;
     }
-    .xeric_tree_example_each h2{
-        font-size: 26pt;
-    }
-    .xeric_tree_example_each h3{
-        font-size: 22pt;
-    }
-    .xeric_tree_exerb p{
-        font-size: 16pt;
-        margin: 1rem;
-    }
-    .other_xeric_trees h2{
-        font-size: 26pt;
-    }
-    .xeric_tree_example_image{
-        margin: 1.5rem;
+    .xeric_catalog_title{
+        font-size: 32pt;
     }
 
+
+    
 }
+
 @media (min-width:1025px) {
-    .xeric_trees_welcome h1{
-        font-size: 60pt;
-    }
-    .xeric_top_text h2{
+    .broadleaf_top_text h2{
         font-size: 40pt;
+        padding: 1rem;
     }
-    .xeric_tree_example_each h2{
-        font-size: 30pt;
+    .broadleaf_top_text{
+        margin: 2rem 4rem;
     }
-
-    .xeric_tree_example_each{
+    .broadleaf_top_text p{
+        line-height: 1.6;
         margin: 2rem;
     }
-    .xeric_top_text{
-        margin: 2rem 4rem;
-    }
+    .header_background_image{
+        width: 60vw;
+    }    
 }
 
-@media (min-width:1200px) {
-    .xeric_tree_example_image{
-        width: 65vw;
-        height: 25vw;
+
+@media (min-width:1300px) {
+    .broadleaf_top_text p{
+        font-size: 18pt;
     }
-    .xeric_tree_example_image_s{
-        width: 65vw;
-        height: 25vw;
-    }
-    .xeric_tree_example_each{
-        margin: 2rem 4rem;
+    .header_background_image{
+        width: 50vw;
     }
 
 }
 
 @media (min-width:1500px) {
-    .xeric_tree_example_image{
-        width: 65vw;
-        height: 22vw;
-    }
-    .xeric_top_text h2{
+    .broadleaf_top_text h2{
         font-size: 44pt;
     }
-    .other_xeric_trees h1{
-        font-size: 44pt;
-    }
-    .xeric_top_text p{
+    .broadleaf_top_text p{
         font-size: 18pt;
         margin: 2rem 4rem;
     }
-    .xeric_tree_example_each h2{
-        font-size: 36pt;
-    }
-
-    .xeric_tree_example_each h3{
-        font-size: 26pt;
-    }
-    .xeric_tree_exerb p{
-        font-size: 18pt;
-    }
-    .xeric_top_text{
+    .broadleaf_top_text{
         margin: 2rem 6rem;
+    }
+    .header_background_image{
+        width: 45vw;
     }
 }
 
 @media (min-width:1650px) {
-    .xeric_top_text{
+    .broadleaf_top_text{
         margin: 2rem 10rem;
-    }
-    .xeric_tree_exerb{
-        margin: 0rem 10rem; 
     }
 }
 
 @media (min-width:1900px) {
-    .xeric_tree_example_image{
-        width: 57vw;
-        height: 17vw;
-    }
-    .xeric_top_text{
+    .broadleaf_top_text{
         margin: 2rem 24rem;
     }
-    .xeric_tree_exerb{
-        margin: 0rem 24rem; 
-    }
-    .xeric_tree_examples{
-        margin-top: 10vh;
-    }
 }
-
-  
-

@@ -401,9 +401,6 @@ const cactusdata =
     },
 
     ],
-    aloe: [
-
-    ],
     
 
 

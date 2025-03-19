@@ -43,7 +43,7 @@ return (
       <div className='xeric_catergories_inner'>
         <NavLink to='/xerictrees'>
         <h2>Best Xeric Trees</h2>
-        <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/xericgrass.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
+        <img src='https://jfschmidt.com/wp-content/uploads/2023/06/chitalpa-nationalarboretum-web-01.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
         </NavLink>
       </div>
       <div className='xeric_catergories_inner'>
@@ -62,12 +62,6 @@ return (
         <NavLink to='/xericbedding'>
         <h2>Xeric Bedding and Flowers</h2>
         <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/succulent.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
-        </NavLink>
-      </div>
-      <div className='xeric_catergories_inner'>
-        <NavLink to='/xericgrasses'>
-        <h2>Best Xeric Grasses</h2>
-        <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/xericgrass.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
         </NavLink>
       </div>
 
