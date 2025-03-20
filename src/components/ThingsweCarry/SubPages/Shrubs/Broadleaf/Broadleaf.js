@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import './Broadleaf.css'
 import PlantSlider from "../../PlantSlider/PlantSlider";
 import broadleafevergreens from "../../PlantData/Shrubs/BroadleafEvergreenData";
@@ -6,6 +6,12 @@ import broadleafevergreens from "../../PlantData/Shrubs/BroadleafEvergreenData";
 
 function Broadleaf() {
 
+
+  const [visibleAttribution, setVisibleAttribution] = useState();
+
+  const toggleVisible = () => {
+    setVisibleAttribution(!visibleAttribution)
+  }
 
 
   return (
@@ -69,6 +75,14 @@ function Broadleaf() {
           </div>
         </div>
         <div className='shrub_catalog_sub_section'>
+            <h2 className='shrub_catalog_title'>Mahogany</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={broadleafevergreens.mahogonies}/>
+         
+            
+          </div>
+        </div>
+        <div className='shrub_catalog_sub_section'>
             <h2 className='shrub_catalog_title'>Cotoneaster</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={broadleafevergreens.cotoneasters}/>
@@ -106,6 +120,101 @@ function Broadleaf() {
             
           </div>
         </div>
+
+        <div className="attribution-container">
+      <button className="attribution-button" onClick={toggleVisible}>
+        {visibleAttribution ? "Hide Image Attributions" : "View Image Attributions"}
+      </button>
+      
+      {visibleAttribution && (
+        <div className="attribution-content">
+          
+          <div className="single_attribution">
+          <span><strong>Manhattan Euonymus Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Euonymus kiautschovicus Manhattan 0zz.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/Special:Contributions/David_Stang" target="_blank" rel="noopener noreferrer">
+                David J. Stang
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Euonymus_kiautschovicus_Manhattan_0zz.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 4.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+        
+          
+          <div className="single_attribution">
+          <span><strong>Alderleaf Mountain Mahogany</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Cercocarpus montanus kz07.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Kenraiz" target="_blank" rel="noopener noreferrer">
+              Krzysztof Ziarnek
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Cercocarpus_montanus_kz07.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 4.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+        
+          <div className="single_attribution">
+          <span><strong>Curl-leaf Mountain Mahogany</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Cercocarpus ledifolius 8219.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Wsiegmund" target="_blank" rel="noopener noreferrer">
+              Walter Siegmund
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Cercocarpus_ledifolius_8219.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 3.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+        
+    
+
+
+
+        </div>
+      )}
+      </div> 
 
   </div>
   </div>      
