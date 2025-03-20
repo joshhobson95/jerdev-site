@@ -22,7 +22,7 @@ function Shrubs() {
               <div className='shrub_catergories_inner'>
               <NavLink to='/floweringshrubs'>
               <h2>Flowering Shrubs</h2>
-              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flowering/potentilla.jpg' alt='Shade Trees in Albuqueruque, New Mexico and surrounding areas'/>
+              <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/potentilla.jpg' alt='Shade Trees in Albuqueruque, New Mexico and surrounding areas'/>
               </NavLink>
               </div>
               <div className='shrub_catergories_inner'>

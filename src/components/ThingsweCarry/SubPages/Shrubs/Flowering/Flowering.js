@@ -46,7 +46,7 @@ function Flowering() {
 
 
         <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Indian Hawthorne</h2>
+            <h2 className='shrub_catalog_title'>Indian Hawthorns</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={floweringshrubdata.indianhawthornes}/>
      
@@ -58,16 +58,23 @@ function Flowering() {
           </div>
         </div>
         <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Potentilla</h2>
+            <h2 className='shrub_catalog_title'>Potentillas</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={floweringshrubdata.potentillas}/>
   
           </div>
         </div>
         <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Sages</h2>
+            <h2 className='shrub_catalog_title'>Salvias</h2>
             <div className='catalog_cards'>
-            <PlantSlider  plants={floweringshrubdata.sages}/>
+            <PlantSlider  plants={floweringshrubdata.salvias}/>
+
+          </div>
+        </div>
+        <div className='shrub_catalog_sub_section'>
+            <h2 className='shrub_catalog_title'>Texas Sages</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={floweringshrubdata.texassage}/>
 
           </div>
         </div>
@@ -91,6 +98,16 @@ function Flowering() {
           </div>
         </div>
         <div className='shrub_catalog_sub_section'>
+            <h2 className='shrub_catalog_title'>Lavendar</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={floweringshrubdata.lavendars}/>
+    
+         
+            
+          </div>
+        </div>
+
+        <div className='shrub_catalog_sub_section'>
             <h2 className='shrub_catalog_title'>Rose of Sharon</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={floweringshrubdata.roseofsharons}/>
@@ -103,6 +120,15 @@ function Flowering() {
             <h2 className='shrub_catalog_title'>Forsythia</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={floweringshrubdata.forsythias}/>
+     
+         
+            
+          </div>
+        </div>
+        <div className='shrub_catalog_sub_section'>
+            <h2 className='shrub_catalog_title'>Caryopteris</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={floweringshrubdata.spireas}/>
      
          
             

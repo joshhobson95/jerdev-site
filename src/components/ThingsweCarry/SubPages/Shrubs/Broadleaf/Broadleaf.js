@@ -96,15 +96,7 @@ function Broadleaf() {
             
           </div>
         </div>
-        <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Spirea</h2>
-            <div className='catalog_cards'>
-            <PlantSlider  plants={broadleafevergreens.spireas}/>
-  
-         
-            
-          </div>
-        </div>
+   
         <div className='shrub_catalog_sub_section'>
             <h2 className='shrub_catalog_title'>Other Great Broadleaf Evergreens</h2>
             <div className='catalog_cards'>
