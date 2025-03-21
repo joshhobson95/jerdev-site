@@ -45,7 +45,7 @@ function Annuals() {
             </div>
             <div className='plant_example_each'>
             <h6>Gerber Daisy</h6>
-            <img className='plant_example_circle_image' src='' alt='Lobelia at Jericho Nursery in Albuquerque, New Mexico'/>
+            <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/gerber-daisy.jpg' alt='Lobelia at Jericho Nursery in Albuquerque, New Mexico'/>
             </div>
             <div className='plant_example_each'>
             <h6>Impatients</h6>

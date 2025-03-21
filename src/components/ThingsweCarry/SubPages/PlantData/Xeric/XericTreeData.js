@@ -1,34 +1,7 @@
 const xerictrees =
 {
     shadetrees: [
-        {
-            id: 35,
-            name: "Shoal Creek Chaste Tree",
-            scientificName: "Vitex agnus-castus",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg",
-            description: "The Shoal Creek Chaste Tree (Vitex agnus-castus ‘Shoal Creek’) is a heat- and drought-tolerant ornamental tree that thrives in Albuquerque’s arid climate. Growing 10–15 feet tall and wide, it forms a multi-trunked, vase-like shape with fragrant, gray-green foliage. From late spring through summer, it produces showy spikes of violet-blue flowers, attracting pollinators like bees and butterflies. It prefers full sun and well-draining soil, requiring low to moderate water once established.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
-            waterRequirement: "Xeric",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
-            native: false
-          },
-          {
-            id: 41,
-            name: "Chitalpa",
-            scientificName: "Chitalpa tashkentensis",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/06/chitalpa-nationalarboretum-web-01.jpg",
-            description: "Chitalpa is a hybrid tree combining Desert Willow and Catalpa, known for its trumpet-shaped flowers in pink, white, or lavender. Two main varieties exist: ‘Morning Cloud’ and ‘Pink Dawn,’ both were originally thought to descend from southern catalpa, but later discovered they differ in their Catalpa lineage. It has slender, lance-shaped leaves in whorls of three and produces long seed pods. Drought-tolerant and thriving in full sun, it is a great choice for any Albuquerque landscape and even works in xeriscaping.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
-            waterRequirement: "Xeric",
-            hardinessZones: "6-9",
-            matureSize: "25' x 25'",
-            native: false
-          },  
+   
           {
             id: 42,
             name: "Box Elder",
@@ -86,20 +59,6 @@ const xerictrees =
             native: true
           },
           {
-            id: 46,
-            name: "Japanese Pagoda Tree",
-            scientificName: "Styphnolobium japonicum",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/01/styphnolobium-millstonejapanese-web-01.jpg",
-            description: "The Japanese Pagoda Tree is a graceful tree known for its compound leaves and clusters of creamy-white flowers in late summer. It thrives in full sun is highly resistant to pollution and can withstand colder temperatures, making it a triple threat and a great choice for those residing in Northern New Mexico given its range in temperature resistance. Its distinctive seed pods and drought tolerance add to its appeal.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
-            waterRequirement: "Moderate Water",
-            hardinessZones: "4-8",
-            matureSize: "40' x 35'",
-            native: false
-          },
-          {
             id: 48,
             name: "Washington Hawthorne",
             scientificName: "Crataegus phaenopyrum",
@@ -155,8 +114,7 @@ const xerictrees =
           hardinessZones: "5-8",
           matureSize: "15' x 15'",
           native: false
-        },
-        
+        },       
         {
           id: 39,
           name: "Golden Rain Tree",
@@ -176,6 +134,20 @@ const xerictrees =
 ],
 
     floweringtrees: [
+      {
+        id: 46,
+        name: "Japanese Pagoda Tree",
+        scientificName: "Styphnolobium japonicum",
+        image: "https://jfschmidt.com/wp-content/uploads/2023/01/styphnolobium-millstonejapanese-web-01.jpg",
+        description: "The Japanese Pagoda Tree is a graceful tree known for its compound leaves and clusters of creamy-white flowers in late summer. It thrives in full sun is highly resistant to pollution and can withstand colder temperatures, making it a triple threat and a great choice for those residing in Northern New Mexico given its range in temperature resistance. Its distinctive seed pods and drought tolerance add to its appeal.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
+        waterRequirement: "Moderate Water",
+        hardinessZones: "4-8",
+        matureSize: "40' x 35'",
+        native: false
+      },
         {
             id: 22,
             name: "Mexican Bird of Paradise",
@@ -190,6 +162,77 @@ const xerictrees =
             matureSize: "10' x 10'",
             native: true
           },
+        {
+            id: 22,
+            name: "Pomegranate Tree",
+            scientificName: "Caesalpinia mexicana",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/bird-of-paradise-bush-3494940_1920.jpg",
+            description: "The Mexican Bird of Paradise is an exotic, drought-tolerant plant known for its striking, bird-like flowers in shades of orange and yellow. It thrives in New Mexico’s sunny, dry climate and adds a dramatic flair to gardens with its upright, lush foliage. While it prefers full sun, it’s adaptable to other growing conditions if needed. Jericho recommends using this plant as a xeric tree or shrub to enhance the color in your xeriscaped sections of yard or garden.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
+            waterRequirement: "Xeric",
+            hardinessZones: "7-10",
+            matureSize: "10' x 10'",
+            native: true
+          },
+        {
+            id: 22,
+            name: "Desert Willow",
+            scientificName: "Caesalpinia mexicana",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/bird-of-paradise-bush-3494940_1920.jpg",
+            description: "The Mexican Bird of Paradise is an exotic, drought-tolerant plant known for its striking, bird-like flowers in shades of orange and yellow. It thrives in New Mexico’s sunny, dry climate and adds a dramatic flair to gardens with its upright, lush foliage. While it prefers full sun, it’s adaptable to other growing conditions if needed. Jericho recommends using this plant as a xeric tree or shrub to enhance the color in your xeriscaped sections of yard or garden.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
+            waterRequirement: "Xeric",
+            hardinessZones: "7-10",
+            matureSize: "10' x 10'",
+            native: true
+          },
+          {
+            id: 35,
+            name: "Shoal Creek Chaste Tree",
+            scientificName: "Vitex agnus-castus",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg",
+            description: "The Shoal Creek Chaste Tree (Vitex agnus-castus ‘Shoal Creek’) is a heat- and drought-tolerant ornamental tree that thrives in Albuquerque’s arid climate. Growing 10–15 feet tall and wide, it forms a multi-trunked, vase-like shape with fragrant, gray-green foliage. From late spring through summer, it produces showy spikes of violet-blue flowers, attracting pollinators like bees and butterflies. It prefers full sun and well-draining soil, requiring low to moderate water once established.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
+            waterRequirement: "Xeric",
+            hardinessZones: "6-9",
+            matureSize: "20' x 20'",
+            native: false
+          },
+          {
+            id: 41,
+            name: "Chitalpa",
+            scientificName: "Chitalpa tashkentensis",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/06/chitalpa-nationalarboretum-web-01.jpg",
+            description: "Chitalpa is a hybrid tree combining Desert Willow and Catalpa, known for its trumpet-shaped flowers in pink, white, or lavender. Two main varieties exist: ‘Morning Cloud’ and ‘Pink Dawn,’ both were originally thought to descend from southern catalpa, but later discovered they differ in their Catalpa lineage. It has slender, lance-shaped leaves in whorls of three and produces long seed pods. Drought-tolerant and thriving in full sun, it is a great choice for any Albuquerque landscape and even works in xeriscaping.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
+            waterRequirement: "Xeric",
+            hardinessZones: "6-9",
+            matureSize: "25' x 25'",
+            native: false
+          }, 
+        {
+            id: 22,
+            name: "Oklahoma Redbud",
+            scientificName: "Caesalpinia mexicana",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/bird-of-paradise-bush-3494940_1920.jpg",
+            description: "The Mexican Bird of Paradise is an exotic, drought-tolerant plant known for its striking, bird-like flowers in shades of orange and yellow. It thrives in New Mexico’s sunny, dry climate and adds a dramatic flair to gardens with its upright, lush foliage. While it prefers full sun, it’s adaptable to other growing conditions if needed. Jericho recommends using this plant as a xeric tree or shrub to enhance the color in your xeriscaped sections of yard or garden.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
+            waterRequirement: "Xeric",
+            hardinessZones: "7-10",
+            matureSize: "10' x 10'",
+            native: true
+          },
+      
     ],
     coniferoustrees: [
         {

@@ -186,7 +186,7 @@ const xericbedding =
         {
             id: 2,
             name: "Hummingbird Plant",
-            scientificName: "Vitex agnus-castus",
+            scientificName: "Agastache",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg",
             description: "The Shoal Creek Chaste Tree (Vitex agnus-castus ‘Shoal Creek’) is a heat- and drought-tolerant ornamental tree that thrives in Albuquerque’s arid climate. Growing 10–15 feet tall and wide, it forms a multi-trunked, vase-like shape with fragrant, gray-green foliage. From late spring through summer, it produces showy spikes of violet-blue flowers, attracting pollinators like bees and butterflies. It prefers full sun and well-draining soil, requiring low to moderate water once established.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
@@ -554,7 +554,7 @@ const xericbedding =
     },
     {
         id: 2,
-        name: "Hens and Chics",
+        name: "Blue Chalksticks",
         scientificName: "Vitex agnus-castus",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg",
         description: "The Shoal Creek Chaste Tree (Vitex agnus-castus ‘Shoal Creek’) is a heat- and drought-tolerant ornamental tree that thrives in Albuquerque’s arid climate. Growing 10–15 feet tall and wide, it forms a multi-trunked, vase-like shape with fragrant, gray-green foliage. From late spring through summer, it produces showy spikes of violet-blue flowers, attracting pollinators like bees and butterflies. It prefers full sun and well-draining soil, requiring low to moderate water once established.",
@@ -568,7 +568,7 @@ const xericbedding =
     },
     {
         id: 2,
-        name: "Hens and Chics",
+        name: "Spurges",
         scientificName: "Vitex agnus-castus",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg",
         description: "The Shoal Creek Chaste Tree (Vitex agnus-castus ‘Shoal Creek’) is a heat- and drought-tolerant ornamental tree that thrives in Albuquerque’s arid climate. Growing 10–15 feet tall and wide, it forms a multi-trunked, vase-like shape with fragrant, gray-green foliage. From late spring through summer, it produces showy spikes of violet-blue flowers, attracting pollinators like bees and butterflies. It prefers full sun and well-draining soil, requiring low to moderate water once established.",

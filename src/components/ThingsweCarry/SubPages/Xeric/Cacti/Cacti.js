@@ -46,7 +46,7 @@ function Cacti() {
           </div>
 
         <div className='xeric_catalog_sub_section'>
-            <h2 className='xeric_catalog_title'>Yucca</h2>
+            <h2 className='xeric_catalog_title'>Yucca & Agave</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={cactusdata.yuccas}/>
       
@@ -60,9 +60,23 @@ function Cacti() {
         </div>
 
         <div className='xeric_catalog_sub_section'>
-            <h2 className='xeric_catalog_title'>Agave</h2>
+            <h2 className='xeric_catalog_title'>Agaves</h2>
             <div className='catalog_cards'>
-            <PlantSlider  plants={cactusdata.agave}/>
+            <PlantSlider  plants={cactusdata.agaves}/>
+      
+     
+  
+
+               
+      
+   
+          </div>
+        </div>
+
+        <div className='xeric_catalog_sub_section'>
+            <h2 className='xeric_catalog_title'>Aloes</h2>
+            <div className='catalog_cards'>
+            <PlantSlider  plants={cactusdata.agaves}/>
       
      
   
