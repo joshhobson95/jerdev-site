@@ -23,16 +23,12 @@ function Perennials() {
 
   <div className='plant_examples_inner'>
     <div className='plant_example_each'>
-    <h6>Lavendar</h6>
-    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/Lavendar.jpg' alt='Lavendar at Jericho Nursery in Albuquerque, New Mexico'/>
+    <h6>Allium</h6>
+    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/allium-8108318_1920.jpg' alt='Lavendar at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_example_each'>
     <h6>Coreopsis</h6>
     <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/Coreopsis.jpg' alt='Coreopsis at Jericho Nursery in Albuquerque, New Mexico'/>
-    </div>
-    <div className='plant_example_each'>
-    <h6>Yarrow</h6>
-    <img className='plant_example_circle_image' src='https://assets.highcountrygardens.com/media/catalog/product/a/c/achillea-moonshine-yarrow-1.jpg?quality=85&fit=bounds&height=&width=828&auto=webp&format=pjpg' alt='Yarrow at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_example_each'>
     <h6>Peony</h6>
@@ -43,24 +39,28 @@ function Perennials() {
     <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/gaillardia.jpg' alt='Gaillardia at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_example_each'>
-    <h6>Clematis</h6>
-    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/clematis.jpg' alt='Clematis at Jericho Nursery in Albuquerque, New Mexico'/>
+    <h6>Coral Bells</h6>
+    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/purple-bells-56056_1920.jpg' alt='Clematis at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_example_each'>
-    <h6>Yucca</h6>
-    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/yucca.jpg'alt='Yucca at Jericho Nursery in Albuquerque, New Mexico'/>
+    <h6>Salvia</h6>
+    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/bees-5032464_1920.jpg'alt='Yucca at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_example_each'>
-    <h6>Honeysuckle</h6>
-    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/honeysuckle.jpg' alt='Honeysuckle at Jericho Nursery in Albuquerque, New Mexico'/>
+    <h6>Rudbeckia</h6>
+    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/blackeyedsusan.jpg' alt='Honeysuckle at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_example_each'>
-    <h6>Calibrochoa</h6>
-    <img className='plant_example_circle_image' src='https://extension.umn.edu/sites/extension.umn.edu/files/calibrachoa-superbells-watermelon-punch.jpg' alt='Calibrocha at Jericho Nursery in Albuquerque, New Mexico'/>
+    <h6>Phlox</h6>
+    <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/phlox-5091730_1920.jpg' alt='Calibrocha at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className='plant_example_each'>
     <h6>Chrysanthemum</h6>
     <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/mums.jpg' alt='Chrysanthemum at Jericho Nursery in Albuquerque, New Mexico'/>
+    </div>
+    <div className='plant_example_each'>
+    <h6>Yarrow</h6>
+    <img className='plant_example_circle_image' src='https://assets.highcountrygardens.com/media/catalog/product/a/c/achillea-moonshine-yarrow-1.jpg?quality=85&fit=bounds&height=&width=828&auto=webp&format=pjpg' alt='Yarrow at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
   </div>
 

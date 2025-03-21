@@ -44,24 +44,24 @@ function Annuals() {
             <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/snapdragon.jpg' alt='Snapdragon at Jericho Nursery in Albuquerque, New Mexico'/>
             </div>
             <div className='plant_example_each'>
-            <h6>Lobelia</h6>
-            <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/lobelia.jpg' alt='Lobelia at Jericho Nursery in Albuquerque, New Mexico'/>
+            <h6>Gerber Daisy</h6>
+            <img className='plant_example_circle_image' src='' alt='Lobelia at Jericho Nursery in Albuquerque, New Mexico'/>
             </div>
             <div className='plant_example_each'>
             <h6>Impatients</h6>
             <img className='plant_example_circle_image' src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Impatiens_walleriana_-_flower_view_02.jpg/1024px-Impatiens_walleriana_-_flower_view_02.jpg'alt='Impatients at Jericho Nursery in Albuquerque, New Mexico'/>
             </div>
             <div className='plant_example_each'>
-            <h6>Coleus</h6>
-            <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/coleus.jpg' alt='Coleus at Jericho Nursery in Albuquerque, New Mexico'/>
+            <h6>Calibrachoa</h6>
+            <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/calibrachoa.jpg' alt='Coleus at Jericho Nursery in Albuquerque, New Mexico'/>
             </div>
             <div className='plant_example_each'>
             <h6>Lantana</h6>
             <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/lantana.jpg' alt='Lantana at Jericho Nursery in Albuquerque, New Mexico'/>
             </div>
             <div className='plant_example_each'>
-            <h6>Black Eyed Susan</h6>
-            <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/blackeyedsusan.jpg' alt='Black Eyed Susan at Jericho Nursery in Albuquerque, New Mexico'/>
+            <h6>Sunflowers</h6>
+            <img className='plant_example_circle_image' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/sunflower-1497092_1920.jpg' alt='Black Eyed Susan at Jericho Nursery in Albuquerque, New Mexico'/>
             </div>
           </div>
 

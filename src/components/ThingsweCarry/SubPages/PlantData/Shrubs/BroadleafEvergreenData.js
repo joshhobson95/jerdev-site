@@ -18,7 +18,7 @@ const broadleafevergreens = {
     {
         id: 1,
         name: "Green Mountain Boxwood",
-        scientificName: " Buxus x ‘Green Mountain’",
+        scientificName: "Buxus x ‘Green Mountain’",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/deciduous/boxwood-6731662_1920.jpg",
         description: "Green Mountain Boxwood is an upright, cone-shaped evergreen shrub that adds year-round structure to New Mexico gardens. Its dense, bright green foliage maintains color well through winter, though slight bronzing may occur in colder months. This slow-growing variety is perfect for hedges, topiaries, or foundation plantings, with minimal pruning needed to maintain its natural shape. Mulching around the base helps retain moisture and protect roots from temperature extremes.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
@@ -31,9 +31,9 @@ const broadleafevergreens = {
     {
         id: 1,
         name: "Green Velvet Boxwood",
-        scientificName: "Buxus sempervirens ‘Elegans’",
+        scientificName: "Buxus microphylla 'Green Velvet'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/deciduous/boxwood.jpg",
-        description: "",
+        description: "Green Velvet Boxwood is a versatile, evergreen shrub that thrives in New Mexico’s diverse climates. Known for its dense, rounded form and rich green foliage, it provides year-round structure and privacy to gardens. It prefers partial to full sun and well-drained soil, requiring moderate watering once established. With its compact size, it’s perfect for low-maintenance hedges, borders, or foundation plantings, offering both elegance and durability in xeriscapes or traditional landscapes.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
@@ -59,9 +59,9 @@ const broadleafevergreens = {
     {
         id: 1,
         name: "Variegated Boxleaf Euonymus",
-        scientificName: "Euonymus japonicus ‘Microphyllus’",
+        scientificName: "Euonymus japonicus 'Variegatus'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/deciduous/evergreen-spindle-7337019_1920.jpg",
-        description: "",
+        description: "Variegated Boxleaf Euonymus is an attractive evergreen shrub ideal for New Mexico gardens. Its glossy, dark green leaves are edged with creamy white or yellow, providing year-round color and contrast. It thrives in full sun to partial shade and prefers well-drained soil, requiring moderate watering once established. This low-maintenance shrub’s compact growth makes it perfect for borders, foundation plantings, or containers, adding elegance and texture to both xeriscapes and more traditional landscapes.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
