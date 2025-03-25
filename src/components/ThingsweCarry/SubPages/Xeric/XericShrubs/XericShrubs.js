@@ -46,7 +46,7 @@ function XericShrubs() {
           </div>
 
         <div className='xeric_catalog_sub_section'>
-            <h2 className='xeric_catalog_title'>Yucca</h2>
+            <h2 className='xeric_catalog_title'>Flowering Shrubs</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={xericshrubs.flowering}/>
       
@@ -59,7 +59,7 @@ function XericShrubs() {
           </div>
         </div>
 
-        <div className='xeric_catalog_sub_section'>
+        {/* <div className='xeric_catalog_sub_section'>
             <h2 className='xeric_catalog_title'>Grasses</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={xericshrubs.grasses}/>
@@ -71,7 +71,7 @@ function XericShrubs() {
       
    
           </div>
-        </div>
+        </div> */}
         <div className='xeric_catalog_sub_section'>
             <h2 className='xeric_catalog_title'>Hard Xeric</h2>
             <div className='catalog_cards'>

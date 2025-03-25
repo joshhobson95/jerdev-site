@@ -74,20 +74,7 @@ function XericTrees() {
    
           </div>
         </div>
-        <div className='xeric_catalog_sub_section'>
-            <h2 className='xeric_catalog_title'>Low Trees</h2>
-            <div className='catalog_cards'>
-            <PlantSlider  plants={xerictrees.lowtrees}/>
-   
       
-     
-  
-
-               
-      
-   
-          </div>
-        </div>
       
 
 
