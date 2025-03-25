@@ -9,8 +9,8 @@ const cactusdata =
         description: "Grape Vines are a popular fruit crop for New Mexico, thriving in the state’s sunny, dry climate. Grapevines need full sun and well-draining, slightly sandy soil to produce high-quality fruit. They are ideal for both home gardeners and commercial growers, particularly in the southern and central regions, where the extended growing season supports their long ripening period. Grapes require regular irrigation, especially during the hot summer months, but they are fairly drought-tolerant once established. Varieties like Concord, Thompson Seedless, and Zinfandel are commonly grown, offering a range of flavors for fresh eating, drying, or wine production.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
-        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
-        waterRequirement: "Moderate Water",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+        waterRequirement: "Low Water",
         hardinessZones: "4-10",
         matureSize: "50-100 sq ft",
         native: false
@@ -23,8 +23,8 @@ const cactusdata =
         description: "Grape Vines are a popular fruit crop for New Mexico, thriving in the state’s sunny, dry climate. Grapevines need full sun and well-draining, slightly sandy soil to produce high-quality fruit. They are ideal for both home gardeners and commercial growers, particularly in the southern and central regions, where the extended growing season supports their long ripening period. Grapes require regular irrigation, especially during the hot summer months, but they are fairly drought-tolerant once established. Varieties like Concord, Thompson Seedless, and Zinfandel are commonly grown, offering a range of flavors for fresh eating, drying, or wine production.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
-        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
-        waterRequirement: "Moderate Water",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+        waterRequirement: "Low Water",
         hardinessZones: "4-10",
         matureSize: "50-100 sq ft",
         native: false
@@ -37,8 +37,8 @@ const cactusdata =
         description: "Grape Vines are a popular fruit crop for New Mexico, thriving in the state’s sunny, dry climate. Grapevines need full sun and well-draining, slightly sandy soil to produce high-quality fruit. They are ideal for both home gardeners and commercial growers, particularly in the southern and central regions, where the extended growing season supports their long ripening period. Grapes require regular irrigation, especially during the hot summer months, but they are fairly drought-tolerant once established. Varieties like Concord, Thompson Seedless, and Zinfandel are commonly grown, offering a range of flavors for fresh eating, drying, or wine production.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
-        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
-        waterRequirement: "Moderate Water",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+        waterRequirement: "Low Water",
         hardinessZones: "4-10",
         matureSize: "50-100 sq ft",
         native: false
