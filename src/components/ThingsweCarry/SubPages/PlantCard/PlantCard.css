@@ -1,6 +1,6 @@
 .plant_card{
     height: auto;
-    width: 69vw;
+    width: 75vw;
     background-color: #242424;
     border-radius:  16px;
     padding: 2rem 1.5rem;
@@ -8,8 +8,8 @@
     margin: 0.5rem;
 }
 .plant_card_image{
-    height: 50vw;
-    width: 50vw;
+    height: 60vw;
+    width: 60vw;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;   

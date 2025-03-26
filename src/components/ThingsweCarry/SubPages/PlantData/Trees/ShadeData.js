@@ -225,7 +225,7 @@ const shadedata = {
             id: 16,
             name: "Globe Willow",
             scientificName: "Salix matsudana",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Juniper.jpg",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/globe-willow.jpg",
             description: "The Globe Willow is a fast-growing tree known for its rounded, globe-like canopy and bright green, narrow leaves. It is commonly planted in urban areas for its ability to provide quick shade. The tree's flexible branches can withstand strong winds, making it great for areas with high winds such as Rio Rancho, Carlsbad and Tucumcari . The Globe Willow has a moderate water requirement and is generally drought-tolerant once established.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
@@ -618,7 +618,20 @@ const shadedata = {
             hardinessZones: "6-9",
             matureSize: "25' x 25'",
             native: false
-          }
+          },
+          {
+            id: 51,
+            name: "Mimosa",
+            scientificName: "Albizia julibrissin",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/mimosa2.jpg",
+            description: "Mimosa, with its unique, pink, fluffy flowers, is an attractive tree that thrives in warmer, sunnier climates. In New Mexico, it’s an exotic addition to gardens but can be a bit finicky due to the state's variable climate. Though it is drought-tolerant once established, Mimosa prefers well-drained soil and moderate water, especially during the hot, dry summer months. While it's not as cold-hardy as other trees, it can perform well in areas with milder winters or protected microclimates. Its fast-growing nature and striking blooms make it a popular choice for xeriscaping in the right conditions.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
+            waterRequirement: "Moderate Water",
+            hardinessZones: '6-9',
+            matureSize: "30' x 40'"
+          },
           
       ],
 
@@ -753,19 +766,7 @@ const shadedata = {
             matureSize: "40' x 25'",
             native: false
           },
-          {
-            id: 51,
-            name: "Mimosa",
-            scientificName: "Albizia julibrissin",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/mimosa2.jpg",
-            description: "Mimosa, with its unique, pink, fluffy flowers, is an attractive tree that thrives in warmer, sunnier climates. In New Mexico, it’s an exotic addition to gardens but can be a bit finicky due to the state's variable climate. Though it is drought-tolerant once established, Mimosa prefers well-drained soil and moderate water, especially during the hot, dry summer months. While it's not as cold-hardy as other trees, it can perform well in areas with milder winters or protected microclimates. Its fast-growing nature and striking blooms make it a popular choice for xeriscaping in the right conditions.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medHiWater.png",
-            waterRequirement: "Moderate Water",
-            hardinessZones: '6-9',
-            matureSize: "30' x 40'"
-          },
+
           
       ],
   

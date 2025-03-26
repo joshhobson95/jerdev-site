@@ -391,7 +391,7 @@ const floweringshrubdata = {
           sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
           sunRequirement: "Full Sun",
           waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
-          waterRequirement: "Low Water",
+          waterRequirement: "Medium Water",
           hardinessZones: [4, 5, 6, 7],
           matureSize: "15' x 30'",
         },
