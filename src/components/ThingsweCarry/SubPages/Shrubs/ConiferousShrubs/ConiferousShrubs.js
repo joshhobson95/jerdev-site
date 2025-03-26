@@ -17,14 +17,11 @@ function ConiferousShrubs() {
       <div className='coniferous_shrub_top_text'> 
 
         <div className='coniferous_shrub_header_background_image'>
-              <h2>New Mexico Flowering Shrubs</h2>
+              <h2>New Mexico Coniferous Shrubs</h2>
         </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
-
-              <span>List or Icon</span>
-
+              <p>Coniferous shrubs are an excellent choice for year-round greenery, erosion control, and drought resistance in New Mexico landscapes. These hardy evergreens, including junipers, pinyon pines, and dwarf cypress varieties, thrive in Albuquerque’s arid climate while requiring little maintenance once established. Many coniferous shrubs are ideal for low-water xeriscaping, offering dense foliage for windbreaks, privacy screening, and natural landscaping solutions. Their needle-like leaves and woody structure also help conserve soil moisture, making them a smart choice for sustainable gardening.</p>
       
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
+              <p>Whether you're looking to add structure to your garden, prevent soil erosion on slopes, or create a natural, low-maintenance border, coniferous shrubs are a versatile solution. Our selection includes both native and non-native coniferous shrubs that are well-suited to New Mexico’s unique climate and soil conditions. Browse our top choices below, and stop by Jericho Nursery to find the perfect evergreen shrubs for your yard, along with expert planting and care advice!</p>
           </div>
 
 

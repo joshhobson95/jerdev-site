@@ -1,20 +1,35 @@
 const xericbedding =
 {
     flowers: [
-        {
-            id: 1,
-            name: "Crocus",
-            scientificName: "Vitex agnus-castus",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/crocus-8575610_1920.jpg",
-            description: "The Shoal Creek Chaste Tree (Vitex agnus-castus ‘Shoal Creek’) is a heat- and drought-tolerant ornamental tree that thrives in Albuquerque’s arid climate. Growing 10–15 feet tall and wide, it forms a multi-trunked, vase-like shape with fragrant, gray-green foliage. From late spring through summer, it produces showy spikes of violet-blue flowers, attracting pollinators like bees and butterflies. It prefers full sun and well-draining soil, requiring low to moderate water once established.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
-            waterRequirement: "Xeric",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
-            native: false
-          },
+      {
+        id: 2,
+        name: "Mexican Evening Primrose",
+        scientificName: "Vitex agnus-castus",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/mexican-evening-primrose.jpg",
+        description: "The Shoal Creek Chaste Tree (Vitex agnus-castus ‘Shoal Creek’) is a heat- and drought-tolerant ornamental tree that thrives in Albuquerque’s arid climate. Growing 10–15 feet tall and wide, it forms a multi-trunked, vase-like shape with fragrant, gray-green foliage. From late spring through summer, it produces showy spikes of violet-blue flowers, attracting pollinators like bees and butterflies. It prefers full sun and well-draining soil, requiring low to moderate water once established.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
+        waterRequirement: "Xeric",
+        hardinessZones: "6-9",
+        matureSize: "20' x 20'",
+        native: false
+      },
+      {
+        id: 2,
+        name: "Portulaca",
+        scientificName: "Vitex agnus-castus",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/portulaca-2606950_1920.jpg",
+        description: "The Shoal Creek Chaste Tree (Vitex agnus-castus ‘Shoal Creek’) is a heat- and drought-tolerant ornamental tree that thrives in Albuquerque’s arid climate. Growing 10–15 feet tall and wide, it forms a multi-trunked, vase-like shape with fragrant, gray-green foliage. From late spring through summer, it produces showy spikes of violet-blue flowers, attracting pollinators like bees and butterflies. It prefers full sun and well-draining soil, requiring low to moderate water once established.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
+        waterRequirement: "Xeric",
+        hardinessZones: "6-9",
+        matureSize: "20' x 20'",
+        native: false
+      },
+
         {
             id: 2,
             name: "Thrift",
@@ -58,6 +73,20 @@ const xericbedding =
             matureSize: "20' x 20'",
             native: false
           },
+          {
+            id: 1,
+            name: "Crocus",
+            scientificName: "Vitex agnus-castus",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/crocus-8575610_1920.jpg",
+            description: "The Shoal Creek Chaste Tree (Vitex agnus-castus ‘Shoal Creek’) is a heat- and drought-tolerant ornamental tree that thrives in Albuquerque’s arid climate. Growing 10–15 feet tall and wide, it forms a multi-trunked, vase-like shape with fragrant, gray-green foliage. From late spring through summer, it produces showy spikes of violet-blue flowers, attracting pollinators like bees and butterflies. It prefers full sun and well-draining soil, requiring low to moderate water once established.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
+            waterRequirement: "Xeric",
+            hardinessZones: "6-9",
+            matureSize: "20' x 20'",
+            native: false
+          },
   
         {
             id: 2,
@@ -73,20 +102,7 @@ const xericbedding =
             matureSize: "20' x 20'",
             native: false
           },
-        {
-            id: 2,
-            name: "Mexican Evening Primrose",
-            scientificName: "Vitex agnus-castus",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/mexican-evening-primrose.jpg",
-            description: "The Shoal Creek Chaste Tree (Vitex agnus-castus ‘Shoal Creek’) is a heat- and drought-tolerant ornamental tree that thrives in Albuquerque’s arid climate. Growing 10–15 feet tall and wide, it forms a multi-trunked, vase-like shape with fragrant, gray-green foliage. From late spring through summer, it produces showy spikes of violet-blue flowers, attracting pollinators like bees and butterflies. It prefers full sun and well-draining soil, requiring low to moderate water once established.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/rainwater.png",
-            waterRequirement: "Xeric",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
-            native: false
-          },
+
         {
             id: 2,
             name: "Rockcress",

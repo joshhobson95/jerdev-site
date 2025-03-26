@@ -17,15 +17,12 @@ function XericTrees() {
     <div className='xeric_tree_container'>
       <div className='xeric_top_text'> 
 
-        <div className='xeric_header_background_image'>
-              <h2>Cactus and Yucca in New Mexico</h2>
+        <div className='xeric_tree_header_background_image'>
+              <h2>Xeric Trees for New Mexico</h2>
         </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
-
-              <span>List or Icon</span>
-
+              <p>Xeric trees are the foundation of a water-wise landscape, providing essential shade, structure, and beauty while requiring minimal irrigation. In Albuquerque’s arid climate, choosing drought-tolerant trees ensures your yard stays lush and inviting without excessive water use. Many xeric trees, such as the Golden Train Tree and Velvet Mesquite, have deep root systems that help them withstand prolonged dry periods while still delivering seasonal beauty with stunning blooms, unique foliage, and vibrant fall color. These trees not only enhance the aesthetic appeal of your landscape but also create cooler microclimates, helping to reduce overall water loss and providing relief from the intense New Mexico sun.</p>
       
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
+              <p>At Jericho Nursery, we specialize in xeric trees that thrive in our region, offering a variety of native and well-adapted species suited for low-water landscapes. Whether you’re looking for a Chitalpa for its pink trumpet-shaped flowers, a Pistache for its fiery autumn foliage, or an Arizona Cypress for year-round greenery, our selection has something for every landscape style. Our experts can help you choose the right tree for your space, ensuring it meets your needs for shade, size, and aesthetic appeal. Explore our collection below and discover how xeric trees can transform your yard into a sustainable, low-maintenance oasis!</p>
           </div>
 
 

@@ -20,12 +20,11 @@ function Ornamental() {
         <div className='ornamental_header_background_image'>
               <h2>New Mexico Ornamental Trees</h2>
         </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
+              <p>At Jericho Nursery, we offer a beautiful selection of ornamental and flowering trees that thrive in Albuquerque’s climate, bringing vibrant color, seasonal blooms, and unique textures to your landscape. These trees are perfect for adding curb appeal, attracting pollinators like bees and butterflies, and providing seasonal interest with stunning flowers, colorful foliage, and decorative bark. Whether you want a striking springtime display, a fragrant accent tree, or year-round beauty, the right ornamental tree can transform your outdoor space.</p>
 
-              <span>List or Icon</span>
 
       
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
+              <p>Our experts at Jericho Nursery are here to help you choose the best flowering trees for your yard, ensuring they are well-suited to New Mexico’s dry climate, alkaline soil, and intense sun. From low-water favorites like the Vitex agnus-cactus and Chitalpa to stunning flowering fruit trees such as the bradford pear or Canada chokechery, we have an array of options to fit any landscape. Explore our selection below and visit us for expert advice on planting and caring for these eye-catching trees!</p>
           </div>
 
 

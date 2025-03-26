@@ -26,6 +26,20 @@ const coniferousshrubs = {
         hardinessZones: [4, 5, 6, 7],
         matureSize: "15' x 30'",
       },
+      {
+        id: 1,
+        name: "Pinyon Pine",
+        scientificName: "Pinus edulis",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Pinon.jpg",
+        description: "Pinyon pines are a staple of New Mexico’s landscape and culture, prized for their rich, buttery piñon nuts harvested for generations. Native to the Four Corners region, these hardy evergreens thrive in the high desert with minimal water, making them ideal for xeriscaping. Their rounded canopies and dense foliage provide year-round greenery, shade, and privacy, while deep roots help stabilize soil. From Farmington to Las Cruces, the pinyon pine remains a cherished symbol of the state’s rugged beauty and resilience.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "4-8",
+        matureSize: "20' x 25'",
+        native: true
+      },
    {
         id: 1,
         name: "Dwarf Mountain Pine",

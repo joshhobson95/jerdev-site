@@ -19,12 +19,9 @@ function Flowering() {
         <div className='flowering_header_background_image'>
               <h2>New Mexico Flowering Shrubs</h2>
         </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
+              <p>Flowering shrubs bring vibrant color, fragrance, and pollinator activity to New Mexico landscapes, making them a favorite choice for homeowners looking to enhance their outdoor spaces. Many of these shrubs are drought-tolerant and well-adapted to Albuquerque’s arid climate, offering stunning seasonal blooms with minimal water needs. Popular choices like butterfly bush, Texas sage, and caryopteris not only add beauty but also attract essential pollinators like bees, butterflies, and hummingbirds, helping to support local ecosystems.</p>
 
-              <span>List or Icon</span>
-
-      
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
+              <p>At Jericho Nursery, we carefully select flowering shrubs that thrive in New Mexico’s unique soil and climate conditions, ensuring long-lasting performance in your yard. Whether you're looking for low-maintenance options, native selections, or continuous bloomers for color throughout the seasons, we have a variety of options to suit your needs. Explore our collection below, and visit us today for expert advice on planting, care, and creating a stunning flowering landscape!</p>
           </div>
 
 

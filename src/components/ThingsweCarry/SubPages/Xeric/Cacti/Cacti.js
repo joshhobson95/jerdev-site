@@ -25,14 +25,12 @@ setVisibleAttribution(!visibleAttribution)
       <div className='xeric_top_text'> 
 
         <div className='xeric_header_background_image'>
-              <h2>Cactus and Yucca in New Mexico</h2>
+              <h2>Cactus, Yucca & Agave: The Icons of Xeriscaping</h2>
         </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
-
-              <span>List or Icon</span>
-
+              <p>Cacti, yucca, and agave are the ultimate low-water plants, perfectly adapted to thrive in Albuquerque’s arid climate. These striking desert plants not only survive on minimal rainfall but also add bold texture, dramatic structure, and year-round interest to any xeric landscape. With their water-storing capabilities, spiky silhouettes, and stunning seasonal blooms, they are a must-have for anyone looking to create a sustainable, water-wise garden. From the towering Soaptree Yucca to the sculptural Whale’s Tongue Agave and the ever-popular Prickly Pear Cactus, these plants provide unmatched beauty and resilience. Many also support local wildlife, offering nectar-rich flowers for pollinators and shelter for birds.</p>
+ 
       
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
+              <p>At Jericho Nursery, we carry a diverse selection of cacti, yucca, and agave that are perfectly suited to New Mexico’s climate. Whether you’re searching for a Golden Barrel Cactus as a showpiece, a Blue Agave to bring an architectural element to your yard, or a fast-growing Yucca rostrata for a striking focal point, our knowledgeable team is here to help. These hardy plants require little maintenance beyond occasional pruning and proper placement, making them an excellent choice for a stunning, hassle-free xeric landscape. Explore our collection below and let us help you design a bold and water-wise outdoor space!</p>
           </div>
 
 
@@ -80,7 +78,7 @@ setVisibleAttribution(!visibleAttribution)
           </div>
         </div>
 
-        <div className='xeric_catalog_sub_section'>
+        {/* <div className='xeric_catalog_sub_section'>
             <h2 className='xeric_catalog_title'>Aloe</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={cactusdata.aloes}/>
@@ -92,7 +90,7 @@ setVisibleAttribution(!visibleAttribution)
       
    
           </div>
-        </div>
+        </div> */}
 
 
 

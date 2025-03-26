@@ -13,8 +13,11 @@ function Shrubs() {
           <div className='shrubs_body'>
         
              <div className='shrubs_top_text'>
-                <h2>Shrubs Header</h2>
-                  <p>Aliquam fringilla, elit in vestibulum lacinia, nibh nisl rutrum velit, eget rhoncus justo libero quis elit. Duis elementum, libero quis fermentum eleifend, magna tortor rutrum metus, sit amet ornare nisi ex vel lectus. Nullam in velit tortor. Sed ultrices lacinia purus a viverra. Proin varius gravida ex ut porta. Etiam ullamcorper cursus arcu quis interdum. Curabitur eleifend velit id tempus dignissim. Suspendisse aliquam commodo placerat. Integer gravida pulvinar molestie. Etiam hendrerit consectetur varius. Fusce congue magna eu ligula rhoncus, eu pharetra ex dapibus. </p>
+                <h2>Versatile Shrubs for Beauty, Privacy & Year-Round Interest</h2>
+                  <p>Shrubs are an essential part of any New Mexico landscape, offering color, structure, and resilience in our arid climate. Whether you're looking for flowering shrubs to attract pollinators, broadleaf evergreens for lush greenery, or coniferous shrubs for year-round texture and durability, there’s a perfect shrub for your yard. Many shrubs provide natural privacy screens, wind protection, and erosion control, all while requiring minimal maintenance once established.</p>
+                  <p>
+                  At Jericho Nursery, we specialize in drought-tolerant and climate-adapted shrubs that thrive in Albuquerque’s soil and weather conditions. From vibrant butterfly bushes and fragrant sage to tough hollies and low-growing junipers, our selection includes the best options for both beauty and function. Explore our categories below and visit us to find the perfect shrubs for your landscape!
+                  </p>
             </div>
         
             <div className='shrub_categories'>

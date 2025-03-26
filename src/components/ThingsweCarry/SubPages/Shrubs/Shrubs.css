@@ -21,7 +21,6 @@
     color: #95562E;
     font-weight: 700;
     padding: 5vh;
-    text-align: center;
   }
   .shrubs_welcome h1{
     color: #4FA673;
@@ -37,18 +36,24 @@
     height: auto;
     margin-bottom: 2rem;
     width: 90vw;
+    margin: 1rem;
+    padding-top: 2rem;
 }
+
 
 .shrubs_top_text {
     margin: 1rem;
     line-height: 1.6;
+}
+.shrubs_top_text p{
     text-align: left;
 }
 
 .shrubs_top_text h2 {
     font-size: 30pt;
     margin: 2rem;
-    text-align: center;
+    text-align: left;
+    font-weight: 600;
 }
 
 .shrub_categories{

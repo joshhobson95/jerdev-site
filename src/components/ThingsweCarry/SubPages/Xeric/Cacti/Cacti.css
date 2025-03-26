@@ -28,10 +28,13 @@
     margin: 2rem;
     background-color: #242424a9;
 }
+.xeric_top_text p{
+    text-align: left;
+}
 
 
 .xeric_header_background_image{
-    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/xerics/flowering/IndianHawthorne.png');
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/cactus/prickly-pears-2663349875y6280934.jpg');
     object-fit: cover;
     background-size: cover;
     width: 80vw;
@@ -67,12 +70,12 @@
 
 
 @media (min-width:825px) {
-    .broadleaf_top_text p{
+    .xeric_top_text p{
         font-size: 16pt;
         margin: 1rem;
     }
 
-    .broadleaf_top_text h2{
+    .xeric_top_text h2{
         padding: 2rem;
     }
     .xeric_catalog_title{
@@ -84,14 +87,14 @@
 }
 
 @media (min-width:1025px) {
-    .broadleaf_top_text h2{
+    .xeric_top_text h2{
         font-size: 40pt;
         padding: 1rem;
     }
-    .broadleaf_top_text{
+    .xeric_top_text{
         margin: 2rem 4rem;
     }
-    .broadleaf_top_text p{
+    .xeric_top_text p{
         line-height: 1.6;
         margin: 2rem;
     }
@@ -102,7 +105,7 @@
 
 
 @media (min-width:1300px) {
-    .broadleaf_top_text p{
+    .xeric_top_text p{
         font-size: 18pt;
     }
     .header_background_image{
@@ -112,14 +115,14 @@
 }
 
 @media (min-width:1500px) {
-    .broadleaf_top_text h2{
+    .xeric_top_text h2{
         font-size: 44pt;
     }
-    .broadleaf_top_text p{
+    .xeric_top_text p{
         font-size: 18pt;
         margin: 2rem 4rem;
     }
-    .broadleaf_top_text{
+    .xeric_top_text{
         margin: 2rem 6rem;
     }
     .header_background_image{
@@ -128,13 +131,13 @@
 }
 
 @media (min-width:1650px) {
-    .broadleaf_top_text{
+    .xeric_top_text{
         margin: 2rem 10rem;
     }
 }
 
 @media (min-width:1900px) {
-    .broadleaf_top_text{
+    .xeric_top_text{
         margin: 2rem 24rem;
     }
 }

@@ -17,15 +17,12 @@ function XericBedding() {
     <div className='xeric_tree_container'>
       <div className='xeric_top_text'> 
 
-        <div className='xeric_header_background_image'>
-              <h2>Cactus and Yucca in New Mexico</h2>
+        <div className='xeric_bedding_header_background_image'>
+              <h2>Xeric Bedding & Groundcovers: A Water-Wise Foundation</h2>
         </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
+              <p>Xeric bedding plants and groundcovers play a crucial role in a drought-tolerant landscape, helping to fill spaces with color, texture, and erosion control while requiring minimal water. These low-growing, spreading plants help retain soil moisture, reduce evaporation, and suppress weeds, making them an essential component of any xeriscaped yard. Options like Desert Zinnia, Damianita Daisy, and Mexican Primrose provide bursts of seasonal color, while Ice Plant and Silver Carpet create lush, mat-like coverage that thrives in the heat. Many xeric groundcovers are also pollinator-friendly, offering nectar and shelter to beneficial insects, making them both beautiful and functional additions to your garden.</p>
 
-              <span>List or Icon</span>
-
-      
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
+              <p>At Jericho Nursery, we specialize in xeric bedding and groundcovers that thrive in Albuquerque’s arid climate. Whether you’re looking to soften the edges of a walkway, create a vibrant flowering carpet, or stabilize a sloped area with deep-rooted coverage, we have the perfect options to fit your landscape needs. Our expert team can help you select the right plants to complement your xeric trees and shrubs while reducing maintenance and water use. Browse our selection below and discover how xeric bedding plants and groundcovers can transform your garden into a resilient, low-water oasis!</p>
           </div>
 
 

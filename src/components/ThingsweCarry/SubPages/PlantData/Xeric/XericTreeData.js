@@ -447,6 +447,20 @@ const xerictrees =
         native: false
       },
       {
+        id: 14,
+        name: "Arizona Cypress",
+        scientificName: "Hesperocyparis arizonica",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/arizonaCypress.jpeg",
+        description: "The Arizona Cypress is a hardy, drought-tolerant evergreen that thrives in Albuquerque’s dry climate, offering a fast-growing option for windbreaks, privacy screens, or specimen plantings. It requires full sun and well-draining soil, with low to moderate water needs once established. More cold-hardy than Italian Cypress, it has a distinctive blue-green color and dense foliage that provides excellent coverage. Resistant to pests and deer, this low-maintenance tree is perfect for adding year-round texture and resilience to Albuquerque landscapes.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "7-11",
+        matureSize: "50' x 15'",
+        native: true
+      },
+      {
         id: 16,
         name: "Leyland Cypress",
         scientificName: "Cupressocyparis leylandii",

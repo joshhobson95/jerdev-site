@@ -63,6 +63,7 @@
 .trees_body_top_text h1{
     font-size: 28pt;
     margin: 1rem;
+    font-weight: 600;
 }
 .tree_categories img{
     justify-self: center;
@@ -131,6 +132,7 @@
 }
 
 @media (min-width:1500px) {
+    
     .tree_categories img{
         width: 65vw;
         height: 22vw;
@@ -145,6 +147,15 @@
     .tree_categories h2{
         font-size: 36pt;
     }
+    .trees_body_top_text {
+        margin: 2rem 6rem;
+        font-size: 18pt;
+    }
+}
+@media (min-width: 1650px) {
+    .trees_body_top_text {
+        margin: 2rem 10rem;
+    }
 }
 
 @media (min-width:1900px) {
@@ -154,10 +165,15 @@
     }
     .trees_body_top_text{
         justify-content: center;
-        text-align: center;
+        margin: 2rem 24rem;
     }
     .trees_body_top_text li{
         list-style-position: inside;
     }
 }
+
+
+
+
+
 

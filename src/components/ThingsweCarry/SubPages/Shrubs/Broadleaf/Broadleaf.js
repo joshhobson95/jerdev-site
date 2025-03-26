@@ -23,14 +23,11 @@ function Broadleaf() {
       <div className='broadleaf_top_text'> 
 
         <div className='broadleaf_header_background_image'>
-              <h2>Broadleaf Evergreen Shrubs</h2>
+              <h2>NM Broadleaf Evergreen Shrubs</h2>
         </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
-
-              <span>List or Icon</span>
-
+              <p>Broadleaf evergreen shrubs provide lush greenery year-round, making them an excellent choice for adding structure, privacy, and color to your landscape, even in the depths of winter. Unlike deciduous plants that lose their leaves in the fall, these shrubs maintain their dense foliage throughout the seasons, offering a natural windbreak, noise barrier, and habitat for birds. Many broadleaf evergreens, such as Indian hawthorn, red-tip photinia, and yaupon holly, are also heat and drought tolerant, making them well-suited for Albuquerque’s dry climate.</p>
       
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
+              <p>For homeowners looking to create a low-maintenance, resilient landscape, broadleaf evergreens are a smart investment. Our selection includes climate-adapted varieties that thrive in New Mexico’s unique growing conditions, from hedges that provide privacy to flowering evergreens that add seasonal interest. Explore our collection below, and visit Jericho Nursery for expert advice on planting, pruning, and keeping your landscape vibrant year-round!</p>
           </div>
 
 
