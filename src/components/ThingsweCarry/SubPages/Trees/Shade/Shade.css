@@ -21,6 +21,9 @@
     flex-direction: column;
     align-items: center;
 }
+.shade_top_text p{
+    text-align: left;
+}
 
 
 .shade_top_text h2{
@@ -108,6 +111,9 @@
 @media (min-width:1650px) {
     .shade_top_text{
         margin: 2rem 10rem;
+    }
+    .shade_header_background_image{
+        width: 65vw;
     }
 }
 

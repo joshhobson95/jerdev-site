@@ -20,16 +20,13 @@ function Shade() {
 
     <div className='shade_tree_container'>
       <div className='shade_top_text'> 
-
         <div className='shade_header_background_image'>
               <h2>New Mexico Shade Trees</h2> 
         </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
+              <p>At Jericho Nursery, we offer a carefully curated selection of shade trees that thrive in Albuquerque’s arid climate, providing much-needed relief from the intense New Mexico sun. Planting shade trees not only enhances your landscape’s beauty but also lowers temperatures, reduces energy costs, and improves air quality. With the right placement, a well-chosen tree can cool your home naturally, protecting it from harsh summer heat while adding value to your property.</p>
+              <p>Our team at Jericho Nursery has years of experience in helping New Mexico homeowners select and plant the best shade trees for their specific needs. We’ll guide you in choosing drought-tolerant, fast-growing trees that provide long-lasting benefits with minimal maintenance. Whether you’re looking for native species like the Arizona ash and velvet mesquite, or resilient non-natives such as the Chinese pistache and lacebark elm, our selection below offers some of the best options for creating shade and comfort in your outdoor space. Stop by our nursery or contact us for expert advice on planting and caring for your new shade tree!</p>
 
-              <span>List or Icon</span>
-
-      
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc sem. Ut rhoncus tempor magna a ultricies. Nulla facilisi. Nullam fermentum enim quam, sed porttitor mauris ultrices ut. Sed vulputate arcu id suscipit viverra. Vivamus sagittis ligula vitae volutpat blandit. Praesent sagittis felis eu pulvinar fringilla. Ut hendrerit lobortis sapien eget egestas. Nunc varius bibendum consectetur. In egestas nulla a magna condimentum, ornare bibendum ex finibus. Cras commodo leo egestas nisl molestie, vel congue elit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ut gravida justo. Vestibulum vulputate urna eu tortor ultrices gravida. Praesent vel mi ligula. Sed in nisl viverra, convallis nisi ac, luctus augue.</p>
+              <span>Want only drought tolerant options? click here</span>
           </div>
 
 

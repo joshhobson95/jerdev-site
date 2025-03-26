@@ -7,8 +7,8 @@ function ThingsweCarry() {
   return (
     <div className="TypesofPlants">
     <div className='top_welcome'>
-    <h1>Things we Carry</h1>
-<p>Discover all of the prodcuts Jericho has to offer</p>
+    <h1>Plant Catalouge</h1>
+<p>Discover a wide selection of plants perfect for New Mexico gardens</p>
 </div>
 
 <div className='top_body_main'>

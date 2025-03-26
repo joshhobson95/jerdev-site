@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Trees.css'
 
@@ -18,17 +18,12 @@ return (
 
   <div className='trees_body'>
 
-     <div className='trees_body_top_text'>
-        <h1>7 Reasons to plant a tree today</h1>
-        <ul className='reasons_for_planting_trees'>
-        <li>A mature tree can provide enough oxygen for two people annually</li>
-        <li>Trees filter pollutants from the air and absorb carbon dioxide</li>
-        <li>Planting one tree in your yard can decrease tempatures up to 10 degrees Fahrenheit</li>
-        <li>Trees and their roots stabilize soil and prevent erosion</li>
-        <li>You can grow a variety of fruits and even nuts like pistachios, almonds, and pecans in your own yard</li>
-        <li>Trees can increase property value and promote relaxation as well as reduce stress</li>
-        <li>“A society grows great when old men plant trees whose shade they know they shall never sit in.”</li>
-        </ul>
+  <div className='trees_body_top_text'>
+
+    <h1>Picking the right tree for your New Mexico home</h1>
+    <p>
+    Choosing the perfect tree for your New Mexico landscape requires careful consideration of the region’s unique climate, soil conditions, and water availability. In Albuquerque and throughout the state, trees must withstand intense sunlight, low humidity, and occasional drought. Native and drought-tolerant species, such as desert willows, velvet mesquites, and Pinyon pines, thrive in these conditions with minimal maintenance. Additionally, non-native trees like Chinese pistache and desert museum palo verde can provide excellent shade, helping to cool your yard and reduce temperatures during hot summers. Whether you're looking for fast-growing shade trees to cool your yard, ornamental trees to enhance curb appeal, fruit trees for homegrown produce, or hardy conifers for year-round greenery, selecting the right tree ensures long-term health and beauty in your landscape. Explore our catalog of trees ideal for Albuquerque and beyond to find the best fit for your space.
+    </p>
     </div>
 
     <div className='tree_categories'>
