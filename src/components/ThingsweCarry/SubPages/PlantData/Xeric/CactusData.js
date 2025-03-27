@@ -11,8 +11,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "7-10",
+        matureSize: "5' x 7'",
         native: false
     },
     {
@@ -25,8 +25,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "6-10",
+        matureSize: "4' x 7'",
         native: false
     },
     {
@@ -39,8 +39,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "8-10",
+        matureSize: "4' x 8'",
         native: false
     },
     {
@@ -53,8 +53,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "9-11",
+        matureSize: "6' x 6'",
         native: false
     },
     {
@@ -67,8 +67,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "5-11",
+        matureSize: "6' x 3'",
         native: false
     },
     {
@@ -81,8 +81,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "8-10",
+        matureSize: "4' x 3'",
         native: false
     },
     {
@@ -95,8 +95,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "9-11",
+        matureSize: "3' x 2'",
         native: false
     },
     {
@@ -109,8 +109,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "9-11",
+        matureSize: "5' x 3'",
         native: false
     },
     {
@@ -123,8 +123,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "9-11",
+        matureSize: "6' x 1.5'",
         native: false
     },
     {
@@ -137,8 +137,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "5-10",
+        matureSize: "2' x 3'",
         native: false
     },
     {
@@ -151,8 +151,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "10-11",
+        matureSize: "1' x 2'",
         native: false
     },
     {
@@ -165,24 +165,11 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "8-10",
+        matureSize: "4-10 in. x 2-3 in.",
         native: false
     },
-    {
-        id: 13,
-        name: "Mammillaria Cactus",
-        scientificName: "Mammillaria",
-        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/cactus/mammillaaria-cactus.jpg",
-        description: "Mammillaria is a diverse genus of small, drought-tolerant cacti native to the Americas, including New Mexico. Known for their spherical or cylindrical shape, these cacti are often covered in spines and clusters of small, colorful flowers that bloom in spring or early summer. Depending on the species, Mammillaria cacti can produce white, pink, or yellow flowers that create a striking contrast against the plant's green or grayish stems. They thrive in full sun and well-draining, rocky soils, requiring minimal water once established. Perfect for xeriscaping, Mammillaria cacti add texture and vibrant color to low-water landscapes while attracting pollinators.",
-        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-        sunRequirement: "Full Sun",
-        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-        waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
-        native: false
-    },
+
 
 
     ],
@@ -198,7 +185,7 @@ const cactusdata =
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
         hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        matureSize: "4' x 4'",
         native: false
     },
     {
@@ -211,8 +198,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "3-8",
+        matureSize: "3' x 3'",
         native: false
     },
     {
@@ -225,8 +212,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "5-10",
+        matureSize: "3' x 5'",
         native: false
     },
     {
@@ -239,8 +226,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "5-11",
+        matureSize: "2' x 1'",
         native: false
     },
     {
@@ -253,8 +240,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "6-11",
+        matureSize: "15' x 6'",
         native: false
     },
     {
@@ -267,8 +254,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "6-11",
+        matureSize: "10' x 6'",
         native: false
     },
 
@@ -284,8 +271,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "5-10",
+        matureSize: "2' x 3'",
         native: false
     },
     {
@@ -298,8 +285,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "8-11",
+        matureSize: "5' x 8'",
         native: false
     },
     {
@@ -312,8 +299,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "7-11",
+        matureSize: "3' x 5'",
         native: false
     },
     {
@@ -326,8 +313,8 @@ const cactusdata =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        hardinessZones: "8-11",
+        matureSize: "2' x 2'",
         native: false
     },
 
@@ -344,7 +331,7 @@ aloes : [
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
         hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        matureSize: "1' x 1'",
         native: false
     },
     {
@@ -358,7 +345,7 @@ aloes : [
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
         hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        matureSize: "1' x 1'",
         native: false
     },
     {
@@ -372,7 +359,7 @@ aloes : [
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
         hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        matureSize: "1' x 1'",
         native: false
     },
     {
@@ -386,7 +373,7 @@ aloes : [
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
         hardinessZones: "4-10",
-        matureSize: "50-100 sq ft",
+        matureSize: "1' x 1'",
         native: false
     },
 ]

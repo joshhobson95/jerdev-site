@@ -11,22 +11,22 @@ const xericbedding =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "6-9",
-        matureSize: "20' x 20'",
+        hardinessZones: "5-9",
+        matureSize: `12" x 2'`,
         native: false
       },
       {
         id: 2,
         name: "Portulaca",
-        scientificName: "",
+        scientificName: "Portulaca grandiflora",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/portulaca-2606950_1920.jpg",
         description: "Portulaca, or moss rose, is a heat-loving, drought-tolerant annual that thrives in New Mexico’s dry climate. With vibrant, rose-like blooms in shades of pink, red, orange, and yellow, it adds color to gardens from summer to fall. This low-growing succulent prefers full sun and well-draining soil, making it perfect for rock gardens, borders, or containers. Requiring little water, Portulaca is an excellent choice for xeriscaping and pollinator-friendly landscapes.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "6-9",
-        matureSize: "20' x 20'",
+        hardinessZones: "10-11",
+        matureSize: `6" x 12"`,
         native: false
       },
 
@@ -40,8 +40,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-9",
+            matureSize: `8" x 8"`,
             native: false
           },
       
@@ -55,8 +55,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-8",
+            matureSize: `18" x 18"`,
             native: false
           },
         {
@@ -69,37 +69,37 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-9",
+            matureSize: `22" x 2"`,
             native: false
           },
           {
             id: 6,
             name: "Crocus",
-            scientificName: "",
+            scientificName: "Crocus",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/crocus-8575610_1920.jpg",
             description: "Crocus is a vibrant, early-blooming perennial that adds a splash of color to New Mexico gardens in late winter or early spring. With its cup-shaped flowers in shades of purple, yellow, and white, Crocus thrives in well-draining soil and full to partial sun. This low-maintenance plant is perfect for rock gardens, borders, or naturalized areas and requires minimal water once established. Crocus is a great choice for gardeners looking to brighten up their landscapes with early-season blooms while benefiting from its drought tolerance.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-8",
+            matureSize: `5" x 2"`,
             native: false
           },
   
         {
             id: 7,
             name: "Penstemon",
-            scientificName: "",
+            scientificName: "Penstemon strictus",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/penstemon.jpg",
             description: "Penstemon is a vibrant perennial well-suited to New Mexico’s climate. With tall spikes of tubular flowers in colors ranging from purple to red and pink, Penstemon blooms from spring to summer, attracting hummingbirds and pollinators. It thrives in full sun and well-draining soil, making it an excellent choice for xeriscaping and rock gardens. Drought-tolerant once established, Penstemon requires little water and adds bold color and texture to dry, sunny landscapes.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-8",
+            matureSize: `24" x 30"`,
             native: false
           },
 
@@ -113,8 +113,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-8",
+            matureSize: `8" x 18"`,
             native: false
           },
         {
@@ -127,8 +127,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-7",
+            matureSize: `8" x 18"`,
             native: false
           },
         {
@@ -141,8 +141,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-9",
+            matureSize: `6" x 18"`,
             native: false
           },
         {
@@ -155,8 +155,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "8-11",
+            matureSize: `8" x 8"`,
             native: false
           },
         {
@@ -169,8 +169,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "6-11",
+            matureSize: `12" x 12"`,
             native: false
           },
    
@@ -184,8 +184,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-7",
+            matureSize: `30" x 20"`,
             native: false
           },
         {
@@ -198,8 +198,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-9",
+            matureSize: `12" x 12"`,
             native: false
           },
         {
@@ -212,8 +212,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "9-11",
+            matureSize: `10" x 18"`,
             native: false
           },
         {
@@ -226,22 +226,22 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "2-11",
+            matureSize: `18" x 8"`,
             native: false
           },
         {
             id: 17,
             name: "Aster",
-            scientificName: "Aster spp.",
+            scientificName: "Dieteria canescens",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/aster.jpg",
             description: "Aster is a versatile perennial that adds late-season color to New Mexico gardens. Known for its star-shaped flowers in shades of purple, blue, pink, and white, Asters bloom in late summer to fall, attracting pollinators like bees and butterflies. They thrive in full sun and well-draining soil, making them perfect for borders, wildflower meadows, and xeriscaping. Once established, Asters are drought-tolerant and require minimal water, providing long-lasting color and texture to dry, sunny landscapes.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "5-9",
+            matureSize: `12" x 18"`,
             native: false
           },
         {
@@ -254,8 +254,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-9",
+            matureSize: "2' x 3'",
             native: false
           },
      
@@ -269,8 +269,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-8",
+            matureSize: `24" x 12"`,
             native: false
           },
           {
@@ -283,8 +283,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "4-9",
+            matureSize: `6" x 12"`,
             native: false
           },
     ],
@@ -299,8 +299,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-8",
+            matureSize: `8" x 36"`,
             native: false
           },
           {
@@ -313,8 +313,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "5-9",
+            matureSize: `8" x 12"`,
             native: false
           },
           {
@@ -327,8 +327,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "5-8",
+            matureSize: `12" x 18"`,
             native: false
           },
           {
@@ -341,8 +341,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "3-10",
+            matureSize: `18" x 18"`,
             native: false
           },
           {
@@ -355,8 +355,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "2-8",
+            matureSize: "4' x 4'",
             native: false
           },
           {
@@ -369,8 +369,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "5-10",
+            matureSize: `8" x 24"`,
             native: false
           },
 
@@ -384,8 +384,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "4-8",
+            matureSize: `8" x 18"`,
             native: false
           },
           {
@@ -398,8 +398,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "7-11",
+            matureSize: `18" x 18"`,
             native: false
           },
           {
@@ -412,8 +412,8 @@ const xericbedding =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 20'",
+            hardinessZones: "9-11",
+            matureSize: `2" x 18"`,
             native: false
           },
     ],
@@ -429,13 +429,13 @@ const xericbedding =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "6-9",
-        matureSize: "20' x 20'",
+        hardinessZones: "5-9",
+        matureSize: `4" x 18"`,
         native: false
     },
     {
         id: 31,
-        name: "Hens and Chics",
+        name: "Hens and Chicks",
         scientificName: "Sempervivum spp.",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/hens-and-chics.jpg",
         description: "Hens and Chicks is a hardy, drought-tolerant succulent that thrives in New Mexico’s dry, sunny climate. Known for its rosettes of thick, fleshy leaves, the 'hen' forms the central rosette, while 'chicks' are smaller offshoots that surround it. These plants are available in a range of colors, from green to red and purple, and can bloom with star-like flowers in the summer. Hens and Chicks prefer well-draining soil and full sun, making them perfect for xeriscaping, rock gardens, or containers. Once established, they require minimal water, making them an excellent low-maintenance choice for dry landscapes.",
@@ -443,8 +443,8 @@ const xericbedding =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "6-9",
-        matureSize: "20' x 20'",
+        hardinessZones: "3-8",
+        matureSize: `3" x 12"`,
         native: false
     },
     {
@@ -457,8 +457,8 @@ const xericbedding =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-        hardinessZones: "6-9",
-        matureSize: "20' x 20'",
+        hardinessZones: "3-9",
+        matureSize: `12" x 18"`,
         native: false
     },
   
@@ -472,8 +472,8 @@ const xericbedding =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "6-9",
-        matureSize: "20' x 20'",
+        hardinessZones: "9-12",
+        matureSize: `12" x 12"`,
         native: false
     },
 
@@ -487,8 +487,8 @@ const xericbedding =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "6-9",
-        matureSize: "20' x 20'",
+        hardinessZones: "9-11",
+        matureSize: `12" x 18"`,
         native: false
     },
     {
@@ -501,8 +501,8 @@ const xericbedding =
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
         waterRequirement: "Low Water",
-        hardinessZones: "6-9",
-        matureSize: "20' x 20'",
+        hardinessZones: "3-11",
+        matureSize: `12" x 18"`,
         native: false
     },
     ],

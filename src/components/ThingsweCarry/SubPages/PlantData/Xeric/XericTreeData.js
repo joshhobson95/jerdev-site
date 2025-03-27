@@ -97,8 +97,8 @@ const xerictrees =
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "7-11",
-            matureSize: "30' x 35'",
+            hardinessZones: "8-11",
+            matureSize: "30' x 20'",
             native: true
           },
           {
@@ -182,8 +182,8 @@ const xerictrees =
           sunRequirement: "Full Sun",
           waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
           waterRequirement: "Low Water",
-          hardinessZones: "7-10",
-          matureSize: "10' x 10'",
+          hardinessZones: "7-9",
+          matureSize: "15' x 15'",
           native: true
           },
           {
@@ -196,8 +196,8 @@ const xerictrees =
           sunRequirement: "Full Sun",
           waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
           waterRequirement: "Low Water",
-          hardinessZones: "7-10",
-          matureSize: "10' x 10'",
+          hardinessZones: "7-8",
+          matureSize: "30' x 20'",
           native: true
           },
           
@@ -234,7 +234,7 @@ const xerictrees =
             native: true
           },
           {
-            id: 17,
+            id: 23,
             name: "Wonderful Pomegranates",
             scientificName: "Punica granatum 'Wonderful'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/pomegranate-2825556_1920.jpg",
@@ -244,7 +244,7 @@ const xerictrees =
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
             hardinessZones: "7-10",
-            matureSize: "10' x 7'",
+            matureSize: "12' x 12'",
             native: false
           },
           {
