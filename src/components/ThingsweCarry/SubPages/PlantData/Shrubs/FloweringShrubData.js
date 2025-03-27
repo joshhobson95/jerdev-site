@@ -113,7 +113,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 8,
+          id: 9,
           name: "Happy Face Pink Paradise Potentilla ",
           scientificName: "Potentilla fruticosa HAPPY FACE 'Kupinpa'",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/pink-potentilla.jpg",
@@ -129,7 +129,7 @@ const floweringshrubdata = {
       ],
       salvias: [
         {
-          id: 1,
+          id: 10,
           name: "Mexican Blue Sage",
           scientificName: "Salvia chamaedryoides",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/Salviachamaedryoides.jpg",
@@ -142,7 +142,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 11,
           name: "Autumn Sage",
           scientificName: "Salvia greggii",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/autumn-sage.jpg",
@@ -155,7 +155,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 12,
           name: "Meadow Sage",
           scientificName: "Salvia nemorosa",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/meadow-sage.jpg",
@@ -168,7 +168,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 13,
           name: "Rosemary",
           scientificName: "Salvia rosmarinus",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/rosemary-4912663_1920.jpg",
@@ -184,7 +184,7 @@ const floweringshrubdata = {
       ],
       texassage: [
         {
-          id: 1,
+          id: 14,
           name: "Compact Texas Sage",
           scientificName: "Leucophyllum frutescens 'Compacta'",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/purple-texas-sage.jpg",
@@ -197,7 +197,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 15,
           name: "San Antonio Rose Texas Sage",
           scientificName: "Leucophyllum frutescens 'San Antonio Rose'",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/pink-texasa-sage.jpg",
@@ -210,7 +210,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 16,
           name: "Silver Dream Texas Sage",
           scientificName: "Leucophyllum frutescens 'Silver Dream'",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/leucophyllum-4932726_1920.jpg",
@@ -226,7 +226,7 @@ const floweringshrubdata = {
       
       lilacs: [
         {
-          id: 1,
+          id: 17,
           name: "Miss Kim Lilac",
           scientificName: "Syringa pubescens subsp. patula 'Miss Kim'",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/misskim-lilac.jpg",
@@ -239,7 +239,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 18,
           name: "Ludwig Spaeth Lilac",
           scientificName: "Syringa pubescens subsp. patula 'Miss Kim'",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/lilac.jpg",
@@ -252,7 +252,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 19,
           name: "Alba Lilac",
           scientificName: "Syringa vulgaris 'Alba'",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/alba-lilac.jpg",
@@ -265,7 +265,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 20,
           name: "Tinkerbell Bailbelle Lilac",
           scientificName: "Syringa 'Bailbelle'",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/tinkerbell-lilac.jpg",
@@ -284,7 +284,7 @@ const floweringshrubdata = {
     
       crapemyrtles: [
         {
-          id: 1,
+          id: 21,
           name: "Dynamite Crape Myrtle",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/redish-crape.jpg",
@@ -297,7 +297,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 22,
           name: "Natchez White Crape Myrtle",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/white-crape.jpg",
@@ -310,7 +310,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 23,
           name: "Catawba Crape Myrtle",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/catawba-crape.jpg",
@@ -323,7 +323,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 24,
           name: "Pink Velour Crape Myrtle",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/pink-crape",
@@ -341,7 +341,7 @@ const floweringshrubdata = {
       lavendars:
       [
         {
-          id: 1,
+          id: 25,
           name: "English Lavendar",
           scientificName: "Lavandula angustifolia",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/lavender-4348354_1920.jpg",
@@ -354,7 +354,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 26,
           name: "Spanish Lavendar",
           scientificName: "Lavandula stoechas",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/spanish-lavender.jpg",
@@ -367,7 +367,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 27,
           name: "Grosso Hybrid Lavender",
           scientificName: "Lavandula x intermedia ‘Grosso’",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/hybrid-lavender.jpg",
@@ -383,7 +383,7 @@ const floweringshrubdata = {
       
       roseofsharons: [
         {
-          id: 1,
+          id: 28,
           name: "Aphrodite Rose of Sharon",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/aphrodite-ROS.jpg",
@@ -396,7 +396,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 29,
           name: "Red Heart Rose of Sharon",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/redheart-ROS.jpg",
@@ -409,7 +409,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 30,
           name: "Purple Pillar Rose of Sharon",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/purplepillar-ROS.jpg",
@@ -427,7 +427,7 @@ const floweringshrubdata = {
       
       forsythias: [
         {
-          id: 1,
+          id: 31,
           name: "Spring Glory Forsythia",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/forsythia.jpg",
@@ -440,7 +440,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 32,
           name: "Medowlark Forsythia",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/forsythia-shrub.jpg",
@@ -453,7 +453,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 33,
           name: "Magic Gold Forsythia",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/forsythia2.jpg",
@@ -466,7 +466,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 34,
           name: "Sunrise Forsythia",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/forsythia-4091197_1920.jpg",
@@ -482,7 +482,7 @@ const floweringshrubdata = {
       ],
       spireas: [
         {
-          id: 1,
+          id: 35,
           name: "Blue Mist Spirea",
           scientificName: "Caryopteris × clandonensis ‘Blue Mist’",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/caryopteris-78768_1920.jpg",
@@ -495,7 +495,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
       },
         {
-          id: 1,
+          id: 36,
           name: "Dark Knight Spirea",
           scientificName: "Caryopteris × clandonensis ‘Dark Knight’",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/caryopteris-2.jpg",
@@ -508,7 +508,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
       },
         {
-          id: 1,
+          id: 37,
           name: "Sunshine Blue Spirea",
           scientificName: "Caryopteris × clandonensis ‘Sunshine Blue’",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/caryopoteris-3.jpg",
@@ -526,7 +526,7 @@ const floweringshrubdata = {
   
       xerics:[
         {
-          id: 1,
+          id: 38,
           name: "Apache Plume",
           scientificName: "Fallugia paradoxa",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/apache-plume-1937218_1920.jpg",
@@ -539,7 +539,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 39,
           name: "Western Sand Cherry",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/prunus-pumilia.JPG",
@@ -552,7 +552,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 40,
           name: "Fern Bush",
           scientificName: "Pinus edulis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/fernbush.JPG",
@@ -565,7 +565,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 41,
           name: "Chamisa",
           scientificName: "Chrysothamnus nauseosus",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/needles-district-rabbitbrush-4009467_1920.jpg",
@@ -578,7 +578,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 42,
           name: "Brakelights Red Yucca",
           scientificName: "Hesperaloe parviflora 'Brakelight'",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/Red-Yucca.jpg",
@@ -594,7 +594,7 @@ const floweringshrubdata = {
 
       others: [
         {
-          id: 1,
+          id: 43,
           name: "Flowering Quince",
           scientificName: "Chaenomeles speciosa",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/flowering-quince-4139038_1920.jpg",
@@ -607,7 +607,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 44,
           name: "Spanish Broom",
           scientificName: "Spartium junceum",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/spanish-broom.jpg",
@@ -620,7 +620,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
         },
         {
-          id: 1,
+          id: 45,
           name: "Little Spark Spirea",
           scientificName: "Spiraea japonica ‘Little Spark’",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/spiraea-5285985_1920.jpg",
@@ -633,7 +633,7 @@ const floweringshrubdata = {
           matureSize: "15' x 30'",
       },
         {
-        id: 1,
+        id: 46,
         name: "Mexican Bird of Paradise",
         scientificName: "Caesalpinia mexicana",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/bird-of-paradise-bush-3494940_1920.jpg",
@@ -647,7 +647,7 @@ const floweringshrubdata = {
         native: true
         },
         {
-          id: 1,
+          id: 47,
           name: "Russian Sage",
           scientificName: "Perovskia atriplicifolia",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/russian-sage-6602342_1920.jpg",

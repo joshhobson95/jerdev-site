@@ -14,7 +14,7 @@ const coniferousshrubs = {
         matureSize: "15' x 30'",
       },
    {
-        id: 1,
+        id: 2,
         name: "Limber Pine",
         scientificName: "Pinus flexilis",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/limber-pine.jpg",
@@ -27,7 +27,7 @@ const coniferousshrubs = {
         matureSize: "15' x 30'",
       },
       {
-        id: 1,
+        id: 3,
         name: "Pinyon Pine",
         scientificName: "Pinus edulis",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Pinon.jpg",
@@ -41,7 +41,7 @@ const coniferousshrubs = {
         native: true
       },
    {
-        id: 1,
+        id: 4,
         name: "Dwarf Mountain Pine",
         scientificName: "Pinus mugo 'Pumilio'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/mugoPine.jpg",
@@ -57,7 +57,7 @@ const coniferousshrubs = {
     ],
     junipers: [
     {
-        id: 1,
+        id: 5,
         name: "Blue Rug Juniper",
         scientificName: "Juniperus horizontalis 'Wiltonii'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/Juniperus_horizontalis_02.JPG",
@@ -70,7 +70,7 @@ const coniferousshrubs = {
         matureSize: "15' x 30'",
     },
     {
-        id: 1,
+        id: 6,
         name: "Creeping Blue Juniper",
         scientificName: "Juniperus horizontalis",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/creeping-blue-juniper.jpg",
@@ -83,7 +83,7 @@ const coniferousshrubs = {
         matureSize: "15' x 30'",
     },
     {
-        id: 1,
+        id: 7,
         name: "Parson's Juniper",
         scientificName: "Juniperus parsonii",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/parson's%20juniper.jpg",
@@ -96,7 +96,7 @@ const coniferousshrubs = {
         matureSize: "15' x 30'",
     },
     {
-        id: 1,
+        id: 8,
         name: "Dwarf Japanese Garden Juniper",
         scientificName: "Juniperus procumbens 'Nana'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/Dwarf-japanese-juniper.jpg",
@@ -114,7 +114,7 @@ const coniferousshrubs = {
     ],
     spruces: [
     {
-        id: 1,
+        id: 9,
         name: "Dwarf Alberta Spruce",
         scientificName: "Picea glauca 'Conica'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/dwarf-albertaSpruce.jpg",
@@ -127,7 +127,7 @@ const coniferousshrubs = {
         matureSize: "15' x 30'",
     },
     {
-        id: 1,
+        id: 10,
         name: "Baby Blue Spruce",
         scientificName: "Picea pungens 'Baby Blue'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/baby-blue-spruce.jpg",
@@ -140,7 +140,7 @@ const coniferousshrubs = {
         matureSize: "15' x 30'",
     },
     {
-        id: 1,
+        id: 11,
         name: "Norway Spruce",
         scientificName: "Picea abies 'Acrocona'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/Picea_abies_'Acrocona'.JPG",
@@ -156,7 +156,7 @@ const coniferousshrubs = {
     ],
     arborvitaes: [
     {
-        id: 1,
+        id: 12,
         name: "Tater Tot Thuja",
         scientificName: "Thuja occidentalis 'Tater Tot'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/thuja-49630_1920.jpg",
@@ -169,7 +169,7 @@ const coniferousshrubs = {
         matureSize: "15' x 30'",
     },
     {
-        id: 1,
+        id: 13,
         name: "Golden Globe Arborvitae",
         scientificName: "Thuja occidentalis 'Golden Globe'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/thuja-3847882_1920.jpg",
@@ -182,7 +182,7 @@ const coniferousshrubs = {
         matureSize: "15' x 30'",
     },
     {
-        id: 1,
+        id: 14,
         name: "Little Giant Arborvitae",
         scientificName: "Thuja occidentalis 'Little Giant'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/Thuja_occidentalis_(34290271234).jpg",
@@ -199,7 +199,7 @@ const coniferousshrubs = {
     ],
     hollies: [
     {
-        id: 1,
+        id: 15,
         name: "Desert Holly",
         scientificName: "Ilex aquifolium 'Desert Holly'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/ilex-aquifolium.jpg",
@@ -212,7 +212,7 @@ const coniferousshrubs = {
         matureSize: "15' x 30'",
     },
     {
-        id: 1,
+        id: 16,
         name: "American Holly",
         scientificName: "Ilex opaca",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/american-holly.jpg",
@@ -225,7 +225,7 @@ const coniferousshrubs = {
         matureSize: "15' x 30'",
     },
     {
-        id: 1,
+        id: 17,
         name: "Yaupon Holly",
         scientificName: "Ilex vomitoria",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/evergreen/yaupon-1962797_1920.jpg",

@@ -133,7 +133,7 @@ function NavBarMobile() {
         <li className="navbar__dropdownItem_mobile">Brands we Carry</li>
       </NavLink>
       <NavLink to='/thingswecarry'>
-        <li className="navbar__dropdownItem_mobile">Things we Carry</li>
+        <li className="navbar__dropdownItem_mobile">Plant Catalog</li>
       </NavLink>
         <NavLink to='/delivery'>
         <li className="navbar__dropdownItem_mobile">Delivery and Planting</li>
