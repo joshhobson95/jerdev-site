@@ -10,7 +10,7 @@ apples: [
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
         waterRequirement: "Medium Water",
-        hardinessZones: "6-9",
+        hardinessZones: "5-9",
         matureSize: "15' x 15'",
         native: false
       },
@@ -24,8 +24,8 @@ apples: [
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
         waterRequirement: "Medium Water",
-        hardinessZones: "3-8",
-        matureSize: "15' x 12' ",
+        hardinessZones: "4-8",
+        matureSize: "15' x 15' ",
         native: false
       },
       {
@@ -38,7 +38,7 @@ apples: [
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
         waterRequirement: "Medium Water",
-        hardinessZones: "5-9",
+        hardinessZones: "5-8",
         matureSize: "15' x 15' ",
         native: false
       },
@@ -56,7 +56,7 @@ apples: [
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
         waterRequirement: "Medium Water",
         hardinessZones: "5-8",
-        matureSize: "12' x 12'",
+        matureSize: "20' x 20'",
         native: false
         
       },
@@ -71,7 +71,7 @@ apples: [
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
         waterRequirement: "Medium Water",
         hardinessZones: "5-8",
-        matureSize: "20' x 15'",
+        matureSize: "20' x 20'",
         native: false
       },
       {
@@ -84,8 +84,8 @@ apples: [
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
         waterRequirement: "Medium Water",
-        hardinessZones: "5-9",
-        matureSize: "15' x 20'",
+        hardinessZones: "4-8",
+        matureSize: "15' x 15'",
         native: false
       },
     ],
@@ -102,7 +102,7 @@ apples: [
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
         waterRequirement: "Medium Water",
         hardinessZones: '5-8',
-        matureSize: "12' x 12'",
+        matureSize: "15' x 15'",
         native: false
       },
       {
@@ -116,7 +116,7 @@ apples: [
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
         waterRequirement: "Medium Water",
         hardinessZones: "5-9",
-        matureSize: "12' x12'",
+        matureSize: "20' x 20'",
         native: false
       },
       {
@@ -130,7 +130,7 @@ apples: [
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
         waterRequirement: "Medium Water",
         hardinessZones: "4-8",
-        matureSize: "12' x 12'",
+        matureSize: "15' x 15'",
         native: false
       },
     ],
@@ -146,7 +146,7 @@ apples: [
           waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
           waterRequirement: "Medium Water",
           hardinessZones: "5-9",
-          matureSize: "12' x 12'",
+          matureSize: "20' x 20'",
           native: false
         },
         {
@@ -160,7 +160,7 @@ apples: [
           waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
           waterRequirement: "Medium Water",
           hardinessZones: "7-10",
-          matureSize: "12' x 12'",
+          matureSize: "15' x 15'",
           native: false
         },
       ],
@@ -189,7 +189,7 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
             waterRequirement: "Medium Water",
-            hardinessZones: "4-9",
+            hardinessZones: "5-9",
             matureSize: "15' x 15'",
             native: false
           },
@@ -203,8 +203,8 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
             waterRequirement: "Medium Water",
-            hardinessZones: "5-8",
-            matureSize: "15' x 15'",
+            hardinessZones: "5-9",
+            matureSize: "20' x 20'",
             native: false
           },
 
@@ -221,7 +221,7 @@ apples: [
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
             waterRequirement: "Medium Water",
             hardinessZones: "5-9",
-            matureSize: "20' x 15'",
+            matureSize: "15' x 15'",
             native: false
           },
         {
@@ -248,7 +248,7 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
             waterRequirement: "Medium Water",
-            hardinessZones: "5-7",
+            hardinessZones: "5-9",
             matureSize: "15' x 15'",
             native: false
           },
@@ -266,7 +266,7 @@ apples: [
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
             waterRequirement: "Medium Water",
             hardinessZones: "5-9",
-            matureSize: "17' x 17'",
+            matureSize: "20' x 20'",
             native: false
           },
         {
@@ -280,7 +280,7 @@ apples: [
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
             waterRequirement: "Medium Water",
             hardinessZones: "5-9",
-            matureSize: "15' x 15'",
+            matureSize: "20' x 20'",
             native: false
           },
           {
@@ -293,8 +293,8 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
             waterRequirement: "Medium Water",
-            hardinessZones: "5-9",
-            matureSize: "20' x 12'",
+            hardinessZones: "4-9",
+            matureSize: "20' x 20'",
             native: false
           },
 
@@ -310,8 +310,8 @@ apples: [
           sunRequirement: "Full Sun",
           waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
           waterRequirement: "Medium Water",
-          hardinessZones: "6-9",
-          matureSize: "8' x 8'",
+          hardinessZones: "7-9",
+          matureSize: "10' x 10'",
           native: false
         },
         {
@@ -325,7 +325,7 @@ apples: [
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
             waterRequirement: "Medium Water",
             hardinessZones: "7-9",
-            matureSize: "25' x 20'",
+            matureSize: "15' x 15'",
             native: false
           },
        
@@ -339,10 +339,10 @@ apples: [
             description: "The Wonderful Pomegranate tree is the most popular variety for New Mexico gardeners, known for its large, vibrant red fruit with sweet-tart arils. It thrives in New Mexico’s sunny, dry climate and requires full sun, well-draining soil, and deep watering. Pomegranates are drought-tolerant once established but perform best with consistent moisture during the growing season. The Wonderful variety is heat-tolerant and hardy enough for the state’s warmer regions, making it an excellent choice for home orchards.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-            waterRequirement: "Medium Water",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
             hardinessZones: "7-10",
-            matureSize: "10' x 7'",
+            matureSize: "12' x 12'",
             native: false
           },
         {
@@ -353,17 +353,17 @@ apples: [
             description: "The Russian 26 Pomegranate tree is a cold-hardy variety perfect for New Mexico’s more northern regions. It produces smaller, sweet-tasting fruit and is more tolerant of freezing temperatures compared to other pomegranate varieties. Russian 26 thrives in full sun and well-draining soil, and while it’s drought-tolerant once established, it benefits from regular watering during the growing season. This variety is ideal for areas with colder winters, offering gardeners the chance to grow pomegranates even in more temperate climates.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-            waterRequirement: "Medium Water",
-            hardinessZones: "6-11",
-            matureSize: "12' x 9'",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "6-9",
+            matureSize: "12' x 12'",
             native: false
           },
       ],
       almonds: [
         {
             id: 25,
-            name: "Mission Almonds",
+            name: "Mission Almond",
             scientificName: "Prunus dulcis 'Mission'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/almond-tree-5951352_1920.jpg",
             description: "One of the most common varieties, the Mission Almond sometimes known as the Texas Almond, is a great almond for Southern New Mexico, but think twice before planting in the Albuquerque area. Although the most popular, almonds are notoriously early bloomers, with this variety being a VERY early bloomer. With late freezes in Albuquerque and Santa Fe, you may seldom get fruit.",
@@ -372,7 +372,7 @@ apples: [
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
             waterRequirement: "Medium Water",
             hardinessZones: "7-9",
-            matureSize: "12' x 12'",
+            matureSize: "15' x 15'",
             native: false
           },
         {
@@ -386,7 +386,7 @@ apples: [
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
             waterRequirement: "Medium Water",
             hardinessZones: "7-9",
-            matureSize: "12' x 12'",
+            matureSize: "15' x 15'",
             native: false
           },
         {
@@ -399,8 +399,8 @@ apples: [
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
             waterRequirement: "Medium Water",
-            hardinessZones: "5-9",
-            matureSize: "15' x 10'",
+            hardinessZones: "7-9",
+            matureSize: "15' x 15'",
             native: false
           },
       ],
@@ -413,10 +413,10 @@ apples: [
             description: "The Western Schley Pecan tree is a popular variety known for its large, thin-shelled nuts with sweet, buttery flavor. It thrives in New Mexico’s warm climate, requiring full sun, deep well-draining soil, and regular watering to produce a healthy crop. This variety is best suited for the southern and central regions of the state, where the growing season is long. Western Schley pecans are also known for their resistance to certain diseases and pests, making them a reliable choice for home orchards.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-            waterRequirement: "Medium Water",
-            hardinessZones: "5-9",
-            matureSize: "70' x 70'",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/High-water.png",
+            waterRequirement: "High Water",
+            hardinessZones: "6-9",
+            matureSize: "40' x 40'",
             native: false
           },
         {
@@ -427,10 +427,10 @@ apples: [
             description: "The Wichita Pecan tree is another excellent choice for New Mexico gardeners, producing large, high-quality nuts with a rich, buttery flavor. Wichita trees require full sun and deep, well-draining soil, along with regular watering, especially during the growing season. They are more cold-hardy than other pecan varieties, making them suitable for northern areas of New Mexico. Wichita trees are also resistant to certain pests, which helps ensure a bountiful harvest year after year.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-            waterRequirement: "Medium Water",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/High-water.png",
+            waterRequirement: "High Water",
             hardinessZones: "6-9",
-            matureSize: "60' x 50'",
+            matureSize: "40' x 40'",
             native: false
           },
         {
@@ -441,10 +441,10 @@ apples: [
             description: "The Cheyenne Pecan tree is a cold-hardy variety that performs well in New Mexico’s higher elevations and cooler regions. It produces medium-sized, flavorful pecans and is well-suited for areas with shorter growing seasons. Like other pecan varieties, Cheyenne needs full sun, deep well-draining soil, and regular watering. It is also resistant to several pests and diseases, making it an excellent choice for low-maintenance orchards in New Mexico’s northern and central regions.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-            waterRequirement: "Medium Water",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/High-water.png",
+            waterRequirement: "High Water",
             hardinessZones: "6-9",
-            matureSize: "50' x 50'",
+            matureSize: "40' x 40'",
             native: false
           },
       ],
@@ -457,10 +457,10 @@ apples: [
             description: "The Kerman Pistachio tree  is the most widely grown pistachio variety in New Mexico and is prized for its large, flavorful nuts. It thrives in the state’s hot, dry climate and requires full sun and well-draining, sandy loam soil. Kerman trees are dioecious, meaning you need both male and female trees for pollination, but they are highly productive once established. They are drought-tolerant and thrive with minimal watering once mature, though regular irrigation helps during the growing season. This variety is best suited for New Mexico’s southern and central regions, where the growing season is long.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-            waterRequirement: "Medium Water",
-            hardinessZones: "8-10",
-            matureSize: "25' x 15'",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/High-water.png",
+            waterRequirement: "High Water",
+            hardinessZones: "7-10",
+            matureSize: "15' x 15'",
             native: false
           },
         {
@@ -471,10 +471,10 @@ apples: [
             description: "The Peters Pistachio tree is another excellent pistachio variety well-suited for New Mexico’s climate. It produces large, high-quality nuts with a sweet, rich flavor. Peters trees are also dioecious, requiring a male tree for pollination, but they are incredibly productive. They prefer full sun and well-draining soil, with deep, infrequent watering. This variety is ideal for southern New Mexico, where the warmer temperatures provide the necessary heat for the pistachios to fully mature. Peters trees are a great choice for gardeners seeking a reliable and bountiful pistachio crop.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-            waterRequirement: "Medium Water",
-            hardinessZones: "8-11",
-            matureSize: "25' x 25'",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/High-water.png",
+            waterRequirement: "High Water",
+            hardinessZones: "7-10",
+            matureSize: "15' x 15'",
             native: false
           },
         {
@@ -485,10 +485,10 @@ apples: [
             description: "The Kalehgouchi Pistachio tree is a hardy pistachio variety that’s well-suited for New Mexico’s hot, arid conditions. It produces medium-sized, flavorful pistachios and requires both male and female trees for successful pollination. Kalehgouchi pistachios are especially prized for their resistance to cold, making them a good option for areas with cooler winters. Like other pistachios, they require full sun, well-draining soil, and deep watering, especially in the first few years after planting. This variety is a great choice for northern parts of New Mexico and for gardeners who want a hardy, productive pistachio tree.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-            waterRequirement: "Medium Water",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/High-water.png",
+            waterRequirement: "High Water",
             hardinessZones: "7-10",
-            matureSize: "25' x 20'",
+            matureSize: "15' x 15'",
             native: false
           },
       ],

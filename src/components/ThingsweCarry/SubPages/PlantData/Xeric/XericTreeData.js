@@ -2,7 +2,7 @@ const xerictrees =
 {
     shadetrees: [
       {
-        id: 43,
+        id: 1,
         name: "Quaking Aspen",
         scientificName: "Populus tremuloides",
         image: "https://jfschmidt.com/wp-content/uploads/2023/03/populus-quaking-web-01.jpg",
@@ -17,7 +17,7 @@ const xerictrees =
       },
    
       {
-        id: 19,
+        id: 2,
         name: "Boxelder Maple",
         scientificName: "Acer negundo",
         image: "https://jfschmidt.com/wp-content/uploads/2023/03/acer-sensationbox-web-01.jpg",
@@ -32,7 +32,7 @@ const xerictrees =
       },
 
           {
-            id: 42,
+            id: 3,
             name: "Velvet Mesquite",
             scientificName: "Prosopis velutina",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/velvetMesquite.jpg",
@@ -46,7 +46,7 @@ const xerictrees =
             native: true
           },
           {
-            id: 13,
+            id: 4,
             name: "Lacebark Elm",
             scientificName: "Ulmus parvifolia",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/lacebarkElm.JPG",
@@ -60,7 +60,7 @@ const xerictrees =
             native: false
           },
           {
-            id: 12,
+            id: 5,
             name: "Frontier Elm",
             scientificName: "Ulmus 'Frontier'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/ulmus-frontier-web-01.jpg",
@@ -74,7 +74,7 @@ const xerictrees =
             native: true
           },
           {
-            id: 36,
+            id: 6,
             name: "Chinese Pistache",
             scientificName: "Pistacia chinensis",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/chinesePistache.jpg",
@@ -88,7 +88,7 @@ const xerictrees =
             native: false
           },
           {
-            id: 42,
+            id: 7,
             name: "Mexican Blue Palm",
             scientificName: "Brahea armata",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/mexican-blue-palm.jpg",
@@ -102,7 +102,7 @@ const xerictrees =
             native: true
           },
           {
-            id: 48,
+            id: 8,
             name: "Washington Hawthorne",
             scientificName: "Crataegus phaenopyrum",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/washingtonHawthorn.jpg",
@@ -116,7 +116,7 @@ const xerictrees =
             native: false
           },
           {
-            id: 44,
+            id: 9,
             name: "Osage Orange",
             scientificName: "Maclura pomifera",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/maclura-wichita-web-01.jpg",
@@ -130,7 +130,7 @@ const xerictrees =
             native: false
           },
           {
-          id: 37,
+          id: 10,
           name: "Western Hackberry",
           scientificName: "Celtis reticulata",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/westernHackberry.jpg",
@@ -145,7 +145,7 @@ const xerictrees =
         },
         
         {
-          id: 38,
+          id: 11,
           name: "Smoketree",
           scientificName: "Cotinus coggygria",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/smoketree-7737797_1920.jpg",
@@ -159,7 +159,7 @@ const xerictrees =
           native: false
         },       
         {
-          id: 39,
+          id: 12,
           name: "Golden Rain Tree",
           scientificName: "Koelreuteria paniculata",
           image: "https://jfschmidt.com/wp-content/uploads/2023/03/koelreuteria-goldenrain-web-01.jpg",
@@ -173,7 +173,7 @@ const xerictrees =
           native: false
         },
         {
-          id: 22,
+          id: 13,
           name: "Goldenball Leadtree",
           scientificName: "Leucaena retusa",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/goldenball-leadtree.jpg",
@@ -187,7 +187,7 @@ const xerictrees =
           native: true
           },
           {
-          id: 22,
+          id: 14,
           name: "Texas Madrone",
           scientificName: "Arbutus xalapensis",
           image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Texas_madrone_tree_arbutus_xalapensis.jpg",
@@ -206,7 +206,7 @@ const xerictrees =
 
     floweringtrees: [
       {
-        id: 46,
+        id: 15,
         name: "Japanese Pagoda Tree",
         scientificName: "Styphnolobium japonicum",
         image: "https://jfschmidt.com/wp-content/uploads/2023/01/styphnolobium-millstonejapanese-web-01.jpg",
@@ -220,7 +220,7 @@ const xerictrees =
         native: false
       },
         {
-            id: 22,
+            id: 16,
             name: "Mexican Bird of Paradise",
             scientificName: "Caesalpinia mexicana",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/bird-of-paradise-bush-3494940_1920.jpg",
@@ -234,7 +234,7 @@ const xerictrees =
             native: true
           },
           {
-            id: 23,
+            id: 17,
             name: "Wonderful Pomegranates",
             scientificName: "Punica granatum 'Wonderful'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/pomegranate-2825556_1920.jpg",
@@ -248,7 +248,7 @@ const xerictrees =
             native: false
           },
           {
-            id: 35,
+            id: 18,
             name: "Shoal Creek Chaste Tree",
             scientificName: "Vitex agnus-castus",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg",
@@ -262,7 +262,7 @@ const xerictrees =
             native: false
           },
           {
-            id: 27,
+            id: 19,
             name: "Chitalpa",
             scientificName: "Chitalpa tashkentensis",
             image: "https://jfschmidt.com/wp-content/uploads/2023/06/chitalpa-nationalarboretum-web-01.jpg",
@@ -276,7 +276,7 @@ const xerictrees =
             native: false
           },
           {
-            id: 28,
+            id: 20,
             name: "Autumn Brillance Serviceberry",
             scientificName: "Amelanchier × grandiflora 'Autumn Brilliance",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/serviceberry2.jpg",
@@ -290,7 +290,7 @@ const xerictrees =
             native: false
           },
           {
-            id: 20,
+            id: 21,
             name: "Oklahoma Redbud",
             scientificName: "Cercis reniformis 'Oklahoma'",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/cercis-oklahoma-web-01.jpg",
@@ -304,7 +304,7 @@ const xerictrees =
             native: false
         },
           {
-            id: 2,
+            id: 22,
             name: "Chanticlear Pear",
             scientificName: "Pyrus calleryana",
             image: "https://jfschmidt.com/wp-content/uploads/2023/03/pyrus-chanticleer-web-01.jpg",
@@ -318,7 +318,7 @@ const xerictrees =
             native: false
         },
         {
-          id: 8,
+          id: 23,
           name: "Canada Red Chokecherry",
           scientificName: "Prunus virginiana 'Canada Red'",
           image: "https://jfschmidt.com/wp-content/uploads/2023/03/prunus-canadaredimproved-web-02.jpg",
@@ -332,7 +332,7 @@ const xerictrees =
           native: true
         },
         {
-          id: 16,
+          id: 24,
           name: "Indian Magic Crabapple",
           scientificName: "Malus 'Indian Magic'",
           image: "https://jfschmidt.com/wp-content/uploads/2023/03/malus-indianmagic-web-01.jpg",
@@ -350,7 +350,7 @@ const xerictrees =
     ],
     coniferoustrees: [
       {
-        id: 2,
+        id: 25,
         name: "Austrian Pine",
         scientificName: "Pinus nigra",
         image: "https://jfschmidt.com/wp-content/uploads/2023/03/pinus-austrian-web-01.jpg",
@@ -364,7 +364,7 @@ const xerictrees =
         native: false
       },
       {
-        id: 1,
+        id: 26,
         name: "Pinyon Pine",
         scientificName: "Pinus edulis",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/Pinon.jpg",
@@ -378,7 +378,7 @@ const xerictrees =
         native: true
       },
       {
-        id: 7,
+        id: 27,
         name: "Rocky Mountain Juniper",
         scientificName: "Juniperus scopulorum",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/rockmtnJuniper.jpg",
@@ -392,7 +392,7 @@ const xerictrees =
         native: true
       },
       {
-        id: 8,
+        id: 28,
         name: "One Seed Juniper",
         scientificName: "Juniperus monosperma",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/oneseedJuniper.jpg",
@@ -406,7 +406,7 @@ const xerictrees =
         native: true
       },
       {
-        id: 6,
+        id: 29,
         name: "Utah Juniper",
         scientificName: "Juniperus osteosperma",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/utahJuniper.jpg",
@@ -420,7 +420,7 @@ const xerictrees =
         native: true
       },
       {
-        id: 3,
+        id: 30,
         name: "Afghan Pine",
         scientificName: "Pinus eldarica",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/pine-tree-6902428_1920.jpg",
@@ -434,7 +434,7 @@ const xerictrees =
         native: false
       },
       {
-        id: 14,
+        id: 31,
         name: "Arizona Cypress",
         scientificName: "Hesperocyparis arizonica",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/arizonaCypress.jpeg",
@@ -448,7 +448,7 @@ const xerictrees =
         native: true
       },
       {
-        id: 16,
+        id: 32,
         name: "Leyland Cypress",
         scientificName: "Cupressocyparis leylandii",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/randomCypress.jpg",

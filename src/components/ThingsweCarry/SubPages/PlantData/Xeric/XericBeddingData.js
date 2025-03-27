@@ -2,7 +2,7 @@ const xericbedding =
 {
     flowers: [
       {
-        id: 2,
+        id: 1,
         name: "Mexican Evening Primrose",
         scientificName: "Oenothera speciosa",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/mexican-evening-primrose.jpg",
@@ -31,7 +31,7 @@ const xericbedding =
       },
 
         {
-            id: 2,
+            id: 3,
             name: "Thrift",
             scientificName: "Armeria maritima",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/thrift.jpg",
@@ -46,7 +46,7 @@ const xericbedding =
           },
       
         {
-            id: 2,
+            id: 4,
             name: "Speedwell",
             scientificName: "Veronica spp.",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/speedwel.jpg",
@@ -60,7 +60,7 @@ const xericbedding =
             native: false
           },
         {
-            id: 2,
+            id: 5,
             name: "Mexican Hat",
             scientificName: "Ratibida columnifera",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/flower-1378734_1920.jpg",
@@ -74,7 +74,7 @@ const xericbedding =
             native: false
           },
           {
-            id: 1,
+            id: 6,
             name: "Crocus",
             scientificName: "",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/crocus-8575610_1920.jpg",
@@ -89,7 +89,7 @@ const xericbedding =
           },
   
         {
-            id: 2,
+            id: 7,
             name: "Penstemon",
             scientificName: "",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/penstemon.jpg",
@@ -104,7 +104,7 @@ const xericbedding =
           },
 
         {
-            id: 2,
+            id: 8,
             name: "Rockcress",
             scientificName: "Arabis spp.",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/golden-rock-cress-7490_1920.jpg",
@@ -118,7 +118,7 @@ const xericbedding =
             native: false
           },
         {
-            id: 2,
+            id: 9,
             name: "Snow in Summer",
             scientificName: "Cerastium tomentosum",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/snow-in-summer.jpg",
@@ -132,7 +132,7 @@ const xericbedding =
             native: false
           },
         {
-            id: 2,
+            id: 10,
             name: "Creeping Phlox",
             scientificName: "Phlox subulata",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/creeping-phlox-in-the-ozarks-4123341_1920.jpg",
@@ -146,7 +146,7 @@ const xericbedding =
             native: false
           },
         {
-            id: 2,
+            id: 11,
             name: "California Poppy",
             scientificName: "Eschscholzia californica",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/california-poppy.jpg",
@@ -160,7 +160,7 @@ const xericbedding =
             native: false
           },
         {
-            id: 2,
+            id: 12,
             name: "Desert Zinnia",
             scientificName: "Zinnia acerosa",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/DesertZinnia_(50619381807).jpg",
@@ -175,7 +175,7 @@ const xericbedding =
           },
    
         {
-            id: 2,
+            id: 13,
             name: "Oriental Poppy",
             scientificName: "Papaver orientale",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/oriental-poppy.jpg",
@@ -189,7 +189,7 @@ const xericbedding =
             native: false
           },
         {
-            id: 2,
+            id: 14,
             name: "Day Lillies",
             scientificName: "Hemerocallis spp.",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/daylily-5286921_1920.jpg",
@@ -203,7 +203,7 @@ const xericbedding =
             native: false
           },
         {
-            id: 2,
+            id: 15,
             name: "Hardy African Daisy",
             scientificName: "Arctotis spp.",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/hardy-african-daisy.jpg",
@@ -217,7 +217,7 @@ const xericbedding =
             native: false
           },
         {
-            id: 2,
+            id: 16,
             name: "Firewheel",
             scientificName: "Gaillardia pulchella",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/indian-blanket-9063340_1920.jpg",
@@ -231,7 +231,7 @@ const xericbedding =
             native: false
           },
         {
-            id: 2,
+            id: 17,
             name: "Aster",
             scientificName: "Aster spp.",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/aster.jpg",
@@ -245,7 +245,7 @@ const xericbedding =
             native: false
           },
         {
-            id: 2,
+            id: 18,
             name: "Chrysanthemum",
             scientificName: "Chrysanthemum spp.",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/chrysanthemums-3780098_1920.jpg",
@@ -260,7 +260,7 @@ const xericbedding =
           },
      
         {
-            id: 2,
+            id: 19,
             name: "Columbine",
             scientificName: "Aquilegia spp.",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/columbine-7246650_1920.jpg",
@@ -274,7 +274,7 @@ const xericbedding =
             native: false
           },
           {
-            id: 2,
+            id: 20,
             name: "Coreopsis",
             scientificName: "Coreopsis spp.",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/coreopsis-2665188_1920.jpg",
@@ -290,7 +290,7 @@ const xericbedding =
     ],
     groundcovers: [
         {
-            id: 2,
+            id: 21,
             name: "Poppy Mallow",
             scientificName: "Callirhoe involucrata",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/purple-poppy-mallow.jpg",
@@ -304,7 +304,7 @@ const xericbedding =
             native: false
           },
           {
-            id: 2,
+            id: 22,
             name: "Hardy Plumbago",
             scientificName: "Ceratostigma plumbaginoides",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/hardy%20plumbago.jpg",
@@ -318,7 +318,7 @@ const xericbedding =
             native: false
           },
           {
-            id: 2,
+            id: 23,
             name: "Creeping Mahonia",
             scientificName: "Mahonia repens",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/creeping-mahonia.jpg",
@@ -332,7 +332,7 @@ const xericbedding =
             native: false
           },
           {
-            id: 2,
+            id: 24,
             name: "Wild Four 'o Clock",
             scientificName: "Mirabilis multiflora",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/wild%20fouro-clock.jpg",
@@ -346,7 +346,7 @@ const xericbedding =
             native: false
           },
           {
-            id: 2,
+            id: 25,
             name: "Sand Cherry",
             scientificName: "Prunus pumila",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/sand-cherry.JPG",
@@ -360,7 +360,7 @@ const xericbedding =
             native: false
           },
           {
-            id: 2,
+            id: 26,
             name: "Yerba Mansa",
             scientificName: "Anemopsis californica",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/anemopsis-californica-2699391_1920.jpg",
@@ -375,7 +375,7 @@ const xericbedding =
           },
 
           {
-            id: 2,
+            id: 27,
             name: "Prarie Zinnia",
             scientificName: "Zinnia grandiflora",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/prarie-zinnia.jpg",
@@ -389,7 +389,7 @@ const xericbedding =
             native: false
           },
           {
-            id: 2,
+            id: 28,
             name: "Damianita",
             scientificName: "Chrysactinia mexicana",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/Chrysactinia_mexicana_-_Flickr_-_aspidoscelis.jpg",
@@ -403,7 +403,7 @@ const xericbedding =
             native: false
           },
           {
-            id: 2,
+            id: 29,
             name: "Silver Carpet",
             scientificName: "Dymondia margaretae",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/silver-carpet.JPG",
@@ -420,7 +420,7 @@ const xericbedding =
 
     succelents: [
     {
-        id: 2,
+        id: 30,
         name: "Ice Plant",
         scientificName: "Delosperma spp.",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/ice-plant.jpg",
@@ -434,7 +434,7 @@ const xericbedding =
         native: false
     },
     {
-        id: 2,
+        id: 31,
         name: "Hens and Chics",
         scientificName: "Sempervivum spp.",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/hens-and-chics.jpg",
@@ -448,7 +448,7 @@ const xericbedding =
         native: false
     },
     {
-        id: 2,
+        id: 32,
         name: "Sedum",
         scientificName: "Sedum spp.",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/sedum.jpg",
@@ -463,7 +463,7 @@ const xericbedding =
     },
   
     {
-        id: 2,
+        id: 33,
         name: "Kalanchoe",
         scientificName: "Kalanchoe spp.",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/flaming-kathchen-189547_1920.jpg",
@@ -478,7 +478,7 @@ const xericbedding =
     },
 
     {
-        id: 2,
+        id: 34,
         name: "Blue Chalksticks",
         scientificName: "Senecio serpens",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/blue-chalksticks.JPG",
@@ -492,7 +492,7 @@ const xericbedding =
         native: false
     },
     {
-        id: 2,
+        id: 35,
         name: "Spurges",
         scientificName: "Euphorbia spp.",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/spurges.jpg",

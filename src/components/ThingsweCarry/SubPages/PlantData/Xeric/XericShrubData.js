@@ -16,7 +16,7 @@ const xericshrubs =
       native: true
   },
         {
-            id: 35,
+            id: 2,
             name: "Turpentine Bush",
             scientificName: "Ericameria laricifolia",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/turpentinebush.JPG",
@@ -30,7 +30,7 @@ const xericshrubs =
             native: false
           },
           {
-            id: 1,
+            id: 3,
             name: "Curl-leaf Mountain Mahogany",
             scientificName: "Cercocarpus ledifolius",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/deciduous/Cercocarpus_ledifolius_8219.jpg",
@@ -43,7 +43,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
           {
-            id: 1,
+            id: 4,
             name: "Alderleaf Mountain Mahogany",
             scientificName: "Cercocarpus Montanus",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/deciduous/Cercocarpus_montanus_kz07.jpg",
@@ -57,7 +57,7 @@ const xericshrubs =
           },
 
           {
-            id: 1,
+            id: 5,
             name: "Hairy Mountain Mahogany",
             scientificName: "CCercocarpus breviflorus",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/deciduous/hairy-mountain-mahogany.jpg",
@@ -70,7 +70,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
           {
-            id: 1,
+            id: 6,
             name: "Pyrenees Cotoneaster",
             scientificName: "Cotoneaster serotinus",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/deciduous/cotoneaster-4506645_1920.jpg",
@@ -83,7 +83,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
         {
-            id: 1,
+            id: 7,
             name: "Willowleaf Cotoneaster",
             scientificName: "Cotoneaster salicifolius",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/deciduous/willowleaf-cotoneaster.jpg",
@@ -96,7 +96,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
           {
-            id: 1,
+            id: 8,
             name: "Pyracantha",
             scientificName: "Pyracantha coccinea",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/deciduous/firethorn-5758151_1920.jpg",
@@ -112,7 +112,7 @@ const xericshrubs =
         ],
     flowering: [
       {
-        id: 1,
+        id: 9,
         name: "Black Knight Butterfly Bush",
         scientificName: "Buddleia davidii 'Black Knight'",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/butterflybush-dark-purple.jpg",
@@ -125,7 +125,7 @@ const xericshrubs =
         matureSize: "15' x 30'",
       },
       {
-        id: 1,
+        id: 10,
         name: "Autumn Sage",
         scientificName: "Salvia greggii",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/autumn-sage.jpg",
@@ -138,7 +138,7 @@ const xericshrubs =
         matureSize: "15' x 30'",
       },
         {
-            id: 35,
+            id: 11,
             name: "Golden Yarrow",
             scientificName: "Eriophyllum confertiflorum",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/yarrow.jpg",
@@ -152,7 +152,7 @@ const xericshrubs =
             native: false
           },
           {
-            id: 7,
+            id: 12,
             name: "Goldfinger Potentilla",
             scientificName: "Potentilla fruticosa 'Goldfinger'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/potentilla.jpg",
@@ -165,7 +165,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
           {
-            id: 1,
+            id: 13,
             name: "Compact Texas Sage",
             scientificName: "Leucophyllum frutescens 'Compacta'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/purple-texas-sage.jpg",
@@ -178,7 +178,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
           {
-            id: 22,
+            id: 14,
             name: "Mexican Bird of Paradise",
             scientificName: "Caesalpinia mexicana",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/bird-of-paradise-bush-3494940_1920.jpg",
@@ -192,7 +192,7 @@ const xericshrubs =
             native: true
           },
         {
-            id: 35,
+            id: 15,
             name: "Common Hyssop",
             scientificName: "Hyssopus officinalis",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/hyssop-225065_1920.jpg",
@@ -206,7 +206,7 @@ const xericshrubs =
             native: false
           },
           {
-            id: 1,
+            id: 16,
             name: "Mexican Hyssop",
             scientificName: "Agastache mexicana",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/Agastache_rupestre.jpg",
@@ -219,7 +219,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
           {
-            id: 1,
+            id: 17,
             name: "Grosso Hybrid Lavender",
             scientificName: "Pinus edulis",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/hybrid-lavender.jpg",
@@ -232,7 +232,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
         {
-            id: 35,
+            id: 18,
             name: "Red Hot Poker",
             scientificName: "Kniphofia uvaria",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/red-hot-poker.jpg",
@@ -246,7 +246,7 @@ const xericshrubs =
             native: false
           },
           {
-            id: 1,
+            id: 19,
             name: "Flowering Quince",
             scientificName: "Chaenomeles speciosa",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/flowering-quince-4139038_1920.jpg",
@@ -259,7 +259,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
           {
-            id: 1,
+            id: 20,
             name: "Russian Sage",
             scientificName: "Perovskia atriplicifolia",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/russian-sage-6602342_1920.jpg",
@@ -272,7 +272,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
         {
-            id: 35,
+            id: 21,
             name: "Coralberry Shrub",
             scientificName: "Symphoricarpos orbiculatus",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/coralberry.jpg",
@@ -286,7 +286,7 @@ const xericshrubs =
             native: false
           },
           {
-            id: 1,
+            id: 22,
             name: "Mexican Blue Sage",
             scientificName: "Salvia chamaedryoides",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/Salviachamaedryoides.jpg",
@@ -303,7 +303,7 @@ const xericshrubs =
         ],
     grasses:[
       {
-        id: 35,
+        id: 23,
         name: "Blue Avena",
         scientificName: "Vitex agnus-castus",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg",
@@ -317,7 +317,7 @@ const xericshrubs =
         native: false
       },
       {
-        id: 35,
+        id: 24,
         name: "Switchgrass",
         scientificName: "Vitex agnus-castus",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg",
@@ -331,7 +331,7 @@ const xericshrubs =
         native: false
       },
       {
-        id: 35,
+        id: 25,
         name: "Galleta",
         scientificName: "Vitex agnus-castus",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg",
@@ -345,7 +345,7 @@ const xericshrubs =
         native: false
       },
       {
-        id: 35,
+        id: 26,
         name: "Giant Sacaton",
         scientificName: "Vitex agnus-castus",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg",
@@ -359,7 +359,7 @@ const xericshrubs =
         native: false
       },
       {
-        id: 35,
+        id: 27,
         name: "Pinky Flamingo Muhly",
         scientificName: "Vitex agnus-castus",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg",
@@ -373,7 +373,7 @@ const xericshrubs =
         native: false
       },
       {
-        id: 35,
+        id: 28,
         name: "Silky Threadgrass",
         scientificName: "Vitex agnus-castus",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg",
@@ -387,7 +387,7 @@ const xericshrubs =
         native: false
       },
       {
-        id: 35,
+        id: 29,
         name: "Little Bluestem",
         scientificName: "Vitex agnus-castus",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/vitex.jpg",
@@ -408,7 +408,7 @@ const xericshrubs =
        
      
         {
-            id: 35,
+            id: 30,
             name: "Fringed Sage",
             scientificName: "Salvia subincisa",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/fringed-sage.jpg",
@@ -422,7 +422,7 @@ const xericshrubs =
             native: false
           },
         {
-            id: 35,
+            id: 31,
             name: "Curry Plant",
             scientificName: "Helichrysum italicum",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/curry-plant.jpg",
@@ -436,7 +436,7 @@ const xericshrubs =
             native: false
           },
         {
-            id: 35,
+            id: 32,
             name: "Big Sagebrush",
             scientificName: "Artemisia tridentata",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/Big%20Sagebrush.jpg",
@@ -450,7 +450,7 @@ const xericshrubs =
             native: false
           },
           {
-            id: 1,
+            id: 33,
             name: "Apache Plume",
             scientificName: "Fallugia paradoxa",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/apache-plume-1937218_1920.jpg",
@@ -463,7 +463,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
         {
-            id: 35,
+            id: 34,
             name: "Three-leaf Sumac",
             scientificName: "Rhus trilobata",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/three-leaf-sumac.jpg",
@@ -477,7 +477,7 @@ const xericshrubs =
             native: false
           },
           {
-            id: 1,
+            id: 35,
             name: "Dwarf Fragrant Sumac",
             scientificName: "Rhus aromatica 'Gro-Low'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/dwarf-fragrant-sumac.jpg",
@@ -490,7 +490,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
         {
-            id: 35,
+            id: 36,
             name: "Upright Rosemarry",
             scientificName: "Vitex agnus-castus",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/rosemary-4912663_1920.jpg",
@@ -504,7 +504,7 @@ const xericshrubs =
             native: false
           },
         {
-            id: 35,
+            id: 37,
             name: "Occotillio",
             scientificName: "Fouquieria splendens",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/occotillio.jpg",
@@ -518,7 +518,7 @@ const xericshrubs =
             native: false
           },
           {
-            id: 1,
+            id: 38,
             name: "Fern Bush",
             scientificName: "Pinus edulis",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/fernbush.JPG",
@@ -531,7 +531,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
           {
-            id: 1,
+            id: 39,
             name: "Chamisa",
             scientificName: "Chrysothamnus nauseosus",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/needles-district-rabbitbrush-4009467_1920.jpg",
@@ -544,7 +544,7 @@ const xericshrubs =
             matureSize: "15' x 30'",
           },
           {
-            id: 1,
+            id: 40,
             name: "Brakelights Red Yucca",
             scientificName: "Hesperaloe parviflora 'Brakelight'",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/Red-Yucca.jpg",
