@@ -31,7 +31,7 @@ function XericBedding() {
 
 
     <div className='xeric_catalog_sub_section'>
-      <h2 className='xeric_catalog_title'>Flowers</h2>
+      <h2 className='xeric_catalog_title'>Xeric Annuals and Perennials</h2>
           <div className='catalog_cards'>
             <PlantSlider  plants={xericbedding.flowers}/>
 
@@ -43,7 +43,7 @@ function XericBedding() {
           </div>
 
         <div className='xeric_catalog_sub_section'>
-            <h2 className='xeric_catalog_title'>Groundcovers</h2>
+            <h2 className='xeric_catalog_title'>Xeric Groundcovers</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={xericbedding.groundcovers}/>
       
@@ -57,7 +57,7 @@ function XericBedding() {
         </div>
 
         <div className='xeric_catalog_sub_section'>
-            <h2 className='xeric_catalog_title'>Succelents</h2>
+            <h2 className='xeric_catalog_title'>Xeric Succelents</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={xericbedding.succelents}/>
       

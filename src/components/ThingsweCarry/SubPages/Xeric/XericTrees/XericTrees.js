@@ -31,7 +31,7 @@ function XericTrees() {
 
 
     <div className='xeric_catalog_sub_section'>
-      <h2 className='xeric_catalog_title'>Shade Trees</h2>
+      <h2 className='xeric_catalog_title'>Xeric Shade Trees</h2>
           <div className='catalog_cards'>
             <PlantSlider  plants={xerictrees.shadetrees}/>
 
@@ -43,7 +43,7 @@ function XericTrees() {
           </div>
 
         <div className='xeric_catalog_sub_section'>
-            <h2 className='xeric_catalog_title'>Flowering Trees</h2>
+            <h2 className='xeric_catalog_title'>Xeric Flowering Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={xerictrees.floweringtrees}/>
      
@@ -58,7 +58,7 @@ function XericTrees() {
         </div>
 
         <div className='xeric_catalog_sub_section'>
-            <h2 className='xeric_catalog_title'>Coniferous Trees</h2>
+            <h2 className='xeric_catalog_title'>Xeric Coniferous Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={xerictrees.coniferoustrees}/>
    

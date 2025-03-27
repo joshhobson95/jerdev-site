@@ -34,7 +34,7 @@ function Fruit() {
 
 
     <div className='tree_catalog_sub_section'>
-      <h2 className='tree_catalog_title'>Apples Trees</h2>
+      <h2 className='tree_catalog_title'>Apple Trees</h2>
           <div className='catalog_cards'>
 
         <PlantSlider plants={fruitdata.apples}/>
@@ -47,7 +47,7 @@ function Fruit() {
 
 
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Cherries Trees</h2>
+            <h2 className='tree_catalog_title'>Cherry Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider plants={fruitdata.cherries}/>
   
@@ -58,7 +58,7 @@ function Fruit() {
           </div>
         </div>
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Peaches Trees</h2>
+            <h2 className='tree_catalog_title'>Peach Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider plants={fruitdata.peaches}/>
       
@@ -66,7 +66,7 @@ function Fruit() {
           </div>
         </div>
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Nectarines Trees</h2>
+            <h2 className='tree_catalog_title'>Nectarine Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider plants={fruitdata.nectarines}/>
       
@@ -74,7 +74,7 @@ function Fruit() {
           </div>
         </div>
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Apricots Trees</h2>
+            <h2 className='tree_catalog_title'>Apricot Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider plants={fruitdata.apricots}/>
       
@@ -82,7 +82,7 @@ function Fruit() {
           </div>
         </div>
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Plums Trees</h2>
+            <h2 className='tree_catalog_title'>Plum Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider plants={fruitdata.plums}/>
       
@@ -90,7 +90,7 @@ function Fruit() {
           </div>
         </div>
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Pears Trees</h2>
+            <h2 className='tree_catalog_title'>Pear Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider plants={fruitdata.pears}/>
       
@@ -98,7 +98,7 @@ function Fruit() {
           </div>
         </div>
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Figs Trees</h2>
+            <h2 className='tree_catalog_title'>Fig Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider plants={fruitdata.figs}/>
       
@@ -106,7 +106,7 @@ function Fruit() {
           </div>
         </div>
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Pomegranates Trees</h2>
+            <h2 className='tree_catalog_title'>Pomegranate Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider plants={fruitdata.pomegranates}/>
       
@@ -122,7 +122,6 @@ function Fruit() {
           </div>
         </div>
 
-        <h2>Nut Trees</h2>
 
         <div className='tree_catalog_sub_section'>
             <h2 className='tree_catalog_title'>Almond Trees</h2>

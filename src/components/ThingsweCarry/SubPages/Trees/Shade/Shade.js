@@ -118,7 +118,7 @@ function Shade() {
 
 
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Other Shade Tree Varieties</h2>
+            <h2 className='tree_catalog_title'>Drought Tolerant Shade Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={shadedata.other}/>
             
@@ -127,7 +127,7 @@ function Shade() {
           </div>
         </div>
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Unique Shade Picks</h2>
+            <h2 className='tree_catalog_title'>Other Popular Shade Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={shadedata.unique}/>
             

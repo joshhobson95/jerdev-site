@@ -65,7 +65,7 @@ return (
       </div>
       <div className='xeric_catergories_inner'>
         <NavLink to='/xericbedding'>
-        <h2>Xeric Bedding and Groundcover</h2>
+        <h2>Xeric Bedding and Groundcovers</h2>
         <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/succulent.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
         </NavLink>
       </div>

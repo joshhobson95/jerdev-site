@@ -2,48 +2,54 @@
     height: auto;
     padding-top: 5vh;
     width: 100vw;
-    background-image: linear-gradient(#4FA673, #DBBA4B , #FB492C87 ) ;
+    background-image: linear-gradient(#DBBA4B, #4BA7DB , #DB4BD5) ;
     display: flex;
     justify-content: center;
-    flex-direction: column;   
+    flex-direction: column;
+    overflow: hidden;
     color: white;
     line-height: 1.6;
     text-align: left;
+  
 }
 .perennials_welcome{
-    margin: 5vh;
-    background-color: #242424;
     height: auto;
-    width: 60vw;
-    border-radius: 12px;
+    width: 70vw;
+    margin: 5vh;
+    margin-top: 10vh;
+    padding-bottom: 2rem;
+    padding: 5vh;
+    background-color: #242424;
+    border-radius: 20px;
     box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
-    padding-bottom: 2rem;
     align-self: center;
-    color: #4FA673;
+    color:  #DBBA4B;
     font-weight: 600;
     font-size: 12pt;
-    padding: 5vh;
-    text-align: center;
+    line-height: 1.8;
 }
 .perennials_welcome h1{
-    color: #DBBA4B;
-    font-size: 26pt;
+    color: #4FA673;
+    font-size: 30pt;
     font-weight: 700;
     text-align: center;
 }
+
 .perennials_body {
     align-self: center;
-    background-color: #24242433;
-    border-radius: 12px;
+    background-image: linear-gradient(#b19c4a, #7271b7);
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
+    height: auto;
     justify-content: center;
-    margin: 1rem;
-    padding-top: 2rem;
-    width: 92vw;
+    margin-bottom: 10vh;
+    width: 95vw;
+    z-index: 2;
 }
+
 
 
 .plant_examples{
@@ -59,10 +65,12 @@
     flex-wrap: wrap;
     
 }
-.plant_examples h3{
-    font-size: 26pt;
-    margin: 3rem;
-    text-decoration: underline;
+.annual_h3{
+    font-size: 30pt;
+    margin: 1rem;
+    font-weight: 700;
+    
+    
 }
 .plant_example_circle_image{
     border-radius: 100%;
@@ -78,15 +86,29 @@
 .perennials_body_top_text h2{
     margin: 2rem;
     font-size: 26pt;
+    font-weight: 700;
 }
 .perennials_body_bottom_text h2{
     margin: 2rem;
     font-size: 26pt;
+    font-weight: 700;
 }
 .perennials_body_bottom_text{
     text-align: left;
 }
+.perennial_mid_page h4{
+font-size: 20pt;
+font-weight: 700;
+}
+.perennial_mid_page{
+    margin: 1.5rem;
+}
 
+.perennial_h3{
+    font-size: 30pt;
+    margin: 1rem;
+    font-weight: 700;  
+}
 
 
 
@@ -111,9 +133,9 @@
     .perennials_body h6{
         font-size: 16pt;
     }
-    .plant_examples h3{
-        font-size: 32pt;
-        padding-bottom: 3rem;
+    .perennial_h3{
+        font-size: 34pt;
+        padding-bottom: 1.5rem;
     }
    
 }
@@ -157,7 +179,7 @@
     .plant_examples_inner{
         margin: 2rem;
     }
-    .plant_examples h3{
+    .perennial_h3{
         padding-bottom: 1rem;
     }
     .perennials_body p{
@@ -196,3 +218,4 @@
         margin: 8rem;
     }
 }
+

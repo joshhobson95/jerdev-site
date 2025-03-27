@@ -39,7 +39,7 @@ setVisibleAttribution(!visibleAttribution)
 
 
     <div className='xeric_catalog_sub_section'>
-      <h2 className='xeric_catalog_title'>Cactus</h2>
+      <h2 className='xeric_catalog_title'>Cacti</h2>
           <div className='catalog_cards'>
             <PlantSlider  plants={cactusdata.cactus}/>
 
@@ -51,7 +51,7 @@ setVisibleAttribution(!visibleAttribution)
           </div>
 
         <div className='xeric_catalog_sub_section'>
-            <h2 className='xeric_catalog_title'>Yucca</h2>
+            <h2 className='xeric_catalog_title'>Yuccas</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={cactusdata.yuccas}/>
       
@@ -65,7 +65,7 @@ setVisibleAttribution(!visibleAttribution)
         </div>
 
         <div className='xeric_catalog_sub_section'>
-            <h2 className='xeric_catalog_title'>Agave</h2>
+            <h2 className='xeric_catalog_title'>Agaves</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={cactusdata.agaves}/>
       

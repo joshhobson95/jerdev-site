@@ -56,7 +56,7 @@ function Broadleaf() {
           </div>
         </div>
         <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Photinia</h2>
+            <h2 className='shrub_catalog_title'>Photinias</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={broadleafevergreens.photinias}/>
          
@@ -64,7 +64,7 @@ function Broadleaf() {
           </div>
         </div>
         <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Nandina</h2>
+            <h2 className='shrub_catalog_title'>Nandinas</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={broadleafevergreens.nandinas}/>
          
@@ -72,7 +72,7 @@ function Broadleaf() {
           </div>
         </div>
         <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Mahogany</h2>
+            <h2 className='shrub_catalog_title'>Mahoganies</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={broadleafevergreens.mahogonies}/>
          
@@ -80,7 +80,7 @@ function Broadleaf() {
           </div>
         </div>
         <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Cotoneaster</h2>
+            <h2 className='shrub_catalog_title'>Cotoneasters</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={broadleafevergreens.cotoneasters}/>
       
@@ -90,7 +90,7 @@ function Broadleaf() {
         </div>
 
         <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Burning Bush</h2>
+            <h2 className='shrub_catalog_title'>Burning Bushes</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={broadleafevergreens.burningbush}/>
   
@@ -99,7 +99,7 @@ function Broadleaf() {
           </div>
         </div>
         <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Barberry</h2>
+            <h2 className='shrub_catalog_title'>Barberries</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={broadleafevergreens.barberries}/>
   
@@ -109,7 +109,7 @@ function Broadleaf() {
         </div>
    
         <div className='shrub_catalog_sub_section'>
-            <h2 className='shrub_catalog_title'>Other Great Broadleaf Evergreens</h2>
+            <h2 className='shrub_catalog_title'>Additional Broadleaf Evergreens</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={broadleafevergreens.others}/>
   

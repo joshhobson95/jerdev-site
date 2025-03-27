@@ -36,7 +36,7 @@ function Conifer() {
 
 
     <div className='tree_catalog_sub_section'>
-      <h2 className='tree_catalog_title'>Pine</h2>
+      <h2 className='tree_catalog_title'>Pine Trees</h2>
           <div className='catalog_cards'>
             <PlantSlider  plants={coniferdata.pines}/>
 
@@ -49,7 +49,7 @@ function Conifer() {
 
 
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Juniper</h2>
+            <h2 className='tree_catalog_title'>Juniper Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={coniferdata.junipers}/>
   
@@ -61,7 +61,7 @@ function Conifer() {
         </div>
 
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Spruce</h2>
+            <h2 className='tree_catalog_title'>Spruce Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={coniferdata.spruces}/>
          
@@ -70,7 +70,7 @@ function Conifer() {
         </div>
  
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Cypress</h2>
+            <h2 className='tree_catalog_title'>Cypress Trees</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={coniferdata.cypress}/>
          
@@ -78,7 +78,7 @@ function Conifer() {
           </div>
         </div>
         <div className='tree_catalog_sub_section'>
-            <h2 className='tree_catalog_title'>Arborvitaes</h2>
+            <h2 className='tree_catalog_title'>Arborvitae Evergreens</h2>
             <div className='catalog_cards'>
             <PlantSlider  plants={coniferdata.arborvitaes}/>
          

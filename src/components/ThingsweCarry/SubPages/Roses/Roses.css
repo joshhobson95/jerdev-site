@@ -77,7 +77,7 @@
 .plant_examples h3{
     font-size: 26pt;
     margin: 3rem;
-    text-decoration: underline;
+    
 }
 .rose_example_circle_image{
     border-radius: 0%;
@@ -133,7 +133,7 @@
     }
     .plant_examples h3{
         font-size: 32pt;
-        padding-bottom: 3rem;
+        padding-bottom: 1.5rem;
     }
    
 }

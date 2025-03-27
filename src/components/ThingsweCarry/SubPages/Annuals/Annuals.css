@@ -65,10 +65,10 @@
     flex-wrap: wrap;
     
 }
-.plant_examples h3{
-    font-size: 26pt;
-    margin: 3rem;
-    text-decoration: underline;
+.annual_h3{
+    font-size: 30pt;
+    margin: 1rem;
+    font-weight: 700;  
 }
 .plant_example_circle_image{
     border-radius: 100%;
@@ -84,13 +84,22 @@
 .annuals_body_top_text h2{
     margin: 2rem;
     font-size: 26pt;
+    font-weight: 700;
 }
 .annuals_body_bottom_text h2{
     margin: 2rem;
     font-size: 26pt;
+    font-weight: 700;
 }
 .annuals_body_bottom_text{
     text-align: left;
+}
+.annual_mid_page{
+    margin: 1.5rem
+}
+.annual_mid_page h4{
+font-size: 20pt;
+font-weight: 700;
 }
 
 
@@ -116,9 +125,9 @@
     .annuals_body h6{
         font-size: 16pt;
     }
-    .plant_examples h3{
-        font-size: 32pt;
-        padding-bottom: 3rem;
+    .annual_h3{
+        font-size: 34pt;
+        padding-bottom: 1.5rem;
     }
    
 }
@@ -162,7 +171,7 @@
     .plant_examples_inner{
         margin: 2rem;
     }
-    .plant_examples h3{
+    .annual_h3{
         padding-bottom: 1rem;
     }
     .annuals_body p{
