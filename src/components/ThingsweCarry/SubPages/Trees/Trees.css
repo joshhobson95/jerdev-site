@@ -54,7 +54,7 @@
     justify-content: center;
 }
 .tree_categories h2{
-    font-size: 24pt;
+    font-size: 22pt;
     font-weight: 800;
     text-align: center;
     padding: 1rem;
@@ -65,11 +65,18 @@
     margin: 1rem;
     font-weight: 600;
 }
+
+.trees_body_top_text p{
+    margin: 1rem;
+}
+
+
 .tree_categories img{
     justify-self: center;
-    width: 75vw;
+    width: 85vw;
     height: 35vw;
     object-fit: cover;
+    border-radius: 12px;
 }
 .reasons_for_planting_trees li{
     list-style-type: disc;

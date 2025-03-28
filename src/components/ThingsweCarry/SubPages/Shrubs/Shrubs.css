@@ -42,18 +42,18 @@
 
 
 .shrubs_top_text {
-    margin: 1rem;
     line-height: 1.6;
-}
-.shrubs_top_text p{
-    text-align: left;
 }
 
 .shrubs_top_text h2 {
     font-size: 30pt;
-    margin: 2rem;
     text-align: left;
     font-weight: 600;
+    margin: 1rem;
+}
+.shrubs_top_text p{
+    margin: 1rem;
+    text-align: left;
 }
 
 .shrub_categories{
@@ -68,7 +68,7 @@
     justify-content: center;
 }
 .shrub_categories h2{
-    font-size: 24pt;
+    font-size: 22pt;
     font-weight: 800;
     text-align: center;
     padding: 1rem;
@@ -80,9 +80,10 @@
 }
 .shrub_categories img{
     justify-self: center;
-    width: 75vw;
+    width: 85vw;
     height: 35vw;
     object-fit: cover;
+    border-radius: 12px;
 }
 
 .shrub_categories h1{

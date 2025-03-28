@@ -54,24 +54,30 @@
     justify-content: center;
 }
 .xeric_categories h2{
-    font-size: 24pt;
+    font-size: 22pt;
     font-weight: 800;
     text-align: center;
     padding: 1rem;
     border-radius: 16px;
+    margin: 1rem;
 }
 .xeric_body_top_text h1{
     font-size: 28pt;
     margin: 1rem;
     font-weight: 800;
-    text-align: center;
-    
+    text-align: left;  
 }
+
+.xeric_body_top_text p{
+    margin: 1rem;
+}
+
 .xeric_categories img{
     justify-self: center;
-    width: 75vw;
+    width: 85vw;
     height: 35vw;
     object-fit: cover;
+    border-radius: 12px;
 }
 
 .xeric_categories h1{
@@ -99,6 +105,9 @@
     font-weight: 700;
     text-align: center;
     margin-top: 4vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left;
 }
 /* .material-symbols-outlined {
   font-variation-settings:

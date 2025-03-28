@@ -52,8 +52,14 @@
   }
   
   .plant_category {
-    margin: 3.5rem;
+    margin: 3rem;
   }
+  .plant_category p{
+    margin: 0rem -1.5rem;
+  }
+
+
+
   .plant_category:hover{
     background-color: #92207f21;
     border-radius: 14px;
