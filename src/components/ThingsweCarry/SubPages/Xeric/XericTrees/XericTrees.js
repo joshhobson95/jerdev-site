@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import './XericTrees.css'
 import PlantSlider from "../../PlantSlider/PlantSlider";
 import xerictrees from "../../PlantData/Xeric/XericTreeData";
@@ -7,6 +7,13 @@ import xerictrees from "../../PlantData/Xeric/XericTreeData";
 
 
 function XericTrees() {
+
+    const [visibleAttribution, setVisibleAttribution] = useState();
+  
+    const toggleVisible = () => {
+      setVisibleAttribution(!visibleAttribution)
+    }
+  
 
 
   return (
@@ -71,6 +78,103 @@ function XericTrees() {
    
           </div>
         </div>
+
+        <div className="attribution-container">
+      <button className="attribution-button" onClick={toggleVisible}>
+        {visibleAttribution ? "Hide Image Attributions" : "View Image Attributions"}
+      </button>
+      
+      {visibleAttribution && (
+        <div className="attribution-content">
+          
+          <div className="single_attribution">
+          <span><strong>New Mexico Olive Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Forestiera neomexicana.JPG</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/Special:Contributions/Miguel_%C3%81ngel_Sep%C3%BAlveda" target="_blank" rel="noopener noreferrer">
+              Miguel Ángel Sepúlveda
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Forestiera_neomexicana.JPG" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 3.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+
+        <div className="single_attribution">
+          <span><strong>Krauter Vesuvius Purple Leaf Plum Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Prunus Krauter Vesuvius 2zz.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/Special:Contributions/David_Stang" target="_blank" rel="noopener noreferrer">
+              David J. Stang
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Prunus_Krauter_Vesuvius_2zz.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 4.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+
+        <div className="single_attribution">
+          <span><strong>Arizona Rosewood Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Vauquelinia californica 1.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Stan_Shebs" target="_blank" rel="noopener noreferrer">
+              Stan Shebs
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Vauquelinia_californica_1.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/2.5/deed.en" target="_blank" rel="noopener noreferrer">
+              CC BY-SA 2.5
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+         
+         
+    
+    
+
+
+
+        </div>
+      )}
+      </div> 
+
       
       
 

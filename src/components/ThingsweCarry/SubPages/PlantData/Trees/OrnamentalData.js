@@ -73,20 +73,7 @@ const ornamentaldata = {
             matureSize: "25' x 25'",
             native: false
         },   
-        {
-            id: 6,
-            name: "Autumn Flowering Cherry",
-            scientificName: "Prunus subhirtella 'Autumnalis'",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/03/prunus-autumnflowering-web-01.jpg",
-            description: "Fall Color! Autumn Flowering Cherries are known for their stunning display of white to pink flowers in the fall and early winter, brightening you yard and garden during a relatively inactive season. They are relatively drought-tolerant once established, but regular watering during dry periods is beneficial. This tree thrives in full sun and can handle Albuquerque's harsh sun but will require some water in the warmer months to ensure healthy blooming. ",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-            waterRequirement: "Medium Water",
-            hardinessZones: "5-8",
-            matureSize: "25' x 25'",
-            native: false
-        },
+ 
         
         {
             id: 7,
@@ -313,6 +300,7 @@ const ornamentaldata = {
       ],
 
       unique: [
+       
         {
             id: 22,
             name: "Mexican Bird of Paradise",
@@ -428,6 +416,20 @@ const ornamentaldata = {
             matureSize: "15' x 20'",
             native: true
           },
+          {
+            id: 22,
+            name: "Japanese Maple",
+            scientificName: "Acer palmatum",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Maple.jpg",
+            description: "The Japanese Maple is a small to medium-sized stunning deciduous tree known for its delicate, deeply lobed leaves and amazing fall colors. It thrives in temperate climates and is often used in ornamental landscapes. In Albuquerque, Japanese Maples MUST HAVE full shade and lots of care and attention. It can easily burn in the New Mexico sun and must be kept out of the western afternoon light, especially during summer months. Adventurous Albuquerque gardeners may try this ornamental tree in a large pot where it can be sequestered from the sun, or in a very shady eastern-facing courtyard.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Cloudy.png",
+            sunRequirement: "Full Shade",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/High-water.png",
+            waterRequirement: "High Water",
+            hardinessZones: "5-8",
+            matureSize: "15' x 20'",
+            native: false
+          },  
 
 
           

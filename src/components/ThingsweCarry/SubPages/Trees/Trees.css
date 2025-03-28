@@ -98,6 +98,28 @@
 }
 
 
+.attribution-container{
+    text-align: center;
+    margin: 4rem;
+}
+.attribution-button{
+    height: auto;
+    width: auto;
+    background-color: #4FA673;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+
+
 
 
 @media (min-width:750px) {

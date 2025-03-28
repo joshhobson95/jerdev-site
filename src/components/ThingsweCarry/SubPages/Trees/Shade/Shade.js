@@ -197,56 +197,7 @@ function Shade() {
             <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
           </ul>
         </div>
-        <div className="single_attribution">
-          <span><strong>Cedar Elm Image</strong></span>
-          <ul>
-            <li><strong>Title:</strong> <em>Populus angustifolia 1.jpg</em></li>
-            <li>
-              <strong>Photographer:</strong>{" "}
-              <a href="https://commons.wikimedia.org/wiki/User:Kenraiz" target="_blank" rel="noopener noreferrer">
-              Krzysztof Ziarnek, Kenraiz
-              </a>
-            </li>
-            <li>
-              <strong>Source:</strong>{" "}
-              <a href="https://commons.wikimedia.org/wiki/File:Ulmus_crassifolia_kz01.jpg" target="_blank" rel="noopener noreferrer">
-                Wikimedia Commons
-              </a>
-            </li>
-            <li>
-              <strong>License:</strong>{" "}
-              <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">
-                CC BY-SA 4.0
-              </a>
-            </li>
-            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
-          </ul>
-        </div>
-        <div className="single_attribution">
-          <span><strong>White Willow Image</strong></span>
-          <ul>
-            <li><strong>Title:</strong> <em>Salix alba leaves.jpg</em></li>
-            <li>
-              <strong>Photographer:</strong>{" "}
-              <a href="https://commons.wikimedia.org/wiki/User:MPF" target="_blank" rel="noopener noreferrer">       
-              No machine-readable author provided. MPF assumed (based on copyright claims).
-              </a>
-            </li>
-            <li>
-              <strong>Source:</strong>{" "}
-              <a href="https://commons.wikimedia.org/wiki/File:Salix_alba_leaves.jpg" target="_blank" rel="noopener noreferrer">
-                Wikimedia Commons
-              </a>
-            </li>
-            <li>
-              <strong>License:</strong>{" "}
-              <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">
-                CC BY-SA 3.0
-              </a>
-            </li>
-            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
-          </ul>
-        </div>
+       
 
         <div className="single_attribution">
           <span><strong>Mexican Sycamore Image</strong></span>

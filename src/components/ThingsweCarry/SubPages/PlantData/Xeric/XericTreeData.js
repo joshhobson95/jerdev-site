@@ -1,35 +1,78 @@
 const xerictrees =
 {
     shadetrees: [
-      {
-        id: 1,
-        name: "Quaking Aspen",
-        scientificName: "Populus tremuloides",
-        image: "https://jfschmidt.com/wp-content/uploads/2023/03/populus-quaking-web-01.jpg",
-        description: "The Quaking Aspen is a fast-growing tree known for its striking white bark and delicate, fluttering leaves that create a distinctive rustling sound in the wind. It forms large groves of genetically identical trees and turns a brilliant golden yellow in the fall. While tolerant of dry conditions, it prefers moist soils and is best suited for higher elevations.",
-        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-        sunRequirement: "Full Sun",
-        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-        waterRequirement: "Low Water",
-        hardinessZones: "1-7",
-        matureSize: "50' x 30'",
-        native: true
-      },
-   
-      {
-        id: 2,
-        name: "Boxelder Maple",
-        scientificName: "Acer negundo",
-        image: "https://jfschmidt.com/wp-content/uploads/2023/03/acer-sensationbox-web-01.jpg",
-        description: "The Boxelder Maple is a fast-growing, medium-sized tree native to North America. It is known for its compound leaves, which are made up of several leaflets, giving it a unique appearance compared to other maples. Boxelders are hardy and adaptable, thriving in a variety of soil types and climates, though they are often considered short-lived compared to other maple species.",
-        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-        sunRequirement: "Full Sun",
-        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-        waterRequirement: "Low Water",
-        hardinessZones: "2-9",
-        matureSize: "40' x 40'",
-        native: true
-      },
+          {
+            id: 1,
+            name: "Desert Willow",
+            scientificName: "Chilopsis linearis",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Chilopsis.jpg",
+            description: "The Velvet Mesquite is a hardy, drought-tolerant tree native to the southwestern U.S. It thrives in Full Sun and requires minimal water, often surviving on rainwater alone. The tree’s feathery leaves provide light shade, and it produces long seed pods that were traditionally used as food. Its deep roots help prevent soil erosion, making it ideal for xeric landscaping in Albuquerque.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "7-11",
+            matureSize: "30' x 35'",
+            native: true
+          },
+
+          {
+            id: 2,
+            name: "New Mexico Olive",
+            scientificName: "Forestiera neomexicana",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Forestiera_neomexicana.JPG",
+            description: "The Velvet Mesquite is a hardy, drought-tolerant tree native to the southwestern U.S. It thrives in Full Sun and requires minimal water, often surviving on rainwater alone. The tree’s feathery leaves provide light shade, and it produces long seed pods that were traditionally used as food. Its deep roots help prevent soil erosion, making it ideal for xeric landscaping in Albuquerque.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "7-11",
+            matureSize: "30' x 35'",
+            native: true
+          },
+          {
+            id: 7,
+            name: "Krauter Vesuvius Purple Leaf Plum",
+            scientificName: "Prunus cerasifera 'Krauter Vesuvius'",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Prunus_Krauter_Vesuvius_2zz.jpg",
+            description: "The Velvet Mesquite is a hardy, drought-tolerant tree native to the southwestern U.S. It thrives in Full Sun and requires minimal water, often surviving on rainwater alone. The tree’s feathery leaves provide light shade, and it produces long seed pods that were traditionally used as food. Its deep roots help prevent soil erosion, making it ideal for xeric landscaping in Albuquerque.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "7-11",
+            matureSize: "30' x 35'",
+            native: true
+          },
+          {
+            id: 9,
+            name: "Arizona Rosewood",
+            scientificName: "Vauquelinia californica",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Vauquelinia_californica_1.jpg",
+            description: "The Velvet Mesquite is a hardy, drought-tolerant tree native to the southwestern U.S. It thrives in Full Sun and requires minimal water, often surviving on rainwater alone. The tree’s feathery leaves provide light shade, and it produces long seed pods that were traditionally used as food. Its deep roots help prevent soil erosion, making it ideal for xeric landscaping in Albuquerque.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "7-11",
+            matureSize: "30' x 35'",
+            native: true
+          },
+
+          {
+            id: 12,
+            name: "Mediterranean Fan Palm",
+            scientificName: "Chamaerops humilis",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/640px-Chamaerops_humilis_(Orangeraie).jpg",
+            description: "The Golden Rain Tree is known for its striking yellow flowers that bloom in late spring to summer, creating a vibrant canopy. It also produces papery, lantern-like seed pods that add visual interest into fall. Well-suited to Albuquerque’s dry climate, it requires minimal water once established and tolerates various soil types and environmental conditions.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "5-9",
+            matureSize: "25' x 25'",
+            native: false
+          },
 
           {
             id: 3,
@@ -87,20 +130,7 @@ const xerictrees =
             matureSize: "30' x 25'",
             native: false
           },
-          {
-            id: 7,
-            name: "Mexican Blue Palm",
-            scientificName: "Brahea armata",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/mexican-blue-palm.jpg",
-            description: "Mexican blue palm is a striking, drought-tolerant palm that thrives in New Mexico’s dry climate. Its silvery-blue, fan-shaped fronds provide a bold, architectural look, making it a standout in xeriscapes and desert gardens. This slow-growing palm prefers full sun and well-draining soil, requiring minimal water once established. Hardy to cold and heat, the Mexican blue palm is a low-maintenance choice that adds a touch of the tropics to arid landscapes.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-            waterRequirement: "Low Water",
-            hardinessZones: "8-11",
-            matureSize: "30' x 20'",
-            native: true
-          },
+         
           {
             id: 8,
             name: "Washington Hawthorne",
@@ -115,20 +145,7 @@ const xerictrees =
             matureSize: "25' x 20'",
             native: false
           },
-          {
-            id: 9,
-            name: "Osage Orange",
-            scientificName: "Maclura pomifera",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/03/maclura-wichita-web-01.jpg",
-            description: "The Osage Orange is a tough, drought-resistant tree with dense, thorny branches and large, bumpy green fruit. Once used as a natural fence, it forms an impenetrable barrier. Valued for its strong, decay-resistant wood, it thrives in poor soils and harsh conditions, making it perfect for windbreaks and erosion control. Native to Texas, it is not commonly found in New Mexico but will do well here.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-            waterRequirement: "Low Water",
-            hardinessZones: "4-9",
-            matureSize: "40' x 40'",
-            native: false
-          },
+     
           {
           id: 10,
           name: "Western Hackberry",
@@ -172,34 +189,8 @@ const xerictrees =
           matureSize: "25' x 25'",
           native: false
         },
-        {
-          id: 13,
-          name: "Goldenball Leadtree",
-          scientificName: "Leucaena retusa",
-          image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/goldenball-leadtree.jpg",
-          description: "Goldenball leadtree is a hardy, drought-tolerant tree perfect for New Mexico’s arid climate. This fast-growing native features delicate, fern-like foliage and bright yellow, globe-shaped flowers that bloom from spring to fall, attracting pollinators. It thrives in full sun and well-draining soil, requiring little water once established. With its airy canopy and low maintenance needs, goldenball leadtree is an excellent choice for xeriscaping, providing light shade and seasonal color.",
-          sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-          sunRequirement: "Full Sun",
-          waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-          waterRequirement: "Low Water",
-          hardinessZones: "7-9",
-          matureSize: "15' x 15'",
-          native: true
-          },
-          {
-          id: 14,
-          name: "Texas Madrone",
-          scientificName: "Arbutus xalapensis",
-          image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Texas_madrone_tree_arbutus_xalapensis.jpg",
-          description: "Texas madrone is a striking, drought-tolerant tree well-suited for New Mexico’s arid landscapes. Known for its smooth, peeling bark in shades of red and orange, it adds year-round visual interest. This slow-growing evergreen thrives in well-draining, rocky soil and full sun to partial shade, requiring minimal water once established. In spring, it produces clusters of white, bell-shaped flowers that attract pollinators, followed by small, red berries enjoyed by birds. With its unique beauty and resilience, Texas madrone is a valuable addition to xeriscapes and native gardens.",
-          sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-          sunRequirement: "Full Sun",
-          waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-          waterRequirement: "Low Water",
-          hardinessZones: "7-8",
-          matureSize: "30' x 20'",
-          native: true
-          },
+ 
+    
           
 
 ],
@@ -275,34 +266,8 @@ const xerictrees =
             matureSize: "25' x 25'",
             native: false
           },
-          {
-            id: 20,
-            name: "Autumn Brillance Serviceberry",
-            scientificName: "Amelanchier × grandiflora 'Autumn Brilliance",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/serviceberry2.jpg",
-            description: "The Autumn Brilliance Serviceberry is a small, multi-season tree prized for its white spring blossoms, edible summer berries, and brilliant red-orange fall foliage. In early spring, it blooms with clusters of fragrant white flowers, followed by sweet, blueberry-like fruits that attract birds. Adaptable and low-maintenance, it thrives in various soils and resists pests and diseases, making it an excellent choice for home gardens and naturalized plantings. Jericho Nursery recommends this to anyone looking to add a unique tree to their yard or garden that also harbors and attracts wildlife.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-            waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 15'",
-            native: false
-          },
-          {
-            id: 21,
-            name: "Oklahoma Redbud",
-            scientificName: "Cercis reniformis 'Oklahoma'",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/03/cercis-oklahoma-web-01.jpg",
-            description: "Like all redbuds on this list, the Oklahoma Redbud is a hardy, drought-tolerant tree with striking purple-pink blossoms that appear in early spring, offering a vibrant contrast against the desert backdrop. Its ability to withstand the hot, dry conditions of New Mexico makes it ideal for planting anywhere from the NE heights to the South Valley, where it thrives in full sun and requires moderate watering. This might be our best-selling redbud tree at Jericho Nursery. Its compact size, along with its stunning flowers, makes it a fantastic choice for smaller yards or urban landscapes across New Mexico.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/PartSun.png",
-            sunRequirement: "Partial Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-            waterRequirement: "Low Water",
-            hardinessZones: "6-9",
-            matureSize: "20' x 25'",
-            native: false
-        },
+        
+ 
           {
             id: 22,
             name: "Chanticlear Pear",
@@ -317,20 +282,7 @@ const xerictrees =
             matureSize: "30' x 15'",
             native: false
         },
-        {
-          id: 23,
-          name: "Canada Red Chokecherry",
-          scientificName: "Prunus virginiana 'Canada Red'",
-          image: "https://jfschmidt.com/wp-content/uploads/2023/03/prunus-canadaredimproved-web-02.jpg",
-          description: "The Canada Chokecherry is a native deciduous shrub or small tree commonly found in North America, known for its attractive appearance and wildlife value. It's standout characteristic has to be its purple leaves that emerge as green and slowly turn purple as they age. In late spring, it produces fragrant clusters of white flowers. The Canada Chokecherry is well-suited to Albuquerque’s climate, thriving in full sun and tolerating a range of soil types, including the region’s dry, alkaline soils. ",
-          sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-          sunRequirement: "Full Sun",
-          waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-            waterRequirement: "Low Water",
-          hardinessZones: "6-9",
-          matureSize: "15' x 20'",
-          native: true
-        },
+   
         {
           id: 24,
           name: "Indian Magic Crabapple",

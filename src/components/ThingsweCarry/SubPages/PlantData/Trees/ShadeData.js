@@ -56,20 +56,7 @@ const shadedata = {
         matureSize: "55' x 40'",
         native: false
       },
-      {
-        id: 5,
-        name: "Green Ash",
-        scientificName: "Fraxinus pennsylvanica",
-        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ash.png",
-        description: "The Green Ash is a hardy deciduous tree native to North America. It is known for its rapid growth and adaptability to a wide range of soil conditions. The tree has a broad canopy with rich green leaves that turn yellow in the fall, providing beautiful seasonal color. Green Ash is often used for shade and can grow well in both urban and rural settings.",
-        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-        sunRequirement: "Full Sun",
-        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-        waterRequirement: "Medium Water",
-        hardinessZones: "3-9",
-        matureSize: "55' x 40'",
-        native: false
-      },
+  
       {
         id: 6,
         name: "Autumn Purple Ash",
@@ -130,20 +117,7 @@ const shadedata = {
         matureSize: "70' x 50'",
         native: true
       },
-      {
-        id: 10,
-        name: "Black Cottonwood",
-        scientificName: "Populus trichocarpa",
-        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cottonwood.jpg",
-        description: "The Black Cottonwood is a very large, deciduous tree native to the western U.S. and Canada. Its preferred habitat exists in the cool wet riverbanks of the Pacific Northwest allowing it to grow a bit bigger than other cottonwoods. Its namesake offers darker leaves and a dark gray trunk color and grows just a bit faster than other cottonwoods. It is known to have sticky and fragrant buds with a balsam scent, historically used in medicine.",
-        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-        sunRequirement: "Full Sun",
-        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/High-water.png",
-        waterRequirement: "High Water",
-        hardinessZones: "4-9",
-        matureSize: "90' x 60'",
-        native: true
-      },
+
       {
         id: 11,
         name: "Jeronimus Sargent Cottonwood",
@@ -189,20 +163,7 @@ const shadedata = {
         matureSize: "35' x 30'",
         native: false
       },
-      {
-        id: 14,
-        name: "Cedar Elm",
-        scientificName: "Ulmus crassifolia",
-        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cedarElm.jpeg",
-        description: "The Cedar Elm is a deciduous tree native to the central and southern United States. It is known for its unique, rough, and serrated leaves. This tree has a rounded canopy and is very drought-tolerant once established, making it an excellent choice for Albuquerque and other New Mexico areas. It’s also resistant to Dutch elm disease! The Cedar Elm grows relatively quickly and provides moderate shade, particularly in the summer.",
-        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-        sunRequirement: "Full Sun",
-        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-        waterRequirement: "Medium Water",
-        hardinessZones: "6-9",
-        matureSize: "40' x 30'",
-        native: true
-      },
+
       {
         id: 15,
         name: "American Elm",
@@ -251,38 +212,12 @@ const shadedata = {
             native: false
           },
           
-          {
-            id: 18,
-            name: "White Willow",
-            scientificName: "Salix alba",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/whiteWillow.jpg",
-            description: "The White Willow is a large deciduous tree native to Europe and parts of Asia, known for its long, slender branches that sweep downward in a weeping fashion. Its silvery-green leaves provide a soft texture and the tree is often found along rivers and wetland areas. The White Willow is tolerant of moist, poorly-drained soils and is widely planted for erosion control and landscaping purposes.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/High-water.png",
-            waterRequirement: "High Water",
-            hardinessZones: "4-9",
-            matureSize: "50' x 35'",
-            native: false
-          }
+  
           
       ],
 
       maple: [
-        {
-            id: 19,
-            name: "Boxelder Maple",
-            scientificName: "Acer negundo",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/03/acer-sensationbox-web-01.jpg",
-            description: "The Boxelder Maple is a fast-growing, medium-sized tree native to North America. It is known for its compound leaves, which are made up of several leaflets, giving it a unique appearance compared to other maples. Boxelders are hardy and adaptable, thriving in a variety of soil types and climates, though they are often considered short-lived compared to other maple species.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-            waterRequirement: "Medium Water",
-            hardinessZones: "2-9",
-            matureSize: "40' x 40'",
-            native: true
-          },
+      
           
           {
             id: 20,
@@ -313,34 +248,8 @@ const shadedata = {
             matureSize: "45' x 35'",
             native: false
           },
-          {
-            id: 22,
-            name: "Japanese Maple",
-            scientificName: "Acer palmatum",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Maple.jpg",
-            description: "The Japanese Maple is a small to medium-sized stunning deciduous tree known for its delicate, deeply lobed leaves and amazing fall colors. It thrives in temperate climates and is often used in ornamental landscapes. In Albuquerque, Japanese Maples require full shade and lots of care and attention. It can easily burn in the New Mexico sun and must be kept out of the western afternoon light, especially during summer months. Adventurous Albuquerque gardeners may try this ornamental tree in a large pot where it can be sequestered from the sun, or in a very shady eastern-facing courtyard.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Cloudy.png",
-            sunRequirement: "Full Shade",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/High-water.png",
-            waterRequirement: "High Water",
-            hardinessZones: "5-8",
-            matureSize: "15' x 20'",
-            native: false
-          },       
-          // {
-          //   id: 23,
-          //   name: "Tatarian Maple",
-          //   scientificName: "Acer tataricum",
-          //   image: "https://jfschmidt.com/wp-content/uploads/2023/03/acer-tatarian-web-01.jpg",
-          //   description: "The Tatarian Maple is a small to medium-sized tree known for its attractive rounded shape and beautiful red fall color. It’s native to eastern Europe and Asia and has become a popular ornamental tree in landscapes. The tree's growth is relatively slow, but it can thrive in a variety of conditions, making it ideal for areas with less-than-ideal soil. Unique leaf shape and size is the standout feature of this shade tree.",
-          //   sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-          //   sunRequirement: "Full Sun",
-          //   waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/medLowWater.png",
-          //   waterRequirement: "Moderate Water",
-          //   hardinessZones: "3-7",
-          //   matureSize: "25' x 20'",
-          //   native: false
-          // },
+              
+       
           {
             id: 24,
             name: "Red Maple",
@@ -353,6 +262,20 @@ const shadedata = {
             waterRequirement: "Medium Water",
             hardinessZones: "3-9",
             matureSize: "40' x 30'",
+            native: true
+          },
+          {
+            id: 19,
+            name: "Mesa Glow Maple",
+            scientificName: "Acer truncatum × platanoides",
+            image: "https://jfschmidt.com/wp-content/uploads/2022/11/acer-mesaglow-web-01.jpg",
+            description: "Developed here in New Mexico, the Mesa Glow Maple is a heat-tolerant hybrid known for its brilliant red and orange fall color. Thriving in Albuquerque’s intense sun and dry climate, it grows to about 35 feet tall and 25 feet wide, providing excellent shade. Its resilience to pests and low maintenance needs make it a great choice for urban and residential landscapes.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
+            waterRequirement: "Medium Water",
+            hardinessZones: "4-9",
+            matureSize: "35' x 25'",
             native: true
           },
           {
@@ -536,8 +459,8 @@ const shadedata = {
             id: 40,
             name: "Catalpa",
             scientificName: "Catalpa speciosa",
-            image: "https://jfschmidt.com/wp-content/uploads/2024/05/catalpa-umbrella-web-01.jpg",
-            description: "Catalpa trees are fast-growing with large, heart-shaped leaves and trumpet-like flowers that bloom in late spring. The flowers attract pollinators, and the long, bean-like seed pods add ornamental value. Although popular throughout New Mexico, Catalpas have an uncurable virus that we imagine will get to your tree sooner or later. Some may take this risk for this uniquely tropical tree.",
+            image: "https://jfschmidt.com/wp-content/uploads/2023/03/catalpa-northern-web-01.jpg",
+            description: "Catalpa trees are fast-growing with large, heart-shaped leaves and trumpet-like flowers that bloom in late spring. The flowers attract pollinators, and the long, bean-like seed pods add ornamental value. Although popular throughout New Mexico, Catalpas have an uncurable virus that we imagine will get to your tree sooner or later. Some may take this risk for this uniquely showy tree.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
@@ -656,20 +579,7 @@ const shadedata = {
             native: true
           },
           
-          {
-            id: 44,
-            name: "Osage Orange",
-            scientificName: "Maclura pomifera",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/03/maclura-wichita-web-01.jpg",
-            description: "The Osage Orange is a tough, drought-resistant tree with dense, thorny branches and large, bumpy green fruit. Once used as a natural fence, it forms an impenetrable barrier. Valued for its strong, decay-resistant wood, it thrives in poor soils and harsh conditions, making it perfect for windbreaks and erosion control. Native to Texas, it is not commonly found in New Mexico but will do well here.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-            waterRequirement: "Low Water",
-            hardinessZones: "4-9",
-            matureSize: "40' x 40'",
-            native: false
-          },
+       
           {
             id: 51,
             name: "Mimosa",
@@ -684,20 +594,7 @@ const shadedata = {
             matureSize: "30' x 40'"
           },
           
-          {
-            id: 45,
-            name: "Kentucky Coffeetree",
-            scientificName: "Gymnocladus dioicus",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/03/gymnocladus-kentuckycoffee-web-01.jpg",
-            description: "The Kentucky Coffeetree is a hardy, drought-tolerant tree with large, compound leaves that provide light, dappled shade. Once used by settlers for coffee substitutes, its seeds are toxic. With a striking winter silhouette and adaptability to urban environments, it’s a standout ornamental tree. Its modest late spring flowers attract pollinators at a time when other trees in New Mexico have stopped producing, making it a valuable addition to the local ecosystem.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-            waterRequirement: "Medium Water",
-            hardinessZones: "3-8",
-            matureSize: "50' x 35'",
-            native: false
-          },
+     
           
           {
             id: 46,
