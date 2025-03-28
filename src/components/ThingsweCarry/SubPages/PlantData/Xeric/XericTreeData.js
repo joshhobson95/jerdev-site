@@ -1,76 +1,35 @@
 const xerictrees =
 {
     shadetrees: [
-          {
-            id: 1,
-            name: "Desert Willow",
-            scientificName: "Chilopsis linearis",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Chilopsis.jpg",
-            description: "The Velvet Mesquite is a hardy, drought-tolerant tree native to the southwestern U.S. It thrives in Full Sun and requires minimal water, often surviving on rainwater alone. The tree’s feathery leaves provide light shade, and it produces long seed pods that were traditionally used as food. Its deep roots help prevent soil erosion, making it ideal for xeric landscaping in Albuquerque.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-            waterRequirement: "Low Water",
-            hardinessZones: "7-11",
-            matureSize: "30' x 35'",
-            native: true
-          },
+       
 
           {
             id: 2,
             name: "New Mexico Olive",
             scientificName: "Forestiera neomexicana",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Forestiera_neomexicana.JPG",
-            description: "The Velvet Mesquite is a hardy, drought-tolerant tree native to the southwestern U.S. It thrives in Full Sun and requires minimal water, often surviving on rainwater alone. The tree’s feathery leaves provide light shade, and it produces long seed pods that were traditionally used as food. Its deep roots help prevent soil erosion, making it ideal for xeric landscaping in Albuquerque.",
+            description: "New Mexico Olive, also known as Desert Olive, is a native, drought-tolerant shrub or small tree that thrives in arid landscapes. Unlike true olives, it produces small yellow flowers in early spring, followed by blue-black berries that attract birds and wildlife. Its dense, bright green foliage provides excellent cover and seasonal interest. Adapted to full sun and well-draining soil, New Mexico Olive is a hardy, low-maintenance choice for windbreaks, wildlife gardens, and xeriscapes.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "7-11",
-            matureSize: "30' x 35'",
+            hardinessZones: "4-9",
+            matureSize: "10' x 10'",
             native: true
           },
-          {
-            id: 7,
-            name: "Krauter Vesuvius Purple Leaf Plum",
-            scientificName: "Prunus cerasifera 'Krauter Vesuvius'",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Prunus_Krauter_Vesuvius_2zz.jpg",
-            description: "The Velvet Mesquite is a hardy, drought-tolerant tree native to the southwestern U.S. It thrives in Full Sun and requires minimal water, often surviving on rainwater alone. The tree’s feathery leaves provide light shade, and it produces long seed pods that were traditionally used as food. Its deep roots help prevent soil erosion, making it ideal for xeric landscaping in Albuquerque.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-            waterRequirement: "Low Water",
-            hardinessZones: "7-11",
-            matureSize: "30' x 35'",
-            native: true
-          },
-          {
-            id: 9,
-            name: "Arizona Rosewood",
-            scientificName: "Vauquelinia californica",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Vauquelinia_californica_1.jpg",
-            description: "The Velvet Mesquite is a hardy, drought-tolerant tree native to the southwestern U.S. It thrives in Full Sun and requires minimal water, often surviving on rainwater alone. The tree’s feathery leaves provide light shade, and it produces long seed pods that were traditionally used as food. Its deep roots help prevent soil erosion, making it ideal for xeric landscaping in Albuquerque.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-            waterRequirement: "Low Water",
-            hardinessZones: "7-11",
-            matureSize: "30' x 35'",
-            native: true
-          },
-
+    
           {
             id: 12,
             name: "Mediterranean Fan Palm",
             scientificName: "Chamaerops humilis",
             image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/640px-Chamaerops_humilis_(Orangeraie).jpg",
-            description: "The Golden Rain Tree is known for its striking yellow flowers that bloom in late spring to summer, creating a vibrant canopy. It also produces papery, lantern-like seed pods that add visual interest into fall. Well-suited to Albuquerque’s dry climate, it requires minimal water once established and tolerates various soil types and environmental conditions.",
+            description: "Mediterranean Fan Palm is a cold-hardy, drought-tolerant palm that thrives in arid climates like New Mexico. This slow-growing, clumping palm features multiple trunks and fan-shaped, blue-green to deep green leaves, adding a tropical feel to xeriscapes. It is highly adaptable, tolerating poor soils, wind, and occasional cold snaps. Its compact size and low-maintenance nature make it an excellent choice for courtyards, patios, and accent plantings.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
             waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
             waterRequirement: "Low Water",
-            hardinessZones: "5-9",
-            matureSize: "25' x 25'",
+            hardinessZones: "8-11",
+            matureSize: "10' x 10'",
             native: false
           },
 
@@ -196,6 +155,48 @@ const xerictrees =
 ],
 
     floweringtrees: [
+      {
+        id: 9,
+        name: "Arizona Rosewood",
+        scientificName: "Vauquelinia californica",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Vauquelinia_californica_1.jpg",
+        description: "Arizona Rosewood is a hardy, evergreen shrub or small tree native to the Southwest, ideal for xeriscaping. It features dense, dark green foliage and clusters of small white flowers in late spring, attracting pollinators. Its durable wood and drought tolerance make it an excellent choice for windbreaks, privacy screens, or specimen plantings. Thriving in full sun and well-draining soil, Arizona Rosewood is a low-maintenance, water-wise option for New Mexico gardens.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "7-10",
+        matureSize: "15' x 10'",
+        native: true
+      },
+      {
+        id: 7,
+        name: "Krauter Vesuvius Purple Leaf Plum",
+        scientificName: "Prunus cerasifera 'Krauter Vesuvius'",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Prunus_Krauter_Vesuvius_2zz.jpg",
+        description: "Krauter Vesuvius Purple Leaf Plum is a striking ornamental tree known for its deep purple foliage that lasts throughout the growing season. In early spring, it bursts into pale pink flowers, creating a beautiful contrast before the leaves emerge. Unlike many fruiting plums, this variety produces little to no fruit, making it a low-maintenance choice for landscapes. Well-suited to full sun and well-draining soil, it adds bold color and elegance to gardens, especially in arid climates like New Mexico.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "4-9",
+        matureSize: "20' x 10'",
+        native: true
+      },
+      {
+        id: 1,
+        name: "Desert Willow",
+        scientificName: "Chilopsis linearis",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Chilopsis.jpg",
+        description: "Desert Willow is a native southwestern tree, thriving in New Mexico’s arid climate. Unlike Chitalpa, a hybrid with Northern Catalpa, Desert Willow occurs naturally and is well-adapted to heat and drought. Its showy pink to purple trumpet-shaped flowers bloom from late spring to summer, attracting hummingbirds and pollinators. With slender, green leaves and a graceful, weeping form, it provides light shade without overwhelming nearby plants. Drought-tolerant and low-maintenance, it’s a perfect choice for water-wise landscapes.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "7-11",
+        matureSize: "25' x 15'",
+        native: true
+      },
       {
         id: 15,
         name: "Japanese Pagoda Tree",

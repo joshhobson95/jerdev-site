@@ -287,6 +287,61 @@ const xericbedding =
             matureSize: `6" x 12"`,
             native: false
           },
+          {
+            id: 36,
+            name: "Golden Yarrow",
+            scientificName: "Eriophyllum confertiflorum",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/yarrow.jpg",
+            description: "Golden yarrow is a hardy, drought-tolerant perennial ideal for New Mexico gardens. This low-maintenance plant features clusters of bright yellow flowers that bloom from spring to summer, attracting bees and butterflies. Thriving in full sun and well-draining soil, golden yarrow is perfect for xeriscaping, as it requires minimal water once established. Its soft, silvery-green foliage adds texture and contrast to gardens, making it an excellent choice for low-water landscapes and native plant gardens.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "3-8",
+            matureSize: "2' x 2'",
+            native: false
+          },
+          {
+            id: 37,
+            name: "Red Hot Poker",
+            scientificName: "Kniphofia uvaria",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/red-hot-poker.jpg",
+            description: "Red hot poker is a striking, drought-tolerant perennial that thrives in New Mexico’s sunny, dry climate. Known for its tall, tubular flowers that range from bright red to orange, it adds a bold pop of color to gardens from summer to fall. Red hot poker prefers full sun and well-draining soil, requiring minimal water once established. This plant attracts hummingbirds and butterflies, making it a great choice for pollinator gardens and xeriscapes, adding both beauty and resilience to low-water landscapes.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "5-9",
+            matureSize: "4' x 2'",
+            native: false
+          },
+          {
+            id: 38,
+            name: "Common Hyssop",
+            scientificName: "Hyssopus officinalis",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/hyssop-225065_1920.jpg",
+            description: "Common hyssop is a hardy, aromatic herb well-suited for New Mexico’s dry climate. With its upright stems and spikes of purple-blue flowers, it attracts pollinators like bees and butterflies throughout the summer. Thriving in full sun and well-draining soil, common hyssop requires minimal water once established. This drought-tolerant herb is perfect for xeriscaping and herb gardens, and its leaves are often used in cooking, teas, or medicinally. Its strong fragrance also makes it a great addition to fragrant, low-water landscapes.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "4-9",
+            matureSize: "1.5' x 1'",
+            native: false
+          },
+          {
+            id: 39,
+            name: "Mexican Hyssop",
+            scientificName: "Agastache mexicana",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/Agastache_rupestre.jpg",
+            description: "Mexican hyssop is a vibrant, drought-tolerant perennial that thrives in New Mexico’s dry climate. Known for its clusters of tubular, purple to orange flowers, it attracts hummingbirds and butterflies throughout the summer. This herbaceous plant prefers full sun and well-draining soil, requiring minimal water once established. With its aromatic foliage and ability to tolerate heat, Mexican hyssop is an excellent choice for xeriscaping, pollinator gardens, or adding color and texture to low-water landscapes.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "5-10",
+            matureSize: "4' x 2'",
+          },
     ],
     groundcovers: [
         {
@@ -343,20 +398,6 @@ const xericbedding =
             waterRequirement: "Low Water",
             hardinessZones: "3-10",
             matureSize: `18" x 18"`,
-            native: false
-          },
-          {
-            id: 25,
-            name: "Sand Cherry",
-            scientificName: "Prunus pumila",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/sand-cherry.JPG",
-            description: "Sand Cherry is a hardy, drought-tolerant shrub native to the southwestern U.S., making it a great choice for New Mexico gardens. Known for its dark purple to black fruits and white or pink flowers in spring, Sand Cherry adds seasonal interest to landscapes. It thrives in full sun and well-draining, sandy soil, and is ideal for xeriscaping or naturalized areas. Once established, it requires minimal water and attracts pollinators, making it an excellent low-maintenance shrub for dry, sunny landscapes while providing wildlife benefits.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-            waterRequirement: "Low Water",
-            hardinessZones: "2-8",
-            matureSize: "4' x 4'",
             native: false
           },
           {
@@ -462,35 +503,7 @@ const xericbedding =
         native: false
     },
   
-    {
-        id: 33,
-        name: "Kalanchoe",
-        scientificName: "Kalanchoe spp.",
-        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/flaming-kathchen-189547_1920.jpg",
-        description: "Kalanchoe is a vibrant, drought-tolerant succulent that thrives in New Mexico’s dry, sunny conditions. Known for its fleshy, waxy leaves and clusters of bright, tubular flowers in shades of red, pink, yellow, and orange, Kalanchoe adds a splash of color to any garden. It prefers well-draining soil and full sun, making it perfect for xeriscaping, rock gardens, or containers. Once established, Kalanchoe is low-maintenance and requires minimal watering, making it an ideal choice for dry, sunny landscapes. Its ability to tolerate heat and attract pollinators further enhances its appeal in xeriscaped gardens.",
-        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-        sunRequirement: "Full Sun",
-        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-        waterRequirement: "Low Water",
-        hardinessZones: "9-12",
-        matureSize: `12" x 12"`,
-        native: false
-    },
 
-    {
-        id: 34,
-        name: "Blue Chalksticks",
-        scientificName: "Senecio serpens",
-        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/blue-chalksticks.JPG",
-        description: "Blue Chalksticks is a striking, drought-tolerant succulent that thrives in New Mexico’s dry, sunny climate. Known for its thick, blue-gray, pencil-like leaves, Blue Chalksticks forms dense, low-growing mats that are perfect for ground covers or rock gardens. It produces small clusters of yellow flowers in the summer, adding a pop of color. This plant prefers well-draining soil and full sun, making it ideal for xeriscaping and low-maintenance gardens. Once established, Blue Chalksticks requires minimal water and is an excellent choice for arid landscapes that need a hardy, attractive ground cover.",
-        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-        sunRequirement: "Full Sun",
-        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-        waterRequirement: "Low Water",
-        hardinessZones: "9-11",
-        matureSize: `12" x 18"`,
-        native: false
-    },
     {
         id: 35,
         name: "Spurges",

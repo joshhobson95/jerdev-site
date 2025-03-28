@@ -538,19 +538,7 @@ const floweringshrubdata = {
           hardinessZones: "5-9",
           matureSize: "4' x 4'",
         },
-        {
-          id: 39,
-          name: "Western Sand Cherry",
-          scientificName: "Prunus besseyi",
-          image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/prunus-pumilia.JPG",
-          description: "The Western Sand Cherry is a hardy, compact shrub that thrives in the dry, rocky soils of New Mexico. Known for its white spring blossoms, it produces dark purple to black edible cherries that attract birds and wildlife. Its glossy, dark green foliage transitions to vibrant autumn colors, adding seasonal interest. This shrub is drought-tolerant once established and does well in full sun and well-drained soil, making it an excellent choice for xeriscape gardens or as a low-maintenance shrub in the landscape.",
-          sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-          sunRequirement: "Full Sun",
-          waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-          waterRequirement: "Low Water",
-          hardinessZones: "3-7",
-          matureSize: "6' x 6'",
-        },
+    
         {
           id: 40,
           name: "Fern Bush",
