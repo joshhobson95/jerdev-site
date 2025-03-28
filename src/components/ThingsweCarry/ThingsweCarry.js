@@ -1,17 +1,21 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './ThingsweCarry.css'
 import { NavLink } from 'react-router-dom'
 
 
+
 function ThingsweCarry() {
+
+
   return (
     <div className="TypesofPlants">
     <div className='top_welcome'>
-    <h1>Plant Catalouge</h1>
+    <h1>Plant Catalog</h1>
 <p>Discover a wide selection of plants perfect for New Mexico gardens</p>
 </div>
 
 <div className='top_body_main'>
+
 
 
 <NavLink to='/annuals'>
@@ -103,8 +107,8 @@ function ThingsweCarry() {
 </NavLink>
 
 
-
   </div>
+ 
 </div>
   )
 }
