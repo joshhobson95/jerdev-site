@@ -65,7 +65,7 @@
     flex-wrap: wrap;
     
 }
-.annual_h3{
+.perennial_h3{
     font-size: 30pt;
     margin: 1rem;
     font-weight: 700;
@@ -84,12 +84,12 @@
     margin: 2rem;
 }
 .perennials_body_top_text h2{
-    margin: 2rem;
+    margin: 1rem;
     font-size: 26pt;
     font-weight: 700;
 }
 .perennials_body_bottom_text h2{
-    margin: 2rem;
+    margin: 1rem;
     font-size: 26pt;
     font-weight: 700;
 }
@@ -105,7 +105,7 @@ font-weight: 700;
 }
 
 .perennial_h3{
-    font-size: 30pt;
+    font-size: 26pt;
     margin: 1rem;
     font-weight: 700;  
 }
