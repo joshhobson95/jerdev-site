@@ -1,3 +1,4 @@
+require('ignore-styles');
 require('dotenv').config();
 require('@babel/register')({
   presets: ['@babel/preset-env', '@babel/preset-react']
@@ -13,7 +14,7 @@ const fs = require('fs');
 const path = require('path');
 const React = require('react');
 const ReactDOMServer = require('react-dom/server');
-const App = require('../src/App').default; 
+
 
 
 
@@ -99,6 +100,7 @@ app.use(express.static(path.join(__dirname, '../build')));
 
 // SSR Route: Render React on the server
 app.get('*', (req, res) => {
+  const App = require('../src/App').default; 
   const buildPath = path.resolve(__dirname, '../build', 'index.html');
 
 
