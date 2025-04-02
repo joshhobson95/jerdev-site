@@ -76,11 +76,11 @@ app.use(express.static(path.join(__dirname, '../build')));
 
 // SSR Route: Render React on the server
 app.get('*', (req, res) => {
-  const App = require('../src/App').default;
+  const App = require('../src/App').default; 
   const buildPath = path.resolve(__dirname, '../build', 'index.html');
 
   if (!fs.existsSync(buildPath)) {
-    return res.status(500).send('⚠️  Build folder missing. Run "npm run build" to generate it.');
+    return res.status(500).send('⚠️ Build folder missing. Run "npm run build" to generate it.');
   }
 
   fs.readFile(buildPath, 'utf-8', (err, data) => {
@@ -88,10 +88,14 @@ app.get('*', (req, res) => {
       return res.status(500).send('Error reading the HTML template.');
     }
 
+    // Ensure the React component is being rendered
     const content = ReactDOMServer.renderToString(React.createElement(App));
+    console.log('SSR Rendered Content:', content); // Add this log for debugging
+
     return res.send(data.replace('<div id="root"></div>', `<div id="root">${content}</div>`));
   });
 });
+
 
 sequelize.sync()
   .then(() => {
