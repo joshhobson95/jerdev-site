@@ -112,50 +112,6 @@ app.get('*', (req, res) => {
 
 
 
-//Video Portion
-const channelId = 'UCzQXGhQyfMHt_e8wH9drt7g';
-let cachedVideos = [];
-let lastUpdateTimestamp = 0;
-const updateInterval = 24 * 60 * 60 * 1000; 
-
-app.get('/api/latestVideos', async (req, res) => {
-  const currentTime = new Date().getTime();
-
-  if (currentTime - lastUpdateTimestamp > updateInterval) {
-    try {
-      const response = await axios.get(
-        `https://www.googleapis.com/youtube/v3/search?key=${REACT_APP_YOUTUBE_API_KEY}&channelId=${channelId}&part=snippet,id&order=date&maxResults=4`
-      );
-
-      const data = response.data;
-
-      if (data.items.length > 0) {
-        const videoIds = data.items.map((item) => item.id.videoId).join(',');
-        
-        // Make a request to get detailed video information
-        const videoDetailsResponse = await axios.get(
-          `https://www.googleapis.com/youtube/v3/videos?key=${REACT_APP_YOUTUBE_API_KEY}&id=${videoIds}&part=snippet,contentDetails`
-        );
-
-        const videoDetails = videoDetailsResponse.data.items;
-
-        if (videoDetails.length > 0) {
-          cachedVideos = videoDetails.map((item) => ({
-            id: item.id,
-            snippet: item.snippet,
-          }));
-
-          lastUpdateTimestamp = currentTime;
-        }
-      }
-    } catch (error) {
-      console.error('Error fetching data: ', error);
-    }
-  }
-
-  res.json(cachedVideos);
-});
-
 
 
 
