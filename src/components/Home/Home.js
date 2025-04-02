@@ -76,7 +76,7 @@ Monday-Saturday 9-5 | Sundays 11-5
 
 
 
-<Gallery />
+<h1>Big Test</h1>
     <div 
         data-aos="fade-up"
         data-aos-offset="50"
