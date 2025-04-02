@@ -5,10 +5,6 @@ const {REACT_APP_YOUTUBE_API_KEY} = process.env
 const {User} = require('./models/user')
 const {BlogTable} = require('./models/blogtable')
 const {SalesTable} = require('./models/salestable')
-const React = require('react');
-const ReactDOMServer = require('react-dom/server');
-const fs = require('fs');
-const path = require('path');
 
 
 
@@ -18,7 +14,6 @@ const express = require('express')
 const cors = require('cors')
 const axios = require('axios');
 
-const App = require('../src/App').default;
 
 
 
@@ -36,10 +31,6 @@ const app = express();
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 app.use(cors())
-
-//NEW SSR METHOD
-app.use(express.static(path.resolve(__dirname, 'build')));
-
 
 
 
@@ -93,22 +84,6 @@ app.put('/editpromotionspost/:promtionstableid', editPromotionsPost)
 
 
 
-// //NEW SSR METHOD
-// // SSR route for the home page (or any other React page)
-// app.get('*', (req, res) => {
-//   // Render your React app to a string
-//   const content = ReactDOMServer.renderToString(<App />);
-
-//   // Read your index.html file (the template)
-//   fs.readFile(path.resolve(__dirname, 'build', 'index.html'), 'utf-8', (err, data) => {
-//     if (err) {
-//       return res.status(500).send('Error reading the HTML template');
-//     }
-
-//     // Inject the server-rendered HTML into the template's root div
-//     return res.send(data.replace('<div id="root"></div>', `<div id="root">${content}</div>`));
-//   });
-// });
 
 
 
