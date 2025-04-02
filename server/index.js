@@ -1,10 +1,19 @@
 require('dotenv').config();
+require('@babel/register')({
+  presets: ['@babel/preset-env', '@babel/preset-react']
+});
+
 const {sequelize} = require('./util/database')
-const {SERVER_PORT} = process.env
+const SERVER_PORT = process.env.SERVER_PORT || 5000;
 const {REACT_APP_YOUTUBE_API_KEY} = process.env
 const {User} = require('./models/user')
 const {BlogTable} = require('./models/blogtable')
 const {SalesTable} = require('./models/salestable')
+const fs = require('fs');
+const path = require('path');
+const React = require('react');
+const ReactDOMServer = require('react-dom/server');
+const App = require('../src/App').default; 
 
 
 
@@ -83,8 +92,34 @@ app.delete('/newpromotionspost/:promotionstableid', deletePromotionsPost)
 app.put('/editpromotionspost/:promtionstableid', editPromotionsPost)
 
 
+//SSR TESTING
+// Serve the static assets
+app.use(express.static(path.join(__dirname, '../build')));
 
 
+// SSR Route: Render React on the server
+app.get('*', (req, res) => {
+  const buildPath = path.resolve(__dirname, '../build', 'index.html');
+
+
+  if (!fs.existsSync(buildPath)) {
+    return res.status(500).send('⚠️  Build folder missing. Run "npm run build" to generate it.');
+  }
+
+  fs.readFile(buildPath, 'utf-8', (err, data) => {
+    if (err) {
+      return res.status(500).send('Error reading the HTML template.');
+    }
+
+    const content = ReactDOMServer.renderToString(React.createElement(App));
+    return res.send(data.replace('<div id="root"></div>', `<div id="root">${content}</div>`));
+  });
+});
+
+
+
+
+//////////////////////////////////
 
 
 
