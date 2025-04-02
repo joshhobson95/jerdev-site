@@ -93,22 +93,22 @@ app.put('/editpromotionspost/:promtionstableid', editPromotionsPost)
 
 
 
-//NEW SSR METHOD
-// SSR route for the home page (or any other React page)
-app.get('*', (req, res) => {
-  // Render your React app to a string
-  const content = ReactDOMServer.renderToString(<App />);
+// //NEW SSR METHOD
+// // SSR route for the home page (or any other React page)
+// app.get('*', (req, res) => {
+//   // Render your React app to a string
+//   const content = ReactDOMServer.renderToString(<App />);
 
-  // Read your index.html file (the template)
-  fs.readFile(path.resolve(__dirname, 'build', 'index.html'), 'utf-8', (err, data) => {
-    if (err) {
-      return res.status(500).send('Error reading the HTML template');
-    }
+//   // Read your index.html file (the template)
+//   fs.readFile(path.resolve(__dirname, 'build', 'index.html'), 'utf-8', (err, data) => {
+//     if (err) {
+//       return res.status(500).send('Error reading the HTML template');
+//     }
 
-    // Inject the server-rendered HTML into the template's root div
-    return res.send(data.replace('<div id="root"></div>', `<div id="root">${content}</div>`));
-  });
-});
+//     // Inject the server-rendered HTML into the template's root div
+//     return res.send(data.replace('<div id="root"></div>', `<div id="root">${content}</div>`));
+//   });
+// });
 
 
 
